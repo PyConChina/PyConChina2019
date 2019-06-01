@@ -10,7 +10,7 @@ tips: <b>大会日程</b><p>2019年9月21日 （ * 因为场地限制，本次�
 city_icon: 'shanghai_icon.png'
 detail_url: "city_shanghai.html"
 detail_url_en: "city_shanghai.html"
-buy_ticket_url: ''
+buy_ticket_url: 'https://www.bagevent.com/event/5293611'
 description: |
   <p>1989 年圣诞，Guido van Rossum 为了打发无聊的圣诞假期，决定找点事来做。他选择实现一门编程语言。这门编程语言就是 Python。</p>
   <p>2000年10月16日，Python 2.0 发布。</p>

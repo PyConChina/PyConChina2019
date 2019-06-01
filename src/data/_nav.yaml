@@ -5,14 +5,14 @@
 - title: 大会日程
   title_en: SCHEDULE
   children:
-  - title: 北京站__10.19
-    title_en: BEIJING__10.19
-    url: "city_beijing.html"
-    url_en: "en/city_beijing.html"
   - title: 上海站__9.21
     title_en: SHANGHAI__9.21
     url: "city_shanghai.html"
     url_en: "en/city_shanghai.html"
+  - title: 北京站__10.19
+    title_en: BEIJING__10.19
+    url: "city_beijing.html"
+    url_en: "en/city_beijing.html"
 - title: 往届回顾
   title_en: HISTORY
   children:
