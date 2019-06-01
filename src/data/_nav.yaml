@@ -1,0 +1,80 @@
+- title: 首页2019
+  title_en: HOME2019
+  url: "index.html"
+  url_en: "en/index.html"
+- title: 大会日程
+  title_en: SCHEDULE
+  children:
+  - title: 北京站__10.19
+    title_en: BEIJING__10.19
+    url: "city_beijing.html"
+    url_en: "en/city_beijing.html"
+  - title: 上海站__9.21
+    title_en: SHANGHAI__9.21
+    url: "city_shanghai.html"
+    url_en: "en/city_shanghai.html"
+- title: 往届回顾
+  title_en: HISTORY
+  children:
+  - title: 2011
+    title_en: 2011
+    url: "http://cn.pycon.org/2011/"
+    url_en: "http://cn.pycon.org/2011/"
+    url_external: 1
+  - title: 2012
+    title_en: 2012
+    url: "http://cn.pycon.org/2012/"
+    url_en: "http://cn.pycon.org/2012/"
+    url_external: 1
+  - title: 2013
+    title_en: 2013
+    url: "http://cn.pycon.org/2013/"
+    url_en: "http://cn.pycon.org/2013/"
+    url_external: 1
+  - title: 2014
+    title_en: 2014
+    url: "http://cn.pycon.org/2014/"
+    url_en: "http://cn.pycon.org/2014/en/index.html"
+    url_external: 1
+  - title: 2015
+    title_en: 2015
+    url: "http://cn.pycon.org/2015/"
+    url_en: "http://cn.pycon.org/2015/en/index.html"
+    url_external: 1
+  - title: 2016
+    title_en: 2016
+    url: "http://cn.pycon.org/2016/"
+    url_en: "http://cn.pycon.org/2016/en/index.html"
+    url_external: 1
+  - title: 2017
+    title_en: 2017
+    url: "http://cn.pycon.org/2017/"
+    url_en: "http://cn.pycon.org/2017/en/index.html"
+    url_external: 1
+  - title: 2018
+    title_en: 2018
+    url: "http://cn.pycon.org/2018/"
+    url_en: "http://cn.pycon.org/2018/en/index.html"
+    url_external: 1
+- title: 相关资讯
+  title_en: NEWS
+  url: "index.html"
+  url_en: "en/index.html"
+- title: 组委&志愿者
+  title_en: ORGANIZER
+  url: "organizer_detail.html"
+  url_en: "en/organizer_detail.html"
+- title: 讲师&主题
+  title_en: SPEAKER
+  url: "speaker_detail.html"
+  url_en: "en/speaker_detail.html"
+- title: 赞助
+  title_en: SPONSER
+  url: "support_detail.html"
+  url_en: "en/support_detail.html"
+- title: EN
+  title_en: 中文
+  url: "en/index.html"
+  url_en: "index.html"
+  language: en
+  language_en: zh-cn

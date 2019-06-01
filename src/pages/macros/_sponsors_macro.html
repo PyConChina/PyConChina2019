@@ -1,0 +1,10 @@
+{% macro sponsor_info_block(sponsor_meta, sponsor_list, site) %}
+    {% if sponsor_list %}
+        {% for sponsor_info in sponsor_list %}
+         <div class="col-sm-6 col-md-4 col-lg-3">
+            <img src="{{ site.base_url }}/asset/images/sponsors/{{ sponsor_info.logo }}">
+            <div class="support_name">{{ sponsor_info.intro }} <span>[{{ sponsor_meta.name }}]</span></div>
+        </div>
+        {% endfor %}
+    {% endif %}
+{% endmacro %}

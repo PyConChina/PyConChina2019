@@ -1,0 +1,30 @@
+{% import 'pages/macros/_title_macro.html' as title_macro %}
+{% macro volunteer(volunteer, site) %}
+   <div class="volunteerItem">
+      <img src="{{ site.base_url }}/asset/images/volunteers/{{volunteer.avatar}}" alt="">
+      <div class="name">
+        {{volunteer.name}}
+      </div>
+      <div class="title">
+        {{volunteer.voltitle}}
+      </div>
+      <div class="description">
+        {{volunteer.description}}
+      </div>
+    </div>
+{% endmacro %}
+
+{% macro volunteer_city(city, site) %}
+    {{ title_macro.title_no_icon(city.city_name, site) }}
+    <div class="volunteerWraper">
+      <div class="row">
+          {% if city.volunteers %}
+            {% for item in city.volunteers %}
+              <div class="col-sm-6 col-md-4 col-lg-3" >
+                {{ volunteer(item, site) }}
+              </div>
+            {% endfor %}
+          {% endif %}
+      </div>
+    </div>
+{% endmacro %}

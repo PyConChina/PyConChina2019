@@ -1,0 +1,104 @@
+title: shanghai
+city_name: 上海站
+city_name_en: Shanghai
+time: <b>活动时间</b>：2019年9月21日
+time_en: <b>Time</b>：Sept.21st 2019
+address: <b>活动地址</b>：中国  上海
+address_en: <b>Address</b>：Shanghai China
+intro: ""
+tips: <b>大会日程</b><p>2019年9月21日 （ * 因为场地限制，本次大会将不提供午餐）</p>
+city_icon: 'shanghai_icon.png'
+detail_url: "city_shanghai.html"
+detail_url_en: "city_shanghai.html"
+buy_ticket_url: ''
+description: |
+  <p>1989 年圣诞，Guido van Rossum 为了打发无聊的圣诞假期，决定找点事来做。他选择实现一门编程语言。这门编程语言就是 Python。</p>
+  <p>2000年10月16日，Python 2.0 发布。</p>
+  <p>从创立之初到现在，在整整三十年的时间里，Python一步步的成长到现在，被广泛的应用于计算机行业之中。服务开发，运维，科学计算，理论模拟等等。越来越多的人爱上 Python，并用自己的形式回馈 Python 社区。可能 Guido 他自己都没想到，当时的一时兴起所创造的语言，会在这么多的领域得到应用。某种意义上来讲，他所创造的这门语言，在一定程度上改变了计算机世界。</p>
+  <p>2019 年，Python 诞生三十周年之际。我们将举行 PyCon China 2019 活动来庆祝这一门伟大语言的生日。今年的大会的主会场将设立在上海，同时在北京、广州、深圳等地设立分会场。</p>
+  <p>无论您是服务端开发，亦或是运维，还是大数据，人工智能等领域的专家，如果您有任何想分享给全国 Python 开发者的经验，欢迎报名参加我们的主题演讲/闪电演讲！</p>
+description_en: |
+  <p>At the Christmas of 1989, in order to pass the boring Christmas holidays, Guido van Rossum decided to find something to do. He chose to implement a programming language. This programming language is Python.</p>
+  <p>On October 16th, 2000, Python 2.0 was released.</p>
+  <p>Python has been widely used in the computer industry in 30 years. Service development, operation and maintenance, scientific calculation, theoretical simulation and so on. More and more people fall in love with Python and give back to the Python Community in their own form. Perhaps Guido himself did not realize that the language he created,  would be used in so many fields. In a sense, the language he created changed the computer world. </p>
+  <p>In 2019, Pythonist will celebrate Python's 30th anniversary. We will hold PyCon China 2019 to celebrate the birthday of this great language. The main venue of this year's congress will be set up in Shanghai, and branch venues will be set up in Beijing, Hangzhou, Shenzhen, Nanning and so on.</p>
+  <p>Whether you are an expert in server development, operation and maintenance, big data, artificial intelligence, and other fields, if you have any experience you want to share with Pythonists, welcome to sign up for our keynotes or lightning talk!</p>
+agenda:
+  -
+    name: "主会场"
+    detail:
+      - time: "08:00～08:50"
+        topic: "签到"
+        topic_en: "Check-in"
+      - time: "08:50～09:00"
+        topic: "开场介绍"
+      - time: ""
+        topic: "主题待定"
+
+speakers:
+
+volunteers:
+  -
+    avatar: 'chenshixin.png'
+    name: '陈世欣'
+    name_en: 'sting'
+    voltitle: '上海站 | 组委'
+    description: 'PyChina发起人 / ahaschool-首席运营官'
+  -
+    avatar: 'dama.png'
+    name: 'Zoom.Quiet'
+    voltitle: '上海站 | 组委'
+    description: 'PyChina发起人 / uSEE.tech CTO'
+  -
+    avatar: 'lihui.png'
+    name: '李辉'
+    name_en: 'Grey Li'
+    voltitle: '上海站 | 组委'
+    description: '自由职业'
+    description_en: 'Freelancer'
+  -
+    avatar: 'wangbinxin.png'
+    name: '王斌鑫'
+    name_en: 'Binxin Wang'
+    voltitle: '上海站 | 组委'
+    description: '阿里云 - 高级开发工程师'
+    description_en: 'Aliyun - Senior Developer'
+  -
+    avatar: 'zhangjintao.png'
+    name: '张晋涛'
+    name_en: "Jintao Zhang"
+    voltitle: '上海站 | 组委'
+    description: '网易有道-资深运维开发'
+    description_en: 'NetEase, Inc.'
+  -
+    avatar: 'zhanghongke.png'
+    name: '张宏柯'
+    name_en: 'Hongke Zhang'
+    voltitle: '上海站 | 组委'
+    description: '点我达 - 资深开发工程师 '
+    description_en: 'Dianwoda - Senior Developer'
+  -
+    avatar: 'dengliangju.png'
+    name: '邓良驹'
+    voltitle: '上海站 | 组委'
+    description: '秘塔科技 - 工程总监'
+  -
+    avatar: 'jonhuang.png'
+    name: 'Jon Huang'
+    voltitle: '上海站 | 组委'
+    description: 'yield.im - 创始人'
+  -
+    avatar: 'lizheao.png'
+    name: '李者璈'
+    voltitle: '上海站 | 组委'
+    description: '饿了么资深开发工程师'
+  -
+    avatar: 'qinxuye.png'
+    name: '秦续业'
+    voltitle: '上海站 | 组委'
+    description: '阿里巴巴-技术专家'
+  - avatar: 'zhumingfang.png'
+    name: '朱明放'
+    voltitle: '上海站 | 组委'
+    description: '赛宁-信息安全工程师'
+donators:

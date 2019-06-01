@@ -1,0 +1,14 @@
+{% macro title(title_name, site) %}
+    <div class="title-wraper">
+      <div class="text">{{ title_name }}</div>
+      <img src="{{ site.base_url }}/asset/images/basic/cqm_title_img.png" alt="">
+    </div>
+{% endmacro %}
+
+{% macro title_no_icon(title_name, site) %}
+    <div class="title-wraper">
+      <div class="text">{{ title_name }}</div>
+    </div>
+{% endmacro %}
+
+

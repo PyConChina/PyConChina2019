@@ -1,0 +1,11 @@
+{% macro support_template(support, site) %}
+  <div class="supportDetail-wraper">
+    <div class="left">
+      <img src="{{ site.base_url }}/asset/images/sponsors/{{support.logo}}" />
+    </div>
+    <div class="right">
+      <p class="name">{{support.name}}</p>
+      {{support.description}}
+    </div>
+  </div>
+{% endmacro %}

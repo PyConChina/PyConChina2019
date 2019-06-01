@@ -1,0 +1,259 @@
+global-reset()
+
+html
+  box-sizing: border-box
+
+*, *:before, *:after
+  box-sizing: inherit
+
+button
+input[type="reset"]
+input[type="button"]
+input[type="submit"]
+  &::-moz-focus-inner
+    padding: 0
+    margin: 0
+    border: 0
+
+input, button, select
+  margin: 0
+  padding: 0
+  border: 0
+
+html, body
+  @media screen
+    height: 100%
+    // overflow: hidden
+
+body
+  background: #224160
+  font-size: font-size
+  font-family: font-sans
+  color: color-default
+  text-rendering: optimizeLegibility
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+  overflow-x: hidden
+
+.wrapper
+  clearfix()
+  @media screen
+    max-width: max-width
+    margin: 0 auto
+
+.inner
+  clearfix()
+  @media screen
+    padding: 0 gutter-width
+
+#content-wrap
+  background: #fff
+  border-top: 1px solid darken(color-navy, 5%)
+  border-bottom: 1px solid darken(color-navy, 5%)
+  margin: -1px 0
+  
+.video-container
+  text-align: center
+
+.btn 
+  padding: 18px 0;
+  text-align: center;
+  width: 182px;
+  font-size: 20px
+  @media(max-width: 768px)
+    font-size: 15px
+    padding: 9px
+    width: auto
+.btn-yellow 
+  color: #25415E
+  background-color: #FFDE6C
+.btn-blue
+  color: #FFDE6C
+  background-color: #224160
+.title-wraper
+  display: flex
+  align-items: center
+  .text
+    font-size: 50px
+    color: #FFDE6C
+    margin-right: 20px
+  @media(max-width: 768px)
+    flex-direction: row-reverse
+    justify-content: center
+    img
+      width: 40px
+    .text
+      font-size: 20px
+.mettingItem
+  margin-bottom: 24px
+  background-color:#FFDE6C
+  color: #224160
+  display: flex
+  justify-content: space-between
+  height: 280px;
+  align-items: center
+  .left
+    padding-left: 62px
+    padding-right: 54px
+    text-align: left
+    width: 100%
+    .leftContent
+      min-height: 224px
+      background-image: url('../images/basic/beijing_icon.png')
+      background-repeat: no-repeat
+      background-position: right center
+      background-size: 400px auto
+      @media(max-width: 1200px)
+        background-image: none !important
+      p
+        margin-bottom: 10px
+        max-width: 400px
+      .name
+        font-size: 60px
+    .shanghai
+      background-size: auto 100%
+      background-image: url('../images/basic/shanghai_icon.png')
+    .shenzhen
+      background-size: 378px auto
+      background-image: url('../images/basic/shenzhen_icon.png')
+    .chengdu
+      background-size: 394px auto
+      background-image: url('../images/basic/chengdu_icon.png')
+    .hangzhou
+      background-size: 380px auto
+      background-image: url('../images/basic/hangzhou_icon.png')
+  .right
+    height 100%
+    padding: 50px 0
+    padding-right: 78px
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    padding-left: 72px
+    border-left: 2px dashed #224160
+  .m_right
+    display: none
+  @media(max-width: 768px)
+    height: auto
+    padding: 12px
+    border-radius: 10px
+    .left
+      padding: 0
+      .leftContent
+        min-height: auto
+        .name
+          font-size: 15px
+          margin-bottom: 10px
+    .right
+      display: none
+    .m_right
+      display: block
+      padding-left: 15px
+      img
+        width: 14px
+.yellow
+  color: #FFDE6C
+.topicItem
+  width: 100%
+  min-height: 420px
+  display: flex
+  align-items: center
+  color: #224160
+  background-color: #FFDE6C
+  margin-bottom: 18px
+  padding: 15px
+  .left
+    padding-left: 92px
+    padding-right: 58px
+    text-align: center
+    img
+      width: 190px
+    .name
+      font-size: 30px
+      margin: 20px 0
+    .title
+      font-size: 20px
+  .right
+    padding-left: 50px
+    padding-right: 70px
+    .rightTitle
+      color: #999999
+      margin-bottom: 10px
+      font-size: 20px
+    .topicName
+      font-size: 30px
+      margin-bottom: 35px
+    .summary
+      font-size: 18px
+      margin-bottom: 20px
+  @media(max-width: 768px)
+    flex-direction: column
+    height: auto
+    .left
+      border: none
+      padding: 0
+      .name
+        font-size: 20px
+        margin: 10px 0
+      .title
+        font-size: 12px
+    .right
+      padding: 0
+      text-align: center
+      margin-top: 15px
+      .topicName
+        font-size: 16px
+        margin-bottom: 16px
+      .summary
+        font-size: 14px
+        text-align: left
+.volunteerItem
+  max-width: 300px
+  height: 420px
+  display: flex
+  justify-content: center
+  align-items: center
+  flex-direction: column
+  text-align: center
+  background-color: #FFDE6C
+  color: #224160
+  margin-bottom 30px
+  margin-left: auto
+  margin-right: auto
+  img
+    width: 190px
+  .name 
+    font-size: 30px
+    margin-top: 35px
+    margin-bottom: 20px
+  .title
+    font-size: 20px
+    margin-bottom 20px
+  .description
+    font-size: 16px
+    color: #999
+    max-width: 250px
+    margin: 0 auto
+.supportDetail-wraper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  color: #224160;
+  background-color: #ffde6c;
+  margin-bottom: 18px;
+  padding: 15px;
+  .left {
+    margin-right: 40px
+    text-align: center
+    img {
+      background: #fff;
+    }
+  }
+  .right {
+    .name {
+      font-size: 22px;
+      text-align: left;
+      font-weight: bold;
+    }
+  }
+}
