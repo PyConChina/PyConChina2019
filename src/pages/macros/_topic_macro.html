@@ -1,0 +1,36 @@
+{% import 'pages/macros/_title_macro.html' as title_macro %}
+{% macro topic(speaker, site) %}
+   <div class="topicItem">
+  <div class="left">
+    <img src="{{ site.base_url }}/asset/images/speakers/{{speaker.avatar}}" alt="">
+    <div class="name">{{speaker.name}}</div>
+    <div class="title">{{speaker.title}}</div>
+  </div>
+  <div class="right">
+    <div class="rightTitle">演讲主题</div>
+    <div class="topicName">
+      {{speaker.topic.title}}
+    </div>
+    <div class="rightTitle">主题简介</div>
+    <div class="summary">
+      {{speaker.topic.preview}}
+    </div>
+    <div class="rightTitle">讲师简介</div>
+    <div class="summary">
+      {{speaker.intro}}
+    </div>
+  </div>
+</div>
+{% endmacro %}
+
+
+{% macro topic_city(city, site) %}
+    {{ title_macro.title_no_icon(city.city_name, site) }}
+    <div class="topicWraper">
+        {% if city.speakers %}
+            {% for item in city.speakers %}
+                {{ topic(city.speakers[item], site) }}
+            {% endfor %}
+        {% endif %}
+    </div>
+{% endmacro %}

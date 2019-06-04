@@ -1,0 +1,34 @@
+home_url: "./"
+home_url_en: "./en/"
+base_url: "."
+base_url_en: ".."
+
+to_be_speaker: 申请演讲
+to_be_speaker_en: To be Speaker
+to_be_speaker_url: "https://jinshuju.net/f/BH2z26"
+
+to_be_volunteer: 申请志愿者
+to_be_volunteer_en: To be Volunteer
+to_be_volunteer_url: "https://jinshuju.net/f/ibpDI3"
+
+title_schedule: 大会日程
+title_schedule_en: Schedule
+title_history: 往届回顾
+title_history_en: History
+title_sponsor: 合作支持
+title_sponsor_en: Sponsor
+title_speaker: 讲师与主题
+title_speaker_en: Speaker
+title_volunteer: 组委与志愿者
+title_volunteer_en: Volunteer
+title_donator: 蟒人赞助
+title_donator_en: Donator
+title_support: 赞助商
+title_support_en: sponser
+button_details: 查看详情
+button_details_en: Details
+button_buy: 立即购票
+button_buy_en: Buy Now
+
+
+

@@ -1,0 +1,49 @@
+{% extends "pages/_base.html" %}
+{% import 'pages/macros/_title_macro.html' as title_macro %}
+{% import 'pages/macros/_meeting_macro.html' as meeting_macro %}
+
+{% block content %}
+    <header id="banner"></header>
+    <div class="button-wrap">
+      <button class="btn btn-yellow left-btn" onclick="javascript:window.open('{{ site.to_be_speaker_url }}')">{{ site.to_be_speaker }}</button>
+      <button class="btn btn-yellow" onclick="javascript:window.open('{{ site.to_be_volunteer_url }}')">{{ site.to_be_volunteer }}</button>
+    </div>
+    <div class="container content-wrap">
+        {{ title_macro.title(site.title_schedule, site) }}
+
+      <div class="metting-list">
+          {{ meeting_macro.meeting_item(city_shanghai, site) }}
+          {{ meeting_macro.meeting_item(city_beijing, site) }}
+      </div>
+        {{ title_macro.title(site.title_history, site) }}
+      <div class="reviewWraper">
+          <div class="reviewItem">
+           <img src="{{ site.base_url }}/asset/images/basic/d4_history_img01.png" alt="">
+          <p>2018</p>
+          <p>PyConChina</p>
+        </div>
+        <div class="reviewItem">
+           <img src="{{ site.base_url }}/asset/images/basic/d4_history_img01.png" alt="">
+          <p>2017</p>
+          <p>PyConChina</p>
+        </div>
+        <div class="reviewItem">
+          <img src="{{ site.base_url }}/asset/images/basic/d4_history_img01.png" alt="">
+          <p>2016</p>
+          <p>PyConChina</p>
+        </div>
+        <div class="reviewItem">
+           <img src="{{ site.base_url }}/asset/images/basic/d4_history_img01.png" alt="">
+           <p>2015</p>
+           <p>PyConChina</p>
+        </div>
+        <div class="reviewItem">
+           <img src="{{ site.base_url }}/asset/images/basic/d4_history_img01.png" alt="">
+          <p>2014</p>
+          <p>PyConChina</p>
+        </div>
+      </div>
+        {% include "pages/_support.html" %}
+    </div>
+{% endblock %}
+

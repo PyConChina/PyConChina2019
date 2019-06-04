@@ -1,0 +1,892 @@
+
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+  <meta charset="utf-8">
+  <title>PyCon 2019</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,viewport-fit=cover,maximum-scale=1,user-scalable=no">
+  <link rel="icon" type="image/x-icon" href="./asset/images/basic/d4_history_img01.png">
+  <!-- CSS -->
+  <!-- build:css build/css/navy.css -->
+  <link href="https://cdn.bootcss.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="./asset/css/app.css" />
+</head>
+<body>
+
+<header id="header" >
+  <div class="container">
+    <nav class="navbar navbar-expand-lg">
+      <a class="navbar-brand logo" href="/">
+        <img src="./asset/images/basic/cqm_logo.png"/>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <img src="./asset/images/basic/nav_btn_meun@2x.png" />
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          
+  
+    
+    <li class="nav-item">
+        
+  
+    <a href="./index.html" class="nav-link">首页2019</a>
+  
+
+    </li>
+    
+  
+    
+       <li class="nav-item dropdown">
+           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+             大会日程
+            </a>
+             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                 
+                    
+  
+    <a href="./city_beijing.html" class="dropdown-item">北京站__10.14</a>
+  
+
+                 
+                    
+  
+    <a href="./city_shanghai.html" class="dropdown-item">上海站__10.21</a>
+  
+
+                 
+                    
+  
+    <a href="./city_shenzhen.html" class="dropdown-item">深圳站__10.27</a>
+  
+
+                 
+                    
+  
+    <a href="./city_chengdu.html" class="dropdown-item">成都站__10.27</a>
+  
+
+                 
+                    
+  
+    <a href="./city_hangzhou.html" class="dropdown-item">杭州站__11.04</a>
+  
+
+                 
+            </div>
+        </li>
+    
+  
+    
+       <li class="nav-item dropdown">
+           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+             往届回顾
+            </a>
+             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                 
+                    
+  
+    <a href="http://cn.pycon.org/2011/" class="dropdown-item">2011</a>
+  
+
+                 
+                    
+  
+    <a href="http://cn.pycon.org/2012/" class="dropdown-item">2012</a>
+  
+
+                 
+                    
+  
+    <a href="http://cn.pycon.org/2013/" class="dropdown-item">2013</a>
+  
+
+                 
+                    
+  
+    <a href="http://cn.pycon.org/2014/" class="dropdown-item">2014</a>
+  
+
+                 
+                    
+  
+    <a href="http://cn.pycon.org/2015/" class="dropdown-item">2015</a>
+  
+
+                 
+                    
+  
+    <a href="http://cn.pycon.org/2016/" class="dropdown-item">2016</a>
+  
+
+                 
+                    
+  
+    <a href="http://cn.pycon.org/2017/" class="dropdown-item">2017</a>
+  
+
+                 
+            </div>
+        </li>
+    
+  
+    
+    <li class="nav-item">
+        
+  
+    <a href="./index.html" class="nav-link">相关资讯</a>
+  
+
+    </li>
+    
+  
+    
+    <li class="nav-item">
+        
+  
+    <a href="./organizer_detail.html" class="nav-link">组委&志愿者</a>
+  
+
+    </li>
+    
+  
+    
+    <li class="nav-item">
+        
+  
+    <a href="./speaker_detail.html" class="nav-link">讲师&主题</a>
+  
+
+    </li>
+    
+  
+    
+    <li class="nav-item">
+        
+  
+    <a href="./support_detail.html" class="nav-link">赞助</a>
+  
+
+    </li>
+    
+  
+    
+    <li class="nav-item">
+        
+  
+    <a id="lang-select-wrap" data-lang="en" class="nav-link">EN</a>
+  
+
+    </li>
+    
+  
+
+          <div id="lang-select-wrap" class="my-2 my-lg-0">
+
+          </div>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<div id="container">
+
+  <header id="banner"></header>
+  <div class="button-wrap">
+    <button class="btn btn-yellow left-btn" onclick="javascript:window.open('https://jinshuju.net/f/fjOUqZ')">申请演讲</button>
+    <button class="btn btn-yellow" onclick="javascript:window.open('')">申请志愿者</button>
+  </div>
+  <div class="container content-wrap">
+    <div class="metting-description">
+      <p>来了就是深圳人，来了就是Pythoneer！ PyCon又要在深圳与大家见面了. 近年来随着大数据，AI等技术的发展，一向低调的python已经逐渐坐上了编程语言的第一把交椅．在这座诞生了华为，腾讯等一线互联网公司的城市里，或许下一个风口就诞生于Python,诞生于PyCon的交流中．希望与你相约于PyCon深圳，不管是以讲师的睿智，还是听众的热情，让我们认识那个卓尔不凡的你．</p> <p>PyCon 是全球Pythonista最盛大的年度聚会，致力于营造愉快的、多元化的Python技术主题大会。PyCon China是由 CPyUG(华蠎用户组)获得授权举办的中国PyCon年会。无论您使用哪种编程语言, 都欢迎来参加这场完全由Python中国社区组织的欢乐集会;-)</p> <p>现在，PyCon 2019 深圳站 活动将于2019年10月27日（星期六全天）举行。</p>
+    </div>
+    
+    <div class="title-wraper">
+      <div class="text">大会日程</div>
+      <img src="./asset/images/basic/cqm_title_img.png" alt="">
+    </div>
+
+    <div class="agendaWraper">
+      <div class="agendaItem">
+        <div class="left">
+          <div class="title">
+            深圳站
+          </div>
+          <div class="content">
+            <div class="content-section">
+              <p><b>活动时间</b>：2019.10.27</p>
+              <p><b>活动地址</b>：广东省深圳市南山区科苑路15号深圳科兴科学园国际会议中心3楼</p>
+            </div>
+            <div class="content-section">
+              <b>
+                
+              </b>
+            </div>
+            <div class="content-section">
+              <b>大会日程</b><p>2019年10月27日 （ * 女性 Pythoneer 注意啦，本次大会将会为女同胞准备特别惊喜，不要忘记向志愿者索取哦。）</p>
+            </div>
+            
+              <div class="content-section">
+                <b>主会场</b>
+                <div class="detailWraper">
+                  
+                    
+                       <div>
+                        <div class="time">08:30～08:50</div>
+                        <div>签到</div>
+                      </div>
+                    
+
+                  
+                    
+                       <div>
+                        <div class="time">08:50～09:00</div>
+                        <div>暖场介绍</div>
+                      </div>
+                    
+
+                  
+                    
+                        
+                      <div>
+                        <div class="time">09:00～09:45</div>
+                        <div>借助 Python 开源生态打造企业级自动化测试框架（HttpRunner）【李隆, (debugtalk） 大疆创新测试 开发负责人】</div>
+                      </div>
+                    
+
+                  
+                    
+                        
+                      <div>
+                        <div class="time">09:45～10:30</div>
+                        <div>用 Python 打造 Serverless 平台，从 0 到 1【何世友, 爱范儿 CTO】</div>
+                      </div>
+                    
+
+                  
+                    
+                        
+                      <div>
+                        <div class="time">10:30～11:15</div>
+                        <div>只能用 Java 做微服务？Python 也可以【和坚, ThoughtWorks 咨询师 前互联网金融公司CTO】</div>
+                      </div>
+                    
+
+                  
+                    
+                        
+                      <div>
+                        <div class="time">11:15～12:00</div>
+                        <div>安卓上编译 Python 实践笔记【river4, 优趣天下 创始人】</div>
+                      </div>
+                    
+
+                  
+                    
+                       <div>
+                        <div class="time">12:00～13:00</div>
+                        <div>午间休息</div>
+                      </div>
+                    
+
+                  
+                    
+                        
+                      <div>
+                        <div class="time">13:00～13:45</div>
+                        <div>但行好事 莫问前程【Zoom.Quiet (大妈), 北京优视眼动科技 CTO】</div>
+                      </div>
+                    
+
+                  
+                    
+                        
+                      <div>
+                        <div class="time">13:45～14:30</div>
+                        <div>Python 在中小电商的应用与实践【陈绍琛, 深圳花果山科技有限公司技术总监】</div>
+                      </div>
+                    
+
+                  
+                    
+                       <div>
+                        <div class="time">14:30～14:45</div>
+                        <div>休息 - 武术表演</div>
+                      </div>
+                    
+
+                  
+                    
+                        
+                      <div>
+                        <div class="time">14:45～15:30</div>
+                        <div>Python 和公链开发【黄毅, 风雷互动 CTO】</div>
+                      </div>
+                    
+
+                  
+                    
+                        
+                      <div>
+                        <div class="time">15:30～16:15</div>
+                        <div>用 Python 和深度学习构建下一代聊天机器人【朱烨华（Ed Zhu）, 深圳领脉科技 CEO】</div>
+                      </div>
+                    
+
+                  
+                    
+                        
+                      <div>
+                        <div class="time">16:15～17:00</div>
+                        <div>浅谈 Python 事件循环与协程【Anqur, 华为 网络产品开发工程师】</div>
+                      </div>
+                    
+
+                  
+                    
+                       <div>
+                        <div class="time">17:00 - 17:10</div>
+                        <div>会议结束，抽奖，合影</div>
+                      </div>
+                    
+
+                  
+                </div>
+              </div>
+            
+          </div>
+          <button class="btn btn-blue" onclick="javascript:window.open('http://www.huodongxing.com/go/pycon2019sz')">我要参加</button>
+        </div>
+        <div class="right">
+          <img class="topimg" src="./asset/images/basic/s2_single_schedule_right_bj.png" />
+          <button class="btn btn-blue" onclick="javascript:window.open('http://www.huodongxing.com/go/pycon2019sz')">立即购票</button>
+        </div>
+      </div>
+    </div>
+    
+    <div class="title-wraper">
+      <div class="text">讲师与主题</div>
+      <img src="./asset/images/basic/cqm_title_img.png" alt="">
+    </div>
+
+    <div class="topicWraper">
+        
+            
+                
+   <div class="topicItem">
+  <div class="left">
+    <img src="./asset/images/speakers/lecturer_dama.png" alt="">
+    <div class="name">Zoom.Quiet (大妈)</div>
+    <div class="title">北京优视眼动科技 CTO</div>
+  </div>
+  <div class="right">
+    <div class="rightTitle">演讲主题</div>
+    <div class="topicName">
+      但行好事 莫问前程
+    </div>
+    <div class="rightTitle">主题简介</div>
+    <div class="summary">
+      
+    </div>
+    <div class="rightTitle">讲师简介</div>
+    <div class="summary">
+      <p>江湖人称大妈的大妈 Pythoneer ;-)</p> <p>Python 中文社区创始人 / 管理员,热心于python社区的公益事业,大家熟知的社区"大妈";OBP及蟒营工程设计者 /主持人;参与并主持各种线上 / 线下活动,主持编撰了 "可爱的Python";坚持用 Pythonic 感化国人进入 FLOSS世界进行学习 / 分享 / 创造!</p>
+    </div>
+  </div>
+</div>
+
+            
+                
+   <div class="topicItem">
+  <div class="left">
+    <img src="./asset/images/speakers/lecturer_lilong.png" alt="">
+    <div class="name">李隆</div>
+    <div class="title">(debugtalk） 大疆创新测试 开发负责人</div>
+  </div>
+  <div class="right">
+    <div class="rightTitle">演讲主题</div>
+    <div class="topicName">
+      借助 Python 开源生态打造企业级自动化测试框架（HttpRunner）
+    </div>
+    <div class="rightTitle">主题简介</div>
+    <div class="summary">
+      - Python 在软件测试领域的生态 - HttpRunner 的诞生背景 - HttpRunner 的开发设计思路 - 基于 HttpRunner 的自动化测试方案 - 基于 HttpRunner 的成功实践案例
+    </div>
+    <div class="rightTitle">讲师简介</div>
+    <div class="summary">
+      李隆（debugtalk），DebugTalk 博主，HttpRunner 作者。7年软件测试行业经历，重度 Python 爱好者，始终致力于 Python 在软件测试领域的应用和推广。信奉 Python 之禅，追求代码的简洁和优雅，于人生亦然。当前在大疆创新负责测试开发方面的工作。
+    </div>
+  </div>
+</div>
+
+            
+                
+   <div class="topicItem">
+  <div class="left">
+    <img src="./asset/images/speakers/lecturer_heshiyou.png" alt="">
+    <div class="name">何世友</div>
+    <div class="title">爱范儿 CTO</div>
+  </div>
+  <div class="right">
+    <div class="rightTitle">演讲主题</div>
+    <div class="topicName">
+      用 Python 打造 Serverless 平台，从 0 到 1
+    </div>
+    <div class="rightTitle">主题简介</div>
+    <div class="summary">
+      近年来，应用形态逐渐朝着 PWA、小程序等范客户端形态发展；云计算则朝着 BaaS + FaaS 的 Serverless 无服务架构大步迈进。本次分享向大家介绍爱范儿团队在用 Python 打造小程序领域的 Serverless 平台知晓云的过程中遇到的挑战和收获，以及对接下来的云计算形态的展望。
+    </div>
+    <div class="rightTitle">讲师简介</div>
+    <div class="summary">
+      爱范儿 CTO、知晓云负责人，大学开始创业，先后参与过多个创新创业项目。资深移动互联网应用专家，擅长架构设计，专注云计算、机器学习及移动开发。
+    </div>
+  </div>
+</div>
+
+            
+                
+   <div class="topicItem">
+  <div class="left">
+    <img src="./asset/images/speakers/lecturer_hejian.png" alt="">
+    <div class="name">和坚</div>
+    <div class="title">ThoughtWorks 咨询师 前互联网金融公司CTO</div>
+  </div>
+  <div class="right">
+    <div class="rightTitle">演讲主题</div>
+    <div class="topicName">
+      只能用 Java 做微服务？Python 也可以
+    </div>
+    <div class="rightTitle">主题简介</div>
+    <div class="summary">
+      由于种种原因，很多时候说到微服务貌似使用的语言只有 Java，其实微服务的初衷是希望不同的服务能够根选择自己擅长或者喜欢的语言来开发。这个话题就想聊聊用 Python 怎么微服务，主要内容有为什么要使用 Python 来做微服务，使用 Python 如何设计一个微服务架构，有了架构在实现的时候如何编写 Python 微服务，最后简单介绍一下在部署微服务的时候应该注意些什么。希望通过这个话题能够让大家能够建立一个 Python 微服务的体系，在某些场景下能够利用 Python 的优势快速实现基于微服务架构的应用。
+    </div>
+    <div class="rightTitle">讲师简介</div>
+    <div class="summary">
+      十多年IT从业经验，从技术到金融，从金融到风控，从风控到互联网，从互联网到咨询。不断走出舒适区，体验多维的人生。
+    </div>
+  </div>
+</div>
+
+            
+                
+   <div class="topicItem">
+  <div class="left">
+    <img src="./asset/images/speakers/lecturer_river4.png" alt="">
+    <div class="name">river4</div>
+    <div class="title">优趣天下 创始人</div>
+  </div>
+  <div class="right">
+    <div class="rightTitle">演讲主题</div>
+    <div class="topicName">
+      安卓上编译 Python 实践笔记
+    </div>
+    <div class="rightTitle">主题简介</div>
+    <div class="summary">
+      通过分享在安卓上移植编译 Python 的实践经验与大家一起深入 Python 这个软件工程的结构设计，以及如何阅读 Python 源码，甚至扩展 Python 代码。 涵盖的内容包括 - 在安卓平台运行 Python 的意义 - 安卓平台与标准 Linux 平台的一些共同点和差异 - 编译工具链的方案及一些问题 - Python 代码结构 - 怎么运营一个基于编程工具的社区
+    </div>
+    <div class="rightTitle">讲师简介</div>
+    <div class="summary">
+      优趣天下创始人，全球最流行的安卓 Python 应用 QPython 作者，前Zynga高级开发工程师、前绿盟科技产品经理、前新浪邮件高级开发工程师。
+    </div>
+  </div>
+</div>
+
+            
+                
+   <div class="topicItem">
+  <div class="left">
+    <img src="./asset/images/speakers/lecturer_chenshaoshen.png" alt="">
+    <div class="name">陈绍琛</div>
+    <div class="title">深圳花果山科技有限公司技术总监</div>
+  </div>
+  <div class="right">
+    <div class="rightTitle">演讲主题</div>
+    <div class="topicName">
+      Python 在中小电商的应用与实践
+    </div>
+    <div class="rightTitle">主题简介</div>
+    <div class="summary">
+      以一个 Pythoneer 的角度见证一个电商5年的沉浮发展，分享在此过程中如何利用各种开源方案解决性能优化，如何在不断变化的业务与不断调整的商业模型中为公司提供高效的工具让其处于有利的竞争地位。探讨80后程序员在不断发展的形势面前如何保持自己的竞争力，如何组建自己的团队，如何健康的生活。
+    </div>
+    <div class="rightTitle">讲师简介</div>
+    <div class="summary">
+      2009年毕业于哈尔滨工程大学硕士学位。曾就职于诺基亚，华为等公司，2013年初加入深圳花果山科技有限公司工作至今。爱好编程，中医，传统武术等。
+    </div>
+  </div>
+</div>
+
+            
+                
+   <div class="topicItem">
+  <div class="left">
+    <img src="./asset/images/speakers/lecturer_huangyi.png" alt="">
+    <div class="name">黄毅</div>
+    <div class="title">风雷互动 CTO</div>
+  </div>
+  <div class="right">
+    <div class="rightTitle">演讲主题</div>
+    <div class="topicName">
+      Python 和公链开发
+    </div>
+    <div class="rightTitle">主题简介</div>
+    <div class="summary">
+      - 使用 Python 开发并实现Cardano（区块链）项目。 - 对比 Python 和 Haskell 语言在区块链项目方面的特点。 - 介绍 Cardano 项目本身的开发细节。
+    </div>
+    <div class="rightTitle">讲师简介</div>
+    <div class="summary">
+      10多年的老 Pythoneer，从事过 Web 前后端，手游前后端，游戏引擎开发，杂七杂八的编程语言，从码农到 CTO。近年来深入研究区块链相关技术。
+    </div>
+  </div>
+</div>
+
+            
+                
+   <div class="topicItem">
+  <div class="left">
+    <img src="./asset/images/speakers/lecturer_zhuyehua.png" alt="">
+    <div class="name">朱烨华（Ed Zhu）</div>
+    <div class="title">深圳领脉科技 CEO</div>
+  </div>
+  <div class="right">
+    <div class="rightTitle">演讲主题</div>
+    <div class="topicName">
+      用 Python 和深度学习构建下一代聊天机器人
+    </div>
+    <div class="rightTitle">主题简介</div>
+    <div class="summary">
+      深度学习框架下维护聊天助手个性一致的技术框架，很明显还可以衍生出很多种其他方案，但是技术思路应该是类似的，核心思想是把聊天助手的个性信息在Decoder 阶段能够体现出来，以达到维护个性一致的目的。
+    </div>
+    <div class="rightTitle">讲师简介</div>
+    <div class="summary">
+      斯坦福大学计算机科学专业，虚拟化和云计算专家，拥有多项云计算研发专利。曾任职全球数据存储行业龙头企业EMC技术总监等
+    </div>
+  </div>
+</div>
+
+            
+                
+   <div class="topicItem">
+  <div class="left">
+    <img src="./asset/images/speakers/lecturer_anqur.png" alt="">
+    <div class="name">Anqur</div>
+    <div class="title">华为 网络产品开发工程师</div>
+  </div>
+  <div class="right">
+    <div class="rightTitle">演讲主题</div>
+    <div class="topicName">
+      浅谈 Python 事件循环与协程
+    </div>
+    <div class="rightTitle">主题简介</div>
+    <div class="summary">
+      在异步编程领域 Python 有着十几年的经验和积累, 从 asyncore, futures 到 tasks, coroutines, Python 3.x 的异步能力围绕着 asnycio 在近几年内迅猛提升. 本演讲主题从一个极小的疑问发起, 浅谈协程与事件循环在 Python 中的联系与实践。
+    </div>
+    <div class="rightTitle">讲师简介</div>
+    <div class="summary">
+      Python 爱好者, 关注系统编程领域. 14 年蟒营接触 Python 至今, 本科毕业第一个月的新工程狮一枚, 珠海 GDG 活跃分子. 
+    </div>
+  </div>
+</div>
+
+            
+        
+    </div>
+    
+    <div class="title-wraper">
+      <div class="text">组委与志愿者</div>
+      <img src="./asset/images/basic/cqm_title_img.png" alt="">
+    </div>
+
+    <div class="volunteerWraper">
+      <div class="row">
+          
+            
+              <div class="col-sm-6 col-md-4 col-lg-3" >
+                
+   <div class="volunteerItem">
+      <img src="./asset/images/volunteers/spawnris.png" alt="">
+      <div class="name">
+        Spawnris
+      </div>
+      <div class="title">
+        深圳站 | 组委
+      </div>
+      <div class="description">
+        PyChina 发起人
+      </div>
+    </div>
+
+              </div>
+            
+              <div class="col-sm-6 col-md-4 col-lg-3" >
+                
+   <div class="volunteerItem">
+      <img src="./asset/images/volunteers/liuzhijun.png" alt="">
+      <div class="name">
+        刘志军
+      </div>
+      <div class="title">
+        有宝科技有限公司
+      </div>
+      <div class="description">
+        高级Python开发工程师
+      </div>
+    </div>
+
+              </div>
+            
+              <div class="col-sm-6 col-md-4 col-lg-3" >
+                
+   <div class="volunteerItem">
+      <img src="./asset/images/volunteers/shenshaoshen.png" alt="">
+      <div class="name">
+        陈绍琛
+      </div>
+      <div class="title">
+        深圳花果山科技有限公司
+      </div>
+      <div class="description">
+        技术总监
+      </div>
+    </div>
+
+              </div>
+            
+              <div class="col-sm-6 col-md-4 col-lg-3" >
+                
+   <div class="volunteerItem">
+      <img src="./asset/images/volunteers/daishaofei.png" alt="">
+      <div class="name">
+        代少飞
+      </div>
+      <div class="title">
+        小橙奔跑
+      </div>
+      <div class="description">
+        高级 Python 开发工程师
+      </div>
+    </div>
+
+              </div>
+            
+          
+      </div>
+    </div>
+    
+
+
+    <div class="title-wraper">
+      <div class="text">合作支持</div>
+      <img src="./asset/images/basic/cqm_title_img.png" alt="">
+    </div>
+
+
+  <div class="supportWraper">
+       <div class="row">
+             
+              
+    
+        
+         <div class="col-sm-6 col-md-4 col-lg-3">
+            <img src="./asset/images/sponsors/support_pychina.png">
+            <div class="support_name">PyChina 社区 <span>[主办方]</span></div>
+        </div>
+        
+    
+
+            
+              
+    
+        
+         <div class="col-sm-6 col-md-4 col-lg-3">
+            <img src="./asset/images/sponsors/support_getui.png">
+            <div class="support_name">个推 <span>[白银赞助]</span></div>
+        </div>
+        
+    
+
+            
+              
+    
+        
+         <div class="col-sm-6 col-md-4 col-lg-3">
+            <img src="./asset/images/sponsors/support_einplus.png">
+            <div class="support_name">爱因互动 <span>[青铜赞助]</span></div>
+        </div>
+        
+         <div class="col-sm-6 col-md-4 col-lg-3">
+            <img src="./asset/images/sponsors/support_bxb.png">
+            <div class="support_name">BXB <span>[青铜赞助]</span></div>
+        </div>
+        
+    
+
+            
+              
+    
+        
+         <div class="col-sm-6 col-md-4 col-lg-3">
+            <img src="./asset/images/sponsors/support_nokiasbell.png">
+            <div class="support_name">诺基亚上海贝尔 <span>[特别支持]</span></div>
+        </div>
+        
+         <div class="col-sm-6 col-md-4 col-lg-3">
+            <img src="./asset/images/sponsors/support_sistswjtu.png">
+            <div class="support_name">西南交通大学信息科学与技术学院 <span>[特别支持]</span></div>
+        </div>
+        
+         <div class="col-sm-6 col-md-4 col-lg-3">
+            <img src="./asset/images/sponsors/support_swjtu.png">
+            <div class="support_name">西南交通大学中美青年创客交流中心 <span>[特别支持]</span></div>
+        </div>
+        
+    
+
+            
+              
+    
+        
+         <div class="col-sm-6 col-md-4 col-lg-3">
+            <img src="./asset/images/sponsors/support_thoughtworks.png">
+            <div class="support_name">ThoughtWorks <span>[协办方]</span></div>
+        </div>
+        
+    
+
+            
+              
+    
+        
+         <div class="col-sm-6 col-md-4 col-lg-3">
+            <img src="./asset/images/sponsors/support_turing.png">
+            <div class="support_name">图灵教育 <span>[图书赞助]</span></div>
+        </div>
+        
+         <div class="col-sm-6 col-md-4 col-lg-3">
+            <img src="./asset/images/sponsors/support_broadview.png">
+            <div class="support_name">博文视点 <span>[图书赞助]</span></div>
+        </div>
+        
+         <div class="col-sm-6 col-md-4 col-lg-3">
+            <img src="./asset/images/sponsors/support_epubit.png">
+            <div class="support_name">异步社区 <span>[图书赞助]</span></div>
+        </div>
+        
+         <div class="col-sm-6 col-md-4 col-lg-3">
+            <img src="./asset/images/sponsors/support_hzbooks.png">
+            <div class="support_name">华章科技 <span>[图书赞助]</span></div>
+        </div>
+        
+    
+
+            
+              
+    
+        
+         <div class="col-sm-6 col-md-4 col-lg-3">
+            <img src="./asset/images/sponsors/support_bokecc.png">
+            <div class="support_name">CC视频 <span>[视频支持]</span></div>
+        </div>
+        
+         <div class="col-sm-6 col-md-4 col-lg-3">
+            <img src="./asset/images/sponsors/support_otpub.png">
+            <div class="support_name">OTPUB <span>[视频支持]</span></div>
+        </div>
+        
+    
+
+            
+              
+    
+        
+         <div class="col-sm-6 col-md-4 col-lg-3">
+            <img src="./asset/images/sponsors/support_huodongxing.png">
+            <div class="support_name">活动行 <span>[报名平台]</span></div>
+        </div>
+        
+    
+
+            
+              
+    
+        
+         <div class="col-sm-6 col-md-4 col-lg-3">
+            <img src="./asset/images/sponsors/support_juejin.png">
+            <div class="support_name">掘金 <span>[社区合作伙伴]</span></div>
+        </div>
+        
+         <div class="col-sm-6 col-md-4 col-lg-3">
+            <img src="./asset/images/sponsors/support_gitchat.png">
+            <div class="support_name">GitChat <span>[社区合作伙伴]</span></div>
+        </div>
+        
+         <div class="col-sm-6 col-md-4 col-lg-3">
+            <img src="./asset/images/sponsors/support_oschina.png">
+            <div class="support_name">开源中国 <span>[社区合作伙伴]</span></div>
+        </div>
+        
+         <div class="col-sm-6 col-md-4 col-lg-3">
+            <img src="./asset/images/sponsors/support_dbaplus.png">
+            <div class="support_name">DBAplus <span>[社区合作伙伴]</span></div>
+        </div>
+        
+         <div class="col-sm-6 col-md-4 col-lg-3">
+            <img src="./asset/images/sponsors/support_mobiletrain.png">
+            <div class="support_name">千锋教育 <span>[社区合作伙伴]</span></div>
+        </div>
+        
+         <div class="col-sm-6 col-md-4 col-lg-3">
+            <img src="./asset/images/sponsors/support_zhixiaoyun.png">
+            <div class="support_name">知晓云 <span>[社区合作伙伴]</span></div>
+        </div>
+        
+         <div class="col-sm-6 col-md-4 col-lg-3">
+            <img src="./asset/images/sponsors/support_chuangkemao.png">
+            <div class="support_name">创客猫 <span>[社区合作伙伴]</span></div>
+        </div>
+        
+         <div class="col-sm-6 col-md-4 col-lg-3">
+            <img src="./asset/images/sponsors/support_mockplus.png">
+            <div class="support_name">摹客 <span>[社区合作伙伴]</span></div>
+        </div>
+        
+    
+
+            
+        </div>
+  </div>
+    
+    <div class="title-wraper">
+      <div class="text">蟒人赞助</div>
+      <img src="./asset/images/basic/cqm_title_img.png" alt="">
+    </div>
+
+    <div class="personalWraper">
+        
+
+    </div>
+  </div>
+
+<footer id="footer" >
+  <p>Copyright©2019,<span class="yellow">PyConChina</span></p>
+  <p>Contact:<a href="mailto:support@pychina.org">support@pychina.org</a> | Discuss:<span class="yellow" >pyconchinese@googlegroups.com</span></p>
+</footer>
+
+</div>
+<!-- Scripts -->
+<!-- Cookie -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.0/js.cookie.min.js"></script>
+<!-- build:js build/js/main.js -->
+<script type="text/javascript" src="./asset/js/app.js"></script>
+<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<!-- endbuild -->
+
+<!-- Plugin search -->
+<!-- Lazy load -->
+<script async src="https://cdn.jsdelivr.net/lazysizes/3.0.0/lazysizes.min.js"></script>
+<!-- endbuild -->
+</body>
+</html>

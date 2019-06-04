@@ -1,0 +1,91 @@
+meta:
+  -
+    level: organizer
+    style: big
+    name: 主办方
+    name_en: Organizer
+  -
+    level: silver
+    style: inline
+    name: 白银赞助
+    name_en: Silver
+  -
+    level: bronze
+    style: inline
+    name: 青铜赞助
+    name_en: Bronze
+  - 
+    level: support
+    style: inline
+    name: 特别支持
+    name_en: Special
+  -
+    level: assist
+    style: big
+    name: 协办方
+    name_en: Assist
+  -
+    level: book
+    style: inline
+    name: 图书赞助
+    name_en: Book
+  -
+    level: video
+    style: inline
+    name: 视频支持
+    name_en: Video
+  -
+    level: signup
+    style: inline
+    name: 报名平台
+    name_en: Registration platform
+  -
+    level: community
+    style: inline
+    name: 社区合作伙伴
+    name_en: Community partners
+
+
+#########################################
+# 主办方
+#########################################
+organizer:
+  -
+    logo: support_pychina.png
+    logo_en: support_pychina.png
+    link: "https://pychina.org"
+    intro: "PyChina 社区"
+    intro_en: "PyChina"
+
+#########################################
+# 白银级赞助
+#########################################
+silver:
+#########################################
+# 青铜级赞助
+#########################################
+bronze:
+#########################################
+# 特别支持
+#########################################
+support:
+#########################################
+# 协办方
+#########################################
+assist:
+#########################################
+# 图书赞助
+#########################################
+book:
+#########################################
+# 视频支持
+#########################################
+video:
+#########################################
+# 报名平台
+#########################################
+signup:
+#########################################
+# 社区合作伙伴
+#########################################
+community:

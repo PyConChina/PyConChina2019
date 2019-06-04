@@ -1,0 +1,323 @@
+{
+  "city_beijing": {
+    "address": "<b>Address</b>\uff1aBeijing China", 
+    "agenda": [
+      {
+        "detail": [
+          {
+            "time": "09:00-09:20", 
+            "topic": "Opening remarks - pay tribute to pythoneer"
+          }, 
+          {
+            "time": "09:20-10:00", 
+            "topic": "\u4e3b\u9898\u5f85\u5b9a"
+          }, 
+          {
+            "time": "10:00-10:40", 
+            "topic": "\u4e3b\u9898\u5f85\u5b9a"
+          }, 
+          {
+            "time": "10:40-11:20", 
+            "topic": "\u4e3b\u9898\u5f85\u5b9a"
+          }, 
+          {
+            "time": "11:20-12:00", 
+            "topic": "\u4e3b\u9898\u5f85\u5b9a"
+          }
+        ], 
+        "name": "The main venue"
+      }
+    ], 
+    "buy_ticket_url": "", 
+    "city_icon": "beijing_icon.png", 
+    "city_name": "Beijing", 
+    "description": "<p>At the Christmas of 1989, in order to pass the boring Christmas holidays, Guido van Rossum decided to find something to do. He chose to implement a programming language. This programming language is Python.</p>\n<p>On October 16th, 2000, Python 2.0 was released.</p>\n<p>Python has been widely used in the computer industry in 30 years. Service development, operation and maintenance, scientific calculation, theoretical simulation and so on. More and more people fall in love with Python and give back to the Python Community in their own form. Perhaps Guido himself did not realize that the language he created,  would be used in so many fields. In a sense, the language he created changed the computer world. </p>\n<p>In 2019, Pythonist will celebrate Python's 30th anniversary. We will hold PyCon China 2019 to celebrate the birthday of this great language. The main venue of this year's congress will be set up in Shanghai, and branch venues will be set up in Beijing, Hangzhou, Shenzhen, Nanning and so on.</p>\n<p>Whether you are an expert in server development, operation and maintenance, big data, artificial intelligence, and other fields, if you have any experience you want to share with Pythonists, welcome to sign up for our keynotes or lightning talk!</p>\n", 
+    "detail_url": "city_beijing.html", 
+    "donators": null, 
+    "intro": "", 
+    "speakers": null, 
+    "time": "<b>Time</b>\uff1aOtc.19th 2019", 
+    "tips": "<b>Conference schedule</b><p>Otc.19th 2019 \uff08 * Due to venue restrictions, no lunch will be offered at this conference.\uff09</p>", 
+    "title": "beijing", 
+    "volunteers": null
+  }, 
+  "city_shanghai": {
+    "address": "<b>Address</b>\uff1aShanghai China", 
+    "agenda": [
+      {
+        "detail": [
+          {
+            "time": "08:00\uff5e08:50", 
+            "topic": "Check-in"
+          }, 
+          {
+            "time": "08:50\uff5e09:00", 
+            "topic": "\u5f00\u573a\u4ecb\u7ecd"
+          }, 
+          {
+            "time": "", 
+            "topic": "\u4e3b\u9898\u5f85\u5b9a"
+          }
+        ], 
+        "name": "\u4e3b\u4f1a\u573a"
+      }
+    ], 
+    "buy_ticket_url": "https://www.bagevent.com/event/5293611", 
+    "city_icon": "shanghai_icon.png", 
+    "city_name": "Shanghai", 
+    "description": "<p>At the Christmas of 1989, in order to pass the boring Christmas holidays, Guido van Rossum decided to find something to do. He chose to implement a programming language. This programming language is Python.</p>\n<p>On October 16th, 2000, Python 2.0 was released.</p>\n<p>Python has been widely used in the computer industry in 30 years. Service development, operation and maintenance, scientific calculation, theoretical simulation and so on. More and more people fall in love with Python and give back to the Python Community in their own form. Perhaps Guido himself did not realize that the language he created,  would be used in so many fields. In a sense, the language he created changed the computer world. </p>\n<p>In 2019, Pythonist will celebrate Python's 30th anniversary. We will hold PyCon China 2019 to celebrate the birthday of this great language. The main venue of this year's congress will be set up in Shanghai, and branch venues will be set up in Beijing, Hangzhou, Shenzhen, Nanning and so on.</p>\n<p>Whether you are an expert in server development, operation and maintenance, big data, artificial intelligence, and other fields, if you have any experience you want to share with Pythonists, welcome to sign up for our keynotes or lightning talk!</p>\n", 
+    "detail_url": "city_shanghai.html", 
+    "donators": null, 
+    "intro": "", 
+    "speakers": null, 
+    "time": "<b>Time</b>\uff1aSept.21st 2019", 
+    "tips": "<b>\u5927\u4f1a\u65e5\u7a0b</b><p>2019\u5e749\u670821\u65e5 \uff08 * \u56e0\u4e3a\u573a\u5730\u9650\u5236\uff0c\u672c\u6b21\u5927\u4f1a\u5c06\u4e0d\u63d0\u4f9b\u5348\u9910\uff09</p>", 
+    "title": "shanghai", 
+    "volunteers": [
+      {
+        "avatar": "chenshixin.png", 
+        "description": "PyChina\u53d1\u8d77\u4eba / ahaschool-\u9996\u5e2d\u8fd0\u8425\u5b98", 
+        "name": "sting", 
+        "voltitle": "\u4e0a\u6d77\u7ad9 | \u7ec4\u59d4"
+      }, 
+      {
+        "avatar": "dama.png", 
+        "description": "PyChina\u53d1\u8d77\u4eba / uSEE.tech CTO", 
+        "name": "Zoom.Quiet", 
+        "voltitle": "\u4e0a\u6d77\u7ad9 | \u7ec4\u59d4"
+      }, 
+      {
+        "avatar": "lihui.png", 
+        "description": "Freelancer", 
+        "name": "Grey Li", 
+        "voltitle": "\u4e0a\u6d77\u7ad9 | \u7ec4\u59d4"
+      }, 
+      {
+        "avatar": "wangbinxin.png", 
+        "description": "Aliyun - Senior Developer", 
+        "name": "Binxin Wang", 
+        "voltitle": "\u4e0a\u6d77\u7ad9 | \u7ec4\u59d4"
+      }, 
+      {
+        "avatar": "zhangjintao.png", 
+        "description": "NetEase, Inc.", 
+        "name": "Jintao Zhang", 
+        "voltitle": "\u4e0a\u6d77\u7ad9 | \u7ec4\u59d4"
+      }, 
+      {
+        "avatar": "zhanghongke.png", 
+        "description": "Dianwoda - Senior Developer", 
+        "name": "Hongke Zhang", 
+        "voltitle": "\u4e0a\u6d77\u7ad9 | \u7ec4\u59d4"
+      }, 
+      {
+        "avatar": "dengliangju.png", 
+        "description": "\u79d8\u5854\u79d1\u6280 - \u5de5\u7a0b\u603b\u76d1", 
+        "name": "\u9093\u826f\u9a79", 
+        "voltitle": "\u4e0a\u6d77\u7ad9 | \u7ec4\u59d4"
+      }, 
+      {
+        "avatar": "jonhuang.png", 
+        "description": "yield.im - \u521b\u59cb\u4eba", 
+        "name": "Jon Huang", 
+        "voltitle": "\u4e0a\u6d77\u7ad9 | \u7ec4\u59d4"
+      }, 
+      {
+        "avatar": "lizheao.png", 
+        "description": "\u997f\u4e86\u4e48\u8d44\u6df1\u5f00\u53d1\u5de5\u7a0b\u5e08", 
+        "name": "\u674e\u8005\u7488", 
+        "voltitle": "\u4e0a\u6d77\u7ad9 | \u7ec4\u59d4"
+      }, 
+      {
+        "avatar": "qinxuye.png", 
+        "description": "\u963f\u91cc\u5df4\u5df4-\u6280\u672f\u4e13\u5bb6", 
+        "name": "\u79e6\u7eed\u4e1a", 
+        "voltitle": "\u4e0a\u6d77\u7ad9 | \u7ec4\u59d4"
+      }, 
+      {
+        "avatar": "zhumingfang.png", 
+        "description": "\u8d5b\u5b81-\u4fe1\u606f\u5b89\u5168\u5de5\u7a0b\u5e08", 
+        "name": "\u6731\u660e\u653e", 
+        "voltitle": "\u4e0a\u6d77\u7ad9 | \u7ec4\u59d4"
+      }
+    ]
+  }, 
+  "lang": "en", 
+  "lang_dir": "en", 
+  "lang_suffix": "_en", 
+  "nav": [
+    {
+      "title": "HOME2019", 
+      "url": "en/index.html"
+    }, 
+    {
+      "children": [
+        {
+          "title": "SHANGHAI__9.21", 
+          "url": "en/city_shanghai.html"
+        }, 
+        {
+          "title": "BEIJING__10.19", 
+          "url": "en/city_beijing.html"
+        }
+      ], 
+      "title": "SCHEDULE"
+    }, 
+    {
+      "children": [
+        {
+          "title": 2011, 
+          "url": "http://cn.pycon.org/2011/", 
+          "url_external": 1
+        }, 
+        {
+          "title": 2012, 
+          "url": "http://cn.pycon.org/2012/", 
+          "url_external": 1
+        }, 
+        {
+          "title": 2013, 
+          "url": "http://cn.pycon.org/2013/", 
+          "url_external": 1
+        }, 
+        {
+          "title": 2014, 
+          "url": "http://cn.pycon.org/2014/en/index.html", 
+          "url_external": 1
+        }, 
+        {
+          "title": 2015, 
+          "url": "http://cn.pycon.org/2015/en/index.html", 
+          "url_external": 1
+        }, 
+        {
+          "title": 2016, 
+          "url": "http://cn.pycon.org/2016/en/index.html", 
+          "url_external": 1
+        }, 
+        {
+          "title": 2017, 
+          "url": "http://cn.pycon.org/2017/en/index.html", 
+          "url_external": 1
+        }, 
+        {
+          "title": 2018, 
+          "url": "http://cn.pycon.org/2018/en/index.html", 
+          "url_external": 1
+        }
+      ], 
+      "title": "HISTORY"
+    }, 
+    {
+      "title": "NEWS", 
+      "url": "en/index.html"
+    }, 
+    {
+      "title": "ORGANIZER", 
+      "url": "en/organizer_detail.html"
+    }, 
+    {
+      "title": "SPEAKER", 
+      "url": "en/speaker_detail.html"
+    }, 
+    {
+      "title": "SPONSER", 
+      "url": "en/support_detail.html"
+    }, 
+    {
+      "language": "zh-cn", 
+      "title": "\u4e2d\u6587", 
+      "url": "index.html"
+    }
+  ], 
+  "site": {
+    "base_url": "..", 
+    "button_buy": "Buy Now", 
+    "button_details": "Details", 
+    "home_url": "./en/", 
+    "title_donator": "Donator", 
+    "title_history": "History", 
+    "title_schedule": "Schedule", 
+    "title_speaker": "Speaker", 
+    "title_sponsor": "Sponsor", 
+    "title_support": "sponser", 
+    "title_volunteer": "Volunteer", 
+    "to_be_speaker": "To be Speaker", 
+    "to_be_speaker_url": "https://jinshuju.net/f/BH2z26", 
+    "to_be_volunteer": "To be Volunteer", 
+    "to_be_volunteer_url": "https://jinshuju.net/f/ibpDI3"
+  }, 
+  "sponsors": {
+    "assist": null, 
+    "book": null, 
+    "bronze": null, 
+    "community": null, 
+    "meta": [
+      {
+        "level": "organizer", 
+        "name": "Organizer", 
+        "style": "big"
+      }, 
+      {
+        "level": "silver", 
+        "name": "Silver", 
+        "style": "inline"
+      }, 
+      {
+        "level": "bronze", 
+        "name": "Bronze", 
+        "style": "inline"
+      }, 
+      {
+        "level": "support", 
+        "name": "Special", 
+        "style": "inline"
+      }, 
+      {
+        "level": "assist", 
+        "name": "Assist", 
+        "style": "big"
+      }, 
+      {
+        "level": "book", 
+        "name": "Book", 
+        "style": "inline"
+      }, 
+      {
+        "level": "video", 
+        "name": "Video", 
+        "style": "inline"
+      }, 
+      {
+        "level": "signup", 
+        "name": "Registration platform", 
+        "style": "inline"
+      }, 
+      {
+        "level": "community", 
+        "name": "Community partners", 
+        "style": "inline"
+      }
+    ], 
+    "organizer": [
+      {
+        "intro": "PyChina", 
+        "link": "https://pychina.org", 
+        "logo": "support_pychina.png"
+      }
+    ], 
+    "signup": null, 
+    "silver": null, 
+    "support": null, 
+    "video": null
+  }, 
+  "support_detail": {
+    "supports": [
+      {
+        "description": "PyChina\u521b\u7acb\u4e8e2014\u5e74\uff0c\u662f\u7531CpyUG(\u534e\u87d2\u7528\u6237\u7ec4)\u83b7\u5f97\u6388\u6743\u4e3e\u529e\u7684\u4e2d\u56fdPyCon\u5e74\u4f1a\uff0c\u4ee5\u63a8\u52a8\u5404\u5730Python\u7ebf\u4e0b\u6d3b\u52a8\u548c\u5728\u7ebf\u6d3b\u52a8\u7b49\u4e3a\u5b97\u65e8\u3002", 
+        "logo": "support_pychina.png", 
+        "name": "PyChina"
+      }
+    ]
+  }
+}

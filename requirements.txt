@@ -1,0 +1,8 @@
+staticjinja
+webassets
+cssmin
+jsmin
+colorama
+click
+fabric
+oyaml

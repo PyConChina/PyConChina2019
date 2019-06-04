@@ -1,0 +1,14 @@
+{% extends "pages/_base.html" %}
+{% import 'pages/macros/_title_macro.html' as title_macro %}
+{% import 'pages/macros/_topic_macro.html' as topic_macro %}
+
+{% block content %}
+
+  <div class="container">
+    <div style="margin-top: 15px; margin-bottom: 15px">
+      {{ title_macro.title(site.title_speaker, site) }}
+    </div>
+      {{ topic_macro.topic_city(city_shanghai, site) }}
+      {{ topic_macro.topic_city(city_beijing, site) }}
+  </div>
+{% endblock %}
