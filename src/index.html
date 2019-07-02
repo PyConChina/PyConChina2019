@@ -1,49 +1,106 @@
-{% extends "pages/_base.html" %}
-{% import 'pages/macros/_title_macro.html' as title_macro %}
-{% import 'pages/macros/_meeting_macro.html' as meeting_macro %}
-
+{% extends "base/_base.html" %}
+{% import 'base/_speaker_macro.html' as speaker_macro %}
+{% import 'base/_schedule_macro.html' as schedule_macro %}
+{% set page_title = message.page_title_index %}
 {% block content %}
-    <header id="banner"></header>
-    <div class="button-wrap">
-      <button class="btn btn-yellow left-btn" onclick="javascript:window.open('{{ site.to_be_speaker_url }}')">{{ site.to_be_speaker }}</button>
-      <button class="btn btn-yellow" onclick="javascript:window.open('{{ site.to_be_volunteer_url }}')">{{ site.to_be_volunteer }}</button>
-    </div>
-    <div class="container content-wrap">
-        {{ title_macro.title(site.title_schedule, site) }}
 
-      <div class="metting-list">
-          {{ meeting_macro.meeting_item(city_shanghai, site) }}
-          {{ meeting_macro.meeting_item(city_beijing, site) }}
-      </div>
-        {{ title_macro.title(site.title_history, site) }}
-      <div class="reviewWraper">
-          <div class="reviewItem">
-           <img src="{{ site.base_url }}/asset/images/basic/d4_history_img01.png" alt="">
-          <p>2018</p>
-          <p>PyConChina</p>
+<section id="about" class="section align-center">
+    <div class="container">
+        <span class="icon section-icon icon-multimedia-12"></span>
+        <h3>活动简介</h3>
+        <br />
+        <br />
+        <div style="text-align: center; font-size: 16px; line-height: 50px;">
+            {{ message.pycon_intro }}
         </div>
-        <div class="reviewItem">
-           <img src="{{ site.base_url }}/asset/images/basic/d4_history_img01.png" alt="">
-          <p>2017</p>
-          <p>PyConChina</p>
-        </div>
-        <div class="reviewItem">
-          <img src="{{ site.base_url }}/asset/images/basic/d4_history_img01.png" alt="">
-          <p>2016</p>
-          <p>PyConChina</p>
-        </div>
-        <div class="reviewItem">
-           <img src="{{ site.base_url }}/asset/images/basic/d4_history_img01.png" alt="">
-           <p>2015</p>
-           <p>PyConChina</p>
-        </div>
-        <div class="reviewItem">
-           <img src="{{ site.base_url }}/asset/images/basic/d4_history_img01.png" alt="">
-          <p>2014</p>
-          <p>PyConChina</p>
-        </div>
-      </div>
-        {% include "pages/_support.html" %}
     </div>
+</section>
+
+<!-- 讲师 -->
+<!-- FIXME: DRY -->
+<section id="speakers" class="section align-center">
+    {% for city in agenda.city_list %}
+    {% set speaker_city = agenda[city].name + message.speakers %}
+    {% set extra_class = loop.cycle('pycon-even-seg','pycon-odd-seg') %}
+    {{ speaker_macro.speaker_block(speaker_city, selectspeakers(speakers, city), extra_class) }}
+    {% endfor%}
+</section>
+
+<section id="schedule" class="section schedule-section align-center">
+        {% macro agenda_link(city) %}
+            <li class="{{ city.actived }}">
+                <a href="#{{ city.url }}" data-toggle="tab">
+                    <h5 class="highlight">{{ city.name }}</h5>
+                    <p class="text-alt">{{ city.date }}</p>
+                </a>
+            </li>
+        {% endmacro %}
+
+		<div class="container">
+			<span class="icon section-icon icon-office-21"></span>
+			<h3>日程</h3>
+			<br />
+			<br />
+			<div class="schedule">
+				<ul class="nav nav-schedule">
+                    {% for city_name in agenda.city_list %}{{ agenda_link(agenda[city_name]) }}{% endfor %}
+				</ul>
+				<div class="tab-content">
+                    {% for city_name in agenda.city_list %}
+                        {{ schedule_macro.schedule_block(speakers, agenda[city_name]) }}
+                    {% endfor %}
+				</div>
+
+			</div>
+
+		</div>
+
+	</section>
+
+<section id="sponsors" class="section align-center">
+
+ <div class="container">
+     <span class="icon section-icon icon-documents-bookmarks-12"></span>
+     <h3>合作伙伴</h3>
+     <br/>
+     <br/>
+    {% macro sponsor_block(sponsor_meta, sponsor_list) %}
+      {% if sponsor_list %} {% for sponsor_info in sponsor_list %}
+            <div class="sponsors-wraper col-sm-6 col-md-4 col-lg-3">
+                <img src="{{ sponsor_info.logo }}" alt="">
+                <div class="support_name">
+                    <a href="{{ sponsor_info.link }}" target="_blank">{{ sponsor_info.name }}</a>
+                    <span> [{{ sponsor_meta.name }}]</span>
+                </div>
+            </div>
+        {% endfor %} {% endif %}
+      {% endmacro %}
+
+    {% for sponsor_meta in sponsors.meta %}
+    {{ sponsor_block(sponsor_meta, sponsors[sponsor_meta.level]) }}
+    {% endfor %}
+ </div>
+
+</section>
+
+<section id="contacts">
+    <div class="contacts-wrapper">
+        <div id="wrap" class="my-map">
+            <div id="mapContainer"></div>
+        </div>
+        <div class="container contacts-on-map-container">
+            <div class="contacts-on-map">
+                <h3>大会地点</h3>
+                <ul class="list">
+                    <li><i class="fa fa-map-marker"></i>上海杨浦宁国路25号上海兴荣温德姆酒店2楼会议厅</li>
+                    <!-- <li><i class="fa fa-envelope"></i>info@ventcamp.com</li> -->
+                    <li><i class="fa fa-phone"></i>185 1609 4658</li>
+                    <li><i class="fa fa-clock-o"></i>2018年5月19日 8:00 ～ 2018年5月19日 17:00</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+
 {% endblock %}
-

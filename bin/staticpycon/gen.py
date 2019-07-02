@@ -11,8 +11,8 @@ from os import listdir, system
 import pipes
 import re
 import shutil
-# import yaml
-import oyaml as yaml
+import yaml
+
 from staticjinja import make_site, Reloader
 from webassets import Environment, Bundle
 from webassets.ext.jinja2 import AssetsExtension
@@ -160,8 +160,8 @@ def _render_page(renderer, template, **context):
 def _init_dirs():
     mkdirp(WEBASSETS_CACHE_DIR)
     mkdirp(SITE_DIR)
-    shutil.rmtree(join(SITE_ASSET_DIR, 'js'), ignore_errors=True)
-    shutil.rmtree(join(SITE_ASSET_DIR, 'css'), ignore_errors=True)
+    # shutil.rmtree(join(SITE_ASSET_DIR, 'js'), ignore_errors=True)
+    # shutil.rmtree(join(SITE_ASSET_DIR, 'css'), ignore_errors=True)
 
 
 def _init_webassets(debug=False, generate=False):
@@ -171,11 +171,11 @@ def _init_webassets(debug=False, generate=False):
                              load_path=[SITE_ASSET_SRC_DIR])
     assets_env.debug = debug
 
-    js = Bundle('js/*.js', filters='uglifyjs', output='js/app.js')
-    css = Bundle('css/*.styl', filters='stylus,cssmin', output='css/app.css')
+    # js = Bundle('js/*.js', filters='jsmin', output='js/app_js.js')
+    # css = Bundle('css/*.css', filters='cssmin', output='css/app_css.css')
 
-    assets_env.register('app_js', js)
-    assets_env.register('app_css', css)
+    # assets_env.register('app_js', js)
+    # assets_env.register('app_css', css)
 
     cmd = CommandLineEnvironment(assets_env, log)
 

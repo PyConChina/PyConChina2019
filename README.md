@@ -5,8 +5,7 @@ The official website of PyCon China 2019, 基于 [https://github.com/PyConChina/
 
 ```
 npm install uglify-js -g
-# sudo gem install stylus
-npm install stylus -g
+sudo gem install sass
 virtualenv venv
 source venv/bin/activate
 pip install -r requirements.txt
@@ -16,15 +15,13 @@ pip install -r requirements.txt
 
 ```
 source venv/bin/activate
-python ./bin/app.py -s
+./bin/app.py -s
 ```
 
 ## 志愿者必读
 
-暂不支持Python3。
-
 只改动src里面的内容：
 
-- base是html结构，基本不需要改动。
-- asset是静态资源，例如图片，所有的图片请放到这个文件夹通过git push到仓库。
+- base是html结构，基本不需要改动
+- asset是静态资源，例如图片，所有的图片请放到这个文件夹通过git push到仓库
 - data是主要需要修改的内容，不同的yaml文件是不同的内容，例如日程，志愿者等。

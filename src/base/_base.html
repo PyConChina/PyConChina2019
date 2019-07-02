@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="{{ lang }}">
+<head>
+
+    <meta charset="utf-8">
+	<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+	<title>{{ page_title }} - {{ site.title }}</title>
+
+	<link rel="shortcut icon" href="{{ site.base_url }}/asset/img/favicon.ico">
+	<link rel="apple-touch-icon" href="{{ site.base_url }}/asset/img/apple-touch-icon.jpg">
+	<link rel="apple-touch-icon" sizes="72x72" href="{{ site.base_url }}/asset/img/apple-touch-icon-72x72.jpg">
+	<link rel="apple-touch-icon" sizes="114x114" href="{{ site.base_url }}/asset/img/apple-touch-icon-114x114.jpg">
+
+	{% if site.description %}<meta name="description" content="{{ site.description }}">{% endif %}
+    {% if site.author %}<meta name="author" content="{{ site.author }}">{% endif %}
+    {% if canonical_url %}<link rel="canonical" href="{{ canonical_url }}">{% endif %}
+
+    <link rel="stylesheet" type="text/css" href="{{ site.base_url }}/asset/css/custom-animations.css" />
+	<link rel="stylesheet" type="text/css" href="{{ site.base_url }}/asset/css/style-berry-color.css" />
+
+    <style>
+			body { margin: 0; font: 13px/1.5 "Microsoft YaHei", "Helvetica Neue", "Sans-Serif"; min-height: 960px; min-width: 600px; }
+			.my-map { margin: 0 auto; width: 100%; height: 600px; }
+			.my-map .icon { background: url(http://lbs.amap.com/console/public/show/marker.png) no-repeat; }
+			.my-map .icon-cir { height: 31px; width: 28px; }
+			.my-map .icon-cir-blue { background-position: -11px -55px; }
+			.amap-container{height: 100%;}
+		</style>
+	<!--[if lt IE 9]>
+		<script src="{{ site.base_url }}/asset/js/html5shiv.js"></script>
+		<script src="{{ site.base_url }}/asset/js/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+<body>
+   <section id="hero" class="hero-section bg1 bg-cover window-height light-text">
+
+		<div class="heading-block centered-block align-center">
+			<div class="container">
+				<h5 class="heading-alt" style="margin-bottom: 8px;"><span class="fa fa-calendar-o base-clr-txt"></span>2019年9月21日<span class="fa fa-map-marker base-clr-txt" style="margin-left: 14px;"></span>（上海）</h5>
+				<h1 class="extra-heading">{{ message.slogan_title }}</h1>
+				<h6 class="thin base-font">{{ message.slogan }}</h6>
+				<div class="btns-container">
+                    <a class="btn btn-md" href="{{ site.beijing.booking_url }}" target="_blank">{{ message.beijing_booking_now }}</a>
+                    <a class="btn btn-md" href="{{ site.shanghai.booking_url }}" target="_blank">{{ message.shanghai_booking_now }}</a>
+				</div>
+                <div class="btns-container">
+                    <a class="btn btn-outline btn-md" href="{{ site.speech_apply_url }}" target="_blank">{{ message.speech_apple_now }}</a>
+                </div>
+			</div>
+		</div>
+	</section>
+
+    {% include "base/_nav.html" %}
+    {% block content %}{% endblock %}
+    {% include "base/_footer.html" %}
+
+    <!--[if lt IE 9]>
+		<script type="text/javascript" src="{{ site.base_url }}/asset/js/jquery-1.11.3.min.js?ver=1"></script>
+	<![endif]-->
+	<!--[if (gte IE 9) | (!IE)]><!-->
+		<script type="text/javascript" src="{{ site.base_url }}/asset/js/jquery-2.1.4.min.js?ver=1"></script>
+	<!--<![endif]-->
+
+	<!-- <script src="https://maps.googleapis.com/maps/api/js?v=3&libraries=places"></script> -->
+	<script type="text/javascript" src="{{ site.base_url }}/asset/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="{{ site.base_url }}/asset/js/jquery.validate.min.js"></script>
+	<script type="text/javascript" src="{{ site.base_url }}/asset/js/toastr.min.js"></script>
+	<script type="text/javascript" src="{{ site.base_url }}/asset/js/jquery.waypoints.min.js"></script>
+	<script type="text/javascript" src="{{ site.base_url }}/asset/js/jquery.appear.js"></script>
+	<script type="text/javascript" src="{{ site.base_url }}/asset/js/jquery.plugin.js"></script>
+	<script type="text/javascript" src="{{ site.base_url }}/asset/js/masonry.pkgd.min.js"></script>
+	<script type="text/javascript" src="{{ site.base_url }}/asset/js/modal-box.js"></script>
+	<script type="text/javascript" src="{{ site.base_url }}/asset/js/ventcamp.js"></script>
+	<script src="https://webapi.amap.com/maps?v=1.3&key=8325164e247e15eea68b59e89200988b"></script>
+	<script>
+		!function(){
+			var infoWindow, map, level = 13,
+				center = {lng: 121.540962, lat: 31.262062},
+				features = [{type: "Marker", name: "", desc: "", color: "red", icon: "cir", offset: {x: -9, y: -31}, lnglat: {lng: 121.540962, lat: 31.262062}}];
+
+			function loadFeatures(){
+				for(var feature, data, i = 0, len = features.length, j, jl, path; i < len; i++){
+					data = features[i];
+					switch(data.type){
+						case "Marker":
+							feature = new AMap.Marker({ map: map, position: new AMap.LngLat(data.lnglat.lng, data.lnglat.lat),
+								zIndex: 3, extData: data, offset: new AMap.Pixel(data.offset.x, data.offset.y), title: data.name,
+								content: '<div class="icon icon-' + data.icon + ' icon-'+ data.icon +'-' + data.color +'"></div>' });
+							break;
+						case "Polyline":
+							for(j = 0, jl = data.lnglat.length, path = []; j < jl; j++){
+								path.push(new AMap.LngLat(data.lnglat[j].lng, data.lnglat[j].lat));
+							}
+							feature = new AMap.Polyline({ map: map, path: path, extData: data, zIndex: 2,
+								strokeWeight: data.strokeWeight, strokeColor: data.strokeColor, strokeOpacity: data.strokeOpacity });
+							break;
+						case "Polygon":
+							for(j = 0, jl = data.lnglat.length, path = []; j < jl; j++){
+								path.push(new AMap.LngLat(data.lnglat[j].lng, data.lnglat[j].lat));
+							}
+							feature = new AMap.Polygon({ map: map, path: path, extData: data, zIndex: 1,
+								strokeWeight: data.strokeWeight, strokeColor: data.strokeColor, strokeOpacity: data.strokeOpacity,
+								fillColor: data.fillColor, fillOpacity: data.fillOpacity });
+							break;
+						default: feature = null;
+					}
+					if(feature){ AMap.event.addListener(feature, "click", mapFeatureClick); }
+				}
+			}
+
+			function mapFeatureClick(e){
+				if(!infoWindow){ infoWindow = new AMap.InfoWindow({autoMove: true}); }
+				var extData = e.target.getExtData();
+				infoWindow.setContent("<h5>" + extData.name + "</h5><div>" + extData.desc + "</div>");
+				infoWindow.open(map, e.lnglat);
+			}
+
+			map = new AMap.Map("mapContainer", {center: new AMap.LngLat(center.lng, center.lat), level: level});
+
+			loadFeatures();
+
+			map.on('complete', function(){
+				map.plugin(["AMap.ToolBar", "AMap.Scale"], function(){
+					map.addControl(new AMap.ToolBar);
+				map.addControl(new AMap.Scale);
+				});
+			})
+
+		}();
+			</script>
+
+    {% block js_block %}{% endblock %}
+
+    {% include "base/_ga.html" %}
+</body>
+</html>

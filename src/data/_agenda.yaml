@@ -1,0 +1,114 @@
+# 城市列表
+city_list:
+  - shanghai
+  - beijing
+
+
+####################################################################
+# 北京
+####################################################################
+beijing:
+  city: beijing
+  name: 北京
+  name_en: Beijing
+  completed: false
+  url: "beijing"
+  address: 中国  北京
+  address_en: Beijing China
+  maplink: 'https://www.amap.com/place/B000A87KPU'
+  video: ''
+  date: 2019年10月19日  9:00 ~ 17:00
+  date_en: Otc.19th 2019 9:00 to 17:00
+  notices: ""
+  places:
+    - place_name: 主会场
+      url: place1_auditorium1
+      actived: active
+      speechs:
+        - time: "08:00～08:50"
+          topic: "签到"
+          topic_en: "Check-in"
+        - time: "08:50～09:00"
+          topic: "开场介绍"
+        - time: ""
+          topic: "主题待定"
+
+    - place_name: 分会场1
+      url: place1_auditorium2
+      speechs:
+       - time: "12:10-13:10"
+         topic: "午餐"
+         topic_en: "Lunch"
+
+    - place_name: 分会场2
+      url: place1_auditorium3
+      speechs:
+       - time: "15:25-15:40"
+         topic: "茶歇"
+         topic_en: "Tea Break"
+
+    - place_name: 分会场3
+      url: place1_auditorium4
+      speechs:
+       - time: "15:25-15:40"
+         topic: "茶歇"
+         topic_en: "Tea Break"
+
+  lightening_talks:
+  cancel_talks:
+
+
+####################################################################
+# 上海
+####################################################################
+shanghai:
+  city: shanghai
+  name: 上海
+  name_en: Shanghai
+  completed: false
+  url: "shanghai"
+  actived: active
+  address: 中国  上海
+  address_en: Shanghai China
+  maplink: 'https://www.amap.com/place/B0015731XR'
+  video: ''
+  date: 2019年9月21日 8:00 ~ 17:00
+  date_en: Sept.21st 2019 8:00 to 17:00
+  notices: ""
+  places:
+    - place_name: 主会场
+      url: place2_auditorium1
+      actived: active
+      speechs:
+        - time: "09:00-09:20"
+          topic: "开场致词—致敬 Pythoneer"
+          topic_en: "Opening remarks - pay tribute to pythoneer"
+        - { time: "09:20-10:00", speaker: id_lijinhong }
+        - { time: "10:00-10:40", topic: "主题待定" }
+        - { time: "10:40-11:20", topic: "主题待定" }
+        - { time: "11:20-12:00", topic: "主题待定" }
+
+    - place_name: 分会场1
+      url: place2_auditorium2
+      speechs:
+       - time: "12:10-13:10"
+         topic: "午餐"
+         topic_en: "Lunch"
+
+    - place_name: 分会场2
+      url: place2_auditorium3
+      speechs:
+       - time: "15:25-15:40"
+         topic: "茶歇"
+         topic_en: "Tea Break"
+
+    - place_name: 分会场3
+      url: place2_auditorium4
+      speechs:
+       - time: "15:25-15:40"
+         topic: "茶歇"
+         topic_en: "Tea Break"
+
+  lightening_talks:
+  cancel_talks:
+
