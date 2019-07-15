@@ -1,0 +1,119 @@
+role_list:
+ - organizers
+ - technicians
+ - conference
+
+organizers:
+-
+  name: StingChen(陈世欣)
+  name_en: StingChen(Shixin Chen)
+  role: organizer
+  role_organizer: 1
+  intro: Ahaschool-CTO<br/>PyChina发起人
+  intro_en: Ahaschool-CTO<br/>Sponsor of PyChina
+  avatar: ./asset/images/avatar-2019/volunteers/chenshixin.png
+  avatar_en: ../asset/images/avatar-2019/volunteers/chenshixin.png
+  blog: http://sting.topgeek.org/
+  weibo: http://weibo.com/stingchen
+-
+  name: Zoom.Quiet (大妈)
+  name_en: Zoom.Quiet (Dama)
+  role: organizer
+  role_organizer: 1
+  avatar: ./asset/images/avatar-2019/volunteers/dama.png
+  avatar_en: ../asset/images/avatar-2019/volunteers/dama.png
+  intro: 优势眼动-合伙人<br/>PyChina发起人
+  intro_en: Parter of 优势眼动<br/>Sponsor of PyChina
+  blog: http://zoomquiet.io/
+  weibo: http://weibo.com/zoomquiet
+
+-
+  name: 李辉
+  name_en: Grey Li
+  role: organizer
+  role_organizer: 1
+  avatar: ./asset/images/avatar-2019/volunteers/lihui.png
+  avatar_en: ../asset/images/avatar-2019/volunteers/lihui.png
+  intro: 上海站 | 组委<br/>自由职业
+  blog:
+  weibo:
+-
+  name: 王斌鑫
+  name_en: Binxin Wang
+  role: organizer
+  role_organizer: 1
+  avatar: ./asset/images/avatar-2019/volunteers/wangbinxin.png
+  avatar_en: ../asset/images/avatar-2019/volunteers/wangbinxin.png
+  intro: 上海站 | 组委<br/>阿里云 - 高级开发工程师
+  blog:
+  weibo:
+-
+  name: 张晋涛
+  name_en: Jintao Zhang
+  role: organizer
+  role_organizer: 1
+  avatar: ./asset/images/avatar-2019/volunteers/zhangjintao.png
+  avatar_en: ../asset/images/avatar-2019/volunteers/zhangjintao.png
+  intro: 上海站 | 组委<br/>网易有道-资深运维开发
+  blog:
+  weibo:
+-
+  name: 张宏柯
+  name_en: Hongke Zhang
+  role: organizer
+  role_organizer: 1
+  avatar: ./asset/images/avatar-2019/volunteers/zhanghongke.png
+  avatar_en: ../asset/images/avatar-2019/volunteers/zhanghongke.png
+  intro: 上海站 | 组委<br/>点我达 - 资深开发工程师
+  blog:
+  weibo:
+-
+  name: 邓良驹
+  role: organizer
+  role_organizer: 1
+  avatar: ./asset/images/avatar-2019/volunteers/dengliangju.png
+  avatar_en: ../asset/images/avatar-2019/volunteers/dengliangju.png
+  intro: 上海站 | 组委<br/>秘塔科技 - 工程总监
+  blog:
+  weibo:
+-
+  name: Jon Huang
+  name_en: Jon Huang
+  role: organizer
+  role_organizer: 1
+  avatar: ./asset/images/avatar-2019/volunteers/jonhuang.png
+  avatar_en: ../asset/images/avatar-2019/volunteers/jonhuang.png
+  intro: 上海站 | 组委<br/>yield.im - 创始人
+  blog:
+  weibo:
+-
+  name: 李者璈
+  role: organizer
+  role_organizer: 1
+  avatar: ./asset/images/avatar-2019/volunteers/lizheao.png
+  avatar_en: ../asset/images/avatar-2019/volunteers/lizheao.png
+  intro: 上海站 | 组委<br/>饿了么资深开发工程师
+  blog:
+  weibo:
+-
+  name: 秦续业
+  role: organizer
+  role_organizer: 1
+  avatar: ./asset/images/avatar-2019/volunteers/qinxuye.png
+  avatar_en: ../asset/images/avatar-2019/volunteers/qinxuye.png
+  intro: 上海站 | 组委<br/>阿里巴巴-技术专家
+  blog:
+  weibo:
+-
+  name: 朱明放
+  role: organizer
+  role_organizer: 1
+  avatar: ./asset/images/avatar-2019/volunteers/zhumingfang.png
+  avatar_en: ../asset/images/avatar-2019/volunteers/zhumingfang.png
+  intro: 上海站 | 组委<br/>赛宁-信息安全工程师
+  blog:
+  weibo:
+
+technicians:
+
+conference:

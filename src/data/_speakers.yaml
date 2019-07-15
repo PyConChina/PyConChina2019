@@ -1,0 +1,23 @@
+####################################################################
+# 魔都
+####################################################################
+
+id_lijinhong:
+  name: 李金洪
+  name_en: Jinhong Lee
+  city_shanghai: 1
+  avatar: ./asset/images/speakers/lecturer_changhui.png
+  avatar_en: ../asset/images/speakers/lecturer_changhui.png
+  intro: "代码医生工作室主程序员"
+  intro_en: "main engineer of Code doctor studio, founder of the big snake intelligence, chief artificial intelligence scientist of Beijing Pai Network Software, has released two video tutorials on the CNTK deep learning framework, has published two best-selling books, 《深度学习之Tensorflow：入门、进阶与实战》and《python带我起飞：入门、进阶、商业实战》."
+  shanghai_topic:
+    title: "待定"
+    title_en: ""
+    preview: "ddd"
+    preview_en: ""
+    slide: #
+
+
+####################################################################
+# 北京
+####################################################################
