@@ -7,7 +7,7 @@
 <section id="about" class="section align-center">
     <div class="container">
         <span class="icon section-icon icon-multimedia-12"></span>
-        <h3>活动简介</h3>
+        <h3>{{ message.pycon_intro_title }}</h3>
         <br />
         <br />
         <div style="text-align: center; font-size: 16px; line-height: 50px;">
@@ -38,7 +38,7 @@
 
 		<div class="container">
 			<span class="icon section-icon icon-office-21"></span>
-			<h3>日程</h3>
+			<h3>{{ agenda.agenda_title }}</h3>
 			<br />
 			<br />
 			<div class="schedule">
@@ -61,7 +61,7 @@
 
  <div class="container">
      <span class="icon section-icon icon-documents-bookmarks-12"></span>
-     <h3>合作伙伴</h3>
+     <h3>{{ sponsors.sponsor_title }}</h3>
      <br/>
      <br/>
     {% macro sponsor_block(sponsor_meta, sponsor_list) %}
@@ -90,12 +90,12 @@
         </div>
         <div class="container contacts-on-map-container">
             <div class="contacts-on-map">
-                <h3>大会地点</h3>
+                <h3>{{ message.conference_location_title }}</h3>
                 <ul class="list">
-                    <li><i class="fa fa-map-marker"></i>上海杨浦宁国路25号上海兴荣温德姆酒店2楼会议厅</li>
+                    <li><i class="fa fa-map-marker"></i>{{ message.conference_location }}</li>
                     <!-- <li><i class="fa fa-envelope"></i>info@ventcamp.com</li> -->
                     <li><i class="fa fa-phone"></i>185 1609 4658</li>
-                    <li><i class="fa fa-clock-o"></i>2018年5月19日 8:00 ～ 2018年5月19日 17:00</li>
+                    <li><i class="fa fa-clock-o"></i>{{ message.conference_time }}</li>
                 </ul>
             </div>
         </div>

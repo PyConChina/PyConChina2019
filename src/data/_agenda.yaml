@@ -3,6 +3,8 @@ city_list:
   - shanghai
   - beijing
 
+agenda_title: 日程
+agenda_title_en: Agenda
 
 ####################################################################
 # 北京
@@ -22,6 +24,7 @@ beijing:
   notices: ""
   places:
     - place_name: 主会场
+      place_name_en: "Main venue"
       url: place1_auditorium1
       actived: active
       speechs:
@@ -30,24 +33,29 @@ beijing:
           topic_en: "Check-in"
         - time: "08:50～09:00"
           topic: "开场介绍"
+          topic_en: "Opening remarks"
         - time: ""
           topic: "主题待定"
+          topic_en: "To be determined"
 
-    - place_name: 分会场1
+    - place_name: 分会场 1
+      place_name_en: Breakout 1
       url: place1_auditorium2
       speechs:
        - time: "12:10-13:10"
          topic: "午餐"
          topic_en: "Lunch"
 
-    - place_name: 分会场2
+    - place_name: 分会场 2
+      place_name_en: Breakout 2
       url: place1_auditorium3
       speechs:
        - time: "15:25-15:40"
          topic: "茶歇"
          topic_en: "Tea Break"
 
-    - place_name: 分会场3
+    - place_name: 分会场 3
+      place_name_en: Breakout 3
       url: place1_auditorium4
       speechs:
        - time: "15:25-15:40"
@@ -77,6 +85,7 @@ shanghai:
   notices: ""
   places:
     - place_name: 主会场
+      place_name_en: "Main venue"
       url: place2_auditorium1
       actived: active
       speechs:
@@ -84,25 +93,28 @@ shanghai:
           topic: "开场致词—致敬 Pythoneer"
           topic_en: "Opening remarks - pay tribute to pythoneer"
         - { time: "09:20-10:00", speaker: id_lijinhong }
-        - { time: "10:00-10:40", topic: "主题待定" }
-        - { time: "10:40-11:20", topic: "主题待定" }
-        - { time: "11:20-12:00", topic: "主题待定" }
+        - { time: "10:00-10:40", topic: "主题待定", topic_en: "To be determined"}
+        - { time: "10:40-11:20", topic: "主题待定", topic_en: "To be determined" }
+        - { time: "11:20-12:00", topic: "主题待定", topic_en: "To be determined" }
 
-    - place_name: 分会场1
+    - place_name: 分会场 1
+      place_name_en: Breakout 1
       url: place2_auditorium2
       speechs:
        - time: "12:10-13:10"
          topic: "午餐"
          topic_en: "Lunch"
 
-    - place_name: 分会场2
+    - place_name: 分会场 2
+      place_name_en: Breakout 2
       url: place2_auditorium3
       speechs:
        - time: "15:25-15:40"
          topic: "茶歇"
          topic_en: "Tea Break"
 
-    - place_name: 分会场3
+    - place_name: 分会场 3
+      place_name_en: Breakout 3
       url: place2_auditorium4
       speechs:
        - time: "15:25-15:40"

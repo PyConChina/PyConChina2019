@@ -12,7 +12,8 @@ shanghai_booking_now: 报名上海场
 shanghai_booking_now_en: Sign up for Shanghai
 speech_apple_now: 申请演讲
 speech_apple_now_en: Apply for a speech
-
+pycon_intro_title: 活动简介
+pycon_intro_title_en: Introduction
 pycon_intro: "<p>1989 年圣诞，Guido van Rossum 为了打发无聊的圣诞假期，决定找点事来做。他选择实现一门编程语言。这门编程语言就是 Python。</p>
               <p>2000年10月16日，Python 2.0 发布。</p>
               <p>从创立之初到现在，在整整三十年的时间里，Python一步步的成长到现在，被广泛的应用于计算机行业之中。服务开发，运维，科学计算，理论模拟等等。越来越多的人爱上 Python，并用自己的形式回馈 Python 社区。可能 Guido 他自己都没想到，当时的一时兴起所创造的语言，会在这么多的领域得到应用。某种意义上来讲，他所创造的这门语言，在一定程度上改变了计算机世界。</p>
@@ -29,11 +30,21 @@ pycon_intro_en: "<p>At the Christmas of 1989, in order to pass the boring Christ
 #########################################
 slogan_title: PyCon China 2019
 slogan_title_en: PyCon China 2019
-slogan: Python与你同在
+slogan: Python 与你同在
 slogan_en: MAY THE PYTHONIC BE WITH YOU
+index_date: 2019年9月21日
+index_date_en: "Sep. 21st, 2019"
+position: 上海
+position_en: Shanghai
 #########################################
 # speakers
 #########################################
 speakers: 讲师
 speakers_en: ' Speakers'
 
+conference_location_title: "大会地点"
+conference_location_title_en: Location
+conference_location: "上海杨浦宁国路25号上海兴荣温德姆酒店2楼会议厅"
+conference_location_en: "Conference Hall, 2nd Floor<br />Wyndham Hotel Shanghai Xingrong<br />25 Ningguo Road, Yangpu, Shanghai"
+conference_time: "2018年5月19日 8:00 ～ 2018年5月19日 17:00"
+conference_time_en: "May 19, 2018 8:00 ~ May 19, 2018 17:00"
