@@ -1,0 +1,13 @@
+version: '3.6'
+services:
+  pycon-dev:
+    build: .
+    image: pycon
+    container_name: pycon-dev-vm
+    volumes: 
+      - ./:/PyConChina
+    ports:
+      - '8080:8080'
+    restart: always
+    stdin_open: true
+    tty: true
