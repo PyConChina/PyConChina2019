@@ -53,8 +53,7 @@ meta:
 #########################################
 organizer:
   -
-    logo: ./asset/img/pycon_logo.png
-    logo_en: ../asset/img/pycon_logo.png
+    logo: /asset/img/sponsors/pycon.jpeg
     link: "https://pychina.org"
     intro: "PyChina 社区"
     intro_en: "PyChina"
@@ -89,6 +88,11 @@ bronze:
 # 图书赞助
 #########################################
 book:
+  -
+    logo: /asset/img/sponsors/turing.jpeg
+    link: "https://ituring.cn"
+    intro: "图灵教育"
+    intro_en: "Turing"
 
 #########################################
 # 社区合作伙伴
