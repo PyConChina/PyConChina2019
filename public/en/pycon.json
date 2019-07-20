@@ -265,7 +265,13 @@
     }
   }, 
   "sponsors": {
-    "book": null, 
+    "book": [
+      {
+        "intro": "Turing", 
+        "link": "https://ituring.cn", 
+        "logo": "/asset/img/sponsors/turing.jpeg"
+      }
+    ], 
     "bronze": null, 
     "community": null, 
     "diamond": null, 
@@ -321,7 +327,7 @@
       {
         "intro": "PyChina", 
         "link": "https://pychina.org", 
-        "logo": "../asset/img/pycon_logo.png"
+        "logo": "/asset/img/sponsors/pycon.jpeg"
       }
     ], 
     "platinum": null, 
