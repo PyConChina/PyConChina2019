@@ -92,7 +92,7 @@ shanghai:
         - time: "09:00-09:20"
           topic: "开场致词"
           topic_en: "Opening remarks"
-        - { time: "09:20-10:00", speaker: id_lijinhong }
+        - { time: "09:20-10:00", speaker: speaker_shanghai_arminronacher }
         - { time: "10:00-10:40", topic: "主题待定", topic_en: "To be determined"}
         - { time: "10:40-11:20", topic: "主题待定", topic_en: "To be determined" }
         - { time: "11:20-12:00", topic: "主题待定", topic_en: "To be determined" }
