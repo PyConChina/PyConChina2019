@@ -14,7 +14,7 @@
       "places": [
         {
           "actived": "active", 
-          "place_name": "Main venue", 
+          "place_name": "Venue A", 
           "speechs": [
             {
               "time": "08:00\uff5e08:50", 
@@ -32,7 +32,7 @@
           "url": "place1_auditorium1"
         }, 
         {
-          "place_name": "Breakout 1", 
+          "place_name": "Venue B", 
           "speechs": [
             {
               "time": "12:10-13:10", 
@@ -42,7 +42,7 @@
           "url": "place1_auditorium2"
         }, 
         {
-          "place_name": "Breakout 2", 
+          "place_name": "Venue C", 
           "speechs": [
             {
               "time": "15:25-15:40", 
@@ -52,7 +52,7 @@
           "url": "place1_auditorium3"
         }, 
         {
-          "place_name": "Breakout 3", 
+          "place_name": "Venue D", 
           "speechs": [
             {
               "time": "15:25-15:40", 
@@ -83,14 +83,14 @@
       "places": [
         {
           "actived": "active", 
-          "place_name": "Main venue", 
+          "place_name": "Venue A", 
           "speechs": [
             {
               "time": "09:00-09:20", 
-              "topic": "Opening remarks - pay tribute to pythoneer"
+              "topic": "Opening remarks"
             }, 
             {
-              "speaker": "id_lijinhong", 
+              "speaker": "speaker_shanghai_arminronacher", 
               "time": "09:20-10:00"
             }, 
             {
@@ -109,31 +109,31 @@
           "url": "place2_auditorium1"
         }, 
         {
-          "place_name": "Breakout 1", 
+          "place_name": "Venue B", 
           "speechs": [
             {
-              "time": "12:10-13:10", 
-              "topic": "Lunch"
+              "time": "09:00-16:00", 
+              "topic": "To be determined"
             }
           ], 
           "url": "place2_auditorium2"
         }, 
         {
-          "place_name": "Breakout 2", 
+          "place_name": "Venue C", 
           "speechs": [
             {
-              "time": "15:25-15:40", 
-              "topic": "Tea Break"
+              "time": "09:00-16:00", 
+              "topic": "To be determined"
             }
           ], 
           "url": "place2_auditorium3"
         }, 
         {
-          "place_name": "Breakout 3", 
+          "place_name": "Venue D", 
           "speechs": [
             {
-              "time": "15:25-15:40", 
-              "topic": "Tea Break"
+              "time": "09:00-16:00", 
+              "topic": "To be determined"
             }
           ], 
           "url": "place2_auditorium4"
@@ -160,6 +160,7 @@
     "pycon_intro": "<p>At the Christmas of 1989, in order to pass the boring Christmas holidays, Guido van Rossum decided to find something to do. He chose to implement a programming language. This programming language is Python.</p> <p>On October 16th, 2000, Python 2.0 was released.</p> <p>Python has been widely used in the computer industry in 30 years. Service development, operation and maintenance, scientific calculation, theoretical simulation and so on. More and more people fall in love with Python and give back to the Python Community in their own form. Perhaps Guido himself did not realize that the language he created,  would be used in so many fields. In a sense, the language he created changed the computer world. </p> <p>In 2019, Pythonist will celebrate Python's 30th anniversary. We will hold PyCon China 2019 to celebrate the birthday of this great language. The main venue of this year's congress will be set up in Shanghai, and branch venues will be set up in Beijing, Hangzhou, Shenzhen, Nanning and so on.</p> <p>Whether you are an expert in server development, operation and maintenance, big data, artificial intelligence, and other fields, if you have any experience you want to share with Pythonists, welcome to sign up for our keynotes or lightning talk!</p>", 
     "pycon_intro_title": "Introduction", 
     "shanghai_booking_now": "Sign up for Shanghai", 
+    "shenzhen_booking_now": "Sign up for Shenzhen", 
     "slogan": "MAY THE PYTHONIC BE WITH YOU", 
     "slogan_title": "PyCon China 2019", 
     "speakers": " Speakers", 
@@ -175,6 +176,15 @@
       "url": "#speakers"
     }, 
     {
+      "title": "SPEAKER", 
+      "url": "https://jinshuju.net/f/BH2z26", 
+      "url_external": 1
+    }, 
+    {
+      "title": "VOLUNTEER", 
+      "url": "#volunteers"
+    }, 
+    {
       "title": "SCHEDULE", 
       "url": "#schedule"
     }, 
@@ -185,33 +195,8 @@
     {
       "children": [
         {
-          "title": 2011, 
-          "url": "http://cn.pycon.org/2011/", 
-          "url_external": 1
-        }, 
-        {
-          "title": 2012, 
-          "url": "http://cn.pycon.org/2012/", 
-          "url_external": 1
-        }, 
-        {
-          "title": 2013, 
-          "url": "http://cn.pycon.org/2013/", 
-          "url_external": 1
-        }, 
-        {
-          "title": 2014, 
-          "url": "http://cn.pycon.org/2014/en/index.html", 
-          "url_external": 1
-        }, 
-        {
-          "title": 2015, 
-          "url": "http://cn.pycon.org/2015/en/index.html", 
-          "url_external": 1
-        }, 
-        {
-          "title": 2016, 
-          "url": "http://cn.pycon.org/2016/en/index.html", 
+          "title": 2018, 
+          "url": "http://cn.pycon.org/2018/en/index.html", 
           "url_external": 1
         }, 
         {
@@ -220,8 +205,33 @@
           "url_external": 1
         }, 
         {
-          "title": 2018, 
-          "url": "http://cn.pycon.org/2018/en/index.html", 
+          "title": 2016, 
+          "url": "http://cn.pycon.org/2016/en/index.html", 
+          "url_external": 1
+        }, 
+        {
+          "title": 2015, 
+          "url": "http://cn.pycon.org/2015/en/index.html", 
+          "url_external": 1
+        }, 
+        {
+          "title": 2014, 
+          "url": "http://cn.pycon.org/2014/en/index.html", 
+          "url_external": 1
+        }, 
+        {
+          "title": 2013, 
+          "url": "http://cn.pycon.org/2013/", 
+          "url_external": 1
+        }, 
+        {
+          "title": 2012, 
+          "url": "http://cn.pycon.org/2012/", 
+          "url_external": 1
+        }, 
+        {
+          "title": 2011, 
+          "url": "http://cn.pycon.org/2011/", 
           "url_external": 1
         }
       ], 
@@ -247,29 +257,202 @@
     "shanghai": {
       "booking_url": "https://www.bagevent.com/event/5293611"
     }, 
+    "shenzhen": {
+      "booking_url": "https://www.bagevent.com/event/5451680"
+    }, 
     "speech_apply_url": "https://jinshuju.net/f/BH2z26", 
     "title": "PyCon 2019 China", 
     "url": "http://cn.pycon.org/2019/"
   }, 
   "speakers": {
-    "id_lijinhong": {
+    "speaker_beijing_jintaozhang": {
+      "avatar": "../asset/images/speakers/lecturer_changhui.png", 
+      "city_beijing": 1, 
+      "intro": "Responsible for the development of container and platform. He is the author of the book: Kubernets: from getting started to practicing.", 
+      "name": "Jintao Zhang", 
+      "shanghai_topic": {
+        "preview": "Kubernetes has become the de facto standard in the field of container orchestration, and companies and teams are beginning to use or gradually explore how to use them in production environments. In most cases, we hope to improve the overall R&D efficiency of the team and improve the efficiency of service deployment and expansion and expansion through Kubernetes. Serverless is not a very new concept, but in the cloud era, we have more possibilities and More gameplay, I hope to share with you the experience of Python development combined with serverless in the Cloud Native, as well as exploration and practice in this process.", 
+        "slide": null, 
+        "title": "A new experience of Python development in the Cloud Native"
+      }, 
+      "short_intro": "Senior Operations and Maintenance Developer of NetEase Inc."
+    }, 
+    "speaker_beijing_lianghongfei": {
+      "avatar": "../asset/images/speakers/lecturer_changhui.png", 
+      "city_beijing": 1, 
+      "intro": "Lianghong Fei is a Principal Evangelist at Amazon Web Services, where he leverages his 20+ years of experience to support innovation and to help startups and companies bring their ideas to live by the power of Cloud. He focuses on software development and cloud native architectures as well as the technical and business impact of Machine Learning and data analytics. Prior to joining AWS, he worked at Apple and Microsoft.", 
+      "name": "Lianghong Fei", 
+      "shanghai_topic": {
+        "preview": "This session will talk about the process of migrating an existing Flask application to AWS Lambda.W e will analyze the existing application, decompose it into individual microservices, adapt authentication, frontend, tests, and data model, and finally deploy it to the Cloud.Throughout this step-by-step process, you will learn the benefits of serverless and how it will change the way you think of scalability, availability, security, infrastructure management, and cost optimization.", 
+        "slide": null, 
+        "title": "Migrating your Python Web app to Serverlessin 30 minutes"
+      }, 
+      "short_intro": "Amazon Web Services"
+    }, 
+    "speaker_chengdu_zhihangliu": {
+      "avatar": "../asset/images/speakers/lecturer_changhui.png", 
+      "city_chengdu": 1, 
+      "intro": "Designed the Malt language in person.His research direction is Programming Language Theory (PLT).", 
+      "name": "Zhihang Liu", 
+      "shanghai_topic": {
+        "preview": "From the perspective of academia, this talk will show the necessity of the static-typed Python, what is the essence of the difference of the static- and dynamic-typed language, and how to add static-typed sysyem into Python with the help of Global Type Inference while remaining Python's flaxibility.", 
+        "slide": null, 
+        "title": "The Static Typed Python"
+      }, 
+      "short_intro": ""
+    }, 
+    "speaker_shanghai_arminronacher": {
       "avatar": "../asset/images/speakers/lecturer_changhui.png", 
       "city_shanghai": 1, 
-      "intro": "main engineer of Code doctor studio, founder of the big snake intelligence, chief artificial intelligence scientist of Beijing Pai Network Software, has released two video tutorials on the CNTK deep learning framework, has published two best-selling books, \u300a\u6df1\u5ea6\u5b66\u4e60\u4e4bTensorflow\uff1a\u5165\u95e8\u3001\u8fdb\u9636\u4e0e\u5b9e\u6218\u300band\u300apython\u5e26\u6211\u8d77\u98de\uff1a\u5165\u95e8\u3001\u8fdb\u9636\u3001\u5546\u4e1a\u5b9e\u6218\u300b.", 
-      "name": "Jinhong Lee", 
+      "intro": "Armin Ronacher is the creator of the Flask, Jinja2, Werkzeug, Click, etc. He cares about well designed systems and APIs. He is currently working on Sentry, an Open Source crash reporting tool.", 
+      "name": "Armin Ronacher", 
       "shanghai_topic": {
         "preview": "", 
         "slide": null, 
         "title": ""
-      }
+      }, 
+      "short_intro": "Armin Ronacher \u662f Flask\u3001Werkzeug\u3001Jinja2\u3001Click \u7b49\u6d41\u884c\u5f00\u6e90\u9879\u76ee\u7684\u4f5c\u8005\u3002\u4ed6\u5173\u6ce8\u4e8e\u8bbe\u8ba1\u826f\u597d\u7684\u7cfb\u7edf\u548c API\u3002\u76ee\u524d\u5f00\u53d1\u4e00\u6b3e\u540d\u4e3a Sentry \u7684\u5f00\u6e90\u9519\u8bef\u62a5\u544a\u5de5\u5177\u3002"
+    }, 
+    "speaker_shanghai_congweisong": {
+      "avatar": "../asset/images/speakers/lecturer_changhui.png", 
+      "city_shanghai": 1, 
+      "intro": "Assistant, PhD of Zhejiang University. I am Interested in Machine Learning\uff0cand my dream is the strong AI", 
+      "name": "William Song", 
+      "shanghai_topic": {
+        "preview": "OWL is a description language for the management of ontological knowledge, and OwlReady2 is its Python interface, that encapsulates the reasoning engine HermiT and Pellet, and can make reasoning based on description logics (DLs). Utilizing Python's dynamic programming, the human-machine dialogue system with reasoning ability based on OwlReady2 is realized. In order to use natural language, a grammar parsing module is built. The system can pass the testing of simple dialogue task.", 
+        "slide": null, 
+        "title": "Human\u2013Machine Interaction based on OwlReady2"
+      }, 
+      "short_intro": "Zhijiang College of zjut"
+    }, 
+    "speaker_shanghai_hengcui": {
+      "avatar": "../asset/images/speakers/lecturer_changhui.png", 
+      "city_shanghai": 1, 
+      "intro": "Master of USTC, have more than 10 years IT development and related experiences, used to work as Senior Engineer of Citrix, CTO of a startup company, now a technology expert of Alibaba. Over the passing years, I\u2019ve been using python for building automation system\u3001website and NLP based chatbot", 
+      "name": "Heng Cui", 
+      "shanghai_topic": {
+        "preview": "In order to alleviate the increasingly congested urban traffic problems, Alibaba cloud has proposed Et-Brain solution basing on data. Our team\u2019s project is to build a distributed\u3001low latency traffic simulation system of the whole city. As the system required all the calculation to be finished in real-time, we chose rust as the low-level implementation. For the high-level application, we use python. We\u2019ve succeed in building a distributed system, which has a lot of python based application running on it using rust-bindings.", 
+        "slide": null, 
+        "title": "Another Python and Rust Love Story"
+      }, 
+      "short_intro": "\u963f\u91cc\u5df4\u5df4 - \u6280\u672f\u4e13\u5bb6"
+    }, 
+    "speaker_shanghai_hsiaomingyang": {
+      "avatar": "../asset/images/speakers/lecturer_changhui.png", 
+      "city_shanghai": 1, 
+      "intro": "Founder of Hsiaoming Ltd. Maintainer of Flask. Running Authlib and Typlog.", 
+      "name": "Hsiaoming Yang", 
+      "shanghai_topic": {
+        "preview": "A talk about security in Flask (itsdangerous, JWT, JWS)", 
+        "slide": null, 
+        "title": "The dangerous Flask"
+      }, 
+      "short_intro": "Founder of Hsiaoming Ltd. Maintainer of Flask. Running Authlib and Typlog."
+    }, 
+    "speaker_shanghai_huili": {
+      "avatar": "../asset/images/speakers/lecturer_changhui.png", 
+      "city_shanghai": 1, 
+      "intro": "", 
+      "name": "Hui Li", 
+      "shanghai_topic": {
+        "preview": "Most of us will face multiple difficulties in Python virtual environment and dependency. At first, you may use virtualenv + requirements.txt and probably with virtualenvwrapper; Then, more new things appear. Pipenv claims itself as a new generation of Python project environment and dependency management tools. It wants to replace those things mentioned above, but it seems that it doesn't do well. After that, more competitors come out. Poetry is the best one between them, it is able to manage dependency as Pipenv. What is more, it can even let you not to write setup.py. Is this the end of the story? Of course not, PEP 582, which still in draft stage, is on the sidelines, trying to end all this chaos.", 
+        "slide": null, 
+        "title": "Fighting among Python virtual environment and dependency management tools"
+      }, 
+      "short_intro": "Individual developer, maintainer of Flask, author of Flask Web Development"
+    }, 
+    "speaker_shanghai_jiahualu": {
+      "avatar": "../asset/images/speakers/lecturer_changhui.png", 
+      "city_shanghai": 1, 
+      "intro": "Mr. Lu joins in Xilinx in the year 2006. Now he is the senior manager of Xilinx Academic and Innovative Ecology institute, leading Xilinx's open-source innovation work in the Asia Pacific region, including the open-source community, cutting-edge technology startup incubation, academic collaboration, etc. Mr. Lu wrote the world's first using guide of NetFPGA and developer's guide of Zynq. He is also a standing committee of CCF TCARC and secretary-general of Information Technology New Engineering, Industry, Education and Research Alliance - Customizable Computing Talent Training Committee.", 
+      "name": "Jiahua Lu", 
+      "shanghai_topic": {
+        "preview": "Pynq project is an open-source project which starts by Xilinx institute in order to mix Python ecosystem and FPGA hardware programming.  This is the world's first try to mix Python and Domain Specific Architecture. Software developers can apply FPGA parallel computing and flexible configuration features to end devices through Python programming, which is suitable for accelerating a wide range of applications. And hardware developers (chip design) can quickly get Python support through the Pynq framework to accelerate their data analysis, display, etc. Hundreds of hardware-accelerated Overlays have been provided in the PYNQ open source community, including artificial intelligence reasoning, machine vision, video transcoding, data compression, industrial Internet of Things, etc. The report will introduce the practice of using the framework for open source frameworks such as ROS, Ray, OpenCV, and analyze the impact of Python language on FPGA devices during programming application development, performance results, etc., And introduce the road map for subsequent development of the project.", 
+        "slide": null, 
+        "title": "When Python meet FPGA -- the experience and feeling of Pynq opensource project"
+      }, 
+      "short_intro": "Senior Manager of Xilinx Academic and Innovative Ecology institude"
+    }, 
+    "speaker_shanghai_laiqiangding": {
+      "avatar": "../asset/images/speakers/lecturer_changhui.png", 
+      "city_shanghai": 1, 
+      "intro": "More than 10 years of work experience in DevSecOps\u3001AIOps and so on. Former Splunk Senior Architect in a top company in big data. Willing to share, make more than a dozen of speech or live in PyCon and Yunqi. Topic including several fields like Big Data Analysis Processing, Scheduling Monitoring, Visual Analysis, and Python Core Series. These speeches gain warmly welcome by the listeners.", 
+      "name": "Laiqiang Ding", 
+      "shanghai_topic": {
+        "preview": "According to the report by Gartner, AIOps will be widely used soon ( about 5 to 10 years), and it will use several Ops platform like \uff08Dev\u3001IT\u3001Net\u3001Sec\uff09. In this speech, I'll introduce you about the core features of AIOps, difficult point of it  (Data acquisition, data center, intelligent algorithm, automation... ) How to select an open-source program of your project and introduce the importance of Python in it. This speech will including open-source program Kafka\u3001ELK\u3001K8S\u3001Prometheus\u3001Grafana\u3001Graphite\u3001Ansible\u3001Airflow\u3001Flink\u3001TensorFlow\u3001OpenTelemetry etc.", 
+        "slide": null, 
+        "title": "Building of open source AIOps data center and the role of Python"
+      }, 
+      "short_intro": "Leader of Ali cloud service in Shanghai"
+    }, 
+    "speaker_shanghai_xiaotan": {
+      "avatar": "../asset/images/speakers/lecturer_changhui.png", 
+      "city_shanghai": 1, 
+      "intro": "", 
+      "name": "Xiao Tan", 
+      "shanghai_topic": {
+        "preview": "Graphics is an interesting subject, so using elegant Python code to implement algorithm is also a lovely diversion. In this speech, I'll share some funny things in the process of using Python to implement a simple software renderer", 
+        "slide": null, 
+        "title": "Make a renderer within 500 lines Python codes"
+      }, 
+      "short_intro": "Developer of Ant Fincial Inc."
+    }, 
+    "speaker_shanghai_zhaoqiangchen": {
+      "avatar": "../asset/images/speakers/lecturer_changhui.png", 
+      "city_shanghai": 1, 
+      "intro": "He developes D3Pockets which is a software related to medicine reserch; Using sphinx making website http://pymol.chenzhaoqiang.com/", 
+      "name": "Zhaoqiang Chen", 
+      "shanghai_topic": {
+        "preview": "Sphinx is a tool which allows developers to write their document in plain text and output several formats like PDF, HTML, etc. Sphinx is written in Python and its original design aim is to help to make Python document. And many projects are using sphinx to write their document, for example, matplotlib, scrapy... Sphinx will high light Python codes in default, but it still supports other programming languages like C and Ruby. Comparing to MarkDown, it is a bit more complicated but with higher flexibility and can make a more beautiful document. It also supports customize grammar. In my point of view, markdown is a piece of paper and sphinx is a book. If you want to record many things, why not try to use sphinx?", 
+        "slide": null, 
+        "title": "Using spinx to make WEB document"
+      }, 
+      "short_intro": "Shanghai Institute of Advanced Drugs, Chinese Academy of Sciences Senior researcher. "
+    }, 
+    "speaker_shenzhen_chaoxie": {
+      "avatar": "../asset/images/speakers/lecturer_changhui.png", 
+      "city_shenzhen": 1, 
+      "intro": "Responsible for data developmenting, acquisiting,  analysising, and collection in Gekko Lab.", 
+      "name": "Chao Xie", 
+      "shanghai_topic": {
+        "preview": "\u4e00\u884c\u4ee3\u7801\uff0c\u52a0\u901f\u79d1\u5b66\u8ba1\u7b97\u6846\u67b6pandas.<ul> <li>What is modin? What's the difference between modin and pandas? How to start using modin?</li> <li>Speed: modin V.S. pandas</li> <li>Low-level principles: how to make full use the power of multi-core to parallel the scientific computing?</li> <li>The limitation and community's ambition of modin</li></ul>", 
+        "slide": null, 
+        "title": "Boost the scientific computing with one line of code"
+      }, 
+      "short_intro": "Data Engineer of Gekko Lab"
+    }, 
+    "speaker_shenzhen_fengzhao": {
+      "avatar": "../asset/images/speakers/lecturer_changhui.png", 
+      "city_shenzhen": 1, 
+      "intro": "Engaged research related to machine learning", 
+      "name": "Feng Zhao", 
+      "shanghai_topic": {
+        "preview": "<ul> <li>How to build a Python package, how to make Python extension with C, C++, and Fortran</li> <li>How to make wheel package in various plateforms, how to build binary packages target to manylinux, how to solve the dependency on windows, how to release the package to pypi.org with the help of CI</li></ul>", 
+        "slide": null, 
+        "title": "Pack and release Python C extensions in various plateforms"
+      }, 
+      "short_intro": "PhD student of Shenzhen Graduate School of Tsinghua University"
+    }, 
+    "speaker_shenzhen_zagfai": {
+      "avatar": "../asset/images/speakers/lecturer_changhui.png", 
+      "city_shenzhen": 1, 
+      "intro": "Eight years of Python's experience, 15 years of programming experience, Zagfai has worked for Cheetah Mobile, wroted the first commit for the server side of cheetah backup masters, Whatscall and other projects, built a Python system that support hundreds of millions of users. He is an algorithm lover and an automation enthusiast.", 
+      "name": "Zagfai", 
+      "shanghai_topic": {
+        "preview": "", 
+        "slide": null, 
+        "title": ""
+      }, 
+      "short_intro": "Programmer of Touchall"
     }
   }, 
   "sponsors": {
     "book": [
       {
-        "intro": "Turing", 
+        "intro": "", 
         "link": "https://ituring.cn", 
-        "logo": "/asset/img/sponsors/turing.jpeg"
+        "logo": "../asset/img/sponsors/turing.jpeg", 
+        "name": "Turing"
       }
     ], 
     "bronze": null, 
@@ -325,9 +508,10 @@
     ], 
     "organizer": [
       {
-        "intro": "PyChina", 
+        "intro": "", 
         "link": "https://pychina.org", 
-        "logo": "/asset/img/sponsors/pycon.jpeg"
+        "logo": "../asset/img/sponsors/pycon.jpeg", 
+        "name": "PyChina"
       }
     ], 
     "platinum": null, 
@@ -340,7 +524,7 @@
       {
         "avatar": "../asset/images/avatar-2019/volunteers/chenshixin.png", 
         "blog": "http://sting.topgeek.org/", 
-        "intro": "Ahaschool-CTO<br/>Sponsor of PyChina", 
+        "intro": "Sponsor of PyChina <br />Ahaschool-CTO", 
         "name": "StingChen(Shixin Chen)", 
         "role": "organizer", 
         "role_organizer": 1, 
@@ -349,7 +533,7 @@
       {
         "avatar": "../asset/images/avatar-2019/volunteers/dama.png", 
         "blog": "http://zoomquiet.io/", 
-        "intro": "Parter of \u4f18\u52bf\u773c\u52a8<br/>Sponsor of PyChina", 
+        "intro": "Sponsor of PyChina<br />uSEE.tech CTO", 
         "name": "Zoom.Quiet (Dama)", 
         "role": "organizer", 
         "role_organizer": 1, 
@@ -357,8 +541,8 @@
       }, 
       {
         "avatar": "../asset/images/avatar-2019/volunteers/lihui.png", 
-        "blog": null, 
-        "intro": "\u4e0a\u6d77\u7ad9 | \u7ec4\u59d4<br/>\u81ea\u7531\u804c\u4e1a", 
+        "blog": "http://greyli.com", 
+        "intro": "Shanghai <br />Freelance Web Developer", 
         "name": "Grey Li", 
         "role": "organizer", 
         "role_organizer": 1, 
@@ -366,8 +550,8 @@
       }, 
       {
         "avatar": "../asset/images/avatar-2019/volunteers/wangbinxin.png", 
-        "blog": null, 
-        "intro": "\u4e0a\u6d77\u7ad9 | \u7ec4\u59d4<br/>\u963f\u91cc\u4e91 - \u9ad8\u7ea7\u5f00\u53d1\u5de5\u7a0b\u5e08", 
+        "blog": "https://www.zhihu.com/people/prodesire", 
+        "intro": "Shanghai <br /> Aliyun - Senior Developer", 
         "name": "Binxin Wang", 
         "role": "organizer", 
         "role_organizer": 1, 
@@ -375,8 +559,8 @@
       }, 
       {
         "avatar": "../asset/images/avatar-2019/volunteers/zhangjintao.png", 
-        "blog": null, 
-        "intro": "\u4e0a\u6d77\u7ad9 | \u7ec4\u59d4<br/>\u7f51\u6613\u6709\u9053-\u8d44\u6df1\u8fd0\u7ef4\u5f00\u53d1", 
+        "blog": "https://moelove.info", 
+        "intro": "Shanghai | NetEase, Inc.", 
         "name": "Jintao Zhang", 
         "role": "organizer", 
         "role_organizer": 1, 
@@ -385,7 +569,7 @@
       {
         "avatar": "../asset/images/avatar-2019/volunteers/zhanghongke.png", 
         "blog": null, 
-        "intro": "\u4e0a\u6d77\u7ad9 | \u7ec4\u59d4<br/>\u70b9\u6211\u8fbe - \u8d44\u6df1\u5f00\u53d1\u5de5\u7a0b\u5e08", 
+        "intro": "Shanghai | Dianwoda - Senior Developer", 
         "name": "Hongke Zhang", 
         "role": "organizer", 
         "role_organizer": 1, 
@@ -394,8 +578,8 @@
       {
         "avatar": "../asset/images/avatar-2019/volunteers/dengliangju.png", 
         "blog": null, 
-        "intro": "\u4e0a\u6d77\u7ad9 | \u7ec4\u59d4<br/>\u79d8\u5854\u79d1\u6280 - \u5de5\u7a0b\u603b\u76d1", 
-        "name": "\u9093\u826f\u9a79", 
+        "intro": "Shanghai | Mita tec.", 
+        "name": "Liangju Deng", 
         "role": "organizer", 
         "role_organizer": 1, 
         "weibo": null
@@ -403,7 +587,7 @@
       {
         "avatar": "../asset/images/avatar-2019/volunteers/jonhuang.png", 
         "blog": null, 
-        "intro": "\u4e0a\u6d77\u7ad9 | \u7ec4\u59d4<br/>yield.im - \u521b\u59cb\u4eba", 
+        "intro": "Shanghai | Founder of yield.im", 
         "name": "Jon Huang", 
         "role": "organizer", 
         "role_organizer": 1, 
@@ -411,18 +595,18 @@
       }, 
       {
         "avatar": "../asset/images/avatar-2019/volunteers/lizheao.png", 
-        "blog": null, 
-        "intro": "\u4e0a\u6d77\u7ad9 | \u7ec4\u59d4<br/>\u997f\u4e86\u4e48\u8d44\u6df1\u5f00\u53d1\u5de5\u7a0b\u5e08", 
-        "name": "\u674e\u8005\u7488", 
+        "blog": "https://www.zhihu.com/people/li-zhe-ao/activities\uff09", 
+        "intro": "Shanghai | Senior Developer of Ele.me", 
+        "name": "Zheao Li", 
         "role": "organizer", 
         "role_organizer": 1, 
         "weibo": null
       }, 
       {
         "avatar": "../asset/images/avatar-2019/volunteers/qinxuye.png", 
-        "blog": null, 
-        "intro": "\u4e0a\u6d77\u7ad9 | \u7ec4\u59d4<br/>\u963f\u91cc\u5df4\u5df4-\u6280\u672f\u4e13\u5bb6", 
-        "name": "\u79e6\u7eed\u4e1a", 
+        "blog": "http://qinxuye.me/", 
+        "intro": "Shanghai | Senior Developer of Alibaba", 
+        "name": "Xuye Qin", 
         "role": "organizer", 
         "role_organizer": 1, 
         "weibo": null
@@ -430,8 +614,80 @@
       {
         "avatar": "../asset/images/avatar-2019/volunteers/zhumingfang.png", 
         "blog": null, 
-        "intro": "\u4e0a\u6d77\u7ad9 | \u7ec4\u59d4<br/>\u8d5b\u5b81-\u4fe1\u606f\u5b89\u5168\u5de5\u7a0b\u5e08", 
-        "name": "\u6731\u660e\u653e", 
+        "intro": "Shanghai | Information security engineer of Saining", 
+        "name": "Mingfang Zhu", 
+        "role": "organizer", 
+        "role_organizer": 1, 
+        "weibo": null
+      }, 
+      {
+        "avatar": "../asset/images/avatar-2019/volunteers/zhumingfang.png", 
+        "blog": null, 
+        "intro": "Shanghai | Software Engineer of Intel Inc.", 
+        "name": "Yuankun Shi", 
+        "role": "organizer", 
+        "role_organizer": 1, 
+        "weibo": null
+      }, 
+      {
+        "avatar": "../asset/images/avatar-2019/volunteers/zhumingfang.png", 
+        "blog": "http://river.aipy.org", 
+        "intro": "Shanghai | CTO of Quseit Inc., Developer of QPython", 
+        "name": "River", 
+        "role": "organizer", 
+        "role_organizer": 1, 
+        "weibo": null
+      }, 
+      {
+        "avatar": "../asset/images/avatar-2019/volunteers/zhumingfang.png", 
+        "blog": null, 
+        "intro": "Shanghai | Senior Developer", 
+        "name": "Shaofei Dai", 
+        "role": "organizer", 
+        "role_organizer": 1, 
+        "weibo": null
+      }, 
+      {
+        "avatar": "../asset/images/avatar-2019/volunteers/zhumingfang.png", 
+        "blog": null, 
+        "intro": "Shanghai | R&D Engineer of Bytedance Inc.", 
+        "name": "Xiangyu He", 
+        "role": "organizer", 
+        "role_organizer": 1, 
+        "weibo": null
+      }, 
+      {
+        "avatar": "../asset/images/avatar-2019/volunteers/zhumingfang.png", 
+        "blog": null, 
+        "intro": "Shanghai | Coach and Architect Designer of Automated Test in Nokia Bell", 
+        "name": "Xiangyu He", 
+        "role": "organizer", 
+        "role_organizer": 1, 
+        "weibo": null
+      }, 
+      {
+        "avatar": "../asset/images/avatar-2019/volunteers/zhumingfang.png", 
+        "blog": null, 
+        "intro": "Shanghai | Senior Architect Designer of Deep Learning in Nvidia. Shanghai", 
+        "name": "Jiaojie Zhang", 
+        "role": "organizer", 
+        "role_organizer": 1, 
+        "weibo": null
+      }, 
+      {
+        "avatar": "../asset/images/avatar-2019/volunteers/zhumingfang.png", 
+        "blog": null, 
+        "intro": "Shanghai | DevOps of Saicmobility Inc.", 
+        "name": "Junhao Ding", 
+        "role": "organizer", 
+        "role_organizer": 1, 
+        "weibo": null
+      }, 
+      {
+        "avatar": "../asset/images/avatar-2019/volunteers/zhumingfang.png", 
+        "blog": null, 
+        "intro": "Shanghai | Engineer of Tencent Inc.", 
+        "name": "Spawnris", 
         "role": "organizer", 
         "role_organizer": 1, 
         "weibo": null
