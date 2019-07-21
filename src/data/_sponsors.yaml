@@ -53,10 +53,13 @@ meta:
 #########################################
 organizer:
   -
-    logo: /asset/img/sponsors/pycon.jpeg
+    logo: ./asset/img/sponsors/pycon.jpeg
+    logo: ../asset/img/sponsors/pycon.jpeg
     link: "https://pychina.org"
-    intro: "PyChina 社区"
-    intro_en: "PyChina"
+    name: "PyChina 社区"
+    name_en: "PyChina"
+    intro: ""
+    intro_en: ""
 
 #########################################
 # 钻石级
@@ -89,10 +92,13 @@ bronze:
 #########################################
 book:
   -
-    logo: /asset/img/sponsors/turing.jpeg
+    logo: ./asset/img/sponsors/turing.jpeg
+    logo_en: ../asset/img/sponsors/turing.jpeg
     link: "https://ituring.cn"
-    intro: "图灵教育"
-    intro_en: "Turing"
+    name: "图灵教育"
+    name_en: "Turing"
+    intro: ""
+    intro_en: ""
 
 #########################################
 # 社区合作伙伴
