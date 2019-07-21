@@ -23,8 +23,8 @@ beijing:
   date_en: Otc.19th 2019 9:00 to 17:00
   notices: ""
   places:
-    - place_name: 主会场
-      place_name_en: "Main venue"
+    - place_name: 会场 A
+      place_name_en: "Venue A"
       url: place1_auditorium1
       actived: active
       speechs:
@@ -38,24 +38,24 @@ beijing:
           topic: "主题待定"
           topic_en: "To be determined"
 
-    - place_name: 分会场 1
-      place_name_en: Breakout 1
+    - place_name: 会场 B
+      place_name_en: "Venue B"
       url: place1_auditorium2
       speechs:
        - time: "12:10-13:10"
          topic: "午餐"
          topic_en: "Lunch"
 
-    - place_name: 分会场 2
-      place_name_en: Breakout 2
+    - place_name: 会场 C
+      place_name_en: "Venue C"
       url: place1_auditorium3
       speechs:
        - time: "15:25-15:40"
          topic: "茶歇"
          topic_en: "Tea Break"
 
-    - place_name: 分会场 3
-      place_name_en: Breakout 3
+    - place_name: 会场 D
+      place_name_en: "Venue D"
       url: place1_auditorium4
       speechs:
        - time: "15:25-15:40"
@@ -84,42 +84,43 @@ shanghai:
   date_en: Sept.21st 2019 8:00 to 17:00
   notices: ""
   places:
-    - place_name: 主会场
-      place_name_en: "Main venue"
+    - place_name: 会场 A
+      place_name_en: "Venue A"
       url: place2_auditorium1
       actived: active
       speechs:
         - time: "09:00-09:20"
-          topic: "开场致词—致敬 Pythoneer"
-          topic_en: "Opening remarks - pay tribute to pythoneer"
+          topic: "开场致词"
+          topic_en: "Opening remarks"
         - { time: "09:20-10:00", speaker: id_lijinhong }
         - { time: "10:00-10:40", topic: "主题待定", topic_en: "To be determined"}
         - { time: "10:40-11:20", topic: "主题待定", topic_en: "To be determined" }
         - { time: "11:20-12:00", topic: "主题待定", topic_en: "To be determined" }
 
-    - place_name: 分会场 1
-      place_name_en: Breakout 1
+    - place_name: 会场 B
+      place_name_en: Venue B
       url: place2_auditorium2
       speechs:
-       - time: "12:10-13:10"
-         topic: "午餐"
-         topic_en: "Lunch"
+        - time: "09:00-16:00"
+          topic: "待定"
+          topic_en: "To be determined"
+        
 
-    - place_name: 分会场 2
-      place_name_en: Breakout 2
+    - place_name: 会场 C
+      place_name_en: Venue C
       url: place2_auditorium3
       speechs:
-       - time: "15:25-15:40"
-         topic: "茶歇"
-         topic_en: "Tea Break"
+        - time: "09:00-16:00"
+          topic: "待定"
+          topic_en: "To be determined"
 
-    - place_name: 分会场 3
-      place_name_en: Breakout 3
+    - place_name: 会场 D
+      place_name_en: Venue D
       url: place2_auditorium4
       speechs:
-       - time: "15:25-15:40"
-         topic: "茶歇"
-         topic_en: "Tea Break"
+        - time: "09:00-16:00"
+          topic: "待定"
+          topic_en: "To be determined"
 
   lightening_talks:
   cancel_talks:
