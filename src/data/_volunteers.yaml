@@ -142,8 +142,8 @@ organizers:
   name_en: River
   role: organizer
   role_organizer: 1
-  avatar: ./asset/images/avatar-2019/volunteers/zhumingfang.png
-  avatar_en: ../asset/images/avatar-2019/volunteers/zhumingfang.png
+  avatar: ./asset/images/avatar-2019/volunteers/river.png
+  avatar_en: ../asset/images/avatar-2019/volunteers/river.png
   intro: 上海站 | 组委<br/>优趣天下CTO、QPython开发者
   intro_en: Shanghai | CTO of Quseit Inc., Developer of QPython
   blog: http://river.aipy.org
@@ -153,8 +153,8 @@ organizers:
   name_en: Shaofei Dai
   role: organizer
   role_organizer: 1
-  avatar: ./asset/images/avatar-2019/volunteers/zhumingfang.png
-  avatar_en: ../asset/images/avatar-2019/volunteers/zhumingfang.png
+  avatar: ./asset/images/avatar-2019/volunteers/daishaofei.png
+  avatar_en: ../asset/images/avatar-2019/volunteers/daishaofei.png
   intro: 上海站 | 组委<br/>小橙奔跑 高级开发工程师
   intro_en: Shanghai | Senior Developer
   blog: 
@@ -164,19 +164,19 @@ organizers:
   name_en: Xiangyu He
   role: organizer
   role_organizer: 1
-  avatar: ./asset/images/avatar-2019/volunteers/zhumingfang.png
-  avatar_en: ../asset/images/avatar-2019/volunteers/zhumingfang.png
+  avatar: ./asset/images/avatar-2019/volunteers/hexiangyu.png
+  avatar_en: ../asset/images/avatar-2019/volunteers/hexiangyu.png
   intro: 上海站 | 组委<br/>字节跳动研发工程师
   intro_en: Shanghai | R&D Engineer of Bytedance Inc.
   blog: 
   weibo:
 -
   name: 叶敏
-  name_en: Xiangyu He
+  name_en: Min Ye
   role: organizer
   role_organizer: 1
-  avatar: ./asset/images/avatar-2019/volunteers/zhumingfang.png
-  avatar_en: ../asset/images/avatar-2019/volunteers/zhumingfang.png
+  avatar: ./asset/images/avatar-2019/volunteers/yemin.png
+  avatar_en: ../asset/images/avatar-2019/volunteers/yemin.png
   intro: 上海站 | 组委<br/>诺基亚贝尔 自动化测试教练 自动化测试架构师
   intro_en: Shanghai | Coach and Architect Designer of Automated Test in Nokia Bell 
   blog: 
@@ -186,8 +186,8 @@ organizers:
   name_en: Jiaojie Zhang
   role: organizer
   role_organizer: 1
-  avatar: ./asset/images/avatar-2019/volunteers/zhumingfang.png
-  avatar_en: ../asset/images/avatar-2019/volunteers/zhumingfang.png
+  avatar: ./asset/images/avatar-2019/volunteers/zhangjiaojie.png
+  avatar_en: ../asset/images/avatar-2019/volunteers/zhangjiaojie.png
   intro: 上海站 | 组委<br/>英伟达（上海）科技有限公司  资深深度学习架构工程师
   intro_en: Shanghai | Senior Architect Designer of Deep Learning in Nvidia. Shanghai
   blog: 
@@ -197,8 +197,8 @@ organizers:
   name_en: Junhao Ding
   role: organizer
   role_organizer: 1
-  avatar: ./asset/images/avatar-2019/volunteers/zhumingfang.png
-  avatar_en: ../asset/images/avatar-2019/volunteers/zhumingfang.png
+  avatar: ./asset/images/avatar-2019/volunteers/dingjunhao.png
+  avatar_en: ../asset/images/avatar-2019/volunteers/dingjunhao.png
   intro: 上海站 | 组委<br/>享道出行 DevOps
   intro_en: Shanghai | DevOps of Saicmobility Inc.
   blog: 
@@ -208,8 +208,8 @@ organizers:
   name_en: Spawnris
   role: organizer
   role_organizer: 1
-  avatar: ./asset/images/avatar-2019/volunteers/zhumingfang.png
-  avatar_en: ../asset/images/avatar-2019/volunteers/zhumingfang.png
+  avatar: ./asset/images/avatar-2019/volunteers/gaojunteng.png
+  avatar_en: ../asset/images/avatar-2019/volunteers/gaojunteng.png
   intro: 上海站 | 组委<br/>腾讯  工程师
   intro_en: Shanghai | Engineer of Tencent Inc.
   blog: 
