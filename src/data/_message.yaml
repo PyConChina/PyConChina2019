@@ -6,12 +6,55 @@ page_title_index_en: HOME
 #########################################
 # index
 #########################################
-beijing_booking_now: 报名北京场
-beijing_booking_now_en: Sign up for Beijing
-shanghai_booking_now: 报名上海场
-shanghai_booking_now_en: Sign up for Shanghai
-shenzhen_booking_now: 报名深圳场
-shenzhen_booking_now_en: Sign up for Shenzhen
+booking_now:
+  - name: "上海"
+    name_en: "Shanghai"
+    url: "https://www.bagevent.com/event/5293611"
+    time: "2018年5月19日 8:00 ~ 17:00"
+    time_en: "May 19, 2018 8:00 ~ 17:00"
+    location: "上海杨浦宁国路25号上海兴荣温德姆酒店2楼会议厅"
+    location_en: "Conference Hall, 2nd Floor, Wyndham Hotel Shanghai Xingrong, 25 Ningguo Road, Yangpu, Shanghai"
+  - name: "北京"
+    name_en: "Beijing"
+    url: "https://www.bagevent.com/event/5717698"
+    time:
+    time_en:
+    location: 
+    location_en:
+  - name: "杭州"
+    name_en: "Hangzhou"
+    url: "#"
+    time:
+    time_en:
+    location: 
+    location_en:
+  - name: "深圳"
+    name_en: "Shenzhen"
+    url: "https://www.bagevent.com/event/5451680"
+    time:
+    time_en:
+    location: 
+    location_en:
+  - name: "成都"
+    name_en: "Chengdu"
+    url: "#"
+    time:
+    time_en:
+    location: 
+    location_en:
+  - name: "南宁"
+    name_en: "Nanning"
+    url: "#"
+    time:
+    time_en:
+    location: 
+    location_en:
+
+booking_title_before: "报名"
+booking_title_after: "场"
+booking_title_before_en: "Sign up for"
+booking_title_after_en: ""
+
 speech_apple_now: 申请演讲
 speech_apple_now_en: Apply for a speech
 pycon_intro_title: 活动简介
