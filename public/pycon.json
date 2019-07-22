@@ -266,7 +266,7 @@
   }, 
   "speakers": {
     "speaker_beijing_jintaozhang": {
-      "avatar": "./asset/images/speakers/lecturer_changhui.png", 
+      "avatar": "./asset/images/speakers/zhangjintao.jpg", 
       "city_beijing": 1, 
       "intro": "\u8d1f\u8d23\u5bb9\u5668\u5316\u53ca\u5e73\u53f0\u5316\u5f00\u53d1\uff0cKubernetes \u4ece\u4e0a\u624b\u5230\u5b9e\u8df5\u4f5c\u8005", 
       "name": "\u5f20\u664b\u6d9b", 
@@ -278,7 +278,7 @@
       "short_intro": "\u7f51\u6613\u6709\u9053\u8d44\u6df1\u8fd0\u7ef4\u5f00\u53d1"
     }, 
     "speaker_beijing_lianghongfei": {
-      "avatar": "./asset/images/speakers/lecturer_changhui.png", 
+      "avatar": "./asset/images/speakers/feilianghong.jpg", 
       "city_beijing": 1, 
       "intro": "\u4f5c\u4e3aPrincipal Evangelist \u4efb\u804c\u4e8eAWS,\u4e3b\u8981\u4e13\u6ce8\u4e8e\u4e91\u8ba1\u7b97\u4ee5\u53ca\u4e92\u8054\u7f51\u7b49\u6280\u672f\u9886\u57df\u3002\u5176\u62e5\u6709\u8d85\u8fc720\u5e74\u5728IT\u884c\u4e1a\u4ee5\u53ca\u8f6f\u4ef6\u5f00\u53d1\u9886\u57df\u7684\u5de5\u4f5c\u7ecf\u9a8c\uff1b\u66fe\u7ecf\u4efb\u804c\u4e8eMicrosoft\u3001Apple \u7b49\u77e5\u540d\u4f01\u4e1a\uff0c\u4efb\u804c\u67b6\u6784\u5e08\u3001\u6280\u672f\u987e\u95ee\u7b49\u804c\u52a1\uff0c\u53c2\u4e0e\u8fc7\u591a\u4e2a\u5927\u578b\u8f6f\u4ef6\u9879\u76ee\u7684\u8bbe\u8ba1\u3001\u5f00\u53d1\u4e0e\u9879\u76ee\u7ba1\u7406\uff1b\u5e76\u4e8e2009\u5e74\u5f00\u59cb\uff0c\u4ece\u4e8b\u4e0e\u4e91\u8ba1\u7b97\u9886\u57df\u76f8\u5173\u7684\u6280\u672f\u5de5\u4f5c\uff1b\u7814\u7a76\u65b9\u5411\u4e3b\u8981\u662f\u8f6f\u4ef6\u67b6\u6784\u7684\u6f14\u8fdb\uff0c\u5c24\u5176\u662f\u4e91\u8ba1\u7b97\u65b9\u9762\u7684\u67b6\u6784\u5b9e\u8df5\uff0c\u5e76\u64c5\u957fWeb\u5e94\u7528\u3001\u79fb\u52a8\u5e94\u7528\u4ee5\u53ca\u673a\u5668\u5b66\u4e60\u7b49\u7684\u5f00\u53d1\u3002", 
       "name": "\u8d39\u826f\u5b8f", 
@@ -290,7 +290,7 @@
       "short_intro": "Amazon Web Services"
     }, 
     "speaker_chengdu_zhihangliu": {
-      "avatar": "./asset/images/speakers/lecturer_changhui.png", 
+      "avatar": "./asset/images/speakers/liuzhihang.png", 
       "city_chengdu": 1, 
       "intro": "\u72ec\u7acb\u5b8c\u6210\u4e86Malt\u8bed\u8a00\u7684\u5f00\u53d1\u3002\u7814\u7a76\u65b9\u5411\u4e3aPLT\uff08\u7f16\u7a0b\u8bed\u8a00\u7406\u8bba\uff09\u65b9\u5411\u3002", 
       "name": "\u5218\u77e5\u676d", 
@@ -302,7 +302,7 @@
       "short_intro": "\u5e7f\u5dde\u5929\u9a8c\u7f51\u7edc\u79d1\u6280\u6709\u9650\u516c\u53f8 \u53cd\u9006\u5411\u5f15\u64ce\u7ec4\u7ec4\u957f"
     }, 
     "speaker_shanghai_arminronacher": {
-      "avatar": "./asset/images/speakers/lecturer_changhui.png", 
+      "avatar": "./asset/images/speakers/arminronacher.png", 
       "city_shanghai": 1, 
       "intro": "Armin Ronacher is the creator of the Flask, Jinja2, Werkzeug, Click, etc. He cares about well designed systems and APIs. He is currently working on Sentry, an Open Source crash reporting tool.", 
       "name": "Armin Ronacher", 
@@ -314,7 +314,7 @@
       "short_intro": "Armin Ronacher \u662f Flask\u3001Werkzeug\u3001Jinja2\u3001Click \u7b49\u6d41\u884c\u5f00\u6e90\u9879\u76ee\u7684\u4f5c\u8005\u3002\u4ed6\u5173\u6ce8\u4e8e\u8bbe\u8ba1\u826f\u597d\u7684\u7cfb\u7edf\u548c API\u3002\u76ee\u524d\u5f00\u53d1\u4e00\u6b3e\u540d\u4e3a Sentry \u7684\u5f00\u6e90\u9519\u8bef\u62a5\u544a\u5de5\u5177\u3002"
     }, 
     "speaker_shanghai_congweisong": {
-      "avatar": "./asset/images/speakers/lecturer_changhui.png", 
+      "avatar": "./asset/images/speakers/songcongwei.jpg", 
       "city_shanghai": 1, 
       "intro": "\u8bb2\u5e08\uff0c\u6d59\u5927\u6570\u5b66\u7cfb\u7406\u5b66\u535a\u58eb. \u76ee\u524d\u5173\u6ce8\u673a\u5668\u5b66\u4e60\uff0c\u6211\u7684\u68a6\u60f3\u662f\u5f3a\u4eba\u5de5\u667a\u80fd", 
       "name": "\u5b8b\u4e1b\u5a01", 
@@ -326,7 +326,7 @@
       "short_intro": "\u6d59\u6c5f\u5de5\u4e1a\u5927\u5b66\u4e4b\u6c5f\u5b66\u9662"
     }, 
     "speaker_shanghai_hengcui": {
-      "avatar": "./asset/images/speakers/lecturer_changhui.png", 
+      "avatar": "./asset/images/speakers/cuiheng.png", 
       "city_shanghai": 1, 
       "intro": "\u4e2d\u56fd\u79d1\u5b66\u6280\u672f\u5927\u5b66\u7855\u58eb\u6bd5\u4e1a\uff0c\u670910\u4f59\u5e74\u7684IT\u5f00\u53d1\u548c\u4ece\u4e1a\u7ecf\u9a8c\uff0c\u5386\u4efbCitrix\u9ad8\u7ea7\u5f00\u53d1\u5de5\u7a0b\u5e08\u3001\u521b\u4e1a\u516c\u53f8CTO\u3001\u963f\u91cc\u5df4\u5df4\u6280\u672f\u4e13\u5bb6\u7b49\uff0c\u6709\u591a\u5e74\u7684Python\u5f00\u53d1\u7ecf\u9a8c\uff0c\u4f7f\u7528Python\u6784\u5efa\u8fc7\u81ea\u52a8\u5316\u7cfb\u7edf\u3001\u7f51\u7ad9\u3001\u57fa\u4e8e\u81ea\u7136\u8bed\u8a00\u5904\u7406\u7684\u804a\u5929\u673a\u5668\u4eba\u3002", 
       "name": "\u5d14\u8861", 
@@ -338,7 +338,7 @@
       "short_intro": "\u963f\u91cc\u5df4\u5df4 - \u6280\u672f\u4e13\u5bb6"
     }, 
     "speaker_shanghai_hsiaomingyang": {
-      "avatar": "./asset/images/speakers/lecturer_changhui.png", 
+      "avatar": "./asset/images/speakers/hsiaomingyang.jpg", 
       "city_shanghai": 1, 
       "intro": "Hsiaoming Yang \u662f Authlib \u548c Typlog \u7684\u4f5c\u8005\uff0cFlask \u7b49\u9879\u76ee\u7684\u7ef4\u62a4\u8005\uff0cHsiaoming Ltd \u521b\u59cb\u4eba\u3002", 
       "name": "Hsiaoming Yang", 
@@ -350,7 +350,7 @@
       "short_intro": "Hsiaoming Yang \u662f Authlib \u548c Typlog \u7684\u4f5c\u8005\uff0cFlask \u7b49\u9879\u76ee\u7684\u7ef4\u62a4\u8005\uff0cHsiaoming Ltd \u521b\u59cb\u4eba\u3002"
     }, 
     "speaker_shanghai_huili": {
-      "avatar": "./asset/images/speakers/lecturer_changhui.png", 
+      "avatar": "./asset/images/speakers/lihui.jpg", 
       "city_shanghai": 1, 
       "intro": "", 
       "name": "\u674e\u8f89", 
@@ -362,7 +362,7 @@
       "short_intro": "\u72ec\u7acb Web \u5f00\u53d1\u8005\uff0cFlask \u7ef4\u62a4\u8005\uff0c\u300aFlask Web \u5f00\u53d1\u5b9e\u6218\u300b\u4f5c\u8005"
     }, 
     "speaker_shanghai_jiahualu": {
-      "avatar": "./asset/images/speakers/lecturer_changhui.png", 
+      "avatar": "./asset/images/speakers/lujiahua.jpg", 
       "city_shanghai": 1, 
       "intro": "\u9646\u4f73\u534e\u5148\u751f\u4e8e2006\u5e74\u52a0\u5165Xilinx\u516c\u53f8\uff0c\u73b0\u4efbXilinx\u7814\u7a76\u9662 \u5b66\u672f\u4e0e\u521b\u65b0\u751f\u6001\u9ad8\u7ea7\u7ecf\u7406\uff0c\u9886\u5bfcXilinx\u516c\u53f8\u5728\u4e9a\u592a\u533a\u7684\u5f00\u6e90\u521b\u65b0\u5de5\u4f5c\u5176\u5305\u62ec\u5f00\u6e90\u793e\u533a\uff0c\u524d\u6cbf\u6280\u672f\u521d\u521b\u5b75\u5316\uff0c\u5b66\u672f\u5408\u4f5c\u7b49\u5de5\u4f5c\u3002\u9646\u4f73\u534e\u5148\u751f\u64b0\u5199\u4e86\u5168\u7403\u7b2c\u4e00\u672cNetFPGA\u4f7f\u7528\u6307\u5357\uff0c\u4ee5\u53ca\u7b2c\u4e00\u672cZynq\u5f00\u53d1\u8005\u5b9e\u6218\u6307\u5357\u3002\u9646\u4f73\u534e\u540c\u65f6\u8fd8\u517c\u4efb\u4e2d\u56fd\u8ba1\u7b97\u673a\u5b66\u4f1a\u4f53\u7cfb\u7ed3\u6784\u4e13\u59d4\u4f1a\u5e38\u52a1\u59d4\u5458\uff0c\u4fe1\u606f\u6280\u672f\u65b0\u5de5\u79d1\u4ea7\u5b66\u7814\u8054\u76df-\u53ef\u5b9a\u5236\u8ba1\u7b97\u4eba\u624d\u57f9\u517b\u5de5\u4f5c\u59d4\u5458\u4f1a \u79d8\u4e66\u957f\u7b49\u793e\u4f1a\u804c\u52a1", 
       "name": "\u9646\u4f73\u534e", 
@@ -374,7 +374,7 @@
       "short_intro": "Xilinx - \u7814\u7a76\u9662 \u5b66\u672f\u4e0e\u521b\u65b0\u751f\u6001\u9ad8\u7ea7\u7ecf\u7406"
     }, 
     "speaker_shanghai_laiqiangding": {
-      "avatar": "./asset/images/speakers/lecturer_changhui.png", 
+      "avatar": "./asset/images/speakers/dinglaiqiang.jpg", 
       "city_shanghai": 1, 
       "intro": "\u4ece\u4e1a\u8d85\u8fc710\u5e74\uff0c\u957f\u671f\u4efb\u804c\u4e8e\u5927\u6570\u636e\u5e73\u53f0DevSecOps\u3001AIOps\u7684\u6784\u5efa\u76f8\u5173\u9886\u57df\uff0c\u66fe\u4efb\u5927\u6570\u636e\u516c\u53f8\u9876\u7ea7\u516c\u53f8Splunk\u9ad8\u7ea7\u67b6\u6784\u5e08\u7b49\u3002\u4e50\u4e8e\u5206\u4eab\uff0c\u5728\u5386\u5c4aPyCon\u3001\u4e91\u6816\u7b49\u5206\u4eab\u8fc7\u5341\u51e0\u573a\u6f14\u8bb2\u6216\u76f4\u64ad\uff0c\u8986\u76d6\u5927\u6570\u636e\u5206\u6790\u5904\u7406\u3001\u8c03\u5ea6\u76d1\u6d4b\u3001\u53ef\u89c6\u5316\u5206\u6790\u4e0ePython\u6838\u5fc3\u7cfb\u5217\u7b49\u5341\u591a\u4e2a\u4e0d\u540c\u8bae\u9898\u7cfb\u5217\uff0c\u89c2\u4f17\u8d5e\u8a89\u6781\u9ad8\u3002", 
       "name": "\u4e01\u6765\u5f3a", 
@@ -386,7 +386,7 @@
       "short_intro": "\u963f\u91cc\u4e91\u65e5\u5fd7\u670d\u52a1\u4e0a\u6d77\u8d1f\u8d23\u4eba"
     }, 
     "speaker_shanghai_xiaotan": {
-      "avatar": "./asset/images/speakers/lecturer_changhui.png", 
+      "avatar": "./asset/images/speakers/tanxiao.jpg", 
       "city_shanghai": 1, 
       "intro": "", 
       "name": "\u8c2d\u5578", 
@@ -398,7 +398,7 @@
       "short_intro": "\u8682\u8681\u91d1\u670d\u5f00\u53d1\u5de5\u7a0b\u5e08"
     }, 
     "speaker_shanghai_zhaoqiangchen": {
-      "avatar": "./asset/images/speakers/lecturer_changhui.png", 
+      "avatar": "./asset/images/speakers/chenzhaoqiang.png", 
       "city_shanghai": 1, 
       "intro": "\u5f00\u53d1\u836f\u7269\u7814\u53d1\u76f8\u5173\u8f6f\u4ef6D3Pockets; \u5229\u7528sphinx\u5236\u4f5c\u7f51\u7ad9\uff1ahttp://pymol.chenzhaoqiang.com/", 
       "name": "\u9648\u7167\u5f3a", 
@@ -410,7 +410,7 @@
       "short_intro": "\u4e2d\u79d1\u9662\u4e0a\u6d77\u836f\u7269\u6240\u9ad8\u7ea7\u7814\u7a76\u9662 \u9ad8\u7ea7\u7814\u7a76\u5458. "
     }, 
     "speaker_shenzhen_chaoxie": {
-      "avatar": "./asset/images/speakers/lecturer_changhui.png", 
+      "avatar": "./asset/images/speakers/xiechao.jpg", 
       "city_shenzhen": 1, 
       "intro": "\u8d1f\u8d23Gekko Lab\u6570\u636e\u5f00\u53d1\uff0c\u6570\u636e\u91c7\u96c6\uff0c\u6570\u636e\u5206\u6790\uff0c\u6570\u636e\u96c6\u5408", 
       "name": "\u89e3\u8d85", 
@@ -422,7 +422,7 @@
       "short_intro": "Gekko Lab - \u6570\u636e\u5de5\u7a0b\u5e08"
     }, 
     "speaker_shenzhen_fengzhao": {
-      "avatar": "./asset/images/speakers/lecturer_changhui.png", 
+      "avatar": "./asset/images/speakers/zhaofeng.png", 
       "city_shenzhen": 1, 
       "intro": "\u4ece\u4e8b\u673a\u5668\u5b66\u4e60\u76f8\u5173\u9886\u57df\u7814\u7a76", 
       "name": "\u8d75\u4e30", 
@@ -434,7 +434,7 @@
       "short_intro": "\u6e05\u534e\u5927\u5b66\u6df1\u5733\u7814\u7a76\u751f\u9662 - \u535a\u58eb\u751f"
     }, 
     "speaker_shenzhen_zagfai": {
-      "avatar": "./asset/images/speakers/lecturer_changhui.png", 
+      "avatar": "./asset/images/speakers/kuangzewei.jpg", 
       "city_shenzhen": 1, 
       "intro": "\u516b\u5e74Python\u4f7f\u7528\u7ecf\u9a8c\uff0c\u5341\u4e94\u5e74\u7f16\u7a0b\u7ecf\u9a8c\uff0c\u66fe\u4efb\u804c\u4e8e\u730e\u8c79\u79fb\u52a8\uff0c\u7ed9\u730e\u8c79\u5907\u4efd\u5927\u5e08\u3001Whatscall\u7b49\u9879\u76ee\u7684\u670d\u52a1\u7aef\u5199\u8fc7\u7b2c1\u4e2acommit\uff0c\u6784\u5efa\u8d77\u4f7f\u7528Python\u652f\u6491\u8fc7\u4ebf\u7528\u6237\u7684\u7cfb\u7edf\u3002\u7b97\u6cd5\u7231\u597d\u8005\uff0c\u81ea\u52a8\u5316\u7231\u597d\u8005\u3002", 
       "name": "\u909d\u6cfd\u5fbd", 
@@ -630,7 +630,7 @@
         "weibo": null
       }, 
       {
-        "avatar": "./asset/images/avatar-2019/volunteers/zhumingfang.png", 
+        "avatar": "./asset/images/avatar-2019/volunteers/river.png", 
         "blog": "http://river.aipy.org", 
         "intro": "\u4e0a\u6d77\u7ad9 | \u7ec4\u59d4<br/>\u4f18\u8da3\u5929\u4e0bCTO\u3001QPython\u5f00\u53d1\u8005", 
         "name": "River", 
@@ -639,7 +639,7 @@
         "weibo": null
       }, 
       {
-        "avatar": "./asset/images/avatar-2019/volunteers/zhumingfang.png", 
+        "avatar": "./asset/images/avatar-2019/volunteers/daishaofei.png", 
         "blog": null, 
         "intro": "\u4e0a\u6d77\u7ad9 | \u7ec4\u59d4<br/>\u5c0f\u6a59\u5954\u8dd1 \u9ad8\u7ea7\u5f00\u53d1\u5de5\u7a0b\u5e08", 
         "name": "\u4ee3\u5c11\u98de", 
@@ -648,7 +648,7 @@
         "weibo": null
       }, 
       {
-        "avatar": "./asset/images/avatar-2019/volunteers/zhumingfang.png", 
+        "avatar": "./asset/images/avatar-2019/volunteers/hexiangyu.png", 
         "blog": null, 
         "intro": "\u4e0a\u6d77\u7ad9 | \u7ec4\u59d4<br/>\u5b57\u8282\u8df3\u52a8\u7814\u53d1\u5de5\u7a0b\u5e08", 
         "name": "\u4f55\u7fd4\u5b87", 
@@ -657,7 +657,7 @@
         "weibo": null
       }, 
       {
-        "avatar": "./asset/images/avatar-2019/volunteers/zhumingfang.png", 
+        "avatar": "./asset/images/avatar-2019/volunteers/yemin.png", 
         "blog": null, 
         "intro": "\u4e0a\u6d77\u7ad9 | \u7ec4\u59d4<br/>\u8bfa\u57fa\u4e9a\u8d1d\u5c14 \u81ea\u52a8\u5316\u6d4b\u8bd5\u6559\u7ec3 \u81ea\u52a8\u5316\u6d4b\u8bd5\u67b6\u6784\u5e08", 
         "name": "\u53f6\u654f", 
@@ -666,7 +666,7 @@
         "weibo": null
       }, 
       {
-        "avatar": "./asset/images/avatar-2019/volunteers/zhumingfang.png", 
+        "avatar": "./asset/images/avatar-2019/volunteers/zhangjiaojie.png", 
         "blog": null, 
         "intro": "\u4e0a\u6d77\u7ad9 | \u7ec4\u59d4<br/>\u82f1\u4f1f\u8fbe\uff08\u4e0a\u6d77\uff09\u79d1\u6280\u6709\u9650\u516c\u53f8  \u8d44\u6df1\u6df1\u5ea6\u5b66\u4e60\u67b6\u6784\u5de5\u7a0b\u5e08", 
         "name": "\u5f20\u6821\u6377", 
@@ -675,7 +675,7 @@
         "weibo": null
       }, 
       {
-        "avatar": "./asset/images/avatar-2019/volunteers/zhumingfang.png", 
+        "avatar": "./asset/images/avatar-2019/volunteers/dingjunhao.png", 
         "blog": null, 
         "intro": "\u4e0a\u6d77\u7ad9 | \u7ec4\u59d4<br/>\u4eab\u9053\u51fa\u884c DevOps", 
         "name": "\u4e01\u4fca\u8c6a", 
@@ -684,7 +684,7 @@
         "weibo": null
       }, 
       {
-        "avatar": "./asset/images/avatar-2019/volunteers/zhumingfang.png", 
+        "avatar": "./asset/images/avatar-2019/volunteers/gaojunteng.png", 
         "blog": null, 
         "intro": "\u4e0a\u6d77\u7ad9 | \u7ec4\u59d4<br/>\u817e\u8baf  \u5de5\u7a0b\u5e08", 
         "name": "\u9ad8\u4fca\u817e", 

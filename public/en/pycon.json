@@ -266,7 +266,7 @@
   }, 
   "speakers": {
     "speaker_beijing_jintaozhang": {
-      "avatar": "../asset/images/speakers/lecturer_changhui.png", 
+      "avatar": "../asset/images/speakers/zhangjintao.jpg", 
       "city_beijing": 1, 
       "intro": "Responsible for the development of container and platform. He is the author of the book: Kubernets: from getting started to practicing.", 
       "name": "Jintao Zhang", 
@@ -278,7 +278,7 @@
       "short_intro": "Senior Operations and Maintenance Developer of NetEase Inc."
     }, 
     "speaker_beijing_lianghongfei": {
-      "avatar": "../asset/images/speakers/lecturer_changhui.png", 
+      "avatar": "../asset/images/speakers/feilianghong.jpg", 
       "city_beijing": 1, 
       "intro": "Lianghong Fei is a Principal Evangelist at Amazon Web Services, where he leverages his 20+ years of experience to support innovation and to help startups and companies bring their ideas to live by the power of Cloud. He focuses on software development and cloud native architectures as well as the technical and business impact of Machine Learning and data analytics. Prior to joining AWS, he worked at Apple and Microsoft.", 
       "name": "Lianghong Fei", 
@@ -290,7 +290,7 @@
       "short_intro": "Amazon Web Services"
     }, 
     "speaker_chengdu_zhihangliu": {
-      "avatar": "../asset/images/speakers/lecturer_changhui.png", 
+      "avatar": "../asset/images/speakers/liuzhihang.png", 
       "city_chengdu": 1, 
       "intro": "Designed the Malt language in person.His research direction is Programming Language Theory (PLT).", 
       "name": "Zhihang Liu", 
@@ -302,7 +302,7 @@
       "short_intro": ""
     }, 
     "speaker_shanghai_arminronacher": {
-      "avatar": "../asset/images/speakers/lecturer_changhui.png", 
+      "avatar": "../asset/images/speakers/arminronacher.png", 
       "city_shanghai": 1, 
       "intro": "Armin Ronacher is the creator of the Flask, Jinja2, Werkzeug, Click, etc. He cares about well designed systems and APIs. He is currently working on Sentry, an Open Source crash reporting tool.", 
       "name": "Armin Ronacher", 
@@ -314,7 +314,7 @@
       "short_intro": "Armin Ronacher \u662f Flask\u3001Werkzeug\u3001Jinja2\u3001Click \u7b49\u6d41\u884c\u5f00\u6e90\u9879\u76ee\u7684\u4f5c\u8005\u3002\u4ed6\u5173\u6ce8\u4e8e\u8bbe\u8ba1\u826f\u597d\u7684\u7cfb\u7edf\u548c API\u3002\u76ee\u524d\u5f00\u53d1\u4e00\u6b3e\u540d\u4e3a Sentry \u7684\u5f00\u6e90\u9519\u8bef\u62a5\u544a\u5de5\u5177\u3002"
     }, 
     "speaker_shanghai_congweisong": {
-      "avatar": "../asset/images/speakers/lecturer_changhui.png", 
+      "avatar": "../asset/images/speakers/songcongwei.jpg", 
       "city_shanghai": 1, 
       "intro": "Assistant, PhD of Zhejiang University. I am Interested in Machine Learning\uff0cand my dream is the strong AI", 
       "name": "William Song", 
@@ -326,7 +326,7 @@
       "short_intro": "Zhijiang College of zjut"
     }, 
     "speaker_shanghai_hengcui": {
-      "avatar": "../asset/images/speakers/lecturer_changhui.png", 
+      "avatar": "../asset/images/speakers/cuiheng.png", 
       "city_shanghai": 1, 
       "intro": "Master of USTC, have more than 10 years IT development and related experiences, used to work as Senior Engineer of Citrix, CTO of a startup company, now a technology expert of Alibaba. Over the passing years, I\u2019ve been using python for building automation system\u3001website and NLP based chatbot", 
       "name": "Heng Cui", 
@@ -338,7 +338,7 @@
       "short_intro": "\u963f\u91cc\u5df4\u5df4 - \u6280\u672f\u4e13\u5bb6"
     }, 
     "speaker_shanghai_hsiaomingyang": {
-      "avatar": "../asset/images/speakers/lecturer_changhui.png", 
+      "avatar": "../asset/images/speakers/hsiaomingyang.jpg", 
       "city_shanghai": 1, 
       "intro": "Founder of Hsiaoming Ltd. Maintainer of Flask. Running Authlib and Typlog.", 
       "name": "Hsiaoming Yang", 
@@ -350,7 +350,7 @@
       "short_intro": "Founder of Hsiaoming Ltd. Maintainer of Flask. Running Authlib and Typlog."
     }, 
     "speaker_shanghai_huili": {
-      "avatar": "../asset/images/speakers/lecturer_changhui.png", 
+      "avatar": "../asset/images/speakers/lihui.jpg", 
       "city_shanghai": 1, 
       "intro": "", 
       "name": "Hui Li", 
@@ -362,7 +362,7 @@
       "short_intro": "Individual developer, maintainer of Flask, author of Flask Web Development"
     }, 
     "speaker_shanghai_jiahualu": {
-      "avatar": "../asset/images/speakers/lecturer_changhui.png", 
+      "avatar": "../asset/images/speakers/lujiahua.jpg", 
       "city_shanghai": 1, 
       "intro": "Mr. Lu joins in Xilinx in the year 2006. Now he is the senior manager of Xilinx Academic and Innovative Ecology institute, leading Xilinx's open-source innovation work in the Asia Pacific region, including the open-source community, cutting-edge technology startup incubation, academic collaboration, etc. Mr. Lu wrote the world's first using guide of NetFPGA and developer's guide of Zynq. He is also a standing committee of CCF TCARC and secretary-general of Information Technology New Engineering, Industry, Education and Research Alliance - Customizable Computing Talent Training Committee.", 
       "name": "Jiahua Lu", 
@@ -374,7 +374,7 @@
       "short_intro": "Senior Manager of Xilinx Academic and Innovative Ecology institude"
     }, 
     "speaker_shanghai_laiqiangding": {
-      "avatar": "../asset/images/speakers/lecturer_changhui.png", 
+      "avatar": "../asset/images/speakers/dinglaiqiang.jpg", 
       "city_shanghai": 1, 
       "intro": "More than 10 years of work experience in DevSecOps\u3001AIOps and so on. Former Splunk Senior Architect in a top company in big data. Willing to share, make more than a dozen of speech or live in PyCon and Yunqi. Topic including several fields like Big Data Analysis Processing, Scheduling Monitoring, Visual Analysis, and Python Core Series. These speeches gain warmly welcome by the listeners.", 
       "name": "Laiqiang Ding", 
@@ -386,7 +386,7 @@
       "short_intro": "Leader of Ali cloud service in Shanghai"
     }, 
     "speaker_shanghai_xiaotan": {
-      "avatar": "../asset/images/speakers/lecturer_changhui.png", 
+      "avatar": "../asset/images/speakers/tanxiao.jpg", 
       "city_shanghai": 1, 
       "intro": "", 
       "name": "Xiao Tan", 
@@ -398,7 +398,7 @@
       "short_intro": "Developer of Ant Fincial Inc."
     }, 
     "speaker_shanghai_zhaoqiangchen": {
-      "avatar": "../asset/images/speakers/lecturer_changhui.png", 
+      "avatar": "../asset/images/speakers/chenzhaoqiang.png", 
       "city_shanghai": 1, 
       "intro": "He developes D3Pockets which is a software related to medicine reserch; Using sphinx making website http://pymol.chenzhaoqiang.com/", 
       "name": "Zhaoqiang Chen", 
@@ -410,7 +410,7 @@
       "short_intro": "Shanghai Institute of Advanced Drugs, Chinese Academy of Sciences Senior researcher. "
     }, 
     "speaker_shenzhen_chaoxie": {
-      "avatar": "../asset/images/speakers/lecturer_changhui.png", 
+      "avatar": "../asset/images/speakers/xiechao.jpg", 
       "city_shenzhen": 1, 
       "intro": "Responsible for data developmenting, acquisiting,  analysising, and collection in Gekko Lab.", 
       "name": "Chao Xie", 
@@ -422,7 +422,7 @@
       "short_intro": "Data Engineer of Gekko Lab"
     }, 
     "speaker_shenzhen_fengzhao": {
-      "avatar": "../asset/images/speakers/lecturer_changhui.png", 
+      "avatar": "../asset/images/speakers/zhaofeng.png", 
       "city_shenzhen": 1, 
       "intro": "Engaged research related to machine learning", 
       "name": "Feng Zhao", 
@@ -434,7 +434,7 @@
       "short_intro": "PhD student of Shenzhen Graduate School of Tsinghua University"
     }, 
     "speaker_shenzhen_zagfai": {
-      "avatar": "../asset/images/speakers/lecturer_changhui.png", 
+      "avatar": "../asset/images/speakers/kuangzewei.jpg", 
       "city_shenzhen": 1, 
       "intro": "Eight years of Python's experience, 15 years of programming experience, Zagfai has worked for Cheetah Mobile, wroted the first commit for the server side of cheetah backup masters, Whatscall and other projects, built a Python system that support hundreds of millions of users. He is an algorithm lover and an automation enthusiast.", 
       "name": "Zagfai", 
@@ -630,7 +630,7 @@
         "weibo": null
       }, 
       {
-        "avatar": "../asset/images/avatar-2019/volunteers/zhumingfang.png", 
+        "avatar": "../asset/images/avatar-2019/volunteers/river.png", 
         "blog": "http://river.aipy.org", 
         "intro": "Shanghai | CTO of Quseit Inc., Developer of QPython", 
         "name": "River", 
@@ -639,7 +639,7 @@
         "weibo": null
       }, 
       {
-        "avatar": "../asset/images/avatar-2019/volunteers/zhumingfang.png", 
+        "avatar": "../asset/images/avatar-2019/volunteers/daishaofei.png", 
         "blog": null, 
         "intro": "Shanghai | Senior Developer", 
         "name": "Shaofei Dai", 
@@ -648,7 +648,7 @@
         "weibo": null
       }, 
       {
-        "avatar": "../asset/images/avatar-2019/volunteers/zhumingfang.png", 
+        "avatar": "../asset/images/avatar-2019/volunteers/hexiangyu.png", 
         "blog": null, 
         "intro": "Shanghai | R&D Engineer of Bytedance Inc.", 
         "name": "Xiangyu He", 
@@ -657,16 +657,16 @@
         "weibo": null
       }, 
       {
-        "avatar": "../asset/images/avatar-2019/volunteers/zhumingfang.png", 
+        "avatar": "../asset/images/avatar-2019/volunteers/yemin.png", 
         "blog": null, 
         "intro": "Shanghai | Coach and Architect Designer of Automated Test in Nokia Bell", 
-        "name": "Xiangyu He", 
+        "name": "Min Ye", 
         "role": "organizer", 
         "role_organizer": 1, 
         "weibo": null
       }, 
       {
-        "avatar": "../asset/images/avatar-2019/volunteers/zhumingfang.png", 
+        "avatar": "../asset/images/avatar-2019/volunteers/zhangjiaojie.png", 
         "blog": null, 
         "intro": "Shanghai | Senior Architect Designer of Deep Learning in Nvidia. Shanghai", 
         "name": "Jiaojie Zhang", 
@@ -675,7 +675,7 @@
         "weibo": null
       }, 
       {
-        "avatar": "../asset/images/avatar-2019/volunteers/zhumingfang.png", 
+        "avatar": "../asset/images/avatar-2019/volunteers/dingjunhao.png", 
         "blog": null, 
         "intro": "Shanghai | DevOps of Saicmobility Inc.", 
         "name": "Junhao Ding", 
@@ -684,7 +684,7 @@
         "weibo": null
       }, 
       {
-        "avatar": "../asset/images/avatar-2019/volunteers/zhumingfang.png", 
+        "avatar": "../asset/images/avatar-2019/volunteers/gaojunteng.png", 
         "blog": null, 
         "intro": "Shanghai | Engineer of Tencent Inc.", 
         "name": "Spawnris", 
