@@ -26,11 +26,22 @@
 			.my-map .icon-cir { height: 31px; width: 28px; }
 			.my-map .icon-cir-blue { background-position: -11px -55px; }
 			.amap-container{height: 100%;}
+			.heading-mask{
+				background-color: rgba(0, 0, 0, .7);
+				position: absolute;
+				left: 0;
+				right: 0;
+				top:0;
+				bottom: 0;
+			}
+			.heading-block{
+				padding:0;
+			}
 			@media(min-width: 768px) {
 				.navigation-header {
 					padding: 34px 0 0;
+				}
 			}
-		}
 		</style>
 	<!--[if lt IE 9]>
 		<script src="./asset/js/html5shiv.js"></script>
@@ -40,7 +51,7 @@
 </head>
 <body>
    <section id="hero" class="hero-section bg1 bg-cover window-height light-text">
-
+		<div class="heading-mask"></div>
 		<div class="heading-block centered-block align-center">
 			<div class="container">
 				<h5 class="heading-alt" style="margin-bottom: 8px;"><span class="fa fa-calendar-o base-clr-txt"></span>2019年9月21日<span class="fa fa-map-marker base-clr-txt" style="margin-left: 14px;"></span>上海</h5>
@@ -250,7 +261,7 @@
       
         <div class="col-sm-4">
             <div class="speaker">
-                <div class="photo-wrapper rounded"><img src="./asset/images/speakers/lecturer_changhui.png" alt="宋丛威" class="img-responsive"></div>
+                <div class="photo-wrapper rounded"><img src="./asset/images/speakers/songcongwei.jpg" alt="宋丛威" class="img-responsive"></div>
                 <h3 class="name">宋丛威</h3>
                 <p class="text-alt"><small>讲师，浙大数学系理学博士. 目前关注机器学习，我的梦想是强人工智能</small></p>
             </div>
@@ -259,7 +270,7 @@
       
         <div class="col-sm-4">
             <div class="speaker">
-                <div class="photo-wrapper rounded"><img src="./asset/images/speakers/lecturer_changhui.png" alt="丁来强" class="img-responsive"></div>
+                <div class="photo-wrapper rounded"><img src="./asset/images/speakers/dinglaiqiang.jpg" alt="丁来强" class="img-responsive"></div>
                 <h3 class="name">丁来强</h3>
                 <p class="text-alt"><small>从业超过10年，长期任职于大数据平台DevSecOps、AIOps的构建相关领域，曾任大数据公司顶级公司Splunk高级架构师等。乐于分享，在历届PyCon、云栖等分享过十几场演讲或直播，覆盖大数据分析处理、调度监测、可视化分析与Python核心系列等十多个不同议题系列，观众赞誉极高。</small></p>
             </div>
@@ -268,7 +279,7 @@
       
         <div class="col-sm-4">
             <div class="speaker">
-                <div class="photo-wrapper rounded"><img src="./asset/images/speakers/lecturer_changhui.png" alt="Hsiaoming Yang" class="img-responsive"></div>
+                <div class="photo-wrapper rounded"><img src="./asset/images/speakers/hsiaomingyang.jpg" alt="Hsiaoming Yang" class="img-responsive"></div>
                 <h3 class="name">Hsiaoming Yang</h3>
                 <p class="text-alt"><small>Hsiaoming Yang 是 Authlib 和 Typlog 的作者，Flask 等项目的维护者，Hsiaoming Ltd 创始人。</small></p>
             </div>
@@ -280,7 +291,7 @@
       
         <div class="col-sm-4">
             <div class="speaker">
-                <div class="photo-wrapper rounded"><img src="./asset/images/speakers/lecturer_changhui.png" alt="Armin Ronacher" class="img-responsive"></div>
+                <div class="photo-wrapper rounded"><img src="./asset/images/speakers/arminronacher.png" alt="Armin Ronacher" class="img-responsive"></div>
                 <h3 class="name">Armin Ronacher</h3>
                 <p class="text-alt"><small>Armin Ronacher is the creator of the Flask, Jinja2, Werkzeug, Click, etc. He cares about well designed systems and APIs. He is currently working on Sentry, an Open Source crash reporting tool.</small></p>
             </div>
@@ -289,7 +300,7 @@
       
         <div class="col-sm-4">
             <div class="speaker">
-                <div class="photo-wrapper rounded"><img src="./asset/images/speakers/lecturer_changhui.png" alt="谭啸" class="img-responsive"></div>
+                <div class="photo-wrapper rounded"><img src="./asset/images/speakers/tanxiao.jpg" alt="谭啸" class="img-responsive"></div>
                 <h3 class="name">谭啸</h3>
                 <p class="text-alt"><small></small></p>
             </div>
@@ -298,7 +309,7 @@
       
         <div class="col-sm-4">
             <div class="speaker">
-                <div class="photo-wrapper rounded"><img src="./asset/images/speakers/lecturer_changhui.png" alt="陆佳华" class="img-responsive"></div>
+                <div class="photo-wrapper rounded"><img src="./asset/images/speakers/lujiahua.jpg" alt="陆佳华" class="img-responsive"></div>
                 <h3 class="name">陆佳华</h3>
                 <p class="text-alt"><small>陆佳华先生于2006年加入Xilinx公司，现任Xilinx研究院 学术与创新生态高级经理，领导Xilinx公司在亚太区的开源创新工作其包括开源社区，前沿技术初创孵化，学术合作等工作。陆佳华先生撰写了全球第一本NetFPGA使用指南，以及第一本Zynq开发者实战指南。陆佳华同时还兼任中国计算机学会体系结构专委会常务委员，信息技术新工科产学研联盟-可定制计算人才培养工作委员会 秘书长等社会职务</small></p>
             </div>
@@ -310,7 +321,7 @@
       
         <div class="col-sm-4">
             <div class="speaker">
-                <div class="photo-wrapper rounded"><img src="./asset/images/speakers/lecturer_changhui.png" alt="李辉" class="img-responsive"></div>
+                <div class="photo-wrapper rounded"><img src="./asset/images/speakers/lihui.jpg" alt="李辉" class="img-responsive"></div>
                 <h3 class="name">李辉</h3>
                 <p class="text-alt"><small></small></p>
             </div>
@@ -319,7 +330,7 @@
       
         <div class="col-sm-4">
             <div class="speaker">
-                <div class="photo-wrapper rounded"><img src="./asset/images/speakers/lecturer_changhui.png" alt="崔衡" class="img-responsive"></div>
+                <div class="photo-wrapper rounded"><img src="./asset/images/speakers/cuiheng.png" alt="崔衡" class="img-responsive"></div>
                 <h3 class="name">崔衡</h3>
                 <p class="text-alt"><small>中国科学技术大学硕士毕业，有10余年的IT开发和从业经验，历任Citrix高级开发工程师、创业公司CTO、阿里巴巴技术专家等，有多年的Python开发经验，使用Python构建过自动化系统、网站、基于自然语言处理的聊天机器人。</small></p>
             </div>
@@ -328,7 +339,7 @@
       
         <div class="col-sm-4">
             <div class="speaker">
-                <div class="photo-wrapper rounded"><img src="./asset/images/speakers/lecturer_changhui.png" alt="陈照强" class="img-responsive"></div>
+                <div class="photo-wrapper rounded"><img src="./asset/images/speakers/chenzhaoqiang.png" alt="陈照强" class="img-responsive"></div>
                 <h3 class="name">陈照强</h3>
                 <p class="text-alt"><small>开发药物研发相关软件D3Pockets; 利用sphinx制作网站：http://pymol.chenzhaoqiang.com/</small></p>
             </div>
@@ -353,7 +364,7 @@
       
         <div class="col-sm-4">
             <div class="speaker">
-                <div class="photo-wrapper rounded"><img src="./asset/images/speakers/lecturer_changhui.png" alt="费良宏" class="img-responsive"></div>
+                <div class="photo-wrapper rounded"><img src="./asset/images/speakers/feilianghong.jpg" alt="费良宏" class="img-responsive"></div>
                 <h3 class="name">费良宏</h3>
                 <p class="text-alt"><small>作为Principal Evangelist 任职于AWS,主要专注于云计算以及互联网等技术领域。其拥有超过20年在IT行业以及软件开发领域的工作经验；曾经任职于Microsoft、Apple 等知名企业，任职架构师、技术顾问等职务，参与过多个大型软件项目的设计、开发与项目管理；并于2009年开始，从事与云计算领域相关的技术工作；研究方向主要是软件架构的演进，尤其是云计算方面的架构实践，并擅长Web应用、移动应用以及机器学习等的开发。</small></p>
             </div>
@@ -362,7 +373,7 @@
       
         <div class="col-sm-4">
             <div class="speaker">
-                <div class="photo-wrapper rounded"><img src="./asset/images/speakers/lecturer_changhui.png" alt="张晋涛" class="img-responsive"></div>
+                <div class="photo-wrapper rounded"><img src="./asset/images/speakers/zhangjintao.jpg" alt="张晋涛" class="img-responsive"></div>
                 <h3 class="name">张晋涛</h3>
                 <p class="text-alt"><small>负责容器化及平台化开发，Kubernetes 从上手到实践作者</small></p>
             </div>
@@ -454,7 +465,7 @@
             <div class="lecture-icon-wrapper">
                  
                     
-                    <img src="./asset/images/speakers/lecturer_changhui.png" alt="" class="img-responsive">
+                    <img src="./asset/images/speakers/arminronacher.png" alt="" class="img-responsive">
                  
 
             </div>
