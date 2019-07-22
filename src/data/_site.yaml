@@ -17,6 +17,9 @@ beijing:
 shanghai:
   booking_url: https://www.bagevent.com/event/5293611
 
+shenzhen:
+  booking_url: https://www.bagevent.com/event/5451680
+
 contact: "联系我们: "
 contact_en: "Contact with us: "
 
