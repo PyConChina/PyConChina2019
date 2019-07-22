@@ -1,6 +1,5 @@
 {
   "agenda": {
-    "agenda_title": "Agenda", 
     "beijing": {
       "address": "Beijing China", 
       "cancel_talks": null, 
@@ -29,7 +28,7 @@
               "topic": "To be determined"
             }
           ], 
-          "url": "place1_auditorium1"
+          "url": "place_beijing_auditorium1"
         }, 
         {
           "place_name": "Venue B", 
@@ -39,7 +38,7 @@
               "topic": "Lunch"
             }
           ], 
-          "url": "place1_auditorium2"
+          "url": "place_beijing_auditorium2"
         }, 
         {
           "place_name": "Venue C", 
@@ -49,7 +48,7 @@
               "topic": "Tea Break"
             }
           ], 
-          "url": "place1_auditorium3"
+          "url": "place_beijing_auditorium3"
         }, 
         {
           "place_name": "Venue D", 
@@ -59,16 +58,236 @@
               "topic": "Tea Break"
             }
           ], 
-          "url": "place1_auditorium4"
+          "url": "place_beijing_auditorium4"
         }
       ], 
       "url": "beijing", 
       "video": ""
     }, 
+    "chengdu": {
+      "address": "Chengdu China", 
+      "cancel_talks": null, 
+      "city": "chengdu", 
+      "completed": false, 
+      "date": "Sept.21st 2019 8:00 to 17:00", 
+      "lightening_talks": null, 
+      "maplink": "https://www.amap.com/place/B0015731XR", 
+      "name": "Chengdu", 
+      "notices": "", 
+      "places": [
+        {
+          "actived": "active", 
+          "place_name": "Venue A", 
+          "speechs": [
+            {
+              "time": "09:00-09:20", 
+              "topic": "Opening remarks"
+            }, 
+            {
+              "time": "09:20-10:00", 
+              "topic": "To be determined"
+            }, 
+            {
+              "time": "10:00-10:40", 
+              "topic": "To be determined"
+            }, 
+            {
+              "time": "10:40-11:20", 
+              "topic": "To be determined"
+            }, 
+            {
+              "time": "11:20-12:00", 
+              "topic": "To be determined"
+            }
+          ], 
+          "url": "place_chengdu_auditorium1"
+        }, 
+        {
+          "place_name": "Venue B", 
+          "speechs": [
+            {
+              "time": "09:00-16:00", 
+              "topic": "To be determined"
+            }
+          ], 
+          "url": "place_chengdu_auditorium2"
+        }, 
+        {
+          "place_name": "Venue C", 
+          "speechs": [
+            {
+              "time": "09:00-16:00", 
+              "topic": "To be determined"
+            }
+          ], 
+          "url": "place_chengdu_auditorium3"
+        }, 
+        {
+          "place_name": "Venue D", 
+          "speechs": [
+            {
+              "time": "09:00-16:00", 
+              "topic": "To be determined"
+            }
+          ], 
+          "url": "place_chengdu_auditorium4"
+        }
+      ], 
+      "url": "shenzhen", 
+      "video": ""
+    }, 
     "city_list": [
       "shanghai", 
-      "beijing"
+      "beijing", 
+      "hangzhou", 
+      "shenzhen", 
+      "chengdu", 
+      "nanning"
     ], 
+    "hangzhou": {
+      "address": "Hangzhou China", 
+      "cancel_talks": null, 
+      "city": "hangzhou", 
+      "completed": false, 
+      "date": "Sept.21st 2019 8:00 to 17:00", 
+      "lightening_talks": null, 
+      "maplink": "https://www.amap.com/place/B0015731XR", 
+      "name": "Hangzhou", 
+      "notices": "", 
+      "places": [
+        {
+          "actived": "active", 
+          "place_name": "Venue A", 
+          "speechs": [
+            {
+              "time": "09:00-09:20", 
+              "topic": "Opening remarks"
+            }, 
+            {
+              "time": "09:20-10:00", 
+              "topic": "To be determined"
+            }, 
+            {
+              "time": "10:00-10:40", 
+              "topic": "To be determined"
+            }, 
+            {
+              "time": "10:40-11:20", 
+              "topic": "To be determined"
+            }, 
+            {
+              "time": "11:20-12:00", 
+              "topic": "To be determined"
+            }
+          ], 
+          "url": "place_hangzhou_auditorium1"
+        }, 
+        {
+          "place_name": "Venue B", 
+          "speechs": [
+            {
+              "time": "09:00-16:00", 
+              "topic": "To be determined"
+            }
+          ], 
+          "url": "place_hangzhou_auditorium2"
+        }, 
+        {
+          "place_name": "Venue C", 
+          "speechs": [
+            {
+              "time": "09:00-16:00", 
+              "topic": "To be determined"
+            }
+          ], 
+          "url": "place_hangzhou_auditorium3"
+        }, 
+        {
+          "place_name": "Venue D", 
+          "speechs": [
+            {
+              "time": "09:00-16:00", 
+              "topic": "To be determined"
+            }
+          ], 
+          "url": "place_hangzhou_auditorium4"
+        }
+      ], 
+      "url": "hangzhou", 
+      "video": ""
+    }, 
+    "nanning": {
+      "address": "Nanning China", 
+      "cancel_talks": null, 
+      "city": "nanning", 
+      "completed": false, 
+      "date": "Sept.21st 2019 8:00 to 17:00", 
+      "lightening_talks": null, 
+      "maplink": "https://www.amap.com/place/B0015731XR", 
+      "name": "Nanning", 
+      "notices": "", 
+      "places": [
+        {
+          "actived": "active", 
+          "place_name": "Venue A", 
+          "speechs": [
+            {
+              "time": "09:00-09:20", 
+              "topic": "Opening remarks"
+            }, 
+            {
+              "time": "09:20-10:00", 
+              "topic": "To be determined"
+            }, 
+            {
+              "time": "10:00-10:40", 
+              "topic": "To be determined"
+            }, 
+            {
+              "time": "10:40-11:20", 
+              "topic": "To be determined"
+            }, 
+            {
+              "time": "11:20-12:00", 
+              "topic": "To be determined"
+            }
+          ], 
+          "url": "place_nanning_auditorium1"
+        }, 
+        {
+          "place_name": "Venue B", 
+          "speechs": [
+            {
+              "time": "09:00-16:00", 
+              "topic": "To be determined"
+            }
+          ], 
+          "url": "place_nanning_auditorium2"
+        }, 
+        {
+          "place_name": "Venue C", 
+          "speechs": [
+            {
+              "time": "09:00-16:00", 
+              "topic": "To be determined"
+            }
+          ], 
+          "url": "place_nanning_auditorium3"
+        }, 
+        {
+          "place_name": "Venue D", 
+          "speechs": [
+            {
+              "time": "09:00-16:00", 
+              "topic": "To be determined"
+            }
+          ], 
+          "url": "place_nanning_auditorium4"
+        }
+      ], 
+      "url": "nanning", 
+      "video": ""
+    }, 
     "shanghai": {
       "actived": "active", 
       "address": "Shanghai China", 
@@ -90,8 +309,8 @@
               "topic": "Opening remarks"
             }, 
             {
-              "speaker": "speaker_shanghai_arminronacher", 
-              "time": "09:20-10:00"
+              "time": "09:20-10:00", 
+              "topic": "To be determined"
             }, 
             {
               "time": "10:00-10:40", 
@@ -106,7 +325,7 @@
               "topic": "To be determined"
             }
           ], 
-          "url": "place2_auditorium1"
+          "url": "place_shanghai_auditorium1"
         }, 
         {
           "place_name": "Venue B", 
@@ -116,7 +335,7 @@
               "topic": "To be determined"
             }
           ], 
-          "url": "place2_auditorium2"
+          "url": "place_shanghai_auditorium2"
         }, 
         {
           "place_name": "Venue C", 
@@ -126,7 +345,7 @@
               "topic": "To be determined"
             }
           ], 
-          "url": "place2_auditorium3"
+          "url": "place_shanghai_auditorium3"
         }, 
         {
           "place_name": "Venue D", 
@@ -136,10 +355,82 @@
               "topic": "To be determined"
             }
           ], 
-          "url": "place2_auditorium4"
+          "url": "place_shanghai_auditorium4"
         }
       ], 
       "url": "shanghai", 
+      "video": ""
+    }, 
+    "shenzhen": {
+      "address": "Shenzhen China", 
+      "cancel_talks": null, 
+      "city": "shenzhen", 
+      "completed": false, 
+      "date": "Sept.21st 2019 8:00 to 17:00", 
+      "lightening_talks": null, 
+      "maplink": "https://www.amap.com/place/B0015731XR", 
+      "name": "Shenzhen", 
+      "notices": "", 
+      "places": [
+        {
+          "actived": "active", 
+          "place_name": "Venue A", 
+          "speechs": [
+            {
+              "time": "09:00-09:20", 
+              "topic": "Opening remarks"
+            }, 
+            {
+              "time": "09:20-10:00", 
+              "topic": "To be determined"
+            }, 
+            {
+              "time": "10:00-10:40", 
+              "topic": "To be determined"
+            }, 
+            {
+              "time": "10:40-11:20", 
+              "topic": "To be determined"
+            }, 
+            {
+              "time": "11:20-12:00", 
+              "topic": "To be determined"
+            }
+          ], 
+          "url": "place_shenzhen_auditorium1"
+        }, 
+        {
+          "place_name": "Venue B", 
+          "speechs": [
+            {
+              "time": "09:00-16:00", 
+              "topic": "To be determined"
+            }
+          ], 
+          "url": "place_shenzhen_auditorium2"
+        }, 
+        {
+          "place_name": "Venue C", 
+          "speechs": [
+            {
+              "time": "09:00-16:00", 
+              "topic": "To be determined"
+            }
+          ], 
+          "url": "place_shenzhen_auditorium3"
+        }, 
+        {
+          "place_name": "Venue D", 
+          "speechs": [
+            {
+              "time": "09:00-16:00", 
+              "topic": "To be determined"
+            }
+          ], 
+          "url": "place_shenzhen_auditorium4"
+        }
+      ], 
+      "url": "shenzhen", 
       "video": ""
     }
   }, 
@@ -150,7 +441,47 @@
   "lang_dir": "en", 
   "lang_suffix": "_en", 
   "message": {
-    "beijing_booking_now": "Sign up for Beijing", 
+    "agenda_title": "Agenda", 
+    "booking_now": [
+      {
+        "location": "Conference Hall, 2nd Floor, Wyndham Hotel Shanghai Xingrong, 25 Ningguo Road, Yangpu, Shanghai", 
+        "name": "Shanghai", 
+        "time": "May 19, 2018 8:00 ~ 17:00", 
+        "url": "https://www.bagevent.com/event/5293611"
+      }, 
+      {
+        "location": null, 
+        "name": "Beijing", 
+        "time": null, 
+        "url": "https://www.bagevent.com/event/5717698"
+      }, 
+      {
+        "location": null, 
+        "name": "Hangzhou", 
+        "time": null, 
+        "url": "#"
+      }, 
+      {
+        "location": null, 
+        "name": "Shenzhen", 
+        "time": null, 
+        "url": "https://www.bagevent.com/event/5451680"
+      }, 
+      {
+        "location": null, 
+        "name": "Chengdu", 
+        "time": null, 
+        "url": "#"
+      }, 
+      {
+        "location": null, 
+        "name": "Nanning", 
+        "time": null, 
+        "url": "#"
+      }
+    ], 
+    "booking_title_after": "", 
+    "booking_title_before": "Sign up for", 
     "conference_location": "Conference Hall, 2nd Floor<br />Wyndham Hotel Shanghai Xingrong<br />25 Ningguo Road, Yangpu, Shanghai", 
     "conference_location_title": "Location", 
     "conference_time": "May 19, 2018 8:00 ~ May 19, 2018 17:00", 
@@ -159,8 +490,6 @@
     "position": "Shanghai", 
     "pycon_intro": "<p>At the Christmas of 1989, in order to pass the boring Christmas holidays, Guido van Rossum decided to find something to do. He chose to implement a programming language. This programming language is Python.</p> <p>On October 16th, 2000, Python 2.0 was released.</p> <p>Python has been widely used in the computer industry in 30 years. Service development, operation and maintenance, scientific calculation, theoretical simulation and so on. More and more people fall in love with Python and give back to the Python Community in their own form. Perhaps Guido himself did not realize that the language he created,  would be used in so many fields. In a sense, the language he created changed the computer world. </p> <p>In 2019, Pythonist will celebrate Python's 30th anniversary. We will hold PyCon China 2019 to celebrate the birthday of this great language. The main venue of this year's congress will be set up in Shanghai, and branch venues will be set up in Beijing, Hangzhou, Shenzhen, Nanning and so on.</p> <p>Whether you are an expert in server development, operation and maintenance, big data, artificial intelligence, and other fields, if you have any experience you want to share with Pythonists, welcome to sign up for our keynotes or lightning talk!</p>", 
     "pycon_intro_title": "Introduction", 
-    "shanghai_booking_now": "Sign up for Shanghai", 
-    "shenzhen_booking_now": "Sign up for Shenzhen", 
     "slogan": "MAY THE PYTHONIC BE WITH YOU", 
     "slogan_title": "PyCon China 2019", 
     "speakers": " Speakers", 
