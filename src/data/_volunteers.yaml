@@ -5,17 +5,6 @@ role_list:
 
 organizers:
 -
-  name: StingChen(陈世欣)
-  name_en: StingChen(Shixin Chen)
-  role: organizer
-  role_organizer: 1
-  intro: PyChina发起人 <br /> Ahaschool-首席运营官
-  intro_en: Sponsor of PyChina <br />Ahaschool-CTO
-  avatar: ./asset/images/avatar-2019/volunteers/chenshixin.png
-  avatar_en: ../asset/images/avatar-2019/volunteers/chenshixin.png
-  blog: http://sting.topgeek.org/
-  weibo: http://weibo.com/stingchen
--
   name: Zoom.Quiet (大妈)
   name_en: Zoom.Quiet (Dama)
   role: organizer
@@ -26,7 +15,6 @@ organizers:
   intro_en: Sponsor of PyChina<br />uSEE.tech CTO
   blog: http://zoomquiet.io/
   weibo: http://weibo.com/zoomquiet
-
 -
   name: 李辉
   name_en: Grey Li
@@ -60,6 +48,17 @@ organizers:
   intro_en: Shanghai | NetEase, Inc.
   blog: https://moelove.info
   weibo:
+-
+  name: StingChen(陈世欣)
+  name_en: StingChen(Shixin Chen)
+  role: organizer
+  role_organizer: 1
+  intro: PyChina发起人 <br /> Ahaschool-首席运营官
+  intro_en: Sponsor of PyChina <br />Ahaschool-CTO
+  avatar: ./asset/images/avatar-2019/volunteers/chenshixin.png
+  avatar_en: ../asset/images/avatar-2019/volunteers/chenshixin.png
+  blog: http://sting.topgeek.org/
+  weibo: http://weibo.com/stingchen
 -
   name: 张宏柯
   name_en: Hongke Zhang
