@@ -481,7 +481,7 @@
       }
     ], 
     "booking_title_after": "", 
-    "booking_title_before": "Sign up for", 
+    "booking_title_before": "attend", 
     "conference_location": "Conference Hall, 2nd Floor<br />Wyndham Hotel Shanghai Xingrong<br />25 Ningguo Road, Yangpu, Shanghai", 
     "conference_location_title": "Location", 
     "conference_time": "May 19, 2018 8:00 ~ May 19, 2018 17:00", 
@@ -851,15 +851,6 @@
     "conference": null, 
     "organizers": [
       {
-        "avatar": "../asset/images/avatar-2019/volunteers/chenshixin.png", 
-        "blog": "http://sting.topgeek.org/", 
-        "intro": "Sponsor of PyChina <br />Ahaschool-CTO", 
-        "name": "StingChen(Shixin Chen)", 
-        "role": "organizer", 
-        "role_organizer": 1, 
-        "weibo": "http://weibo.com/stingchen"
-      }, 
-      {
         "avatar": "../asset/images/avatar-2019/volunteers/dama.png", 
         "blog": "http://zoomquiet.io/", 
         "intro": "Sponsor of PyChina<br />uSEE.tech CTO", 
@@ -894,6 +885,15 @@
         "role": "organizer", 
         "role_organizer": 1, 
         "weibo": null
+      }, 
+      {
+        "avatar": "../asset/images/avatar-2019/volunteers/chenshixin.png", 
+        "blog": "http://sting.topgeek.org/", 
+        "intro": "Sponsor of PyChina <br />Ahaschool-CTO", 
+        "name": "StingChen(Shixin Chen)", 
+        "role": "organizer", 
+        "role_organizer": 1, 
+        "weibo": "http://weibo.com/stingchen"
       }, 
       {
         "avatar": "../asset/images/avatar-2019/volunteers/zhanghongke.png", 
