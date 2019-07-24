@@ -837,7 +837,7 @@
     ], 
     "organizer": [
       {
-        "intro": "", 
+        "intro": "\u6d4b\u8bd5\u6d4b\u8bd5\u6d4b\u8bd5\u6d4b\u8bd5\u6d4b\u8bd5\u6d4b\u8bd5\u6d4b\u8bd5\u6d4b\u8bd5\u6d4b\u8bd5\u6d4b\u8bd5\u6d4b\u8bd5\u6d4b\u8bd5\u6d4b\u8bd5\u6d4b\u8bd5\u6d4b\u8bd5\u6d4b\u8bd5\u6d4b\u8bd5\u6d4b\u8bd5\u6d4b\u8bd5\u6d4b\u8bd5\u6d4b\u8bd5\u6d4b\u8bd5\u6d4b\u8bd5\u6d4b\u8bd5\u6d4b\u8bd5\u6d4b\u8bd5\u6d4b\u8bd5\u6d4b\u8bd5\u6d4b\u8bd5\u6d4b\u8bd5\u6d4b\u8bd5\u6d4b\u8bd5\u6d4b\u8bd5\u6d4b\u8bd5\u6d4b\u8bd5", 
         "link": "https://pychina.org", 
         "logo": "../asset/img/sponsors/pycon.jpeg", 
         "name": "PyChina \u793e\u533a"
@@ -850,15 +850,6 @@
   "volunteers": {
     "conference": null, 
     "organizers": [
-      {
-        "avatar": "./asset/images/avatar-2019/volunteers/chenshixin.png", 
-        "blog": "http://sting.topgeek.org/", 
-        "intro": "PyChina\u53d1\u8d77\u4eba <br /> Ahaschool-\u9996\u5e2d\u8fd0\u8425\u5b98", 
-        "name": "StingChen(\u9648\u4e16\u6b23)", 
-        "role": "organizer", 
-        "role_organizer": 1, 
-        "weibo": "http://weibo.com/stingchen"
-      }, 
       {
         "avatar": "./asset/images/avatar-2019/volunteers/dama.png", 
         "blog": "http://zoomquiet.io/", 
@@ -894,6 +885,15 @@
         "role": "organizer", 
         "role_organizer": 1, 
         "weibo": null
+      }, 
+      {
+        "avatar": "./asset/images/avatar-2019/volunteers/chenshixin.png", 
+        "blog": "http://sting.topgeek.org/", 
+        "intro": "PyChina\u53d1\u8d77\u4eba <br /> Ahaschool-\u9996\u5e2d\u8fd0\u8425\u5b98", 
+        "name": "StingChen(\u9648\u4e16\u6b23)", 
+        "role": "organizer", 
+        "role_organizer": 1, 
+        "weibo": "http://weibo.com/stingchen"
       }, 
       {
         "avatar": "./asset/images/avatar-2019/volunteers/zhanghongke.png", 
