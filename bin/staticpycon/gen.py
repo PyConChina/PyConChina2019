@@ -2,16 +2,17 @@
 
 from __future__ import unicode_literals, print_function
 
-from copy import deepcopy
 import json
 import logging
+import pipes
+import re
+import yaml
+
+from copy import deepcopy
 from multiprocessing import Process
 from os.path import dirname, realpath, join, getmtime, relpath
 from os import listdir, system
-import pipes
-import re
-import shutil
-import yaml
+from collections import OrderedDict
 
 from staticjinja import make_site, Reloader
 from webassets import Environment, Bundle
@@ -82,8 +83,8 @@ def _sp_selectspeakers(speakers, city):
     keyname = "city_" + city
     city_speakers = [speaker for speaker_id, speaker in speakers.iteritems()
                      if keyname in speaker]
-    # print(u'城市: %s' % (city, ))
-    # [print(speaker['name']) for speaker in city_speakers]
+    print(u'城市: %s' % (city, ))
+    [print(speaker['name']) for speaker in city_speakers]
     return city_speakers
 
 
@@ -124,6 +125,20 @@ def _write_json():
             json.dump(output_context, fp, indent=2, sort_keys=True)
 
 
+def _ordered_yaml_load(stream, default_loader=yaml.Loader, object_pairs_hook=OrderedDict):
+    class OrderedLoader(default_loader):
+        pass
+
+    def construct_mapping(loader, node):
+        loader.flatten_mapping(node)
+        return object_pairs_hook(loader.construct_pairs(node))
+
+    OrderedLoader.add_constructor(
+        yaml.resolver.BaseResolver.DEFAULT_MAPPING_TAG,
+        construct_mapping)
+    return yaml.load(stream, OrderedLoader)
+
+
 def _load_data():
     '''载入数据文件，保存了文件的mtime以减少不必要的读操作'''
     data_modified = False
@@ -137,7 +152,8 @@ def _load_data():
         if match:
             data_mtimes[filepath] = filemtime
             entryname = match.group(1)
-            data = yaml.load(open(filepath))
+            data = _ordered_yaml_load(open(filepath))
+            # data = yaml.load(open(filepath))
             for lang, context in data_contexts.items():
                 data_copy = deepcopy(data)
                 _process_data(data_copy, context['lang_suffix'])
