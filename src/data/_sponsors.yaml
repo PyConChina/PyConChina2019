@@ -54,11 +54,11 @@ meta:
 organizer:
   -
     logo: ./asset/img/sponsors/pycon.jpeg
-    logo: ../asset/img/sponsors/pycon.jpeg
+    logo_en: ../asset/img/sponsors/pycon.jpeg
     link: "https://pychina.org"
     name: "PyChina 社区"
     name_en: "PyChina"
-    intro: "测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试"
+    intro: ""
     intro_en: ""
 
 #########################################
