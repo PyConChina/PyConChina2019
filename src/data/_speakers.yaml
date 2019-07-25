@@ -36,17 +36,17 @@ speaker_shanghai_hsiaomingyang:
     slide: #
 speaker_shanghai_huili:
   name: 李辉 
-  name_en: Hui Li
+  name_en: Grey Li
   city_shanghai: 1
   avatar: ./asset/images/speakers/lihui.jpg
   avatar_en: ../asset/images/speakers/lihui.jpg
-  short_intro: "独立 Web 开发者，Flask 维护者，《Flask Web 开发实战》作者"
-  short_intro_en: "Individual developer, maintainer of Flask, author of Flask Web Development"
-  intro: "独立 Web 开发者，Flask 维护者，《Flask Web 开发实战》作者"
-  intro_en: "Individual developer, maintainer of Flask, author of Flask Web Development"
+  short_intro: "独立 Web 开发者，Flask 维护者，《Flask Web 开发实战》作者。"
+  short_intro_en: "Freelance web developer, maintainer of Flask, author of "Python Web Development with Flask"."
+  intro: "独立 Web 开发者，Flask 维护者，《Flask Web 开发实战》作者。"
+  intro_en: "Freelance web developer, maintainer of Flask, author of "Python Web Development with Flask"."
   shanghai_topic:
     title: "基于 Flask 的 REST API 开发指南"
-    title_en: "Development of Flask base on REST API"
+    title_en: "Building REST API with Flask"
     preview: "作为一个微框架，轻量灵活的 Flask 很适合用来开发 REST API 服务。相对于 Django REST Framework 和 APIStar，Flask 有什么优势和缺点？为了减少工作量，我们通常会使用一些工具来辅助编写，面对 Flask-RESTful、Flask-RESTPlus、Flask-API、Webargs、Marshmallow 等扩展和工具库，我们应该如何选择？虽然我们经常使用 REST API 这个名称，但是大部分的 API 都不够 RESTful，那么什么样的 API 才能算是 REST API？在这个议题中，我们将对这几个问题逐一进行探讨，并了解如何使用 Flask 编写出功能完善的 REST API 服务。"
     preview_en: "As a micro framework, Flask is very suitable for developing REST API. What is the merits and drawback of Flask comparing to  Django REST Framework and APIStar? In order to simplify our work, we will use some tools to help us. What should we choose between several tools and extension like Flask-RESTful、Flask-RESTPlus、Flask-API、Webargs、Marshmallow? Although we usually use REST API to name our API, most of them are not \"RESTful\" enough. Therefore, which kind of API is the truly REST API? In this topic speech, we will discuss these questions and introduce how to write a fully functional REST API using Flask."
     slide: #
@@ -100,14 +100,14 @@ speaker_shanghai_laiqiangding:
     slide: #
 speaker_shanghai_huili:
   name: 李辉
-  name_en: Hui Li
+  name_en: Grey Li
   city_shanghai: 1
   avatar: ./asset/images/speakers/lihui.jpg
   avatar_en: ../asset/images/speakers/lihui.jpg
-  short_intro: "独立 Web 开发者，Flask 维护者，《Flask Web 开发实战》作者"
-  short_intro_en: "Individual developer, maintainer of Flask, author of Flask Web Development"
-  intro: ""
-  intro_en: ""
+  short_intro: "独立 Web 开发者，Flask 维护者，《Flask Web 开发实战》作者。"
+  short_intro_en: "Freelance web developer, maintainer of Flask, author of "Python Web Development with Flask.""
+  intro: "独立 Web 开发者，Flask 维护者，《Flask Web 开发实战》作者。"
+  intro_en: "Freelance web developer, maintainer of Flask, author of "Python Web Development with Flask.""
   shanghai_topic:
     title: "Python 虚拟环境和依赖管理工具大乱斗"
     title_en: "Fighting among Python virtual environment and dependency management tools"
@@ -138,8 +138,8 @@ speaker_shanghai_xiaotan:
   avatar_en: ../asset/images/speakers/tanxiao.jpg
   short_intro: "蚂蚁金服开发工程师"
   short_intro_en: "Developer of Ant Fincial Inc."
-  intro: ""
-  intro_en: ""
+  intro: "蚂蚁金服开发工程师"
+  intro_en: "Developer of Ant Fincial Inc."
   shanghai_topic:
     title: "500行Python写一个渲染器 "
     title_en: "Make a renderer within 500 lines Python codes"
