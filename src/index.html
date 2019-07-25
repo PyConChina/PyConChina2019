@@ -59,8 +59,7 @@
 	</section>
     <section id="volunteers" class="section align-center">
         {% for role in volunteers.role_list %}
-        {% set extra_class = loop.cycle('pycon-even-seg','pycon-odd-seg') %}
-        {{ volunteer_macro.volunteer_block(role, volunteers[role.role], extra_class) }}
+        {{ volunteer_macro.volunteer_block(role, volunteers[role.role], '') }}
         {% endfor%}
     </section>
 <section id="sponsors" class="section align-center">
