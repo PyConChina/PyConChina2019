@@ -45,6 +45,12 @@
 			.speaker {
 				min-height: 415px;
 			}
+			.banner__btnWraper .btn {
+				margin-bottom: 12px;
+			}
+			.support_intro {
+				min-height: 100px;
+			}
 		</style>
 	<!--[if lt IE 9]>
 		<script src="{{ site.base_url }}/asset/js/html5shiv.js"></script>
@@ -59,7 +65,7 @@
 			<div class="container">
 				<h1 class="extra-heading">{{ message.slogan_title }}</h1>
 				<h6 class="thin base-font">{{ message.slogan }}</h6>
-				<div class="btns-container">
+				<div class="btns-container banner__btnWraper">
 						{% for city in message.booking_now %}
 						<a class="btn btn-md" href="{{ city.url }}" target="_blank">{{ message.booking_title_before}}{{ city.name }}{{ message.booking_title_after}}</a>
 						{% endfor %}
