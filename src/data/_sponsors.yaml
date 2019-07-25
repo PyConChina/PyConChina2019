@@ -63,8 +63,8 @@ meta:
 #########################################
 organizer:
   -
-    logo: ./asset/img/sponsors/pycon.jpeg
-    logo: ../asset/img/sponsors/pycon.jpeg
+    logo: ./asset/images/sponsors/pycon.jpeg
+    logo: ../asset/images/sponsors/pycon.jpeg
     link: "https://pychina.org"
     name: "PyChina 社区"
     name_en: "PyChina"
@@ -87,8 +87,8 @@ platinum:
 #########################################
 gold:
   -
-    logo: ./asset/img/sponsors/elastic.jpg
-    logo: ../asset/img/sponsors/elastic.jpg
+    logo: ./asset/images/sponsors/elastic.jpg
+    logo: ../asset/images/sponsors/elastic.jpg
     link: "https://www.elastic.co/cn/"
     name: "Elastic"
     name_en: "Elastic"
@@ -99,8 +99,8 @@ gold:
 #########################################
 silver:
   -
-    logo: ./asset/img/sponsors/jetbrains.png
-    logo: ../asset/img/sponsors/jetbrains.png
+    logo: ./asset/images/sponsors/jetbrains.png
+    logo: ../asset/images/sponsors/jetbrains.png
     link: "www.jetbrains.com"
     name: "Jetbrains"
     name_en: "Jetbrains"
@@ -116,8 +116,8 @@ bronze:
 #########################################
 book:
   -
-    logo: ./asset/img/sponsors/turing.jpeg
-    logo_en: ../asset/img/sponsors/turing.jpeg
+    logo: ./asset/images/sponsors/turing.jpeg
+    logo_en: ../asset/images/sponsors/turing.jpeg
     link: "https://ituring.cn"
     name: "图灵教育"
     name_en: "Turing"
@@ -134,8 +134,8 @@ community:
 #########################################
 partners:
   -
-    logo: ./asset/img/sponsors/360.png
-    logo_en: ../asset/img/sponsors/360.png
+    logo: ./asset/images/sponsors/360.png
+    logo_en: ../asset/images/sponsors/360.png
     link: "https://www.360.cn/"
     name: "360技术委员会 & 360大学"
     name_en: "360技术委员会 & 360大学"
