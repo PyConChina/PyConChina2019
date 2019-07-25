@@ -12,6 +12,11 @@ meta:
     name: 白银赞助
     name_en: Silver
   -
+    level: gold
+    style: inline
+    name: 黄金级
+    name_en: Gold
+  -
     level: bronze
     style: inline
     name: 青铜赞助
@@ -46,6 +51,11 @@ meta:
     style: inline
     name: 社区合作伙伴
     name_en: Community partners
+  -
+    level: partners
+    style: inline
+    name: 战略合作伙伴
+    name_en: Partners
 
 
 #########################################
@@ -58,8 +68,8 @@ organizer:
     link: "https://pychina.org"
     name: "PyChina 社区"
     name_en: "PyChina"
-    intro: ""
-    intro_en: ""
+    intro: "PyChina于2014年继2002年成立的CPyUG社区之后，在广大Python爱好者的推动下为宣传和发展Python而成立的。不定期推动，促进各地Python线下活动和在线活动，主办PyCon大会。"
+    intro_en: "After the establishment of CPyUG, lots of Python fans set up a new group called PyChina in 2014 to advertise and develop Python. PyChina will encourage online and offline activities from all over China, especially PyCon."
 
 #########################################
 # 钻石级
@@ -76,12 +86,26 @@ platinum:
 # 黄金级
 #########################################
 gold:
-
+  -
+    logo: ./asset/img/sponsors/elastic.jpg
+    logo: ../asset/img/sponsors/elastic.jpg
+    link: "https://www.elastic.co/cn/"
+    name: "Elastic"
+    name_en: "Elastic"
+    intro: "Elastic是一家搜索公司。作为Elastic Stack（Elasticsearch，Kibana，Beats和Logstash）的创建者，Elastic构建了自我管理和SaaS产品，使数据可以实时，大规模地用于搜索，日志记录，安全和分析用例。"
+    intro_en: "Elastic is a search company. As the creators of the Elastic Stack (Elasticsearch, Kibana, Beats, and Logstash), Elastic builds self-managed and SaaS offerings that make data usable in real time and at scale for search, logging, security, and analytics use cases. Learn more at elastic.co."
 #########################################
 # 白银级赞助
 #########################################
 silver:
-
+  -
+    logo: ./asset/img/sponsors/jetbrains.png
+    logo: ../asset/img/sponsors/jetbrains.png
+    link: "www.jetbrains.com"
+    name: "Jetbrains"
+    name_en: "Jetbrains"
+    intro: "JetBrains creates professional software development tools for coding in Kotlin, Python,  Java, and more languages, as well as advanced team collaboration tools."
+    intro_en: "JetBrains creates professional software development tools for coding in Kotlin, Python,  Java, and more languages, as well as advanced team collaboration tools."
 #########################################
 # 青铜级赞助
 #########################################
@@ -97,10 +121,23 @@ book:
     link: "https://ituring.cn"
     name: "图灵教育"
     name_en: "Turing"
-    intro: ""
-    intro_en: ""
+    intro: "北京图灵文化发展有限公司，始终以策划出版高质量的科技图书为核心业务。旗下图灵教育品牌是国内计算机图书领域的高端品牌之一。图灵社区是图灵公司打造的综合性服务平台，集图书内容生产、作译者服务、电子书销售、技术人士交流于一体。"
+    intro_en: "北京图灵文化发展有限公司，始终以策划出版高质量的科技图书为核心业务。旗下图灵教育品牌是国内计算机图书领域的高端品牌之一。图灵社区是图灵公司打造的综合性服务平台，集图书内容生产、作译者服务、电子书销售、技术人士交流于一体。"
 
 #########################################
 # 社区合作伙伴
 #########################################
 community:
+
+#########################################
+# 战略合作伙伴
+#########################################
+partners:
+  -
+    logo: ./asset/img/sponsors/360.png
+    logo_en: ../asset/img/sponsors/360.png
+    link: "https://www.360.cn/"
+    name: "360技术委员会 & 360大学"
+    name_en: "360技术委员会 & 360大学"
+    intro: ""
+    intro_en: ""
