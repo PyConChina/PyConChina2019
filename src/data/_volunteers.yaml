@@ -130,8 +130,8 @@ organizers:
   name_en: Yuankun Shi
   role: organizer
   role_organizer: 1
-  avatar: ./asset/images/avatar-2019/volunteers/zhumingfang.png
-  avatar_en: ../asset/images/avatar-2019/volunteers/zhumingfang.png
+  avatar: ./asset/images/avatar-2019/volunteers/shiyuankun.jpg
+  avatar_en: ../asset/images/avatar-2019/volunteers/shiyuankun.jpg
   intro: 上海站 | 组委<br/>Intel 软件工程师
   intro_en: Shanghai | Software Engineer of Intel Inc.
   blog:
@@ -141,8 +141,8 @@ organizers:
   name_en: River
   role: organizer
   role_organizer: 1
-  avatar: ./asset/images/avatar-2019/volunteers/river.png
-  avatar_en: ../asset/images/avatar-2019/volunteers/river.png
+  avatar: ./asset/images/avatar-2019/volunteers/river.jpg
+  avatar_en: ../asset/images/avatar-2019/volunteers/river.jpg
   intro: 上海站 | 组委<br/>优趣天下CTO、QPython开发者
   intro_en: Shanghai | CTO of Quseit Inc., Developer of QPython
   blog: http://river.aipy.org
@@ -174,8 +174,8 @@ organizers:
   name_en: Min Ye
   role: organizer
   role_organizer: 1
-  avatar: ./asset/images/avatar-2019/volunteers/yemin.png
-  avatar_en: ../asset/images/avatar-2019/volunteers/yemin.png
+  avatar: ./asset/images/avatar-2019/volunteers/yemin.jpg
+  avatar_en: ../asset/images/avatar-2019/volunteers/yemin.jpg
   intro: 上海站 | 组委<br/>诺基亚贝尔 自动化测试教练 自动化测试架构师
   intro_en: Shanghai | Coach and Architect Designer of Automated Test in Nokia Bell 
   blog: 
@@ -196,8 +196,8 @@ organizers:
   name_en: Junhao Ding
   role: organizer
   role_organizer: 1
-  avatar: ./asset/images/avatar-2019/volunteers/dingjunhao.png
-  avatar_en: ../asset/images/avatar-2019/volunteers/dingjunhao.png
+  avatar: ./asset/images/avatar-2019/volunteers/dingjunhao.jpg
+  avatar_en: ../asset/images/avatar-2019/volunteers/dingjunhao.jpg
   intro: 上海站 | 组委<br/>享道出行 DevOps
   intro_en: Shanghai | DevOps of Saicmobility Inc.
   blog: 
