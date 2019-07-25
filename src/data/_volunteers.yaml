@@ -1,7 +1,16 @@
 role_list:
- - organizers
- - technicians
- - conference
+ - 
+  role: organizers
+  name: 出品人
+  name_en: organizers
+ - 
+  name: technicians
+  name: 出品人
+  name_en: organizers
+ - 
+  name: conference
+  name: 出品人
+  name_en: organizers
 
 organizers:
 -
@@ -9,8 +18,8 @@ organizers:
   name_en: Zoom.Quiet (Dama)
   role: organizer
   role_organizer: 1
-  avatar: ./asset/images/avatar-2019/volunteers/dama.png
-  avatar_en: ../asset/images/avatar-2019/volunteers/dama.png
+  avatar: ./asset/images/volunteers/dama.png
+  avatar_en: ../asset/images/volunteers/dama.png
   intro: PyChina发起人 <br />uSEE.tech CTO
   intro_en: Sponsor of PyChina<br />uSEE.tech CTO
   blog: http://zoomquiet.io/
@@ -20,8 +29,8 @@ organizers:
   name_en: Grey Li
   role: organizer
   role_organizer: 1
-  avatar: ./asset/images/avatar-2019/volunteers/lihui.png
-  avatar_en: ../asset/images/avatar-2019/volunteers/lihui.png
+  avatar: ./asset/images/volunteers/lihui.png
+  avatar_en: ../asset/images/volunteers/lihui.png
   intro: 上海站 | 组委<br/>独立 Web 开发者
   intro_en: Shanghai <br />Freelance Web Developer
   blog: http://greyli.com
@@ -31,8 +40,8 @@ organizers:
   name_en: Binxin Wang
   role: organizer
   role_organizer: 1
-  avatar: ./asset/images/avatar-2019/volunteers/wangbinxin.png
-  avatar_en: ../asset/images/avatar-2019/volunteers/wangbinxin.png
+  avatar: ./asset/images/volunteers/wangbinxin.png
+  avatar_en: ../asset/images/volunteers/wangbinxin.png
   intro: 上海站 | 组委<br/>阿里云 - 高级开发工程师
   intro_en: Shanghai <br /> Aliyun - Senior Developer
   blog: https://www.zhihu.com/people/prodesire
@@ -42,8 +51,8 @@ organizers:
   name_en: Jintao Zhang
   role: organizer
   role_organizer: 1
-  avatar: ./asset/images/avatar-2019/volunteers/zhangjintao.png
-  avatar_en: ../asset/images/avatar-2019/volunteers/zhangjintao.png
+  avatar: ./asset/images/volunteers/zhangjintao.png
+  avatar_en: ../asset/images/volunteers/zhangjintao.png
   intro: 上海站 | 组委<br/>网易有道-资深运维开发
   intro_en: Shanghai | NetEase, Inc.
   blog: https://moelove.info
@@ -55,8 +64,8 @@ organizers:
   role_organizer: 1
   intro: PyChina发起人 <br /> Ahaschool-首席运营官
   intro_en: Sponsor of PyChina <br />Ahaschool-CTO
-  avatar: ./asset/images/avatar-2019/volunteers/chenshixin.png
-  avatar_en: ../asset/images/avatar-2019/volunteers/chenshixin.png
+  avatar: ./asset/images/volunteers/chenshixin.png
+  avatar_en: ../asset/images/volunteers/chenshixin.png
   blog: http://sting.topgeek.org/
   weibo: http://weibo.com/stingchen
 -
@@ -64,8 +73,8 @@ organizers:
   name_en: Hongke Zhang
   role: organizer
   role_organizer: 1
-  avatar: ./asset/images/avatar-2019/volunteers/zhanghongke.png
-  avatar_en: ../asset/images/avatar-2019/volunteers/zhanghongke.png
+  avatar: ./asset/images/volunteers/zhanghongke.png
+  avatar_en: ../asset/images/volunteers/zhanghongke.png
   intro: 上海站 | 组委<br/>点我达 - 资深开发工程师
   intro_en: Shanghai | Dianwoda - Senior Developer
   blog:
@@ -75,8 +84,8 @@ organizers:
   name_en: Liangju Deng
   role: organizer
   role_organizer: 1
-  avatar: ./asset/images/avatar-2019/volunteers/dengliangju.png
-  avatar_en: ../asset/images/avatar-2019/volunteers/dengliangju.png
+  avatar: ./asset/images/volunteers/dengliangju.png
+  avatar_en: ../asset/images/volunteers/dengliangju.png
   intro: 上海站 | 组委<br/>秘塔科技 - 工程总监
   intro_en: Shanghai | Mita tec.
   blog:
@@ -86,8 +95,8 @@ organizers:
   name_en: Jon Huang
   role: organizer
   role_organizer: 1
-  avatar: ./asset/images/avatar-2019/volunteers/jonhuang.png
-  avatar_en: ../asset/images/avatar-2019/volunteers/jonhuang.png
+  avatar: ./asset/images/volunteers/jonhuang.png
+  avatar_en: ../asset/images/volunteers/jonhuang.png
   intro: 上海站 | 组委<br/>yield.im - 创始人
   intro_en: Shanghai | Founder of yield.im
   blog:
@@ -97,8 +106,8 @@ organizers:
   name_en: Zheao Li
   role: organizer
   role_organizer: 1
-  avatar: ./asset/images/avatar-2019/volunteers/lizheao.png
-  avatar_en: ../asset/images/avatar-2019/volunteers/lizheao.png
+  avatar: ./asset/images/volunteers/lizheao.png
+  avatar_en: ../asset/images/volunteers/lizheao.png
   intro: 上海站 | 组委<br/>饿了么资深开发工程师
   intro: Shanghai | Senior Developer of Ele.me
   blog: https://www.zhihu.com/people/li-zhe-ao/activities）
@@ -108,8 +117,8 @@ organizers:
   name_en: Xuye Qin
   role: organizer
   role_organizer: 1
-  avatar: ./asset/images/avatar-2019/volunteers/qinxuye.png
-  avatar_en: ../asset/images/avatar-2019/volunteers/qinxuye.png
+  avatar: ./asset/images/volunteers/qinxuye.png
+  avatar_en: ../asset/images/volunteers/qinxuye.png
   intro: 上海站 | 组委<br/>阿里巴巴-技术专家
   intro_en: Shanghai | Senior Developer of Alibaba
   blog: http://qinxuye.me/
@@ -119,8 +128,8 @@ organizers:
   name_en: Mingfang Zhu
   role: organizer
   role_organizer: 1
-  avatar: ./asset/images/avatar-2019/volunteers/zhumingfang.png
-  avatar_en: ../asset/images/avatar-2019/volunteers/zhumingfang.png
+  avatar: ./asset/images/volunteers/zhumingfang.png
+  avatar_en: ../asset/images/volunteers/zhumingfang.png
   intro: 上海站 | 组委<br/>赛宁-信息安全工程师
   intro_en: Shanghai | Information security engineer of Saining
   blog:
@@ -130,8 +139,8 @@ organizers:
   name_en: Yuankun Shi
   role: organizer
   role_organizer: 1
-  avatar: ./asset/images/avatar-2019/volunteers/zhumingfang.png
-  avatar_en: ../asset/images/avatar-2019/volunteers/zhumingfang.png
+  avatar: ./asset/images/volunteers/zhumingfang.png
+  avatar_en: ../asset/images/volunteers/zhumingfang.png
   intro: 上海站 | 组委<br/>Intel 软件工程师
   intro_en: Shanghai | Software Engineer of Intel Inc.
   blog:
@@ -141,8 +150,8 @@ organizers:
   name_en: River
   role: organizer
   role_organizer: 1
-  avatar: ./asset/images/avatar-2019/volunteers/river.png
-  avatar_en: ../asset/images/avatar-2019/volunteers/river.png
+  avatar: ./asset/images/volunteers/river.png
+  avatar_en: ../asset/images/volunteers/river.png
   intro: 上海站 | 组委<br/>优趣天下CTO、QPython开发者
   intro_en: Shanghai | CTO of Quseit Inc., Developer of QPython
   blog: http://river.aipy.org
@@ -152,8 +161,8 @@ organizers:
   name_en: Shaofei Dai
   role: organizer
   role_organizer: 1
-  avatar: ./asset/images/avatar-2019/volunteers/daishaofei.png
-  avatar_en: ../asset/images/avatar-2019/volunteers/daishaofei.png
+  avatar: ./asset/images/volunteers/daishaofei.png
+  avatar_en: ../asset/images/volunteers/daishaofei.png
   intro: 上海站 | 组委<br/>小橙奔跑 高级开发工程师
   intro_en: Shanghai | Senior Developer
   blog: 
@@ -163,8 +172,8 @@ organizers:
   name_en: Xiangyu He
   role: organizer
   role_organizer: 1
-  avatar: ./asset/images/avatar-2019/volunteers/hexiangyu.png
-  avatar_en: ../asset/images/avatar-2019/volunteers/hexiangyu.png
+  avatar: ./asset/images/volunteers/hexiangyu.png
+  avatar_en: ../asset/images/volunteers/hexiangyu.png
   intro: 上海站 | 组委<br/>字节跳动研发工程师
   intro_en: Shanghai | R&D Engineer of Bytedance Inc.
   blog: 
@@ -174,8 +183,8 @@ organizers:
   name_en: Min Ye
   role: organizer
   role_organizer: 1
-  avatar: ./asset/images/avatar-2019/volunteers/yemin.png
-  avatar_en: ../asset/images/avatar-2019/volunteers/yemin.png
+  avatar: ./asset/images/volunteers/yemin.png
+  avatar_en: ../asset/images/volunteers/yemin.png
   intro: 上海站 | 组委<br/>诺基亚贝尔 自动化测试教练 自动化测试架构师
   intro_en: Shanghai | Coach and Architect Designer of Automated Test in Nokia Bell 
   blog: 
@@ -185,8 +194,8 @@ organizers:
   name_en: Jiaojie Zhang
   role: organizer
   role_organizer: 1
-  avatar: ./asset/images/avatar-2019/volunteers/zhangjiaojie.png
-  avatar_en: ../asset/images/avatar-2019/volunteers/zhangjiaojie.png
+  avatar: ./asset/images/volunteers/zhangjiaojie.png
+  avatar_en: ../asset/images/volunteers/zhangjiaojie.png
   intro: 上海站 | 组委<br/>英伟达（上海）科技有限公司  资深深度学习架构工程师
   intro_en: Shanghai | Senior Architect Designer of Deep Learning in Nvidia. Shanghai
   blog: 
@@ -196,8 +205,8 @@ organizers:
   name_en: Junhao Ding
   role: organizer
   role_organizer: 1
-  avatar: ./asset/images/avatar-2019/volunteers/dingjunhao.png
-  avatar_en: ../asset/images/avatar-2019/volunteers/dingjunhao.png
+  avatar: ./asset/images/volunteers/dingjunhao.png
+  avatar_en: ../asset/images/volunteers/dingjunhao.png
   intro: 上海站 | 组委<br/>享道出行 DevOps
   intro_en: Shanghai | DevOps of Saicmobility Inc.
   blog: 
@@ -207,8 +216,8 @@ organizers:
   name_en: Spawnris
   role: organizer
   role_organizer: 1
-  avatar: ./asset/images/avatar-2019/volunteers/gaojunteng.png
-  avatar_en: ../asset/images/avatar-2019/volunteers/gaojunteng.png
+  avatar: ./asset/images/volunteers/gaojunteng.png
+  avatar_en: ../asset/images/volunteers/gaojunteng.png
   intro: 上海站 | 组委<br/>腾讯  工程师
   intro_en: Shanghai | Engineer of Tencent Inc.
   blog: 
