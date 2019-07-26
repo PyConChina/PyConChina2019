@@ -83,8 +83,8 @@ def _sp_selectspeakers(speakers, city):
     keyname = "city_" + city
     city_speakers = [speaker for speaker_id, speaker in speakers.iteritems()
                      if keyname in speaker]
-    print(u'城市: %s' % (city, ))
-    [print(speaker['name']) for speaker in city_speakers]
+    # print(u'城市: %s' % (city, ))
+    # [print(speaker['name']) for speaker in city_speakers]
     return city_speakers
 
 

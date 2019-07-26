@@ -21,8 +21,8 @@ shanghai:
   address_en: Shanghai China
   maplink: 'https://www.amap.com/place/B0015731XR'
   video: ''
-  date: 2019年9月21日 8:00 ~ 17:00
-  date_en: Sept.21st 2019 8:00 to 17:00
+  date: 2019年9月21日
+  date_en: Sept.21st 2019
   notices: ""
   places:
     - place_name: 会场 A
@@ -80,8 +80,8 @@ beijing:
   address_en: Beijing China
   maplink: 'https://www.amap.com/place/B000A87KPU'
   video: ''
-  date: 2019年10月19日  9:00 ~ 17:00
-  date_en: Otc.19th 2019 9:00 to 17:00
+  date: 2019年10月19日
+  date_en: Otc.19th 2019
   notices: ""
   places:
     - place_name: 会场 A
@@ -139,8 +139,8 @@ hangzhou:
   address_en: Hangzhou China
   maplink: 'https://www.amap.com/place/B0015731XR'
   video: ''
-  date: 2019年9月21日 8:00 ~ 17:00
-  date_en: Sept.21st 2019 8:00 to 17:00
+  date: 2019年9月21日
+  date_en: Sept.21st 2019
   notices: ""
   places:
     - place_name: 会场 A
@@ -197,8 +197,8 @@ shenzhen:
   address_en: Shenzhen China
   maplink: 'https://www.amap.com/place/B0015731XR'
   video: ''
-  date: 2019年9月21日 8:00 ~ 17:00
-  date_en: Sept.21st 2019 8:00 to 17:00
+  date: 2019年9月21日
+  date_en: Sept.21st 2019
   notices: ""
   places:
     - place_name: 会场 A
@@ -255,8 +255,8 @@ chengdu:
   address_en: Chengdu China
   maplink: 'https://www.amap.com/place/B0015731XR'
   video: ''
-  date: 2019年9月21日 8:00 ~ 17:00
-  date_en: Sept.21st 2019 8:00 to 17:00
+  date: 2019年9月21日
+  date_en: Sept.21st 2019
   notices: ""
   places:
     - place_name: 会场 A
@@ -313,8 +313,8 @@ nanning:
   address_en: Nanning China
   maplink: 'https://www.amap.com/place/B0015731XR'
   video: ''
-  date: 2019年9月21日 8:00 ~ 17:00
-  date_en: Sept.21st 2019 8:00 to 17:00
+  date: 2019年9月21日
+  date_en: Sept.21st 2019
   notices: ""
   places:
     - place_name: 会场 A
