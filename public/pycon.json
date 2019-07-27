@@ -5,7 +5,7 @@
       "cancel_talks": null, 
       "city": "beijing", 
       "completed": false, 
-      "date": "2019\u5e7410\u670819\u65e5  9:00 ~ 17:00", 
+      "date": "2019\u5e7410\u670819\u65e5", 
       "lightening_talks": null, 
       "maplink": "https://www.amap.com/place/B000A87KPU", 
       "name": "\u5317\u4eac", 
@@ -69,7 +69,7 @@
       "cancel_talks": null, 
       "city": "chengdu", 
       "completed": false, 
-      "date": "2019\u5e749\u670821\u65e5 8:00 ~ 17:00", 
+      "date": "2019\u5e749\u670821\u65e5", 
       "lightening_talks": null, 
       "maplink": "https://www.amap.com/place/B0015731XR", 
       "name": "\u6210\u90fd", 
@@ -149,7 +149,7 @@
       "cancel_talks": null, 
       "city": "hangzhou", 
       "completed": false, 
-      "date": "2019\u5e749\u670821\u65e5 8:00 ~ 17:00", 
+      "date": "2019\u5e749\u670821\u65e5", 
       "lightening_talks": null, 
       "maplink": "https://www.amap.com/place/B0015731XR", 
       "name": "\u676d\u5dde", 
@@ -221,7 +221,7 @@
       "cancel_talks": null, 
       "city": "nanning", 
       "completed": false, 
-      "date": "2019\u5e749\u670821\u65e5 8:00 ~ 17:00", 
+      "date": "2019\u5e749\u670821\u65e5", 
       "lightening_talks": null, 
       "maplink": "https://www.amap.com/place/B0015731XR", 
       "name": "\u5357\u5b81", 
@@ -294,7 +294,7 @@
       "cancel_talks": null, 
       "city": "shanghai", 
       "completed": false, 
-      "date": "2019\u5e749\u670821\u65e5 8:00 ~ 17:00", 
+      "date": "2019\u5e749\u670821\u65e5", 
       "lightening_talks": null, 
       "maplink": "https://www.amap.com/place/B0015731XR", 
       "name": "\u4e0a\u6d77", 
@@ -366,7 +366,7 @@
       "cancel_talks": null, 
       "city": "shenzhen", 
       "completed": false, 
-      "date": "2019\u5e749\u670821\u65e5 8:00 ~ 17:00", 
+      "date": "2019\u5e749\u670821\u65e5", 
       "lightening_talks": null, 
       "maplink": "https://www.amap.com/place/B0015731XR", 
       "name": "\u6df1\u5733", 
@@ -446,7 +446,7 @@
       {
         "location": "\u4e0a\u6d77\u6768\u6d66\u5b81\u56fd\u8def25\u53f7\u4e0a\u6d77\u5174\u8363\u6e29\u5fb7\u59c6\u9152\u5e972\u697c\u4f1a\u8bae\u5385", 
         "name": "\u4e0a\u6d77", 
-        "time": "2018\u5e745\u670819\u65e5 8:00 ~ 17:00", 
+        "time": "2018\u5e745\u670819\u65e5", 
         "url": "https://www.bagevent.com/event/5293611"
       }, 
       {
@@ -480,8 +480,8 @@
         "url": "#"
       }
     ], 
-    "booking_title_after": "\u573a", 
-    "booking_title_before": "\u62a5\u540d", 
+    "booking_title_after": "\u7ad9", 
+    "booking_title_before": "", 
     "conference_location": "\u4e0a\u6d77\u6768\u6d66\u5b81\u56fd\u8def25\u53f7\u4e0a\u6d77\u5174\u8363\u6e29\u5fb7\u59c6\u9152\u5e972\u697c\u4f1a\u8bae\u5385", 
     "conference_location_title": "\u5927\u4f1a\u5730\u70b9", 
     "conference_time": "2018\u5e745\u670819\u65e5 8:00 \uff5e 2018\u5e745\u670819\u65e5 17:00", 
@@ -590,7 +590,7 @@
       "booking_url": "https://www.bagevent.com/event/5451680"
     }, 
     "speech_apply_url": "https://jinshuju.net/f/BH2z26", 
-    "title": "PyCon 2019 China", 
+    "title": "PyCon China 2019", 
     "url": "http://cn.pycon.org/2019/"
   }, 
   "speakers": {
@@ -778,16 +778,23 @@
   "sponsors": {
     "book": [
       {
-        "intro": "", 
+        "intro": "\u5317\u4eac\u56fe\u7075\u6587\u5316\u53d1\u5c55\u6709\u9650\u516c\u53f8\uff0c\u59cb\u7ec8\u4ee5\u7b56\u5212\u51fa\u7248\u9ad8\u8d28\u91cf\u7684\u79d1\u6280\u56fe\u4e66\u4e3a\u6838\u5fc3\u4e1a\u52a1\u3002\u65d7\u4e0b\u56fe\u7075\u6559\u80b2\u54c1\u724c\u662f\u56fd\u5185\u8ba1\u7b97\u673a\u56fe\u4e66\u9886\u57df\u7684\u9ad8\u7aef\u54c1\u724c\u4e4b\u4e00\u3002\u56fe\u7075\u793e\u533a\u662f\u56fe\u7075\u516c\u53f8\u6253\u9020\u7684\u7efc\u5408\u6027\u670d\u52a1\u5e73\u53f0\uff0c\u96c6\u56fe\u4e66\u5185\u5bb9\u751f\u4ea7\u3001\u4f5c\u8bd1\u8005\u670d\u52a1\u3001\u7535\u5b50\u4e66\u9500\u552e\u3001\u6280\u672f\u4eba\u58eb\u4ea4\u6d41\u4e8e\u4e00\u4f53\u3002", 
         "link": "https://ituring.cn", 
-        "logo": "./asset/img/sponsors/turing.jpeg", 
+        "logo": "./asset/images/sponsors/turing.jpeg", 
         "name": "\u56fe\u7075\u6559\u80b2"
       }
     ], 
     "bronze": null, 
     "community": null, 
     "diamond": null, 
-    "gold": null, 
+    "gold": [
+      {
+        "intro": "Elastic\u662f\u4e00\u5bb6\u641c\u7d22\u516c\u53f8\u3002\u4f5c\u4e3aElastic Stack\uff08Elasticsearch\uff0cKibana\uff0cBeats\u548cLogstash\uff09\u7684\u521b\u5efa\u8005\uff0cElastic\u6784\u5efa\u4e86\u81ea\u6211\u7ba1\u7406\u548cSaaS\u4ea7\u54c1\uff0c\u4f7f\u6570\u636e\u53ef\u4ee5\u5b9e\u65f6\uff0c\u5927\u89c4\u6a21\u5730\u7528\u4e8e\u641c\u7d22\uff0c\u65e5\u5fd7\u8bb0\u5f55\uff0c\u5b89\u5168\u548c\u5206\u6790\u7528\u4f8b\u3002", 
+        "link": "https://www.elastic.co/cn/", 
+        "logo": "../asset/images/sponsors/elastic.jpg", 
+        "name": "Elastic"
+      }
+    ], 
     "meta": [
       {
         "level": "organizer", 
@@ -797,6 +804,11 @@
       {
         "level": "silver", 
         "name": "\u767d\u94f6\u8d5e\u52a9", 
+        "style": "inline"
+      }, 
+      {
+        "level": "gold", 
+        "name": "\u9ec4\u91d1\u7ea7", 
         "style": "inline"
       }, 
       {
@@ -833,25 +845,45 @@
         "level": "community", 
         "name": "\u793e\u533a\u5408\u4f5c\u4f19\u4f34", 
         "style": "inline"
+      }, 
+      {
+        "level": "partners", 
+        "name": "\u6218\u7565\u5408\u4f5c\u4f19\u4f34", 
+        "style": "inline"
       }
     ], 
     "organizer": [
       {
-        "intro": "", 
+        "intro": "PyChina\u4e8e2014\u5e74\u7ee72002\u5e74\u6210\u7acb\u7684CPyUG\u793e\u533a\u4e4b\u540e\uff0c\u5728\u5e7f\u5927Python\u7231\u597d\u8005\u7684\u63a8\u52a8\u4e0b\u4e3a\u5ba3\u4f20\u548c\u53d1\u5c55Python\u800c\u6210\u7acb\u7684\u3002\u4e0d\u5b9a\u671f\u63a8\u52a8\uff0c\u4fc3\u8fdb\u5404\u5730Python\u7ebf\u4e0b\u6d3b\u52a8\u548c\u5728\u7ebf\u6d3b\u52a8\uff0c\u4e3b\u529ePyCon\u5927\u4f1a\u3002", 
         "link": "https://pychina.org", 
-        "logo": "./asset/img/sponsors/pycon.jpeg", 
+        "logo": "../asset/images/sponsors/pycon.jpeg", 
         "name": "PyChina \u793e\u533a"
       }
     ], 
+    "partners": [
+      {
+        "intro": "", 
+        "link": "https://www.360.cn/", 
+        "logo": "./asset/images/sponsors/360.png", 
+        "name": "360\u6280\u672f\u59d4\u5458\u4f1a & 360\u5927\u5b66"
+      }
+    ], 
     "platinum": null, 
-    "silver": null, 
+    "silver": [
+      {
+        "intro": "JetBrains creates professional software development tools for coding in Kotlin, Python,  Java, and more languages, as well as advanced team collaboration tools.", 
+        "link": "www.jetbrains.com", 
+        "logo": "../asset/images/sponsors/jetbrains.png", 
+        "name": "Jetbrains"
+      }
+    ], 
     "sponsor_title": "\u5408\u4f5c\u4f19\u4f34"
   }, 
   "volunteers": {
     "conference": null, 
     "organizers": [
       {
-        "avatar": "./asset/images/avatar-2019/volunteers/dama.png", 
+        "avatar": "./asset/images/volunteers/dama.png", 
         "blog": "http://zoomquiet.io/", 
         "intro": "PyChina\u53d1\u8d77\u4eba <br />uSEE.tech CTO", 
         "name": "Zoom.Quiet (\u5927\u5988)", 
@@ -860,7 +892,7 @@
         "weibo": "http://weibo.com/zoomquiet"
       }, 
       {
-        "avatar": "./asset/images/avatar-2019/volunteers/lihui.png", 
+        "avatar": "./asset/images/volunteers/lihui.png", 
         "blog": "http://greyli.com", 
         "intro": "\u4e0a\u6d77\u7ad9 | \u7ec4\u59d4<br/>\u72ec\u7acb Web \u5f00\u53d1\u8005", 
         "name": "\u674e\u8f89", 
@@ -869,7 +901,7 @@
         "weibo": null
       }, 
       {
-        "avatar": "./asset/images/avatar-2019/volunteers/wangbinxin.png", 
+        "avatar": "./asset/images/volunteers/wangbinxin.png", 
         "blog": "https://www.zhihu.com/people/prodesire", 
         "intro": "\u4e0a\u6d77\u7ad9 | \u7ec4\u59d4<br/>\u963f\u91cc\u4e91 - \u9ad8\u7ea7\u5f00\u53d1\u5de5\u7a0b\u5e08", 
         "name": "\u738b\u658c\u946b", 
@@ -878,7 +910,7 @@
         "weibo": null
       }, 
       {
-        "avatar": "./asset/images/avatar-2019/volunteers/zhangjintao.png", 
+        "avatar": "./asset/images/volunteers/zhangjintao.png", 
         "blog": "https://moelove.info", 
         "intro": "\u4e0a\u6d77\u7ad9 | \u7ec4\u59d4<br/>\u7f51\u6613\u6709\u9053-\u8d44\u6df1\u8fd0\u7ef4\u5f00\u53d1", 
         "name": "\u5f20\u664b\u6d9b", 
@@ -887,7 +919,7 @@
         "weibo": null
       }, 
       {
-        "avatar": "./asset/images/avatar-2019/volunteers/chenshixin.png", 
+        "avatar": "./asset/images/volunteers/chenshixin.png", 
         "blog": "http://sting.topgeek.org/", 
         "intro": "PyChina\u53d1\u8d77\u4eba <br /> Ahaschool-\u9996\u5e2d\u8fd0\u8425\u5b98", 
         "name": "StingChen(\u9648\u4e16\u6b23)", 
@@ -896,7 +928,7 @@
         "weibo": "http://weibo.com/stingchen"
       }, 
       {
-        "avatar": "./asset/images/avatar-2019/volunteers/zhanghongke.png", 
+        "avatar": "./asset/images/volunteers/zhanghongke.png", 
         "blog": null, 
         "intro": "\u4e0a\u6d77\u7ad9 | \u7ec4\u59d4<br/>\u70b9\u6211\u8fbe - \u8d44\u6df1\u5f00\u53d1\u5de5\u7a0b\u5e08", 
         "name": "\u5f20\u5b8f\u67ef", 
@@ -905,7 +937,7 @@
         "weibo": null
       }, 
       {
-        "avatar": "./asset/images/avatar-2019/volunteers/dengliangju.png", 
+        "avatar": "./asset/images/volunteers/dengliangju.png", 
         "blog": null, 
         "intro": "\u4e0a\u6d77\u7ad9 | \u7ec4\u59d4<br/>\u79d8\u5854\u79d1\u6280 - \u5de5\u7a0b\u603b\u76d1", 
         "name": "\u9093\u826f\u9a79", 
@@ -914,7 +946,7 @@
         "weibo": null
       }, 
       {
-        "avatar": "./asset/images/avatar-2019/volunteers/jonhuang.png", 
+        "avatar": "./asset/images/volunteers/jonhuang.png", 
         "blog": null, 
         "intro": "\u4e0a\u6d77\u7ad9 | \u7ec4\u59d4<br/>yield.im - \u521b\u59cb\u4eba", 
         "name": "Jon Huang", 
@@ -923,16 +955,16 @@
         "weibo": null
       }, 
       {
-        "avatar": "./asset/images/avatar-2019/volunteers/lizheao.png", 
+        "avatar": "./asset/images/volunteers/lizheao.png", 
         "blog": "https://www.zhihu.com/people/li-zhe-ao/activities\uff09", 
-        "intro": "Shanghai | Senior Developer of Ele.me", 
+        "intro": "\u4e0a\u6d77\u7ad9 | \u7ec4\u59d4<br/>\u997f\u4e86\u4e48\u8d44\u6df1\u5f00\u53d1\u5de5\u7a0b\u5e08", 
         "name": "\u674e\u8005\u7488", 
         "role": "organizer", 
         "role_organizer": 1, 
         "weibo": null
       }, 
       {
-        "avatar": "./asset/images/avatar-2019/volunteers/qinxuye.png", 
+        "avatar": "./asset/images/volunteers/qinxuye.png", 
         "blog": "http://qinxuye.me/", 
         "intro": "\u4e0a\u6d77\u7ad9 | \u7ec4\u59d4<br/>\u963f\u91cc\u5df4\u5df4-\u6280\u672f\u4e13\u5bb6", 
         "name": "\u79e6\u7eed\u4e1a", 
@@ -941,7 +973,7 @@
         "weibo": null
       }, 
       {
-        "avatar": "./asset/images/avatar-2019/volunteers/zhumingfang.png", 
+        "avatar": "./asset/images/volunteers/zhumingfang.png", 
         "blog": null, 
         "intro": "\u4e0a\u6d77\u7ad9 | \u7ec4\u59d4<br/>\u8d5b\u5b81-\u4fe1\u606f\u5b89\u5168\u5de5\u7a0b\u5e08", 
         "name": "\u6731\u660e\u653e", 
@@ -950,7 +982,7 @@
         "weibo": null
       }, 
       {
-        "avatar": "./asset/images/avatar-2019/volunteers/zhumingfang.png", 
+        "avatar": "./asset/images/volunteers/shiyuankun.jpg", 
         "blog": null, 
         "intro": "\u4e0a\u6d77\u7ad9 | \u7ec4\u59d4<br/>Intel \u8f6f\u4ef6\u5de5\u7a0b\u5e08", 
         "name": "\u77f3\u5143\u5764", 
@@ -959,7 +991,7 @@
         "weibo": null
       }, 
       {
-        "avatar": "./asset/images/avatar-2019/volunteers/river.png", 
+        "avatar": "./asset/images/volunteers/river.jpg", 
         "blog": "http://river.aipy.org", 
         "intro": "\u4e0a\u6d77\u7ad9 | \u7ec4\u59d4<br/>\u4f18\u8da3\u5929\u4e0bCTO\u3001QPython\u5f00\u53d1\u8005", 
         "name": "River", 
@@ -968,7 +1000,7 @@
         "weibo": null
       }, 
       {
-        "avatar": "./asset/images/avatar-2019/volunteers/daishaofei.png", 
+        "avatar": "./asset/images/volunteers/daishaofei.png", 
         "blog": null, 
         "intro": "\u4e0a\u6d77\u7ad9 | \u7ec4\u59d4<br/>\u5c0f\u6a59\u5954\u8dd1 \u9ad8\u7ea7\u5f00\u53d1\u5de5\u7a0b\u5e08", 
         "name": "\u4ee3\u5c11\u98de", 
@@ -977,7 +1009,7 @@
         "weibo": null
       }, 
       {
-        "avatar": "./asset/images/avatar-2019/volunteers/hexiangyu.png", 
+        "avatar": "./asset/images/volunteers/hexiangyu.png", 
         "blog": null, 
         "intro": "\u4e0a\u6d77\u7ad9 | \u7ec4\u59d4<br/>\u5b57\u8282\u8df3\u52a8\u7814\u53d1\u5de5\u7a0b\u5e08", 
         "name": "\u4f55\u7fd4\u5b87", 
@@ -986,7 +1018,7 @@
         "weibo": null
       }, 
       {
-        "avatar": "./asset/images/avatar-2019/volunteers/yemin.png", 
+        "avatar": "./asset/images/volunteers/yemin.jpg", 
         "blog": null, 
         "intro": "\u4e0a\u6d77\u7ad9 | \u7ec4\u59d4<br/>\u8bfa\u57fa\u4e9a\u8d1d\u5c14 \u81ea\u52a8\u5316\u6d4b\u8bd5\u6559\u7ec3 \u81ea\u52a8\u5316\u6d4b\u8bd5\u67b6\u6784\u5e08", 
         "name": "\u53f6\u654f", 
@@ -995,7 +1027,7 @@
         "weibo": null
       }, 
       {
-        "avatar": "./asset/images/avatar-2019/volunteers/zhangjiaojie.png", 
+        "avatar": "./asset/images/volunteers/zhangjiaojie.png", 
         "blog": null, 
         "intro": "\u4e0a\u6d77\u7ad9 | \u7ec4\u59d4<br/>\u82f1\u4f1f\u8fbe\uff08\u4e0a\u6d77\uff09\u79d1\u6280\u6709\u9650\u516c\u53f8  \u8d44\u6df1\u6df1\u5ea6\u5b66\u4e60\u67b6\u6784\u5de5\u7a0b\u5e08", 
         "name": "\u5f20\u6821\u6377", 
@@ -1004,7 +1036,7 @@
         "weibo": null
       }, 
       {
-        "avatar": "./asset/images/avatar-2019/volunteers/dingjunhao.png", 
+        "avatar": "./asset/images/volunteers/dingjunhao.jpg", 
         "blog": null, 
         "intro": "\u4e0a\u6d77\u7ad9 | \u7ec4\u59d4<br/>\u4eab\u9053\u51fa\u884c DevOps", 
         "name": "\u4e01\u4fca\u8c6a", 
@@ -1013,7 +1045,7 @@
         "weibo": null
       }, 
       {
-        "avatar": "./asset/images/avatar-2019/volunteers/gaojunteng.png", 
+        "avatar": "./asset/images/volunteers/gaojunteng.png", 
         "blog": null, 
         "intro": "\u4e0a\u6d77\u7ad9 | \u7ec4\u59d4<br/>\u817e\u8baf  \u5de5\u7a0b\u5e08", 
         "name": "\u9ad8\u4fca\u817e", 
@@ -1023,9 +1055,18 @@
       }
     ], 
     "role_list": [
-      "organizers", 
-      "technicians", 
-      "conference"
+      {
+        "name": "\u51fa\u54c1\u4eba", 
+        "role": "organizers"
+      }, 
+      {
+        "name": "\u6280\u672f\u652f\u6301", 
+        "role": "technicians"
+      }, 
+      {
+        "name": "\u73b0\u573a\u5fd7\u613f\u8005", 
+        "role": "conference"
+      }
     ], 
     "technicians": null
   }
