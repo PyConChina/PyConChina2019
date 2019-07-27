@@ -19,7 +19,7 @@ before_deploy:
 deploy:
   provider: script
   skip_cleanup: true
-  script: rsync -r --delete-after --quiet $TRAVIS_BUILD_DIR/public root@cn.pycon.org:/opt/www/pycon2019
+  script: rsync -rav --delete-after $TRAVIS_BUILD_DIR/public root@cn.pycon.org:/opt/www/pycon2019
   on:
     branch: master
 
