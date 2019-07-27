@@ -6,7 +6,7 @@ addons:
 install:
 - npm install uglify-js -g
 - gem install sass
-- pip install requirements.txt
+- pip install -r requirements.txt
 
 script:
 - python ./bin/app.py -g
