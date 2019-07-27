@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/PyConChina/PyConChina2019.svg?branch=master)](https://travis-ci.org/PyConChina/PyConChina2019)
+
 # PyConChina2019
 
 The official website of PyCon China 2019, 基于 [https://github.com/PyConChina/staticpycon](https://github.com/PyConChina/staticpycon)
