@@ -46,14 +46,6 @@
 			.sponsors-wraper .support_name > .big{
 				color: #478c3d;
 			}
-			@media(min-width: 768px) {
-				.speaker__colWraper {
-					width: 20%;
-				}
-				.navigation-header {
-					padding: 34px 0 0;
-				}
-			}
 			.speaker {
 				min-height: 415px;
 			}
@@ -63,7 +55,20 @@
 			.support_intro {
 				min-height: 100px;
 			}
-
+			@media(min-width: 767px) {
+				.speaker__colWraper {
+					width: 20%;
+				}
+			}
+			@media(max-width: 767px) {
+				.navigation-header {
+					padding: 0 20px;
+				}
+				.navbar-toggle{
+					margin-top:20px;
+				}
+			}
+			
 		</style>
 
 	<!--[if lt IE 9]>
