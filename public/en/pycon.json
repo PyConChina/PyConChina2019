@@ -5,7 +5,7 @@
       "cancel_talks": null, 
       "city": "beijing", 
       "completed": false, 
-      "date": "Otc.19th 2019 9:00 to 17:00", 
+      "date": "Otc.19th 2019", 
       "lightening_talks": null, 
       "maplink": "https://www.amap.com/place/B000A87KPU", 
       "name": "Beijing", 
@@ -69,7 +69,7 @@
       "cancel_talks": null, 
       "city": "chengdu", 
       "completed": false, 
-      "date": "Sept.21st 2019 8:00 to 17:00", 
+      "date": "Sept.21st 2019", 
       "lightening_talks": null, 
       "maplink": "https://www.amap.com/place/B0015731XR", 
       "name": "Chengdu", 
@@ -149,7 +149,7 @@
       "cancel_talks": null, 
       "city": "hangzhou", 
       "completed": false, 
-      "date": "Sept.21st 2019 8:00 to 17:00", 
+      "date": "Sept.21st 2019", 
       "lightening_talks": null, 
       "maplink": "https://www.amap.com/place/B0015731XR", 
       "name": "Hangzhou", 
@@ -221,7 +221,7 @@
       "cancel_talks": null, 
       "city": "nanning", 
       "completed": false, 
-      "date": "Sept.21st 2019 8:00 to 17:00", 
+      "date": "Sept.21st 2019", 
       "lightening_talks": null, 
       "maplink": "https://www.amap.com/place/B0015731XR", 
       "name": "Nanning", 
@@ -294,7 +294,7 @@
       "cancel_talks": null, 
       "city": "shanghai", 
       "completed": false, 
-      "date": "Sept.21st 2019 8:00 to 17:00", 
+      "date": "Sept.21st 2019", 
       "lightening_talks": null, 
       "maplink": "https://www.amap.com/place/B0015731XR", 
       "name": "Shanghai", 
@@ -366,7 +366,7 @@
       "cancel_talks": null, 
       "city": "shenzhen", 
       "completed": false, 
-      "date": "Sept.21st 2019 8:00 to 17:00", 
+      "date": "Sept.21st 2019", 
       "lightening_talks": null, 
       "maplink": "https://www.amap.com/place/B0015731XR", 
       "name": "Shenzhen", 
@@ -446,7 +446,7 @@
       {
         "location": "Conference Hall, 2nd Floor, Wyndham Hotel Shanghai Xingrong, 25 Ningguo Road, Yangpu, Shanghai", 
         "name": "Shanghai", 
-        "time": "May 19, 2018 8:00 ~ 17:00", 
+        "time": "May 19, 2018", 
         "url": "https://www.bagevent.com/event/5293611"
       }, 
       {
@@ -481,7 +481,7 @@
       }
     ], 
     "booking_title_after": "", 
-    "booking_title_before": "attend", 
+    "booking_title_before": "", 
     "conference_location": "Conference Hall, 2nd Floor<br />Wyndham Hotel Shanghai Xingrong<br />25 Ningguo Road, Yangpu, Shanghai", 
     "conference_location_title": "Location", 
     "conference_time": "May 19, 2018 8:00 ~ May 19, 2018 17:00", 
@@ -590,7 +590,7 @@
       "booking_url": "https://www.bagevent.com/event/5451680"
     }, 
     "speech_apply_url": "https://jinshuju.net/f/BH2z26", 
-    "title": "PyCon 2019 China", 
+    "title": "PyCon China 2019", 
     "url": "http://cn.pycon.org/2019/"
   }, 
   "speakers": {
@@ -778,16 +778,23 @@
   "sponsors": {
     "book": [
       {
-        "intro": "", 
+        "intro": "\u5317\u4eac\u56fe\u7075\u6587\u5316\u53d1\u5c55\u6709\u9650\u516c\u53f8\uff0c\u59cb\u7ec8\u4ee5\u7b56\u5212\u51fa\u7248\u9ad8\u8d28\u91cf\u7684\u79d1\u6280\u56fe\u4e66\u4e3a\u6838\u5fc3\u4e1a\u52a1\u3002\u65d7\u4e0b\u56fe\u7075\u6559\u80b2\u54c1\u724c\u662f\u56fd\u5185\u8ba1\u7b97\u673a\u56fe\u4e66\u9886\u57df\u7684\u9ad8\u7aef\u54c1\u724c\u4e4b\u4e00\u3002\u56fe\u7075\u793e\u533a\u662f\u56fe\u7075\u516c\u53f8\u6253\u9020\u7684\u7efc\u5408\u6027\u670d\u52a1\u5e73\u53f0\uff0c\u96c6\u56fe\u4e66\u5185\u5bb9\u751f\u4ea7\u3001\u4f5c\u8bd1\u8005\u670d\u52a1\u3001\u7535\u5b50\u4e66\u9500\u552e\u3001\u6280\u672f\u4eba\u58eb\u4ea4\u6d41\u4e8e\u4e00\u4f53\u3002", 
         "link": "https://ituring.cn", 
-        "logo": "../asset/img/sponsors/turing.jpeg", 
+        "logo": "../asset/images/sponsors/turing.jpeg", 
         "name": "Turing"
       }
     ], 
     "bronze": null, 
     "community": null, 
     "diamond": null, 
-    "gold": null, 
+    "gold": [
+      {
+        "intro": "Elastic is a search company. As the creators of the Elastic Stack (Elasticsearch, Kibana, Beats, and Logstash), Elastic builds self-managed and SaaS offerings that make data usable in real time and at scale for search, logging, security, and analytics use cases. Learn more at elastic.co.", 
+        "link": "https://www.elastic.co/cn/", 
+        "logo": "../asset/images/sponsors/elastic.jpg", 
+        "name": "Elastic"
+      }
+    ], 
     "meta": [
       {
         "level": "organizer", 
@@ -797,6 +804,11 @@
       {
         "level": "silver", 
         "name": "Silver", 
+        "style": "inline"
+      }, 
+      {
+        "level": "gold", 
+        "name": "Gold", 
         "style": "inline"
       }, 
       {
@@ -833,25 +845,45 @@
         "level": "community", 
         "name": "Community partners", 
         "style": "inline"
+      }, 
+      {
+        "level": "partners", 
+        "name": "Partners", 
+        "style": "inline"
       }
     ], 
     "organizer": [
       {
-        "intro": "", 
+        "intro": "After the establishment of CPyUG, lots of Python fans set up a new group called PyChina in 2014 to advertise and develop Python. PyChina will encourage online and offline activities from all over China, especially PyCon.", 
         "link": "https://pychina.org", 
-        "logo": "../asset/img/sponsors/pycon.jpeg", 
+        "logo": "../asset/images/sponsors/pycon.jpeg", 
         "name": "PyChina"
       }
     ], 
+    "partners": [
+      {
+        "intro": "", 
+        "link": "https://www.360.cn/", 
+        "logo": "../asset/images/sponsors/360.png", 
+        "name": "360\u6280\u672f\u59d4\u5458\u4f1a & 360\u5927\u5b66"
+      }
+    ], 
     "platinum": null, 
-    "silver": null, 
+    "silver": [
+      {
+        "intro": "JetBrains creates professional software development tools for coding in Kotlin, Python,  Java, and more languages, as well as advanced team collaboration tools.", 
+        "link": "www.jetbrains.com", 
+        "logo": "../asset/images/sponsors/jetbrains.png", 
+        "name": "Jetbrains"
+      }
+    ], 
     "sponsor_title": "Sponsors"
   }, 
   "volunteers": {
     "conference": null, 
     "organizers": [
       {
-        "avatar": "../asset/images/avatar-2019/volunteers/dama.png", 
+        "avatar": "../asset/images/volunteers/dama.png", 
         "blog": "http://zoomquiet.io/", 
         "intro": "Sponsor of PyChina<br />uSEE.tech CTO", 
         "name": "Zoom.Quiet (Dama)", 
@@ -860,7 +892,7 @@
         "weibo": "http://weibo.com/zoomquiet"
       }, 
       {
-        "avatar": "../asset/images/avatar-2019/volunteers/lihui.png", 
+        "avatar": "../asset/images/volunteers/lihui.png", 
         "blog": "http://greyli.com", 
         "intro": "Shanghai <br />Freelance Web Developer", 
         "name": "Grey Li", 
@@ -869,7 +901,7 @@
         "weibo": null
       }, 
       {
-        "avatar": "../asset/images/avatar-2019/volunteers/wangbinxin.png", 
+        "avatar": "../asset/images/volunteers/wangbinxin.png", 
         "blog": "https://www.zhihu.com/people/prodesire", 
         "intro": "Shanghai <br /> Aliyun - Senior Developer", 
         "name": "Binxin Wang", 
@@ -878,7 +910,7 @@
         "weibo": null
       }, 
       {
-        "avatar": "../asset/images/avatar-2019/volunteers/zhangjintao.png", 
+        "avatar": "../asset/images/volunteers/zhangjintao.png", 
         "blog": "https://moelove.info", 
         "intro": "Shanghai | NetEase, Inc.", 
         "name": "Jintao Zhang", 
@@ -887,7 +919,7 @@
         "weibo": null
       }, 
       {
-        "avatar": "../asset/images/avatar-2019/volunteers/chenshixin.png", 
+        "avatar": "../asset/images/volunteers/chenshixin.png", 
         "blog": "http://sting.topgeek.org/", 
         "intro": "Sponsor of PyChina <br />Ahaschool-CTO", 
         "name": "StingChen(Shixin Chen)", 
@@ -896,7 +928,7 @@
         "weibo": "http://weibo.com/stingchen"
       }, 
       {
-        "avatar": "../asset/images/avatar-2019/volunteers/zhanghongke.png", 
+        "avatar": "../asset/images/volunteers/zhanghongke.png", 
         "blog": null, 
         "intro": "Shanghai | Dianwoda - Senior Developer", 
         "name": "Hongke Zhang", 
@@ -905,7 +937,7 @@
         "weibo": null
       }, 
       {
-        "avatar": "../asset/images/avatar-2019/volunteers/dengliangju.png", 
+        "avatar": "../asset/images/volunteers/dengliangju.png", 
         "blog": null, 
         "intro": "Shanghai | Mita tec.", 
         "name": "Liangju Deng", 
@@ -914,7 +946,7 @@
         "weibo": null
       }, 
       {
-        "avatar": "../asset/images/avatar-2019/volunteers/jonhuang.png", 
+        "avatar": "../asset/images/volunteers/jonhuang.png", 
         "blog": null, 
         "intro": "Shanghai | Founder of yield.im", 
         "name": "Jon Huang", 
@@ -923,7 +955,7 @@
         "weibo": null
       }, 
       {
-        "avatar": "../asset/images/avatar-2019/volunteers/lizheao.png", 
+        "avatar": "../asset/images/volunteers/lizheao.png", 
         "blog": "https://www.zhihu.com/people/li-zhe-ao/activities\uff09", 
         "intro": "Shanghai | Senior Developer of Ele.me", 
         "name": "Zheao Li", 
@@ -932,7 +964,7 @@
         "weibo": null
       }, 
       {
-        "avatar": "../asset/images/avatar-2019/volunteers/qinxuye.png", 
+        "avatar": "../asset/images/volunteers/qinxuye.png", 
         "blog": "http://qinxuye.me/", 
         "intro": "Shanghai | Senior Developer of Alibaba", 
         "name": "Xuye Qin", 
@@ -941,7 +973,7 @@
         "weibo": null
       }, 
       {
-        "avatar": "../asset/images/avatar-2019/volunteers/zhumingfang.png", 
+        "avatar": "../asset/images/volunteers/zhumingfang.png", 
         "blog": null, 
         "intro": "Shanghai | Information security engineer of Saining", 
         "name": "Mingfang Zhu", 
@@ -950,7 +982,7 @@
         "weibo": null
       }, 
       {
-        "avatar": "../asset/images/avatar-2019/volunteers/zhumingfang.png", 
+        "avatar": "../asset/images/volunteers/shiyuankun.jpg", 
         "blog": null, 
         "intro": "Shanghai | Software Engineer of Intel Inc.", 
         "name": "Yuankun Shi", 
@@ -959,7 +991,7 @@
         "weibo": null
       }, 
       {
-        "avatar": "../asset/images/avatar-2019/volunteers/river.png", 
+        "avatar": "../asset/images/volunteers/river.jpg", 
         "blog": "http://river.aipy.org", 
         "intro": "Shanghai | CTO of Quseit Inc., Developer of QPython", 
         "name": "River", 
@@ -968,7 +1000,7 @@
         "weibo": null
       }, 
       {
-        "avatar": "../asset/images/avatar-2019/volunteers/daishaofei.png", 
+        "avatar": "../asset/images/volunteers/daishaofei.png", 
         "blog": null, 
         "intro": "Shanghai | Senior Developer", 
         "name": "Shaofei Dai", 
@@ -977,7 +1009,7 @@
         "weibo": null
       }, 
       {
-        "avatar": "../asset/images/avatar-2019/volunteers/hexiangyu.png", 
+        "avatar": "../asset/images/volunteers/hexiangyu.png", 
         "blog": null, 
         "intro": "Shanghai | R&D Engineer of Bytedance Inc.", 
         "name": "Xiangyu He", 
@@ -986,7 +1018,7 @@
         "weibo": null
       }, 
       {
-        "avatar": "../asset/images/avatar-2019/volunteers/yemin.png", 
+        "avatar": "../asset/images/volunteers/yemin.jpg", 
         "blog": null, 
         "intro": "Shanghai | Coach and Architect Designer of Automated Test in Nokia Bell", 
         "name": "Min Ye", 
@@ -995,7 +1027,7 @@
         "weibo": null
       }, 
       {
-        "avatar": "../asset/images/avatar-2019/volunteers/zhangjiaojie.png", 
+        "avatar": "../asset/images/volunteers/zhangjiaojie.png", 
         "blog": null, 
         "intro": "Shanghai | Senior Architect Designer of Deep Learning in Nvidia. Shanghai", 
         "name": "Jiaojie Zhang", 
@@ -1004,7 +1036,7 @@
         "weibo": null
       }, 
       {
-        "avatar": "../asset/images/avatar-2019/volunteers/dingjunhao.png", 
+        "avatar": "../asset/images/volunteers/dingjunhao.jpg", 
         "blog": null, 
         "intro": "Shanghai | DevOps of Saicmobility Inc.", 
         "name": "Junhao Ding", 
@@ -1013,7 +1045,7 @@
         "weibo": null
       }, 
       {
-        "avatar": "../asset/images/avatar-2019/volunteers/gaojunteng.png", 
+        "avatar": "../asset/images/volunteers/gaojunteng.png", 
         "blog": null, 
         "intro": "Shanghai | Engineer of Tencent Inc.", 
         "name": "Spawnris", 
@@ -1023,9 +1055,18 @@
       }
     ], 
     "role_list": [
-      "organizers", 
-      "technicians", 
-      "conference"
+      {
+        "name": "Organizers", 
+        "role": "organizers"
+      }, 
+      {
+        "name": "Technicians", 
+        "role": "technicians"
+      }, 
+      {
+        "name": "Volunteer", 
+        "role": "conference"
+      }
     ], 
     "technicians": null
   }
