@@ -9,8 +9,8 @@ speaker_shanghai_arminronacher:
   avatar: ./asset/images/speakers/arminronacher.png
   avatar_en: ../asset/images/speakers/arminronacher.png
   short_intro: "Armin Ronacher 是 Flask、Werkzeug、Jinja2、Click 等流行开源项目的作者。他关注于设计良好的系统和 API。目前开发一款名为 Sentry 的开源错误报告工具。"
-  short_intro_en: "Armin Ronacher 是 Flask、Werkzeug、Jinja2、Click 等流行开源项目的作者。他关注于设计良好的系统和 API。目前开发一款名为 Sentry 的开源错误报告工具。"
-  intro: "Armin Ronacher is the creator of the Flask, Jinja2, Werkzeug, Click, etc. He cares about well designed systems and APIs. He is currently working on Sentry, an Open Source crash reporting tool."
+  short_intro_en: "Armin Ronacher is the creator of the Flask, Jinja2, Werkzeug, Click, etc. He cares about well designed systems and APIs. He is currently working on Sentry, an Open Source crash reporting tool."
+  intro: "Armin Ronacher 是 Flask、Werkzeug、Jinja2、Click 等流行开源项目的作者。他关注于设计良好的系统和 API。目前开发一款名为 Sentry 的开源错误报告工具。"
   intro_en: "Armin Ronacher is the creator of the Flask, Jinja2, Werkzeug, Click, etc. He cares about well designed systems and APIs. He is currently working on Sentry, an Open Source crash reporting tool."
   shanghai_topic:
     title: "待定"
@@ -41,9 +41,9 @@ speaker_shanghai_huili:
   avatar: ./asset/images/speakers/lihui.jpg
   avatar_en: ../asset/images/speakers/lihui.jpg
   short_intro: "独立 Web 开发者，Flask 维护者，《Flask Web 开发实战》作者。"
-  short_intro_en: "Freelance web developer, maintainer of Flask, author of "Python Web Development with Flask"."
+  short_intro_en: "Freelance web developer, maintainer of Flask, author of \"Python Web Development with Flask\"."
   intro: "独立 Web 开发者，Flask 维护者，《Flask Web 开发实战》作者。"
-  intro_en: "Freelance web developer, maintainer of Flask, author of "Python Web Development with Flask"."
+  intro_en: "Freelance web developer, maintainer of Flask, author of \"Python Web Development with Flask\"."
   shanghai_topic:
     title: "基于 Flask 的 REST API 开发指南"
     title_en: "Building REST API with Flask"
@@ -105,9 +105,9 @@ speaker_shanghai_huili:
   avatar: ./asset/images/speakers/lihui.jpg
   avatar_en: ../asset/images/speakers/lihui.jpg
   short_intro: "独立 Web 开发者，Flask 维护者，《Flask Web 开发实战》作者。"
-  short_intro_en: "Freelance web developer, maintainer of Flask, author of "Python Web Development with Flask.""
+  short_intro_en: "Freelance web developer, maintainer of Flask, author of \"Python Web Development with Flask\"."
   intro: "独立 Web 开发者，Flask 维护者，《Flask Web 开发实战》作者。"
-  intro_en: "Freelance web developer, maintainer of Flask, author of "Python Web Development with Flask.""
+  intro_en: "Freelance web developer, maintainer of Flask, author of \"Python Web Development with Flask\"."
   shanghai_topic:
     title: "Python 虚拟环境和依赖管理工具大乱斗"
     title_en: "Fighting among Python virtual environment and dependency management tools"
