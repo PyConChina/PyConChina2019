@@ -15,15 +15,15 @@ role_list:
 organizers:
   -
     name: Zoom.Quiet (大妈)
-    name_en: Zoom.Quiet (Dama)
+    name_en: Zoom.Quiet (DamaDama)
     role: organizer
     role_organizer: 1
     avatar: ./asset/images/volunteers/dama.png
     avatar_en: ../asset/images/volunteers/dama.png
-    intro: PyChina发起人 <br />uSEE.tech CTO
-    intro_en: Sponsor of PyChina<br />uSEE.tech CTO
+    intro: PyChina发起人 <br />蟒营101camp 创始人
+    intro_en: Sponsor of PyChina<br />101.camp Founder
     blog: http://zoomquiet.io/
-    weibo: http://weibo.com/zoomquiet
+    weibo: https://py.101.camp
   -
     name: 李辉
     name_en: Grey Li
