@@ -7,15 +7,15 @@ meta:
     name: 主办方
     name_en: Organizer
   -
-    level: silver
-    style: inline
-    name: 白银赞助
-    name_en: Silver
-  -
     level: gold
     style: inline
     name: 黄金赞助
     name_en: Gold
+  -
+    level: silver
+    style: inline
+    name: 白银赞助
+    name_en: Silver
   -
     level: bronze
     style: inline
