@@ -134,8 +134,8 @@ speaker_shanghai_zhangxiaojie:
   name: 张校捷 
   name_en: Xiaojie Zhang
   city_shanghai: 1
-  avatar: ./asset/images/speakers/zhangjiaojie.jpg
-  avatar_en: ../asset/images/speakers/zhangjiaojie.jpg
+  avatar: ./asset/images/speakers/zhangjiaojie.png
+  avatar_en: ../asset/images/speakers/zhangjiaojie.png
   short_intro: "英伟达 - 资深深度学习架构工程师"
   short_intro_en: "NVIDIA - Senior Deep Learning Architecture Engineer"
   intro: "目前主要在公司负责基于GPU的深度学习框架的优化和新特性的开发。由于个人工作的原因，对于基于Python的深度学习框架有一定的研究，包括TensorFlow和PyTorch等。这次希望能给大家分享一些有关如何使用Python训练和部署低精度模型，希望对大家在深度学习方面的工作有所帮助。"
@@ -376,8 +376,8 @@ speaker_shenzhen_mingxi:
   name: 明希
   name_en: Xi Ming
   city_shenzhen: 1
-  avatar: 
-  avatar_en: 
+  avatar: ./asset/images/speakers/default.jpg
+  avatar_en: ../asset/images/speakers/defeault.jpg
   short_intro: "腾讯 - 持续集成开发工程师"
   short_intro_en: "腾讯 - 持续集成开发工程师"
   intro: "前测试工程师，现于腾讯财付通从事持续集成相关的开发工作。开源贡献者，现为Pipenv项目的核心维护之一。 "

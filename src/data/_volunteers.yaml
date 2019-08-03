@@ -227,8 +227,8 @@ organizers:
     name_en: Eric
     role: organizer
     role_organizer: 1
-    avatar: 
-    avatar_en: 
+    avatar: ./asset/images/volunteers/default.jpg
+    avatar_en: ../asset/images/volunteers/default.jpg
     intro: 深圳花果山科技有限公司 - Python开发工程师
     intro_en: Python Engineer of Huaguoshan Inc.
     blog: 
