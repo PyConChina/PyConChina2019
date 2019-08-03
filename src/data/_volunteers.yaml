@@ -31,8 +31,8 @@ organizers:
     role_organizer: 1
     avatar: ./asset/images/volunteers/lihui.png
     avatar_en: ../asset/images/volunteers/lihui.png
-    intro: 上海站 | 组委<br/>独立 Web 开发者
-    intro_en: Shanghai <br />Freelance Web Developer
+    intro: 独立 Web 开发者，Flask 维护者
+    intro_en: Freelance Web Developer<br /> Maintainer of Flask
     blog: http://greyli.com
     weibo:
   -
@@ -42,8 +42,8 @@ organizers:
     role_organizer: 1
     avatar: ./asset/images/volunteers/wangbinxin.png
     avatar_en: ../asset/images/volunteers/wangbinxin.png
-    intro: 上海站 | 组委<br/>阿里云 - 高级开发工程师
-    intro_en: Shanghai <br /> Aliyun - Senior Developer
+    intro: 阿里云 - 高级开发工程师
+    intro_en: Aliyun - Senior Developer
     blog: https://www.zhihu.com/people/prodesire
     weibo:
   -
@@ -53,8 +53,8 @@ organizers:
     role_organizer: 1
     avatar: ./asset/images/volunteers/zhangjintao.png
     avatar_en: ../asset/images/volunteers/zhangjintao.png
-    intro: 上海站 | 组委<br/>网易有道-资深运维开发
-    intro_en: Shanghai | NetEase, Inc.
+    intro: 网易有道 - 资深运维开发
+    intro_en: NetEase, Inc.
     blog: https://moelove.info
     weibo:
   -
@@ -75,8 +75,8 @@ organizers:
     role_organizer: 1
     avatar: ./asset/images/volunteers/zhanghongke.png
     avatar_en: ../asset/images/volunteers/zhanghongke.png
-    intro: 上海站 | 组委<br/>点我达 - 资深开发工程师
-    intro_en: Shanghai | Dianwoda - Senior Developer
+    intro: 点我达 - 资深开发工程师
+    intro_en: Dianwoda - Senior Developer
     blog:
     weibo:
   -
@@ -86,8 +86,8 @@ organizers:
     role_organizer: 1
     avatar: ./asset/images/volunteers/dengliangju.png
     avatar_en: ../asset/images/volunteers/dengliangju.png
-    intro: 上海站 | 组委<br/>秘塔科技 - 工程总监
-    intro_en: Shanghai | Mita tec.
+    intro: 秘塔科技 - 工程总监
+    intro_en: Mita tec.
     blog:
     weibo:
   -
@@ -97,8 +97,8 @@ organizers:
     role_organizer: 1
     avatar: ./asset/images/volunteers/jonhuang.png
     avatar_en: ../asset/images/volunteers/jonhuang.png
-    intro: 上海站 | 组委<br/>yield.im - 创始人
-    intro_en: Shanghai | Founder of yield.im
+    intro: yield.im - 创始人
+    intro_en: Founder of yield.im
     blog:
     weibo:
   -
@@ -108,8 +108,8 @@ organizers:
     role_organizer: 1
     avatar: ./asset/images/volunteers/lizheao.png
     avatar_en: ../asset/images/volunteers/lizheao.png
-    intro: 上海站 | 组委<br/>饿了么资深开发工程师
-    intro_en: Shanghai | Senior Developer of Ele.me
+    intro: 饿了么 - 资深开发工程师
+    intro_en: Senior Developer of Ele.me
     blog: https://www.zhihu.com/people/li-zhe-ao/activities）
     weibo:
   -
@@ -119,8 +119,8 @@ organizers:
     role_organizer: 1
     avatar: ./asset/images/volunteers/qinxuye.png
     avatar_en: ../asset/images/volunteers/qinxuye.png
-    intro: 上海站 | 组委<br/>阿里巴巴-技术专家
-    intro_en: Shanghai | Senior Developer of Alibaba
+    intro: 阿里巴巴 - 技术专家
+    intro_en: Senior Developer of Alibaba
     blog: http://qinxuye.me/
     weibo:
   -
@@ -130,8 +130,8 @@ organizers:
     role_organizer: 1
     avatar: ./asset/images/volunteers/zhumingfang.png
     avatar_en: ../asset/images/volunteers/zhumingfang.png
-    intro: 上海站 | 组委<br/>赛宁-信息安全工程师
-    intro_en: Shanghai | Information security engineer of Saining
+    intro: 赛宁 - 信息安全工程师
+    intro_en: Information security engineer of Saining
     blog:
     weibo:
   -
@@ -141,8 +141,8 @@ organizers:
     role_organizer: 1
     avatar: ./asset/images/volunteers/shiyuankun.jpg
     avatar_en: ../asset/images/volunteers/shiyuankun.jpg
-    intro: 上海站 | 组委<br/>Intel 软件工程师
-    intro_en: Shanghai | Software Engineer of Intel Inc.
+    intro: Intel 软件工程师
+    intro_en: Software Engineer of Intel Inc.
     blog:
     weibo:
   -
@@ -152,8 +152,8 @@ organizers:
     role_organizer: 1
     avatar: ./asset/images/volunteers/river.jpg
     avatar_en: ../asset/images/volunteers/river.jpg
-    intro: 上海站 | 组委<br/>优趣天下CTO、QPython开发者
-    intro_en: Shanghai | CTO of Quseit Inc., Developer of QPython
+    intro: 优趣天下CTO、QPython开发者
+    intro_en: CTO of Quseit Inc., Developer of QPython
     blog: http://river.aipy.org
     weibo:
   -
@@ -163,8 +163,8 @@ organizers:
     role_organizer: 1
     avatar: ./asset/images/volunteers/daishaofei.png
     avatar_en: ../asset/images/volunteers/daishaofei.png
-    intro: 上海站 | 组委<br/>小橙奔跑 高级开发工程师
-    intro_en: Shanghai | Senior Developer
+    intro: 小橙奔跑 - 高级开发工程师
+    intro_en: Senior Developer
     blog: 
     weibo:
   -
@@ -174,8 +174,8 @@ organizers:
     role_organizer: 1
     avatar: ./asset/images/volunteers/hexiangyu.png
     avatar_en: ../asset/images/volunteers/hexiangyu.png
-    intro: 上海站 | 组委<br/>字节跳动研发工程师
-    intro_en: Shanghai | R&D Engineer of Bytedance Inc.
+    intro: 字节跳动 - 研发工程师
+    intro_en: R&D Engineer of Bytedance Inc.
     blog: 
     weibo:
   -
@@ -185,8 +185,8 @@ organizers:
     role_organizer: 1
     avatar: ./asset/images/volunteers/yemin.jpg
     avatar_en: ../asset/images/volunteers/yemin.jpg
-    intro: 上海站 | 组委<br/>诺基亚贝尔 自动化测试教练 自动化测试架构师
-    intro_en: Shanghai | Coach and Architect Designer of Automated Test in Nokia Bell 
+    intro: 诺基亚贝尔 自动化测试教练 自动化测试架构师
+    intro_en: Coach and Architect Designer of Automated Test in Nokia Bell 
     blog: 
     weibo:
   -
@@ -196,8 +196,8 @@ organizers:
     role_organizer: 1
     avatar: ./asset/images/volunteers/zhangjiaojie.png
     avatar_en: ../asset/images/volunteers/zhangjiaojie.png
-    intro: 上海站 | 组委<br/>英伟达（上海）科技有限公司  资深深度学习架构工程师
-    intro_en: Shanghai | Senior Architect Designer of Deep Learning in Nvidia. Shanghai
+    intro: 英伟达（上海）科技有限公司  资深深度学习架构工程师
+    intro_en: Senior Architect Designer of Deep Learning in Nvidia. Shanghai
     blog: 
     weibo:
   -
@@ -207,8 +207,8 @@ organizers:
     role_organizer: 1
     avatar: ./asset/images/volunteers/dingjunhao.jpg
     avatar_en: ../asset/images/volunteers/dingjunhao.jpg
-    intro: 上海站 | 组委<br/>享道出行 DevOps
-    intro_en: Shanghai | DevOps of Saicmobility Inc.
+    intro: 享道出行 DevOps
+    intro_en: DevOps of Saicmobility Inc.
     blog: 
     weibo:
   -
@@ -218,11 +218,22 @@ organizers:
     role_organizer: 1
     avatar: ./asset/images/volunteers/gaojunteng.png
     avatar_en: ../asset/images/volunteers/gaojunteng.png
-    intro: 上海站 | 组委<br/>腾讯  工程师
-    intro_en: Shanghai | Engineer of Tencent Inc.
+    intro: 腾讯  工程师
+    intro_en: Engineer of Tencent Inc.
     blog: 
     weibo:
-    
+  -
+    name: 陈绍琛
+    name_en: Eric
+    role: organizer
+    role_organizer: 1
+    avatar: 
+    avatar_en: 
+    intro: 深圳花果山科技有限公司 - Python开发工程师
+    intro_en: Python Engineer of Huaguoshan Inc.
+    blog: 
+    weibo:
+
 technicians:
 
 conference:
