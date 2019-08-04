@@ -376,8 +376,8 @@ speaker_shenzhen_mingxi:
   name: 明希
   name_en: Xi Ming
   city_shenzhen: 1
-  avatar: ./asset/images/speakers/default.jpg
-  avatar_en: ../asset/images/speakers/defeault.jpg
+  avatar: ./asset/images/speakers/mingxi.jpg
+  avatar_en: ../asset/images/speakers/mingxi.jpg
   short_intro: "腾讯 - 持续集成开发工程师"
   short_intro_en: "腾讯 - 持续集成开发工程师"
   intro: "前测试工程师，现于腾讯财付通从事持续集成相关的开发工作。开源贡献者，现为Pipenv项目的核心维护之一。 "
