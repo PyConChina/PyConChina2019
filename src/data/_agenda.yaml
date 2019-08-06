@@ -17,7 +17,7 @@ shanghai:
   completed: false
   url: "shanghai"
   actived: active
-  address: 中国  上海
+  address: 中国  上海 杨浦区宁国路25号上海兴荣温德姆酒店2～3楼
   address_en: Shanghai China
   maplink: 'https://www.amap.com/place/B0015731XR'
   video: ''

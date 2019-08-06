@@ -6,11 +6,9 @@
 	<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
 	<title>{{ site.title }}</title>
-
-	<link rel="shortcut icon" href="{{ site.base_url }}/asset/img/favicon.ico">
-	<link rel="apple-touch-icon" href="{{ site.base_url }}/asset/img/apple-touch-icon.jpg">
-	<link rel="apple-touch-icon" sizes="72x72" href="{{ site.base_url }}/asset/img/apple-touch-icon-72x72.jpg">
-	<link rel="apple-touch-icon" sizes="114x114" href="{{ site.base_url }}/asset/img/apple-touch-icon-114x114.jpg">
+	<link rel="icon" href="{{ site.base_url }}/asset/img/favicon.png">
+	<link rel="shortcut icon" href="{{ site.base_url }}/asset/img/favicon.png">
+	<link rel="apple-touch-icon" href="{{ site.base_url }}/asset/img/favicon.png">
 
 	{% if site.description %}<meta name="description" content="{{ site.description }}">{% endif %}
     {% if site.author %}<meta name="author" content="{{ site.author }}">{% endif %}
@@ -37,10 +35,14 @@
 			.heading-block{
 				padding:0;
 			}
-			@media(min-width: 768px) {
-				.navigation-header {
-					padding: 34px 0 0;
-				}
+			.speaker .photo-wrapper {
+				max-width: 200px;
+			}
+			.speaker .photo-wrapper img {
+				max-width: 100%;
+			}
+			.sponsors-wraper .support_name > .big{
+				color: #478c3d;
 			}
 			.speaker {
 				min-height: 415px;
@@ -51,7 +53,26 @@
 			.support_intro {
 				min-height: 100px;
 			}
+			@media(min-width: 767px) {
+				.speaker__colWraper {
+					width: 20%;
+				}
+			}
+			@media(max-width: 767px) {
+				.navigation-header {
+					padding: 0 20px;
+				}
+				.navbar-toggle{
+					margin-top:20px;
+				}
+				.header-wrapper{
+					min-height:80px;
+					height:80px;
+				}
+			}
+			
 		</style>
+
 	<!--[if lt IE 9]>
 		<script src="{{ site.base_url }}/asset/js/html5shiv.js"></script>
 		<script src="{{ site.base_url }}/asset/js/respond.min.js"></script>

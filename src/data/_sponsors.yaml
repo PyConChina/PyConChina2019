@@ -7,15 +7,15 @@ meta:
     name: 主办方
     name_en: Organizer
   -
+    level: gold
+    style: inline
+    name: 黄金赞助
+    name_en: Gold
+  -
     level: silver
     style: inline
     name: 白银赞助
     name_en: Silver
-  -
-    level: gold
-    style: inline
-    name: 黄金级
-    name_en: Gold
   -
     level: bronze
     style: inline
@@ -87,8 +87,8 @@ platinum:
 #########################################
 gold:
   -
-    logo: ./asset/images/sponsors/elastic.jpg
-    logo: ../asset/images/sponsors/elastic.jpg
+    logo: ./asset/images/sponsors/elastic.png
+    logo: ../asset/images/sponsors/elastic.png
     link: "https://www.elastic.co/cn/"
     name: "Elastic"
     name_en: "Elastic"
@@ -138,6 +138,14 @@ partners:
     logo_en: ../asset/images/sponsors/360.png
     link: "https://www.360.cn/"
     name: "360技术委员会 & 360大学"
-    name_en: "360技术委员会 & 360大学"
-    intro: ""
-    intro_en: ""
+    name_en: "360 Technical Committee & 360 University"
+    intro: "360技术委员会（简称：TC）成立于2012年，是一个虚拟组织，由来自360各个领域的技术专家组成。是公司技术专业领域的最高管理机构。"
+    intro_en: "360 Technical Committee ( Abbreviation: TC ) was found in 2012, it is a virtual organization, consist of experts from every fields in 360. It is the highest management organization in the company's technical field."
+  -
+    logo: ./asset/images/sponsors/sistswjtu.png
+    logo_en: ../asset/images/sponsors/sistswjtu.png
+    link: "http://sist.swjtu.edu.cn"
+    name: "西南交通大学 信息科学与技术学院"
+    name_en: "西南交通大学 信息科学与技术学院"
+    intro: "西南交通大学是国内较早开设电子与信息类专业的学校，早在上世纪六十年代初就创办了计算技术、自动化和无线电技术3个专业，1981年计算机及应用专业获得国内首批硕士学位授予权。"
+    intro_en: "西南交通大学是国内较早开设电子与信息类专业的学校，早在上世纪六十年代初就创办了计算技术、自动化和无线电技术3个专业，1981年计算机及应用专业获得国内首批硕士学位授予权。"

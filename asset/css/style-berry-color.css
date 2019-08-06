@@ -2296,7 +2296,7 @@ input[type=password].error,
 .header .buy-btn:active,
 .header .buy-btn.hovered,
 .header .buy-btn.pressed {
-  border-color: #fe6760;
+  border-color: #235ae5;
 }
 .base-clr-bg,
 .base-clr-ovl:before,
@@ -2331,7 +2331,7 @@ input[type=password].error,
 .navbar-toggle .icon-bar,
 .thumb-wrapper .overlay:before,
 .header .buy-btn {
-  background-color: #fe6760;
+  background-color: #235ae5;
 }
 .base-clr-txt,
 .highlight,
@@ -2402,7 +2402,7 @@ input[type="submit"] + .loading,
 .header.header-color .navigation-header .buy-btn.pressed,
 input.header.header-color .navigation-header .buy-btn,
 .header .buy-btn {
-  color: #fe6760;
+  color: #235ae5;
 }
 ::selection {
   color: #ffffff;
@@ -2788,7 +2788,7 @@ li {
   background-color: #1ac6ff;
 }
 .style-switcher .template-set-color .color.berry {
-  background-color: #fe6760;
+  background-color: #235ae5;
 }
 .style-switcher .template-set-color .color.orange {
   background-color: #fe4918;
@@ -4184,7 +4184,7 @@ button.btn.btn-block {
   .schedule .tab-content .nav.nav-schedule > li.active > a:focus,
   .tabs-vertical .nav.nav-tabs > li.active > a:focus {
     background-color: inherit;
-    color: #fe6760;
+    color: #235ae5;
     border: none;
     opacity: 1;
   }
@@ -5582,9 +5582,9 @@ button[type="submit"] .loading {
   opacity: 1;
 }
 .gallery-thumb-link:active:after {
-  -webkit-box-shadow: 0 0 30px 4px #fe6760;
-  -moz-box-shadow: 0 0 30px 4px #fe6760;
-  box-shadow: 0 0 30px 4px #fe6760;
+  -webkit-box-shadow: 0 0 30px 4px #235ae5;
+  -moz-box-shadow: 0 0 30px 4px #235ae5;
+  box-shadow: 0 0 30px 4px #235ae5;
 }
 .gallery-thumb-link:before {
   -webkit-transition: opacity 0.25s ease-out;
@@ -6535,7 +6535,7 @@ button[type="submit"] .loading {
   .header.header-color .navbar-collapse .buy-btn:active,
   .header.header-color .navbar-collapse .buy-btn.hovered,
   .header.header-color .navbar-collapse .buy-btn.pressed {
-    color: #fe6760;
+    color: #235ae5;
     background-color: #ffffff;
   }
 }

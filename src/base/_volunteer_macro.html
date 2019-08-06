@@ -10,7 +10,7 @@
         <!-- 每行显示3个志愿者 -->
           {% for j in range(0, 3 if volunteer_list_len - i > 2 else volunteer_list_len - i) %}
           {% set cur_volunteer = volunteer_list[i + j] %}
-          <div class="col-sm-4">
+          <div class="col-sm-4 speaker__colWraper col-xs-6">
               <div class="speaker">
                   <div class="photo-wrapper rounded"><img src="{{ cur_volunteer.avatar }}" alt="{{ cur_volunteer.name }}" class="img-responsive"></div>
                   <h3 class="name">{{ cur_volunteer.name }}</h3>
