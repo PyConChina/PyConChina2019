@@ -518,6 +518,11 @@
       "url": "#schedule"
     }, 
     {
+      "title": "\u8c03\u7814", 
+      "url": "https://www.wjx.cn/jq/43310160.aspx", 
+      "url_external": 1
+    }, 
+    {
       "title": "\u8d5e\u52a9", 
       "url": "#sponsors"
     }, 
@@ -871,7 +876,7 @@
       "short_intro": "\u72ec\u7acb\u5f00\u53d1\u8005"
     }, 
     "speaker_shenzhen_mingxi": {
-      "avatar": "./asset/images/speakers/default.jpg", 
+      "avatar": "./asset/images/speakers/mingxi.jpg", 
       "city_shenzhen": 1, 
       "intro": "\u524d\u6d4b\u8bd5\u5de5\u7a0b\u5e08\uff0c\u73b0\u4e8e\u817e\u8baf\u8d22\u4ed8\u901a\u4ece\u4e8b\u6301\u7eed\u96c6\u6210\u76f8\u5173\u7684\u5f00\u53d1\u5de5\u4f5c\u3002\u5f00\u6e90\u8d21\u732e\u8005\uff0c\u73b0\u4e3aPipenv\u9879\u76ee\u7684\u6838\u5fc3\u7ef4\u62a4\u4e4b\u4e00\u3002 ", 
       "name": "\u660e\u5e0c", 
