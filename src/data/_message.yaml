@@ -55,8 +55,10 @@ booking_title_after: "站"
 booking_title_before_en: ""
 booking_title_after_en: ""
 
-speech_apple_now: 申请演讲
-speech_apple_now_en: Apply for a speech
+speech_apply_now: 申请演讲
+speech_apply_now_en: Apply for a speech
+volunteer_apply_now: 申请志愿者
+volunteer_apply_now_en: Apply for volunteer
 pycon_intro_title: 活动简介
 pycon_intro_title_en: Introduction
 pycon_intro: "<p>1989 年圣诞，Guido van Rossum 为了打发无聊的圣诞假期，决定找点事来做。他选择实现一门编程语言。这门编程语言就是 Python。</p>
