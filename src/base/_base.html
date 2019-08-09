@@ -91,7 +91,11 @@
 				<h6 class="thin base-font">{{ message.slogan }}</h6>
 				<div class="btns-container banner__btnWraper">
 						{% for city in message.booking_now %}
+                        {% if city.url == "#" %}
+						<a class="btn btn-md" disabled href="{{ city.url }}" target="_blank">{{ message.booking_title_before}}{{ city.name }}{{ message.booking_title_after}}</a>
+                        {% else %}
 						<a class="btn btn-md" href="{{ city.url }}" target="_blank">{{ message.booking_title_before}}{{ city.name }}{{ message.booking_title_after}}</a>
+                        {% endif %}
 						{% endfor %}
 				</div>
                 <div class="btns-container">
