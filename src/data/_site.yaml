@@ -22,8 +22,8 @@ shanghai:
 shenzhen:
   booking_url: https://www.bagevent.com/event/5451680
 
-contact: "联系我们: "
-contact_en: "Contact with us: "
+contact: "Contact Us: "
+contact_en: "Contact Us: "
 
 buy_ticket: 购票
 buy_ticket_en: Ticket
