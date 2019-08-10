@@ -134,8 +134,8 @@ speaker_shanghai_zhangxiaojie:
   name: 张校捷 
   name_en: Xiaojie Zhang
   city_shanghai: 1
-  avatar: ./asset/images/speakers/zhangjiaojie.png
-  avatar_en: ../asset/images/speakers/zhangjiaojie.png
+  avatar: ./asset/images/speakers/zhangjiaojie.jpg
+  avatar_en: ../asset/images/speakers/zhangjiaojie.jpg
   short_intro: "英伟达 - 资深深度学习架构工程师"
   short_intro_en: "NVIDIA - Senior Deep Learning Architecture Engineer"
   intro: "目前主要在公司负责基于GPU的深度学习框架的优化和新特性的开发。由于个人工作的原因，对于基于Python的深度学习框架有一定的研究，包括TensorFlow和PyTorch等。这次希望能给大家分享一些有关如何使用Python训练和部署低精度模型，希望对大家在深度学习方面的工作有所帮助。"
@@ -150,8 +150,8 @@ speaker_shanghai_tengjingmeina:
   name: 藤井美娜 
   name_en: 藤井美娜
   city_shanghai: 1
-  avatar: ./asset/images/speakers/tengjingmeina.png
-  avatar_en: ../asset/images/speakers/tengjingmeina.png
+  avatar: ./asset/images/speakers/tengjingmeina.jpg
+  avatar_en: ../asset/images/speakers/tengjingmeina.jpg
   short_intro: "机器学习工程师/数据科学家"
   short_intro_en: "Machine Learning Engineer/Data Scientist"
   intro: "现任GVA TECH的日本第一个人工智能法律服务AI-CON的多语言系统开发负责人。研究专业是语言学和中日文自然语言处理。"
