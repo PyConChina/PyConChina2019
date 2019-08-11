@@ -66,6 +66,22 @@ speaker_shanghai_hsiaomingyang:
     preview: "关于 Flask 安全性的演讲 (itsdangerous, JWT, JWS)"
     preview_en: "A talk about security in Flask (itsdangerous, JWT, JWS)"
     slide: #
+speaker_shanghai_dave_glover:
+  name: Dave Glover
+  name_en: Dave Glover
+  city_shanghai: 1
+  avatar: ./asset/images/speakers/dave_glover.png
+  avatar_en: ../asset/images/speakers/dave_glover.png
+  short_intro: "Microsoft Developer Relations"
+  short_intro_en: "Microsoft Developer Relations"
+  intro: "我记不清什么时候开始沉迷于软件开发，我写作 C# 与 Python 的代码，熟练操作 Windows 和 Linux 系统，尝试涉足硬件领域。我曾在英国和澳大利亚的微软分部工作，跟客户，合作伙伴和开发者社区都打过交道。这些年过去，我涉猎了许多领域，包括 Windows 和移动端，web 开发，IoT，通讯和云计算。我生性对一切好奇，热爱去学习，并且与开发者社区建立联系。"
+  intro_en: "I am a passionate software developer for as long as I can remember, I dream and code in C# and Python, hang out on Windows and Linux, and dabble in maker hardware. I have worked for Microsoft in the UK and Australia across customers, partners and the developer community. Over the years I have covered a broad range of technologies, from Windows and mobile, Web dev, IoT, communications, and cloud-centric computing. I am curious by nature, love to learn and connect with the developer community."
+  shanghai_topic:
+    title: "构建 Python 物联网（IoT）图像分类解决方案并与Azure无服务器功能集成"
+    title_en: "Build a Python Internet of Things (IoT) Image Classification solution and integrate with Azure Serverless Functions"
+    preview: "这个演讲将会十分有趣，你会学到如何使用 Python 构建图片分类系统和文字转语音解决方案，这可以应用于超市收银台，服务视障人士。接下来，我将讲述如何将图像分类解决方案与 Python Azure 集成，并连接到一个实时web仪表板上。 通过这次演讲你将会学到如何用 Python 和免费的 Azure 服务来构建一个 IoT 图片分类系统，并用它来帮助你身边的人们。"
+    preview_en: "This is a fun session and you will learn how to create a Python Image Classification and Text to Speech solution for vision impaired people scanning fruit and vegetables at a shop checkout. Next, you will learn how to integrate the image classification solution with Python Azure Functions and connect to a real-time web dashboard. From this session, you will learn how to build a beautiful Python based Internet of Things Image Classification solution using free of charge services from Azure and impress your friends and colleagues."
+    slide: #
 speaker_shanghai_huili:
   name: 李辉 
   name_en: Grey Li
@@ -81,22 +97,6 @@ speaker_shanghai_huili:
     title_en: "Building REST API with Flask"
     preview: "作为一个微框架，轻量灵活的 Flask 很适合用来开发 REST API 服务。相对于 Django REST Framework 和 APIStar，Flask 有什么优势和缺点？为了减少工作量，我们通常会使用一些工具来辅助编写，面对 Flask-RESTful、Flask-RESTPlus、Flask-API、Webargs、Marshmallow 等扩展和工具库，我们应该如何选择？虽然我们经常使用 REST API 这个名称，但是大部分的 API 都不够 RESTful，那么什么样的 API 才能算是 REST API？在这个议题中，我们将对这几个问题逐一进行探讨，并了解如何使用 Flask 编写出功能完善的 REST API 服务。"
     preview_en: "As a micro framework, Flask is very suitable for developing REST API. What is the merits and drawback of Flask comparing to  Django REST Framework and APIStar? In order to simplify our work, we will use some tools to help us. What should we choose between several tools and extension like Flask-RESTful、Flask-RESTPlus、Flask-API、Webargs、Marshmallow? Although we usually use REST API to name our API, most of them are not \"RESTful\" enough. Therefore, which kind of API is the truly REST API? In this topic speech, we will discuss these questions and introduce how to write a fully functional REST API using Flask."
-    slide: #
-speaker_shanghai_hengcui:
-  name: 崔衡 
-  name_en: Heng Cui
-  city_shanghai: 1
-  avatar: ./asset/images/speakers/cuiheng.png
-  avatar_en: ../asset/images/speakers/cuiheng.png
-  short_intro: "阿里巴巴 - 技术专家"
-  short_intro_en: "阿里巴巴 - 技术专家"
-  intro: "中国科学技术大学硕士毕业，有10余年的IT开发和从业经验，历任Citrix高级开发工程师、创业公司CTO、阿里巴巴技术专家等，有多年的Python开发经验，使用Python构建过自动化系统、网站、基于自然语言处理的聊天机器人。"
-  intro_en: "Master of USTC, have more than 10 years IT development and related experiences, used to work as Senior Engineer of Citrix, CTO of a startup company, now a technology expert of Alibaba. Over the passing years, I’ve been using python for building automation system、website and NLP based chatbot"
-  shanghai_topic:
-    title: "基于PyQt + QScintilla的IDE 对RobotFramework的DSL进行编程"
-    title_en: "Programming the DSL of RobotFramework based on the IDE of PyQt + QScintilla"
-    preview: "RobotFramework是一个基于Python自动化的开源测试框架，用于进行自动化的测试以便进行持续集成。RobotFramework采用一种自定义的脚本语言(DSL)进行编写，但往往需要自动化测试工程师记住大量的函数名和规则，调试起来不是很方便。本话题分享一个基于QScintilla+PyQt5做的异步面向RobotFramework的脚本开发工具，支持语法高亮、自动化补全、自定义图标等，通过该分享，听众可以了解如何基于QScintilla编写语法高亮、自动补全、错误提示等，可以定制面向DSL领域的IDE。"
-    preview_en: "RobotFramework is an open-source testing framework based on Python automation for automated testing for continuous integration. RobotFramework is written in a custom scripting language (DSL) but often requires automated test engineers to remember a large number of function names and rules, which is not very convenient to debug. This topic shares a script development tool based on QScintilla+PyQt5 for RobotFramework. It supports syntax highlighting, auto-completion, custom icons, etc. Through this sharing, listeners can learn how to write syntax highlighting and auto-completion based on QScintilla. , error prompts, etc., and you can customize the IDE for the DSL field."
     slide: #
 speaker_shanghai_jiahualu:
   name: 陆佳华 
@@ -193,6 +193,86 @@ speaker_shanghai_zhangjiayuan:
     title_en: "The Past and Future of GIL"
     preview: "什么是 GIL？CPython 为什么要引入 GIL？它为了解决什么问题？为什么 Python 这么慢？如何摆脱 GIL 的限制？本次分享将带领大家了解 GIL 的方方面面，从 GIL 的产生历史背景，GIL 的原理分析，到如何在应用层上避开 GIL，并聊一聊 GIL 的未来，PEP 554 Multiple Interpreters in the Stdlib 的提出能否解决 GIL 的问题？"
     preview_en: "What is GIL? Why CPython import GIL and what problem does it solve? Why Python so slow? How to get rid of GIL? This speech will share every sides of GIL, including its history, principle analysis, how to avoid GIL in application layer and the future about GIL. Will the PEP 554 Multiple Interpreters in the Stdlib solve problem of GIL?"
+    slide: #
+speaker_shanghai_Elizaveta_Shashkova:
+  name: Elizaveta Shashkova
+  name_en: Elizaveta Shashkova
+  city_shanghai: 1
+  avatar: ./asset/images/speakers/Elizaveta_Shashkova.png
+  avatar_en: ../asset/images/speakers/Elizaveta_Shashkova.png
+  short_intro: "JetBrains 公司 PyCharm IDE开发者"
+  short_intro_en: "Software Developer of the PyCharm IDE at JetBrains. "
+  intro: "专注于 Python debugger 和数据科学工具的开发"
+  intro_en: "Working on the Python debugger and Data Science tools."
+  shanghai_topic:
+    title: "可视化的 Python debugger：从内部原理到日常使用"
+    title_en: "Python Visual Debugger: from internals to daily use"
+    preview: "在这个演讲中我将会分享 Python debugger 的内部原理，它们有什么局限，以及近几年来在我们努力之下取得了什么突破。这个演讲不仅会讨论本地运行 debug，也同时会涉及到远程 debug 以及对不同文件格式的 debug。最后，我会分享一些在 PyCharm IDE 里使用可视化 debugger 的实用小技巧。"
+    preview_en: "In this talk we’ll learn how Python debuggers work internally. We’ll learn which bottlenecks and limitations they have, and which improvements were implemented in this area in the past few years. During the talk we’ll consider not only local process debugging, but also remote cases and debugging of different types of files. After that we’ll learn useful techniques for daily use on the example of visual debugger in the PyCharm IDE."
+    slide: #
+speaker_shanghai_lujianhui:
+  name: 卢建晖
+  name_en: Jianhui Lu
+  city_shanghai: 1
+  avatar: 
+  avatar_en: 
+  short_intro: "微软最有价值专家"
+  short_intro_en: "Microsoft's most valuable expert"
+  intro: ""
+  intro_en: ""
+  shanghai_topic:
+    title: "云中起舞—— Python的人工智能开发在微软云中的应用"
+    title_en: "Dance in the cloud --- Application of Python AI in Microsoft Cloud"
+    preview: "微软从开发工具到云端方案对Python都有很好的支持。 Microsoft Azure Machine Learing Service 结合Python让人工智能应用开发更加快速便捷，不论从模型训练，到模型调优，再到模型部署都有很大帮助。而 Visual Studio Code 有非常棒的Python插件，支持服务端到云端以及人工智能应用开发。本课程通过使用Visual Studio Code 结合Microsoft Azure  Machine 完成一个基于Python从训练，调优再到模型云端部署的现代化人工智能应用场景，并结合Azure DevOps 完成CI/CD的开发管理。"
+    preview_en: "Microsoft has great support for Python from development tools to cloud solutions. The combination of Microsoft Azure Machine Learing Service and Python will catalyze the AI application development.   Visual Studio Code also has a good Python extension. It can support AI application development from sever side to cloud side, This course will use Visual Studio Code and Microsoft Azure  Machine to construct a modern AI application scenarios based on Python from training, tuning to cloud deployment of model, and using Azure DevOps to complete development managment of CI/CD."
+    slide: #
+speaker_shanghai_liuzheng:
+  name: 刘征
+  name_en: Zheng Liu
+  city_shanghai: 1
+  avatar: ./asset/images/speakers/liuzheng.jpg
+  avatar_en: ../asset/images/speakers/liuzheng.jpg
+  short_intro: "Elastic公司社区布道师 / 中国DevOps社区核心组织者"
+  short_intro_en: "Elastic公司社区布道师 / 中国DevOps社区核心组织者"
+  intro: "《DevOps Handbook》《The Site Reliability Workbook》译者；精通DevOps/SRE/ITSM等理论体系和相关实践的落地实现。致力于在全国范围内通过社区推广DevOps的理念、技术和实践。推动开源Elastic Stack技术堆栈的应用，包括运维大数据分析平台、云原生服务治理、APM全链路监控和AIOps等使用场景。"
+  intro_en: "《DevOps Handbook》《The Site Reliability Workbook》译者；精通DevOps/SRE/ITSM等理论体系和相关实践的落地实现。致力于在全国范围内通过社区推广DevOps的理念、技术和实践。推动开源Elastic Stack技术堆栈的应用，包括运维大数据分析平台、云原生服务治理、APM全链路监控和AIOps等使用场景。"
+  shanghai_topic:
+    title: "分层次构建应用系统的可观测性"
+    title_en: "分层次构建应用系统的可观测性"
+    preview: "在云计算环境中，微服务和容器等技术已经将应用系统运行态的复杂度再次提高，可观测性逐渐成为软件工程师们不可回避的问题。日志、指标和APM就是可观测性所谓的一体三面，需要先将以上三个方面都整合在统一的数据后台里，才可以进行有效的搜索、关联、索引和分析，同时还需要运用机器学习的辅佐来降低人工系统排错分析的难度和成本。本演讲还将通过Elastic Stack技术栈来展示对可观测性的应对之道和效果。"
+    preview_en: "在云计算环境中，微服务和容器等技术已经将应用系统运行态的复杂度再次提高，可观测性逐渐成为软件工程师们不可回避的问题。日志、指标和APM就是可观测性所谓的一体三面，需要先将以上三个方面都整合在统一的数据后台里，才可以进行有效的搜索、关联、索引和分析，同时还需要运用机器学习的辅佐来降低人工系统排错分析的难度和成本。本演讲还将通过Elastic Stack技术栈来展示对可观测性的应对之道和效果。"
+    slide: #
+speaker_shanghai_qinxuye:
+  name: 秦续业
+  name_en: Xuye Qin
+  city_shanghai: 1
+  avatar: ./asset/images/speakers/qinxuye.png
+  avatar_en: ../asset/images/speakers/qinxuye.png
+  short_intro: "阿里巴巴技术专家"
+  short_intro_en: "阿里巴巴技术专家"
+  intro: "现就职于阿里云计算平台事业部，担任 Mars 项目的核心开发者和架构师。 "
+  intro_en: "现就职于阿里云计算平台事业部，担任 Mars 项目的核心开发者和架构师。 "
+  shanghai_topic:
+    title: "Mars：numpy 与 pandas 的并行和分布式加速器 "
+    title_en: "Mars：numpy 与 pandas 的并行和分布式加速器 "
+    preview: "Mars 已经于2018年11月开源（https://github.com/mars-project/mars）。目前，Mars 能将超过 70% 的 numpy 常见接口自动并行和分布式化，且正在大规模实现 pandas 接口的自动并行。那么 Mars 是如何自动将 numpy 和 pandas 等工具自动并行和分布式化的？Mars 在演进过程中又碰到了什么样的难题？Mars 的性能如何？关注系统设计的同学能从 Mars 的发展过程中得到什么经验教训？在这个演讲里都会得到解答。"
+    preview_en: "Mars 已经于2018年11月开源（https://github.com/mars-project/mars）。目前，Mars 能将超过 70% 的 numpy 常见接口自动并行和分布式化，且正在大规模实现 pandas 接口的自动并行。那么 Mars 是如何自动将 numpy 和 pandas 等工具自动并行和分布式化的？Mars 在演进过程中又碰到了什么样的难题？Mars 的性能如何？关注系统设计的同学能从 Mars 的发展过程中得到什么经验教训？在这个演讲里都会得到解答。"
+    slide: #
+speaker_shanghai_laike9m:
+  name: laike9m
+  name_en: laike9m
+  city_shanghai: 1
+  avatar: ./asset/images/speakers/laike9m.png
+  avatar_en: ../asset/images/speakers/laike9m.png
+  short_intro: "Google软件工程师"
+  short_intro_en: "Google software engineer"
+  intro: "Google 软件工程师，从 2012 年开始使用 Python。《捕蛇者说》播客创始人。 "
+  intro_en: "Working for Google since 2016, using Python since 2012. "
+  shanghai_topic:
+    title: "Python 调试新思路"
+    title_en: "New ideas on Python debugging"
+    preview: ""
+    preview_en: ""
     slide: #
 speaker_shanghai_huili:
   name: 李辉
@@ -293,6 +373,38 @@ speaker_beijing_lianghongfei:
     preview: "这个话题将探讨Flask应用程序迁移到AWS Lambda的过程。我们将分析现有的应用程序，将其分解为单独的微服务，调整身份验证、前端、测试和数据模型，最后将其部署到云中。通过这个分享，您将了解无服务器的优点，以及它将如何改变对可伸缩性、可用性、安全性、基础设施管理和成本优化的看法。"
     preview_en: "This session will talk about the process of migrating an existing Flask application to AWS Lambda.W e will analyze the existing application, decompose it into individual microservices, adapt authentication, frontend, tests, and data model, and finally deploy it to the Cloud.Throughout this step-by-step process, you will learn the benefits of serverless and how it will change the way you think of scalability, availability, security, infrastructure management, and cost optimization."
     slide: #
+speaker_beijing_hengcui:
+  name: 崔衡 
+  name_en: Heng Cui
+  city_beijing: 1
+  avatar: ./asset/images/speakers/cuiheng.png
+  avatar_en: ../asset/images/speakers/cuiheng.png
+  short_intro: "阿里巴巴 - 技术专家"
+  short_intro_en: "阿里巴巴 - 技术专家"
+  intro: "中国科学技术大学硕士毕业，有10余年的IT开发和从业经验，历任Citrix高级开发工程师、创业公司CTO、阿里巴巴技术专家等，有多年的Python开发经验，使用Python构建过自动化系统、网站、基于自然语言处理的聊天机器人。"
+  intro_en: "Master of USTC, have more than 10 years IT development and related experiences, used to work as Senior Engineer of Citrix, CTO of a startup company, now a technology expert of Alibaba. Over the passing years, I’ve been using python for building automation system、website and NLP based chatbot"
+  shanghai_topic:
+    title: "基于PyQt + QScintilla的IDE 对RobotFramework的DSL进行编程"
+    title_en: "Programming the DSL of RobotFramework based on the IDE of PyQt + QScintilla"
+    preview: "RobotFramework是一个基于Python自动化的开源测试框架，用于进行自动化的测试以便进行持续集成。RobotFramework采用一种自定义的脚本语言(DSL)进行编写，但往往需要自动化测试工程师记住大量的函数名和规则，调试起来不是很方便。本话题分享一个基于QScintilla+PyQt5做的异步面向RobotFramework的脚本开发工具，支持语法高亮、自动化补全、自定义图标等，通过该分享，听众可以了解如何基于QScintilla编写语法高亮、自动补全、错误提示等，可以定制面向DSL领域的IDE。"
+    preview_en: "RobotFramework is an open-source testing framework based on Python automation for automated testing for continuous integration. RobotFramework is written in a custom scripting language (DSL) but often requires automated test engineers to remember a large number of function names and rules, which is not very convenient to debug. This topic shares a script development tool based on QScintilla+PyQt5 for RobotFramework. It supports syntax highlighting, auto-completion, custom icons, etc. Through this sharing, listeners can learn how to write syntax highlighting and auto-completion based on QScintilla. , error prompts, etc., and you can customize the IDE for the DSL field."
+    slide: #
+speaker_beijing_liuzheng:
+  name: 刘征 
+  name_en: Zheng Liu
+  city_beijing: 1
+  avatar: ./asset/images/speakers/liuzheng.jpg
+  avatar_en: ../asset/images/speakers/liuzheng.jpg
+  short_intro: "Elastic公司社区布道师 / 中国DevOps社区核心组织者"
+  short_intro_en: "Elastic公司社区布道师 / 中国DevOps社区核心组织者"
+  intro: "《DevOps Handbook》《The Site Reliability Workbook》译者；精通DevOps/SRE/ITSM等理论体系和相关实践的落地实现。致力于在全国范围内通过社区推广DevOps的理念、技术和实践。推动开源Elastic Stack技术堆栈的应用，包括运维大数据分析平台、云原生服务治理、APM全链路监控和AIOps等使用场景。"
+  intro_en: "《DevOps Handbook》《The Site Reliability Workbook》译者；精通DevOps/SRE/ITSM等理论体系和相关实践的落地实现。致力于在全国范围内通过社区推广DevOps的理念、技术和实践。推动开源Elastic Stack技术堆栈的应用，包括运维大数据分析平台、云原生服务治理、APM全链路监控和AIOps等使用场景。"
+  shanghai_topic:
+    title: "Google SRE体系核心基础解读"
+    title_en: "Google SRE体系核心基础解读"
+    preview: "近几年SRE职位的广泛出现，证明了这套起源于Google的运维体系的巨大价值和生命力。SRE其实也可以是一个广泛通用的套路，但是你必至少须熟练掌握SLO、监控、告警、减少琐事和简单化等核心原则。本演讲还将探讨如何将它们转化成为在你的组织里也可用实践的技巧，并包含针对一套典型应用系统的SLO指定的流程讲解。"
+    preview_en: "近几年SRE职位的广泛出现，证明了这套起源于Google的运维体系的巨大价值和生命力。SRE其实也可以是一个广泛通用的套路，但是你必至少须熟练掌握SLO、监控、告警、减少琐事和简单化等核心原则。本演讲还将探讨如何将它们转化成为在你的组织里也可用实践的技巧，并包含针对一套典型应用系统的SLO指定的流程讲解。"
+    slide: #
 speaker_beijing_huangshaoxuan:
   name: 黄少瑄
   name_en: Shaoxuan Huang
@@ -328,7 +440,22 @@ speaker_beijing_liuyulong:
 ####################################################################
 # 杭州
 ####################################################################
-
+speaker_hangzhou_liuyulong:
+  name: 赵王宏楦
+  name_en: Taine Zhao
+  city_hangzhou: 1
+  avatar: ./asset/images/speakers/Taine_Zhao.jpg
+  avatar_en: ../asset/images/speakers/Taine_Zhao.jpg
+  short_intro: "筑波大学"
+  short_intro_en: "University of Tsukua"
+  intro: "长期研究Python语言扩展， leading如纯python实现的python项目[1] , 目前最快的python模式匹配实现[2], Idris语言的python后端[3]等, 熟悉python实现的语法部分，以及字节码相关知识。正在程序语言设计领域进行学术深造，曾凭借自己的经历、简历以及快速的对相关论文复现、改进，打动有本人学术偶像并成功被推荐到目前学校进行研究生学习。有大量函数式知识及工程实践经验，experienced in 编译器前端(lexer, parser及对应 generator[4-6])，中端(各种程序分析如作用域分析，可变性分析，类型检查及推导[4, 7], 模式匹配编译[8]等), 后端(llvm ir[9], mips指令集, python bytecode)。"
+  intro_en: "Have been working on making Python syntax extensions for long, leading projects like python implementation in pure python[1], the fastest implementation of python pattern matching[2], Idris Python backend[3], familiar with the grammar part of CPython implenentation as well as the bytecode concerned stuffs.Currently taking advanced education in the filed of Programming Language, used to get application recommendations of my scholar ido via touching him by my experience of coding, resume and fast reproduction and improvements of his recent paper.Have rich experience about functional programmimg knowledge and its real world practice, experienced in the compiler frontend(lexer, parser, and their generator[4-6]), mid-end(various program analysis such as scoping resolution, mutability, type checking and inference[4, 7], pattern matching compilation[8], etc), back end(llvm ir[9], mips instructions, python bytecode)."
+  shanghai_topic:
+    title: "Python语法扩展框架moshmosh和其上的CPython compatible JIT实现"
+    title_en: "Python语法扩展框架moshmosh和其上的CPython compatible JIT实现"
+    preview: "模式匹配，大家想了很多年了。JIT，大家也想了很多年了。现在的模式匹配库，却远远不及其他语言内置的语言构造; 现在的JIT，却过于领域特定，局限于数值计算或者和脱离于CPython解释器。我们利用编译知识，基于一些意义重大的项目(如llvm, llvmlite), 实现了优化不同和use case程度的JIT实现; 同时也介绍了如何在现行python语法下扩展语义。"
+    preview_en: "模式匹配，大家想了很多年了。JIT，大家也想了很多年了。现在的模式匹配库，却远远不及其他语言内置的语言构造; 现在的JIT，却过于领域特定，局限于数值计算或者和脱离于CPython解释器。我们利用编译知识，基于一些意义重大的项目(如llvm, llvmlite), 实现了优化不同和use case程度的JIT实现; 同时也介绍了如何在现行python语法下扩展语义。"
+    slide: #
 ####################################################################
 # 深圳
 ####################################################################
@@ -404,6 +531,22 @@ speaker_shenzhen_huangyi:
     preview: "介绍开源Python移动前端开发框架。框架基于OpenGLES，可以运行在iOS/Android/Desktop，核心c++编写，提供Python binding。能够开发游戏，也能开发App。同时也会介绍Python在移动前端领域相关的生态。"
     preview_en: "介绍开源Python移动前端开发框架。框架基于OpenGLES，可以运行在iOS/Android/Desktop，核心c++编写，提供Python binding。能够开发游戏，也能开发App。同时也会介绍Python在移动前端领域相关的生态。"
     slide: #
+speaker_chengdu_giampaolorodola:
+  name: Giampaolo Rodola
+  name_en: Giampaolo Rodola
+  city_chengdu: 1
+  avatar: ./asset/images/speakers/giampaolorodola.jpeg
+  avatar_en: ../asset/images/speakers/giampaolorodola.jpeg
+  short_intro: "Python 核心开发者"
+  short_intro_en: "Python Core - Developer"
+  intro: "我是来自意大利的 Giampaolo Rodola，从 2010 年开始我加入了 Python 的核心开发者的行列，同时我也是 <a href=\"https://github.com/giampaolo/psutil\">psutil</a> 和 <a href=\"https://github.com/giampaolo/pyftpdlib\">python FTP server libs</a> 的作者和维护者。你可以在<a href=\"http://grodola.blogspot.com/p/about.html?m=1\">这里</a>了解更多关于我的信息 "
+  intro_en: "My name is Giampaolo Rodola, from Italy. I am a python core-dev since 2010 and the author and maintainer of <a href=\"https://github.com/giampaolo/psutil\">psutil</a> and <a href=\"https://github.com/giampaolo/pyftpdlib\">python FTP server libs</a>. You can read more about me <a href=\"http://grodola.blogspot.com/p/about.html?m=1\">HERE</a>"
+  shanghai_topic:
+    title: ""
+    title_en: ""
+    preview: ""
+    preview_en: ""
+    slide: #
 speaker_shenzhen_fengzhao:
   name: 赵丰
   name_en: Feng Zhao
@@ -427,6 +570,38 @@ speaker_shenzhen_fengzhao:
 ####################################################################
 # 成都
 ####################################################################
+speaker_chengdu_liuyulong:
+  name: 赵王宏楦
+  name_en: Taine Zhao
+  city_chengdu: 1
+  avatar: ./asset/images/speakers/Taine_Zhao.jpg
+  avatar_en: ../asset/images/speakers/Taine_Zhao.jpg
+  short_intro: "筑波大学"
+  short_intro_en: "University of Tsukua"
+  intro: "长期研究Python语言扩展， leading如纯python实现的python项目[1] , 目前最快的python模式匹配实现[2], Idris语言的python后端[3]等, 熟悉python实现的语法部分，以及字节码相关知识。正在程序语言设计领域进行学术深造，曾凭借自己的经历、简历以及快速的对相关论文复现、改进，打动有本人学术偶像并成功被推荐到目前学校进行研究生学习。有大量函数式知识及工程实践经验，experienced in 编译器前端(lexer, parser及对应 generator[4-6])，中端(各种程序分析如作用域分析，可变性分析，类型检查及推导[4, 7], 模式匹配编译[8]等), 后端(llvm ir[9], mips指令集, python bytecode)。"
+  intro_en: "Have been working on making Python syntax extensions for long, leading projects like python implementation in pure python[1], the fastest implementation of python pattern matching[2], Idris Python backend[3], familiar with the grammar part of CPython implenentation as well as the bytecode concerned stuffs.Currently taking advanced education in the filed of Programming Language, used to get application recommendations of my scholar ido via touching him by my experience of coding, resume and fast reproduction and improvements of his recent paper.Have rich experience about functional programmimg knowledge and its real world practice, experienced in the compiler frontend(lexer, parser, and their generator[4-6]), mid-end(various program analysis such as scoping resolution, mutability, type checking and inference[4, 7], pattern matching compilation[8], etc), back end(llvm ir[9], mips instructions, python bytecode)."
+  shanghai_topic:
+    title: "Python语法扩展框架moshmosh和其上的CPython compatible JIT实现"
+    title_en: "Python语法扩展框架moshmosh和其上的CPython compatible JIT实现"
+    preview: "模式匹配，大家想了很多年了。JIT，大家也想了很多年了。现在的模式匹配库，却远远不及其他语言内置的语言构造; 现在的JIT，却过于领域特定，局限于数值计算或者和脱离于CPython解释器。我们利用编译知识，基于一些意义重大的项目(如llvm, llvmlite), 实现了优化不同和use case程度的JIT实现; 同时也介绍了如何在现行python语法下扩展语义。"
+    preview_en: "模式匹配，大家想了很多年了。JIT，大家也想了很多年了。现在的模式匹配库，却远远不及其他语言内置的语言构造; 现在的JIT，却过于领域特定，局限于数值计算或者和脱离于CPython解释器。我们利用编译知识，基于一些意义重大的项目(如llvm, llvmlite), 实现了优化不同和use case程度的JIT实现; 同时也介绍了如何在现行python语法下扩展语义。"
+    slide: #
+speaker_chengdu_tengjingmeina:
+  name: 藤井美娜 
+  name_en: 藤井美娜
+  city_chengdu: 1
+  avatar: ./asset/images/speakers/tengjingmeina.jpg
+  avatar_en: ../asset/images/speakers/tengjingmeina.jpg
+  short_intro: "机器学习工程师/数据科学家"
+  short_intro_en: "Machine Learning Engineer/Data Scientist"
+  intro: "现任GVA TECH的日本第一个人工智能法律服务AI-CON的多语言系统开发负责人。研究专业是语言学和中日文自然语言处理。"
+  intro_en: "Currently the head of multi-language system development for AI-CON, the first artificial intelligence legal service in Japan. Focus on linguistics and Chinese and Japanese natural language processing."
+  shanghai_topic:
+    title: "Python的NLP实践分享-如何实现合同风险预测模型"
+    title_en: "Python's NLP Practical Sharing-how to implement contract risk prediction model"
+    preview: "本演讲深入浅出的介绍用 Python 做自然语言处理 (NLP) 的理论与实战应用，并特别在多语言挑战和法律文本处理上加大力道，力图在30分钟内给听众以全新视野与启发。内容主要分为3段：<ol><li>Python NLP 入门<br />介绍用 Python 做汉语 NLP 的理论基础和必备工具。</li><li>多语言 NLP 攻略<br />处理其他语言的 NLP 工具、中文分词和日文分词的不同点、多语言 NLP 的注意事项等。</li><li>“Python 合同风险预测模型”实战经验分享<br />通过解析模型构建过程，包括 EDA、Cosine Similarity、BLUE、ROUGE 等类似度算法的结果比较、文章语义分析等，具体提升听众处理法律文本的能力。</li></ol>人和语言总是离不开的，NLP可以处理森罗万象的生活中的语言现象，我希望通过这次的实战应用的内容，大家可以得到一些启发用Python去挑战自己感兴趣的领域的NLP。"
+    preview_en: "This speech will introduce the theory and practical application of natural language processing in Python, especially the multi-language challenge and legal text processing. I'll try to inspire listeners in 30 minutes. The content is divided into 3 segments:<ol><li>Introduction of Python NLP<br />Introduction of Python as NLP theoretical basis and utility tools.</li><li>NLP in several languages<bt />NLP tool for other languages, different points of Chinese and Japanese practicals, precautions of NLP in multi-languages.</li><li>Practical sharing of Python contract risk prediction model<br />Through the analysis of the model construction process, including EDA、Cosine Similarity、BLUE、ROUGE and some other similar algorithms' result comparisons and article semantic analysis, enhance the ability of the audience to process the legal texts.</li></ol>We cannot split human and language, NLP is able to process all the phenomenon of languages. I hope you can gain some points and try to use Python processing natural language in your field."
+    slide: #
 speaker_chengdu_zhihangliu:
   name: 刘知杭
   name_en: Zhihang Liu
