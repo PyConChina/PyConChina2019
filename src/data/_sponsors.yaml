@@ -7,6 +7,11 @@ meta:
     name: 主办方
     name_en: Organizer
   -
+    level: platinum
+    style: inline
+    name: 白金赞助
+    name_en: Platinum
+  -
     level: gold
     style: inline
     name: 黄金赞助
@@ -65,7 +70,7 @@ organizer:
   -
     logo: ./asset/images/sponsors/pycon.jpeg
     logo: ../asset/images/sponsors/pycon.jpeg
-    link: "https://pychina.org"
+    link: "https://cn.pycon.org"
     name: "PyChina 社区"
     name_en: "PyChina"
     intro: "PyChina于2014年继2002年成立的CPyUG社区之后，在广大Python爱好者的推动下为宣传和发展Python而成立的。不定期推动，促进各地Python线下活动和在线活动，主办PyCon大会。"
@@ -81,6 +86,14 @@ diamond:
 # 白金级
 #########################################
 platinum:
+  -
+    logo: ./asset/images/sponsors/aws.png
+    logo: ../asset/images/sponsors/aws.png
+    link: "https://amazonaws-china.com/cn/developer/?nc1=f_dr"
+    name: "AWS"
+    name_en: "AWS"
+    intro: "13 年以来，Amazon Web Services（AWS）一直是世界上服务丰富、应用广泛的云服务平台。全球数百万客户通过AWS的服务强化其基础设施，提高敏捷性，降低成本。更多信息请访问：http://aws.amazon.com"
+    intro_en: "For 13 years, Amazon Web Services has been the world’s most comprehensive and broadly adopted cloud platform. Millions of customers trust AWS to power their infrastructure, become more agile, and lower costs. To learn more about AWS, visit aws.amazon.com."
 
 #########################################
 # 黄金级

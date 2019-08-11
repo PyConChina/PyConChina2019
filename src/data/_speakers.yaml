@@ -45,10 +45,10 @@ speaker_shanghai_giampaolorodola:
   intro: "我是来自意大利的 Giampaolo Rodola，从 2010 年开始我加入了 Python 的核心开发者的行列，同时我也是 <a href=\"https://github.com/giampaolo/psutil\">psutil</a> 和 <a href=\"https://github.com/giampaolo/pyftpdlib\">python FTP server libs</a> 的作者和维护者。你可以在<a href=\"http://grodola.blogspot.com/p/about.html?m=1\">这里</a>了解更多关于我的信息 "
   intro_en: "My name is Giampaolo Rodola, from Italy. I am a python core-dev since 2010 and the author and maintainer of <a href=\"https://github.com/giampaolo/psutil\">psutil</a> and <a href=\"https://github.com/giampaolo/pyftpdlib\">python FTP server libs</a>. You can read more about me <a href=\"http://grodola.blogspot.com/p/about.html?m=1\">HERE</a>"
   shanghai_topic:
-    title: "Python 的永恒之美"
-    title_en: "The timeless beauty of Python"
-    preview: "我热衷与学习程序语言的设计，并且从 1998 年就开始接触 Python。Python 是一个艺术品，这个演讲里我将会分享我个人认为 Python 中最美丽的部分。"
-    preview_en: "I love to study the design of programming languages, and I’ve been coding in Python since 1998. Python is a masterpiece of design. This talk is about the parts of Python that I find are the most beautiful."
+    title: "加速 Python 中的文件传输和拷贝"
+    title_en: "Speed up file transfers and file copies in Python"
+    preview: ""
+    preview_en: ""
     slide: #
 speaker_shanghai_hsiaomingyang:
   name: Hsiaoming Yang
@@ -63,7 +63,7 @@ speaker_shanghai_hsiaomingyang:
   shanghai_topic:
     title: "危险的 Flask"
     title_en: "The dangerous Flask"
-    preview: "关于 Flask 保密性的演讲 (itsdangerous, JWT, JWS)"
+    preview: "关于 Flask 安全性的演讲 (itsdangerous, JWT, JWS)"
     preview_en: "A talk about security in Flask (itsdangerous, JWT, JWS)"
     slide: #
 speaker_shanghai_huili:
@@ -134,8 +134,8 @@ speaker_shanghai_zhangxiaojie:
   name: 张校捷 
   name_en: Xiaojie Zhang
   city_shanghai: 1
-  avatar: ./asset/images/speakers/zhangjiaojie.png
-  avatar_en: ../asset/images/speakers/zhangjiaojie.png
+  avatar: ./asset/images/speakers/zhangjiaojie.jpg
+  avatar_en: ../asset/images/speakers/zhangjiaojie.jpg
   short_intro: "英伟达 - 资深深度学习架构工程师"
   short_intro_en: "NVIDIA - Senior Deep Learning Architecture Engineer"
   intro: "目前主要在公司负责基于GPU的深度学习框架的优化和新特性的开发。由于个人工作的原因，对于基于Python的深度学习框架有一定的研究，包括TensorFlow和PyTorch等。这次希望能给大家分享一些有关如何使用Python训练和部署低精度模型，希望对大家在深度学习方面的工作有所帮助。"
@@ -150,8 +150,8 @@ speaker_shanghai_tengjingmeina:
   name: 藤井美娜 
   name_en: 藤井美娜
   city_shanghai: 1
-  avatar: ./asset/images/speakers/tengjingmeina.png
-  avatar_en: ../asset/images/speakers/tengjingmeina.png
+  avatar: ./asset/images/speakers/tengjingmeina.jpg
+  avatar_en: ../asset/images/speakers/tengjingmeina.jpg
   short_intro: "机器学习工程师/数据科学家"
   short_intro_en: "Machine Learning Engineer/Data Scientist"
   intro: "现任GVA TECH的日本第一个人工智能法律服务AI-CON的多语言系统开发负责人。研究专业是语言学和中日文自然语言处理。"
