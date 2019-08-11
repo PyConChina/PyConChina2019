@@ -6,18 +6,19 @@
   title_en: SPEAKER
   url: "#speakers"
   url_en: "#speakers"
-- title: 申请演讲
-  title_en: SPEAKER
-  url: "https://jinshuju.net/f/BH2z26"
+- title: Tutorial
+  title_en: Tutorial
+  url: "https://www.bagevent.com/event/5886131"
   url_external: 1
-- title: 志愿者
-  title_en: VOLUNTEER
-  url: "#volunteers"
-  url_en: "#volunteers"
 - title: 大会日程
   title_en: SCHEDULE
   url: "#schedule"
   url_en: "#schedule"
+- title: 调研
+  title_en: SURVEY
+  url_external: 1
+  url: "https://www.wjx.cn/jq/43310160.aspx"
+  url_en: "https://www.wjx.cn/jq/43310160.aspx"
 - title: 赞助
   title_en: SPONSER
   url: "#sponsors"

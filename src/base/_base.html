@@ -36,7 +36,7 @@
 				padding:0;
 			}
 			.speaker .photo-wrapper {
-				max-width: 200px;
+				width: 140px;
 			}
 			.speaker .photo-wrapper img {
 				max-width: 100%;
@@ -46,6 +46,9 @@
 			}
 			.speaker {
 				min-height: 415px;
+			}
+			.speaker .name {
+				letter-spacing: .1em;
 			}
 			.banner__btnWraper .btn {
 				margin-bottom: 12px;
@@ -70,6 +73,10 @@
 					height:80px;
 				}
 			}
+
+			.btn {
+				letter-spacing: 0.29em;
+			}
 			
 		</style>
 
@@ -88,11 +95,16 @@
 				<h6 class="thin base-font">{{ message.slogan }}</h6>
 				<div class="btns-container banner__btnWraper">
 						{% for city in message.booking_now %}
-						<a class="btn btn-md" href="{{ city.url }}" target="_blank">{{ message.booking_title_before}}{{ city.name }}{{ message.booking_title_after}}</a>
+                        {% if city.url == "#" %}
+						<a class="btn btn-md" disabled href="{{ city.url }}" target="_blank"><i style="color:white" class="fa fa-lg fa-ticket"></i>{{ message.booking_title_before}}{{ city.name }}{{ message.booking_title_after}}</a>
+                        {% else %}
+						<a class="btn btn-md" href="{{ city.url }}" target="_blank"><i style="color:white" class="fa fa-lg fa-ticket"></i>{{ message.booking_title_before}}{{ city.name }}{{ message.booking_title_after}}</a>
+                        {% endif %}
 						{% endfor %}
 				</div>
                 <div class="btns-container">
-                    <a class="btn btn-outline btn-md" href="{{ site.speech_apply_url }}" target="_blank">{{ message.speech_apple_now }}</a>
+                    <a class="btn btn-outline btn-md" href="{{ site.speech_apply_url }}" target="_blank">{{ message.speech_apply_now }}</a>
+                    <a class="btn btn-outline btn-md" href="{{ site.volunteer_apply_url }}" target="_blank">{{ message.volunteer_apply_now }}</a>
                 </div>
 			</div>
 		</div>

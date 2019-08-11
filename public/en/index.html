@@ -6,11 +6,9 @@
 	<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
 	<title>PyCon China 2019</title>
-
-	<link rel="shortcut icon" href="../asset/img/favicon.ico">
-	<link rel="apple-touch-icon" href="../asset/img/apple-touch-icon.jpg">
-	<link rel="apple-touch-icon" sizes="72x72" href="../asset/img/apple-touch-icon-72x72.jpg">
-	<link rel="apple-touch-icon" sizes="114x114" href="../asset/img/apple-touch-icon-114x114.jpg">
+	<link rel="icon" href="../asset/img/favicon.png">
+	<link rel="shortcut icon" href="../asset/img/favicon.png">
+	<link rel="apple-touch-icon" href="../asset/img/favicon.png">
 
 	<meta name="description" content="The Official Site for PyCon China 2019">
     <meta name="author" content="support@PyChina.org">
@@ -38,22 +36,19 @@
 				padding:0;
 			}
 			.speaker .photo-wrapper {
-				max-width: 200px;
+				width: 140px;
 			}
 			.speaker .photo-wrapper img {
 				max-width: 100%;
 			}
-
-			@media(min-width: 768px) {
-				.speaker__colWraper {
-					width: 20%;
-				}
-				.navigation-header {
-					padding: 34px 0 0;
-				}
+			.sponsors-wraper .support_name > .big{
+				color: #478c3d;
 			}
 			.speaker {
 				min-height: 415px;
+			}
+			.speaker .name {
+				letter-spacing: .1em;
 			}
 			.banner__btnWraper .btn {
 				margin-bottom: 12px;
@@ -61,7 +56,24 @@
 			.support_intro {
 				min-height: 100px;
 			}
-
+			@media(min-width: 767px) {
+				.speaker__colWraper {
+					width: 20%;
+				}
+			}
+			@media(max-width: 767px) {
+				.navigation-header {
+					padding: 0 20px;
+				}
+				.navbar-toggle{
+					margin-top:20px;
+				}
+				.header-wrapper{
+					min-height:80px;
+					height:80px;
+				}
+			}
+			
 		</style>
 
 	<!--[if lt IE 9]>
@@ -166,6 +178,16 @@
         
   
     <a href="../#schedule" class="navigation-link">SCHEDULE</a>
+  
+
+    </li>
+    
+  
+    
+    <li class="navigation-item">
+        
+  
+    <a href="https://www.wjx.cn/jq/43310160.aspx" class="navigation-link">SURVEY</a>
   
 
     </li>
@@ -291,13 +313,38 @@
       
         <div class="col-sm-4 speaker__colWraper col-xs-6">
             <div class="speaker">
+                <div class="photo-wrapper rounded"><img src="../asset/images/speakers/lucianoramalho.jpeg" alt="Luciano Ramalho" class="img-responsive"></div>
+                <h3 class="name">Luciano Ramalho</h3>
+                <div>The author of Fluent Python</div>
+                <div style="font-weight: bold; margin-top: 6px;">The timeless beauty of Python</div>
+<!--                <p class="text-alt"><small>Luciano Ramalho is the author of Fluent Python, published in 9 languages. He is a principal consultant at @ThoughtWorks and a co-founder of @garoahc, the first hackerspace in Brazil.</small></p>-->
+            </div>
+        </div>
+      
+      
+        <div class="col-sm-4 speaker__colWraper col-xs-6">
+            <div class="speaker">
                 <div class="photo-wrapper rounded"><img src="../asset/images/speakers/arminronacher.png" alt="Armin Ronacher" class="img-responsive"></div>
                 <h3 class="name">Armin Ronacher</h3>
-                <div>Armin Ronacher 是 Flask、Werkzeug、Jinja2、Click 等流行开源项目的作者。他关注于设计良好的系统和 API。目前开发一款名为 Sentry 的开源错误报告工具。</div>
+                <div>Armin Ronacher is the creator of the Flask, Jinja2, Werkzeug, Click, etc. He cares about well designed systems and APIs. He is currently working on Sentry, an Open Source crash reporting tool.</div>
                 <div style="font-weight: bold; margin-top: 6px;"></div>
 <!--                <p class="text-alt"><small>Armin Ronacher is the creator of the Flask, Jinja2, Werkzeug, Click, etc. He cares about well designed systems and APIs. He is currently working on Sentry, an Open Source crash reporting tool.</small></p>-->
             </div>
         </div>
+      
+      
+        <div class="col-sm-4 speaker__colWraper col-xs-6">
+            <div class="speaker">
+                <div class="photo-wrapper rounded"><img src="../asset/images/speakers/giampaolorodola.jpeg" alt="Giampaolo Rodola" class="img-responsive"></div>
+                <h3 class="name">Giampaolo Rodola</h3>
+                <div>Python Core - Developer</div>
+                <div style="font-weight: bold; margin-top: 6px;">The timeless beauty of Python</div>
+<!--                <p class="text-alt"><small>My name is Giampaolo Rodola, from Italy. I am a python core-dev since 2010 and the author and maintainer of <a href="https://github.com/giampaolo/psutil">psutil</a> and <a href="https://github.com/giampaolo/pyftpdlib">python FTP server libs</a>. You can read more about me <a href="http://grodola.blogspot.com/p/about.html?m=1">HERE</a></small></p>-->
+            </div>
+        </div>
+      
+    
+        <!-- 每行显示3个讲师 -->
       
       
         <div class="col-sm-4 speaker__colWraper col-xs-6">
@@ -313,16 +360,13 @@
       
         <div class="col-sm-4 speaker__colWraper col-xs-6">
             <div class="speaker">
-                <div class="photo-wrapper rounded"><img src="../asset/images/speakers/lihui.jpg" alt="Hui Li" class="img-responsive"></div>
-                <h3 class="name">Hui Li</h3>
-                <div>Individual developer, maintainer of Flask, author of Flask Web Development</div>
+                <div class="photo-wrapper rounded"><img src="../asset/images/speakers/lihui.jpg" alt="Grey Li" class="img-responsive"></div>
+                <h3 class="name">Grey Li</h3>
+                <div>Freelance web developer, maintainer of Flask, author of "Python Web Development with Flask".</div>
                 <div style="font-weight: bold; margin-top: 6px;">Fighting among Python virtual environment and dependency management tools</div>
-<!--                <p class="text-alt"><small></small></p>-->
+<!--                <p class="text-alt"><small>Freelance web developer, maintainer of Flask, author of "Python Web Development with Flask".</small></p>-->
             </div>
         </div>
-      
-    
-        <!-- 每行显示3个讲师 -->
       
       
         <div class="col-sm-4 speaker__colWraper col-xs-6">
@@ -330,10 +374,13 @@
                 <div class="photo-wrapper rounded"><img src="../asset/images/speakers/cuiheng.png" alt="Heng Cui" class="img-responsive"></div>
                 <h3 class="name">Heng Cui</h3>
                 <div>阿里巴巴 - 技术专家</div>
-                <div style="font-weight: bold; margin-top: 6px;">Another Python and Rust Love Story</div>
+                <div style="font-weight: bold; margin-top: 6px;">Programming the DSL of RobotFramework based on the IDE of PyQt + QScintilla</div>
 <!--                <p class="text-alt"><small>Master of USTC, have more than 10 years IT development and related experiences, used to work as Senior Engineer of Citrix, CTO of a startup company, now a technology expert of Alibaba. Over the passing years, I’ve been using python for building automation system、website and NLP based chatbot</small></p>-->
             </div>
         </div>
+      
+    
+        <!-- 每行显示3个讲师 -->
       
       
         <div class="col-sm-4 speaker__colWraper col-xs-6">
@@ -354,6 +401,53 @@
                 <div>Leader of Ali cloud service in Shanghai</div>
                 <div style="font-weight: bold; margin-top: 6px;">Building of open source AIOps data center and the role of Python</div>
 <!--                <p class="text-alt"><small>More than 10 years of work experience in DevSecOps、AIOps and so on. Former Splunk Senior Architect in a top company in big data. Willing to share, make more than a dozen of speech or live in PyCon and Yunqi. Topic including several fields like Big Data Analysis Processing, Scheduling Monitoring, Visual Analysis, and Python Core Series. These speeches gain warmly welcome by the listeners.</small></p>-->
+            </div>
+        </div>
+      
+      
+        <div class="col-sm-4 speaker__colWraper col-xs-6">
+            <div class="speaker">
+                <div class="photo-wrapper rounded"><img src="../asset/images/speakers/zhangjiaojie.png" alt="Xiaojie Zhang" class="img-responsive"></div>
+                <h3 class="name">Xiaojie Zhang</h3>
+                <div>NVIDIA - Senior Deep Learning Architecture Engineer</div>
+                <div style="font-weight: bold; margin-top: 6px;">Using Python to train and to deploy low-precision model</div>
+<!--                <p class="text-alt"><small>Currently responsible for deep learning framework optimization and new features development base on GPU. Due to my work, I have studied some deep learning frameworks based on Python including TensorFlow and PyTorch, etc. I hope to share some experience about how to use Python training and deploying low-precision models. I hope it will be helpful to your work about deep learning.</small></p>-->
+            </div>
+        </div>
+      
+    
+        <!-- 每行显示3个讲师 -->
+      
+      
+        <div class="col-sm-4 speaker__colWraper col-xs-6">
+            <div class="speaker">
+                <div class="photo-wrapper rounded"><img src="../asset/images/speakers/tengjingmeina.png" alt="藤井美娜" class="img-responsive"></div>
+                <h3 class="name">藤井美娜</h3>
+                <div>Machine Learning Engineer/Data Scientist</div>
+                <div style="font-weight: bold; margin-top: 6px;">Python's NLP Practical Sharing-how to implement contract risk prediction model</div>
+<!--                <p class="text-alt"><small>Currently the head of multi-language system development for AI-CON, the first artificial intelligence legal service in Japan. Focus on linguistics and Chinese and Japanese natural language processing.</small></p>-->
+            </div>
+        </div>
+      
+      
+        <div class="col-sm-4 speaker__colWraper col-xs-6">
+            <div class="speaker">
+                <div class="photo-wrapper rounded"><img src="../asset/images/speakers/liqiyu.jpg" alt="Qiyu Li" class="img-responsive"></div>
+                <h3 class="name">Qiyu Li</h3>
+                <div>LeetCode china Backend architect, leader of backend team</div>
+                <div style="font-weight: bold; margin-top: 6px;">GraphQL in Django</div>
+<!--                <p class="text-alt"><small>LeetCode china Backend architect, leader of backend team</small></p>-->
+            </div>
+        </div>
+      
+      
+        <div class="col-sm-4 speaker__colWraper col-xs-6">
+            <div class="speaker">
+                <div class="photo-wrapper rounded"><img src="../asset/images/speakers/zhangjiayuan.jpg" alt="Jiayuan Zhang" class="img-responsive"></div>
+                <h3 class="name">Jiayuan Zhang</h3>
+                <div>Aiqiyi - backend development engineer</div>
+                <div style="font-weight: bold; margin-top: 6px;">The Past and Future of GIL</div>
+<!--                <p class="text-alt"><small>Contributors of Requests, Werkzeug  etc. open source project, and has years of Python development experience. Now he focuses on Python Web development. Speakers of PyCon China 2018 and CSDN Python develpers day.</small></p>-->
             </div>
         </div>
       
@@ -378,7 +472,7 @@
                 <h3 class="name">Xiao Tan</h3>
                 <div>Developer of Ant Fincial Inc.</div>
                 <div style="font-weight: bold; margin-top: 6px;">Make a renderer within 500 lines Python codes</div>
-<!--                <p class="text-alt"><small></small></p>-->
+<!--                <p class="text-alt"><small>Developer of Ant Fincial Inc.</small></p>-->
             </div>
         </div>
       
@@ -390,6 +484,31 @@
                 <div>Zhijiang College of zjut</div>
                 <div style="font-weight: bold; margin-top: 6px;">Human–Machine Interaction based on OwlReady2</div>
 <!--                <p class="text-alt"><small>Assistant, PhD of Zhejiang University. I am Interested in Machine Learning，and my dream is the strong AI</small></p>-->
+            </div>
+        </div>
+      
+    
+        <!-- 每行显示3个讲师 -->
+      
+      
+        <div class="col-sm-4 speaker__colWraper col-xs-6">
+            <div class="speaker">
+                <div class="photo-wrapper rounded"><img src="../asset/images/speakers/huangshaoxuan.png" alt="Shaoxuan Huang" class="img-responsive"></div>
+                <h3 class="name">Shaoxuan Huang</h3>
+                <div>Tsinghua University</div>
+                <div style="font-weight: bold; margin-top: 6px;">图算法你好：反欺诈应用介绍与实作</div>
+<!--                <p class="text-alt"><small>现为清大研究生，曾在台湾金融业担任数据科学家，并有 3 年工作经验，负责金融行为使用者的分析洞察与预测模型建立等；问题拆解与算法研究是我热爱的事情，过去两年担任技术社群 PyLadies Taiwan 专栏作者，分享知识脉络与实作成果，持续在数据科学这条路上探索更多的可能。</small></p>-->
+            </div>
+        </div>
+      
+      
+        <div class="col-sm-4 speaker__colWraper col-xs-6">
+            <div class="speaker">
+                <div class="photo-wrapper rounded"><img src="../asset/images/speakers/liuyulong.png" alt="Yulong Liu" class="img-responsive"></div>
+                <h3 class="name">Yulong Liu</h3>
+                <div>高瓴资本-百丽国际 后端工程师</div>
+                <div style="font-weight: bold; margin-top: 6px;">requests 长链接与 TIME_WAIT</div>
+<!--                <p class="text-alt"><small>高瓴资本-百丽国际 后端工程师</small></p>-->
             </div>
         </div>
       
@@ -479,6 +598,31 @@
                 <div>Data Engineer of Gekko Lab</div>
                 <div style="font-weight: bold; margin-top: 6px;">Boost the scientific computing with one line of code</div>
 <!--                <p class="text-alt"><small>Responsible for data developmenting, acquisiting,  analysising, and collection in Gekko Lab.</small></p>-->
+            </div>
+        </div>
+      
+      
+        <div class="col-sm-4 speaker__colWraper col-xs-6">
+            <div class="speaker">
+                <div class="photo-wrapper rounded"><img src="../asset/images/speakers/mingxi.jpg" alt="Xi Ming" class="img-responsive"></div>
+                <h3 class="name">Xi Ming</h3>
+                <div>腾讯 - 持续集成开发工程师</div>
+                <div style="font-weight: bold; margin-top: 6px;">Pipenv和Python包管理 </div>
+<!--                <p class="text-alt"><small>前测试工程师，现于腾讯财付通从事持续集成相关的开发工作。开源贡献者，现为Pipenv项目的核心维护之一。 </small></p>-->
+            </div>
+        </div>
+      
+    
+        <!-- 每行显示3个讲师 -->
+      
+      
+        <div class="col-sm-4 speaker__colWraper col-xs-6">
+            <div class="speaker">
+                <div class="photo-wrapper rounded"><img src="../asset/images/speakers/huangyi.png" alt="Yi Huang" class="img-responsive"></div>
+                <h3 class="name">Yi Huang</h3>
+                <div>独立开发者</div>
+                <div style="font-weight: bold; margin-top: 6px;">Python前端开发</div>
+<!--                <p class="text-alt"><small>Pythoner, C++使用者，Haskell爱好者，游戏引擎开发者，区块链研究者，交易系统优化者</small></p>-->
             </div>
         </div>
       
@@ -2008,29 +2152,29 @@
         <!-- 每行显示3个志愿者 -->
           
           
-          <div class="col-sm-4">
+          <div class="col-sm-4 speaker__colWraper col-xs-6">
               <div class="speaker">
-                  <div class="photo-wrapper rounded"><img src="../asset/images/volunteers/dama.png" alt="Zoom.Quiet (Dama)" class="img-responsive"></div>
-                  <h3 class="name">Zoom.Quiet (Dama)</h3>
-                  <p class="text-alt"><small>Sponsor of PyChina<br />uSEE.tech CTO</small></p>
+                  <div class="photo-wrapper rounded"><img src="../asset/images/volunteers/dama.png" alt="Zoom.Quiet (DamaDama)" class="img-responsive"></div>
+                  <h3 class="name">Zoom.Quiet (DamaDama)</h3>
+                  <p class="text-alt"><small>Sponsor of PyChina<br />101.camp Founder</small></p>
               </div>
           </div> <!-- ./志愿者 -->
           
           
-          <div class="col-sm-4">
+          <div class="col-sm-4 speaker__colWraper col-xs-6">
               <div class="speaker">
                   <div class="photo-wrapper rounded"><img src="../asset/images/volunteers/lihui.png" alt="Grey Li" class="img-responsive"></div>
                   <h3 class="name">Grey Li</h3>
-                  <p class="text-alt"><small>Shanghai <br />Freelance Web Developer</small></p>
+                  <p class="text-alt"><small>Freelance Web Developer<br /> Maintainer of Flask</small></p>
               </div>
           </div> <!-- ./志愿者 -->
           
           
-          <div class="col-sm-4">
+          <div class="col-sm-4 speaker__colWraper col-xs-6">
               <div class="speaker">
                   <div class="photo-wrapper rounded"><img src="../asset/images/volunteers/wangbinxin.png" alt="Binxin Wang" class="img-responsive"></div>
                   <h3 class="name">Binxin Wang</h3>
-                  <p class="text-alt"><small>Shanghai <br /> Aliyun - Senior Developer</small></p>
+                  <p class="text-alt"><small>Aliyun - Senior Developer</small></p>
               </div>
           </div> <!-- ./志愿者 -->
           
@@ -2038,16 +2182,16 @@
         <!-- 每行显示3个志愿者 -->
           
           
-          <div class="col-sm-4">
+          <div class="col-sm-4 speaker__colWraper col-xs-6">
               <div class="speaker">
                   <div class="photo-wrapper rounded"><img src="../asset/images/volunteers/zhangjintao.png" alt="Jintao Zhang" class="img-responsive"></div>
                   <h3 class="name">Jintao Zhang</h3>
-                  <p class="text-alt"><small>Shanghai | NetEase, Inc.</small></p>
+                  <p class="text-alt"><small>NetEase, Inc.</small></p>
               </div>
           </div> <!-- ./志愿者 -->
           
           
-          <div class="col-sm-4">
+          <div class="col-sm-4 speaker__colWraper col-xs-6">
               <div class="speaker">
                   <div class="photo-wrapper rounded"><img src="../asset/images/volunteers/chenshixin.png" alt="StingChen(Shixin Chen)" class="img-responsive"></div>
                   <h3 class="name">StingChen(Shixin Chen)</h3>
@@ -2056,11 +2200,11 @@
           </div> <!-- ./志愿者 -->
           
           
-          <div class="col-sm-4">
+          <div class="col-sm-4 speaker__colWraper col-xs-6">
               <div class="speaker">
                   <div class="photo-wrapper rounded"><img src="../asset/images/volunteers/zhanghongke.png" alt="Hongke Zhang" class="img-responsive"></div>
                   <h3 class="name">Hongke Zhang</h3>
-                  <p class="text-alt"><small>Shanghai | Dianwoda - Senior Developer</small></p>
+                  <p class="text-alt"><small>Dianwoda - Senior Developer</small></p>
               </div>
           </div> <!-- ./志愿者 -->
           
@@ -2068,29 +2212,29 @@
         <!-- 每行显示3个志愿者 -->
           
           
-          <div class="col-sm-4">
+          <div class="col-sm-4 speaker__colWraper col-xs-6">
               <div class="speaker">
                   <div class="photo-wrapper rounded"><img src="../asset/images/volunteers/dengliangju.png" alt="Liangju Deng" class="img-responsive"></div>
                   <h3 class="name">Liangju Deng</h3>
-                  <p class="text-alt"><small>Shanghai | Mita tec.</small></p>
+                  <p class="text-alt"><small>Mita tec.</small></p>
               </div>
           </div> <!-- ./志愿者 -->
           
           
-          <div class="col-sm-4">
+          <div class="col-sm-4 speaker__colWraper col-xs-6">
               <div class="speaker">
                   <div class="photo-wrapper rounded"><img src="../asset/images/volunteers/jonhuang.png" alt="Jon Huang" class="img-responsive"></div>
                   <h3 class="name">Jon Huang</h3>
-                  <p class="text-alt"><small>Shanghai | Founder of yield.im</small></p>
+                  <p class="text-alt"><small>Founder of yield.im</small></p>
               </div>
           </div> <!-- ./志愿者 -->
           
           
-          <div class="col-sm-4">
+          <div class="col-sm-4 speaker__colWraper col-xs-6">
               <div class="speaker">
                   <div class="photo-wrapper rounded"><img src="../asset/images/volunteers/lizheao.png" alt="Zheao Li" class="img-responsive"></div>
                   <h3 class="name">Zheao Li</h3>
-                  <p class="text-alt"><small>Shanghai | Senior Developer of Ele.me</small></p>
+                  <p class="text-alt"><small>Senior Developer of Ele.me</small></p>
               </div>
           </div> <!-- ./志愿者 -->
           
@@ -2098,29 +2242,29 @@
         <!-- 每行显示3个志愿者 -->
           
           
-          <div class="col-sm-4">
+          <div class="col-sm-4 speaker__colWraper col-xs-6">
               <div class="speaker">
                   <div class="photo-wrapper rounded"><img src="../asset/images/volunteers/qinxuye.png" alt="Xuye Qin" class="img-responsive"></div>
                   <h3 class="name">Xuye Qin</h3>
-                  <p class="text-alt"><small>Shanghai | Senior Developer of Alibaba</small></p>
+                  <p class="text-alt"><small>Senior Developer of Alibaba</small></p>
               </div>
           </div> <!-- ./志愿者 -->
           
           
-          <div class="col-sm-4">
+          <div class="col-sm-4 speaker__colWraper col-xs-6">
               <div class="speaker">
                   <div class="photo-wrapper rounded"><img src="../asset/images/volunteers/zhumingfang.png" alt="Mingfang Zhu" class="img-responsive"></div>
                   <h3 class="name">Mingfang Zhu</h3>
-                  <p class="text-alt"><small>Shanghai | Information security engineer of Saining</small></p>
+                  <p class="text-alt"><small>Information security engineer of Saining</small></p>
               </div>
           </div> <!-- ./志愿者 -->
           
           
-          <div class="col-sm-4">
+          <div class="col-sm-4 speaker__colWraper col-xs-6">
               <div class="speaker">
                   <div class="photo-wrapper rounded"><img src="../asset/images/volunteers/shiyuankun.jpg" alt="Yuankun Shi" class="img-responsive"></div>
                   <h3 class="name">Yuankun Shi</h3>
-                  <p class="text-alt"><small>Shanghai | Software Engineer of Intel Inc.</small></p>
+                  <p class="text-alt"><small>Software Engineer of Intel Inc.</small></p>
               </div>
           </div> <!-- ./志愿者 -->
           
@@ -2128,29 +2272,29 @@
         <!-- 每行显示3个志愿者 -->
           
           
-          <div class="col-sm-4">
+          <div class="col-sm-4 speaker__colWraper col-xs-6">
               <div class="speaker">
                   <div class="photo-wrapper rounded"><img src="../asset/images/volunteers/river.jpg" alt="River" class="img-responsive"></div>
                   <h3 class="name">River</h3>
-                  <p class="text-alt"><small>Shanghai | CTO of Quseit Inc., Developer of QPython</small></p>
+                  <p class="text-alt"><small>CTO of Quseit Inc., Developer of QPython</small></p>
               </div>
           </div> <!-- ./志愿者 -->
           
           
-          <div class="col-sm-4">
+          <div class="col-sm-4 speaker__colWraper col-xs-6">
               <div class="speaker">
                   <div class="photo-wrapper rounded"><img src="../asset/images/volunteers/daishaofei.png" alt="Shaofei Dai" class="img-responsive"></div>
                   <h3 class="name">Shaofei Dai</h3>
-                  <p class="text-alt"><small>Shanghai | Senior Developer</small></p>
+                  <p class="text-alt"><small>Senior Developer</small></p>
               </div>
           </div> <!-- ./志愿者 -->
           
           
-          <div class="col-sm-4">
+          <div class="col-sm-4 speaker__colWraper col-xs-6">
               <div class="speaker">
                   <div class="photo-wrapper rounded"><img src="../asset/images/volunteers/hexiangyu.png" alt="Xiangyu He" class="img-responsive"></div>
                   <h3 class="name">Xiangyu He</h3>
-                  <p class="text-alt"><small>Shanghai | R&D Engineer of Bytedance Inc.</small></p>
+                  <p class="text-alt"><small>R&D Engineer of Bytedance Inc.</small></p>
               </div>
           </div> <!-- ./志愿者 -->
           
@@ -2158,29 +2302,29 @@
         <!-- 每行显示3个志愿者 -->
           
           
-          <div class="col-sm-4">
+          <div class="col-sm-4 speaker__colWraper col-xs-6">
               <div class="speaker">
                   <div class="photo-wrapper rounded"><img src="../asset/images/volunteers/yemin.jpg" alt="Min Ye" class="img-responsive"></div>
                   <h3 class="name">Min Ye</h3>
-                  <p class="text-alt"><small>Shanghai | Coach and Architect Designer of Automated Test in Nokia Bell</small></p>
+                  <p class="text-alt"><small>Coach and Architect Designer of Automated Test in Nokia Bell</small></p>
               </div>
           </div> <!-- ./志愿者 -->
           
           
-          <div class="col-sm-4">
+          <div class="col-sm-4 speaker__colWraper col-xs-6">
               <div class="speaker">
                   <div class="photo-wrapper rounded"><img src="../asset/images/volunteers/zhangjiaojie.png" alt="Jiaojie Zhang" class="img-responsive"></div>
                   <h3 class="name">Jiaojie Zhang</h3>
-                  <p class="text-alt"><small>Shanghai | Senior Architect Designer of Deep Learning in Nvidia. Shanghai</small></p>
+                  <p class="text-alt"><small>Senior Architect Designer of Deep Learning in Nvidia. Shanghai</small></p>
               </div>
           </div> <!-- ./志愿者 -->
           
           
-          <div class="col-sm-4">
+          <div class="col-sm-4 speaker__colWraper col-xs-6">
               <div class="speaker">
                   <div class="photo-wrapper rounded"><img src="../asset/images/volunteers/dingjunhao.jpg" alt="Junhao Ding" class="img-responsive"></div>
                   <h3 class="name">Junhao Ding</h3>
-                  <p class="text-alt"><small>Shanghai | DevOps of Saicmobility Inc.</small></p>
+                  <p class="text-alt"><small>DevOps of Saicmobility Inc.</small></p>
               </div>
           </div> <!-- ./志愿者 -->
           
@@ -2188,11 +2332,20 @@
         <!-- 每行显示3个志愿者 -->
           
           
-          <div class="col-sm-4">
+          <div class="col-sm-4 speaker__colWraper col-xs-6">
               <div class="speaker">
                   <div class="photo-wrapper rounded"><img src="../asset/images/volunteers/gaojunteng.png" alt="Spawnris" class="img-responsive"></div>
                   <h3 class="name">Spawnris</h3>
-                  <p class="text-alt"><small>Shanghai | Engineer of Tencent Inc.</small></p>
+                  <p class="text-alt"><small>Engineer of Tencent Inc.</small></p>
+              </div>
+          </div> <!-- ./志愿者 -->
+          
+          
+          <div class="col-sm-4 speaker__colWraper col-xs-6">
+              <div class="speaker">
+                  <div class="photo-wrapper rounded"><img src="../asset/images/volunteers/default.jpg" alt="Eric" class="img-responsive"></div>
+                  <h3 class="name">Eric</h3>
+                  <p class="text-alt"><small>Python Engineer of Huaguoshan Inc.</small></p>
               </div>
           </div> <!-- ./志愿者 -->
           
@@ -2241,9 +2394,22 @@
                 <img src="../asset/images/sponsors/pycon.jpeg" alt="">
                 <div class="support_name">
                     <a href="https://pychina.org" target="_blank">PyChina</a>
-                    <span> [Organizer]</span>
+                    <span  class="big"> [Organizer]</span>
                 </div>
                 <div class="support_intro">After the establishment of CPyUG, lots of Python fans set up a new group called PyChina in 2014 to advertise and develop Python. PyChina will encourage online and offline activities from all over China, especially PyCon.</div>
+            </div>
+         
+      
+    
+    
+       
+            <div class="sponsors-wraper col-sm-6 col-md-4 col-lg-3">
+                <img src="../asset/images/sponsors/elastic.png" alt="">
+                <div class="support_name">
+                    <a href="https://www.elastic.co/cn/" target="_blank">Elastic</a>
+                    <span  class="inline"> [Gold]</span>
+                </div>
+                <div class="support_intro">Elastic is a search company. As the creators of the Elastic Stack (Elasticsearch, Kibana, Beats, and Logstash), Elastic builds self-managed and SaaS offerings that make data usable in real time and at scale for search, logging, security, and analytics use cases. Learn more at elastic.co.</div>
             </div>
          
       
@@ -2254,22 +2420,9 @@
                 <img src="../asset/images/sponsors/jetbrains.png" alt="">
                 <div class="support_name">
                     <a href="www.jetbrains.com" target="_blank">Jetbrains</a>
-                    <span> [Silver]</span>
+                    <span  class="inline"> [Silver]</span>
                 </div>
                 <div class="support_intro">JetBrains creates professional software development tools for coding in Kotlin, Python,  Java, and more languages, as well as advanced team collaboration tools.</div>
-            </div>
-         
-      
-    
-    
-       
-            <div class="sponsors-wraper col-sm-6 col-md-4 col-lg-3">
-                <img src="../asset/images/sponsors/elastic.jpg" alt="">
-                <div class="support_name">
-                    <a href="https://www.elastic.co/cn/" target="_blank">Elastic</a>
-                    <span> [Gold]</span>
-                </div>
-                <div class="support_intro">Elastic is a search company. As the creators of the Elastic Stack (Elasticsearch, Kibana, Beats, and Logstash), Elastic builds self-managed and SaaS offerings that make data usable in real time and at scale for search, logging, security, and analytics use cases. Learn more at elastic.co.</div>
             </div>
          
       
@@ -2292,7 +2445,7 @@
                 <img src="../asset/images/sponsors/turing.jpeg" alt="">
                 <div class="support_name">
                     <a href="https://ituring.cn" target="_blank">Turing</a>
-                    <span> [Book]</span>
+                    <span  class="inline"> [Book]</span>
                 </div>
                 <div class="support_intro">北京图灵文化发展有限公司，始终以策划出版高质量的科技图书为核心业务。旗下图灵教育品牌是国内计算机图书领域的高端品牌之一。图灵社区是图灵公司打造的综合性服务平台，集图书内容生产、作译者服务、电子书销售、技术人士交流于一体。</div>
             </div>
@@ -2316,10 +2469,19 @@
             <div class="sponsors-wraper col-sm-6 col-md-4 col-lg-3">
                 <img src="../asset/images/sponsors/360.png" alt="">
                 <div class="support_name">
-                    <a href="https://www.360.cn/" target="_blank">360技术委员会 & 360大学</a>
-                    <span> [Partners]</span>
+                    <a href="https://www.360.cn/" target="_blank">360 Technical Committee & 360 University</a>
+                    <span  class="inline"> [Partners]</span>
                 </div>
-                <div class="support_intro"></div>
+                <div class="support_intro">360 Technical Committee ( Abbreviation: TC ) was found in 2012, it is a virtual organization, consist of experts from every fields in 360. It is the highest management organization in the company's technical field.</div>
+            </div>
+        
+            <div class="sponsors-wraper col-sm-6 col-md-4 col-lg-3">
+                <img src="../asset/images/sponsors/sistswjtu.png" alt="">
+                <div class="support_name">
+                    <a href="http://sist.swjtu.edu.cn" target="_blank">西南交通大学 信息科学与技术学院</a>
+                    <span  class="inline"> [Partners]</span>
+                </div>
+                <div class="support_intro">西南交通大学是国内较早开设电子与信息类专业的学校，早在上世纪六十年代初就创办了计算技术、自动化和无线电技术3个专业，1981年计算机及应用专业获得国内首批硕士学位授予权。</div>
             </div>
          
       

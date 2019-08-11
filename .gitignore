@@ -1,8 +1,9 @@
 *.pyc
-public/
+public/*
 .webassets-cache/
 src/asset/css/
 src/asset/js/
 venv/
 .idea/
 .DS_Store
+*.swp

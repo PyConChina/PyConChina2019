@@ -14,6 +14,17 @@ role_list:
 
 organizers:
   -
+    name: 辛庆
+    name_en: Cynthia Xin
+    role: organizer
+    role_organizer: 1
+    avatar: ./asset/images/volunteers/xinqing.png
+    avatar_en: ../asset/images/volunteers/xinqing.png
+    intro: PyCon China 组委会总负责人
+    intro_en: The Head of PyCon China Organizing Committee
+    blog:
+    weibo:
+  -
     name: Zoom.Quiet (大妈)
     name_en: Zoom.Quiet (DamaDama)
     role: organizer
@@ -31,7 +42,7 @@ organizers:
     role_organizer: 1
     avatar: ./asset/images/volunteers/lihui.png
     avatar_en: ../asset/images/volunteers/lihui.png
-    intro: 独立 Web 开发者，Flask 维护者
+    intro: 独立 Web 开发者 <br/> Flask 维护者
     intro_en: Freelance Web Developer<br /> Maintainer of Flask
     blog: http://greyli.com
     weibo:
@@ -227,8 +238,8 @@ organizers:
     name_en: Eric
     role: organizer
     role_organizer: 1
-    avatar: 
-    avatar_en: 
+    avatar: ./asset/images/volunteers/default.jpg
+    avatar_en: ../asset/images/volunteers/default.jpg
     intro: 深圳花果山科技有限公司 - Python开发工程师
     intro_en: Python Engineer of Huaguoshan Inc.
     blog: 

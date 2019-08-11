@@ -518,6 +518,11 @@
       "url": "#schedule"
     }, 
     {
+      "title": "SURVEY", 
+      "url": "https://www.wjx.cn/jq/43310160.aspx", 
+      "url_external": 1
+    }, 
+    {
       "title": "SPONSER", 
       "url": "#sponsors"
     }, 
@@ -594,6 +599,18 @@
     "url": "http://cn.pycon.org/2019/"
   }, 
   "speakers": {
+    "speaker_beijing_huangshaoxuan": {
+      "avatar": "../asset/images/speakers/huangshaoxuan.png", 
+      "city_shanghai": 1, 
+      "intro": "\u73b0\u4e3a\u6e05\u5927\u7814\u7a76\u751f\uff0c\u66fe\u5728\u53f0\u6e7e\u91d1\u878d\u4e1a\u62c5\u4efb\u6570\u636e\u79d1\u5b66\u5bb6\uff0c\u5e76\u6709 3 \u5e74\u5de5\u4f5c\u7ecf\u9a8c\uff0c\u8d1f\u8d23\u91d1\u878d\u884c\u4e3a\u4f7f\u7528\u8005\u7684\u5206\u6790\u6d1e\u5bdf\u4e0e\u9884\u6d4b\u6a21\u578b\u5efa\u7acb\u7b49\uff1b\u95ee\u9898\u62c6\u89e3\u4e0e\u7b97\u6cd5\u7814\u7a76\u662f\u6211\u70ed\u7231\u7684\u4e8b\u60c5\uff0c\u8fc7\u53bb\u4e24\u5e74\u62c5\u4efb\u6280\u672f\u793e\u7fa4 PyLadies Taiwan \u4e13\u680f\u4f5c\u8005\uff0c\u5206\u4eab\u77e5\u8bc6\u8109\u7edc\u4e0e\u5b9e\u4f5c\u6210\u679c\uff0c\u6301\u7eed\u5728\u6570\u636e\u79d1\u5b66\u8fd9\u6761\u8def\u4e0a\u63a2\u7d22\u66f4\u591a\u7684\u53ef\u80fd\u3002", 
+      "name": "Shaoxuan Huang", 
+      "shanghai_topic": {
+        "preview": "\u57fa\u4e8e\u56fe\u5206\u6790\u548c\u534a\u76d1\u7763\u5b66\u4e60\u7684\u65b9\u5f0f\u6765\u68c0\u6d4b\u91d1\u878d\u53cd\u6b3a\u8bc8\uff0c\u4f7f\u7528 python \u4e0e Neo4j \u7cfb\u7edf\u4ea4\u4e92\uff0c\u5b58\u50a8\u3001\u5c55\u793a\u548c\u5206\u6790\u5ba2\u6237\u4ea4\u6613\u5173\u4fc2\u56fe\u3002\u5185\u5bb9\u5305\u542b (1) \u56fe\u7b97\u6cd5\u7684\u7b80\u4ecb\u4ee5\u53ca\u5e94\u7528\u65f6\u673a\uff08\u56fd\u5185\u5916\u4f7f\u7528\u60c5\u5883 e.g. LinkedIn\u3001\u8bba\u6587\u7814\u7a76\uff0c\u4f8b\u5982\u4f7f\u7528 Label Propagation\u65b9\u6cd5\u68c0\u6d4b\u4ea4\u6613\u6b3a\u8bc8\uff09\u3001(2) \u53ef\u4f7f\u7528\u7684\u56fe\u7b97\u6cd5\u5de5\u5177\u3001(3) \u56fe\u7b97\u6cd5\u7684\u793e\u533a\u4e0e\u8d44\u6e90\u5206\u4eab\u7b49\uff08neo4j\u4e2d\u6587\u793e\u533a\u3001paper with codes\u3001twiML@AI\uff09\u3002\u6700\u540e\u4f1a\u6709\u7b80\u5355\u7684\u5b9e\u4f5c\u5c55\u793a\uff0c\u5728 python \u7aef\u8fdb\u884c\u6570\u636e\u6e05\u7406\u540e\uff0c\u5c06\u8282\u70b9\u3001\u8fb9\u3001\u5173\u4fc2\u5c5e\u6027\u4e0e\u6743\u91cd\u7b49\u5199\u5165\u56fe\u6570\u636e\u5e93\uff0c\u900f\u8fc7\u4e0d\u540c\u5b9a\u4e49\u7684\u4e2d\u5fc3\u5ea6\u53bb\u8ba1\u7b97\u89d2\u8272\u91cd\u8981\u6027\u4e0e\u89c6\u89c9\u5316\uff0c\u5e76\u4e14\u53ef\u4ee5\u66f4\u597d\u5730\u7406\u89e3\u56fe\u7b97\u6cd5\u672c\u8d28\u3002", 
+        "slide": null, 
+        "title": "\u56fe\u7b97\u6cd5\u4f60\u597d\uff1a\u53cd\u6b3a\u8bc8\u5e94\u7528\u4ecb\u7ecd\u4e0e\u5b9e\u4f5c"
+      }, 
+      "short_intro": "Tsinghua University"
+    }, 
     "speaker_beijing_jintaozhang": {
       "avatar": "../asset/images/speakers/zhangjintao.jpg", 
       "city_beijing": 1, 
@@ -618,6 +635,18 @@
       }, 
       "short_intro": "Amazon Web Services"
     }, 
+    "speaker_beijing_liuyulong": {
+      "avatar": "../asset/images/speakers/liuyulong.png", 
+      "city_shanghai": 1, 
+      "intro": "\u9ad8\u74f4\u8d44\u672c-\u767e\u4e3d\u56fd\u9645 \u540e\u7aef\u5de5\u7a0b\u5e08", 
+      "name": "Yulong Liu", 
+      "shanghai_topic": {
+        "preview": "\u4e3a\u4e86\u7ed9\u5185\u90e8\u670d\u52a1\u95f4 http \u8c03\u7528\u52a0\u4e0a\u9ed8\u8ba4\u7684\u91cd\u8bd5\u6b21\u6570\uff0c\u628a requests.get \u6539\u6210\u4e86 request.Session().get\uff0c\u4e2d\u95f4\u52a0\u4e86 HTTPAdapter \u4f46\u662f\u5fd8\u8bb0\u4e86\u5173\u95ed tcp \u94fe\u63a5\uff0c\u521d\u671f\u8bf7\u6c42\u91cf\u5c0f\u6ca1\u5565\u95ee\u9898\uff0c\u540e\u6765\u5e76\u53d1\u4e00\u9ad8\u5c31\u4f1a\u51fa\u73b0\u5efa\u7acb\u94fe\u63a5\u5931\u8d25\u7684\u95ee\u9898\uff0c\u800c\u4e14\u62a5\u9519\u8fd8\u90fd\u662f\u91cd\u8bd5\u6b21\u6570\u8017\u5c3d\uff0c\u4e00\u5f00\u59cb\u6709\u540c\u5b66\u6539\u4e86 timeout\uff0c\u4f46\u8fd9\u4e5f\u4e0d\u662f timeout \u7684\u95ee\u9898\u554a\uff0c\u8fd9\u94fe\u63a5\u90fd\u6ca1\u5efa\u7acb\u6210\u529f\u2026\u8fd9\u4e2a\u95ee\u9898\u56f0\u6270\u4e86\u6211\u4eec\u597d\u4e45\u3002\u540e\u6765\u6211\u60f3\u8d77\u4e4b\u524d\u542c\u8fc7\u767e\u5ea6\u7684\u4e00\u4e2a\u5206\u4eab\uff0c\u91cc\u9762\u6709\u8bb2\u7c7b\u4f3c\u7684\u95ee\u9898\uff0c\u4e8e\u662f\u53bb\u7ffb\u4e86\u4e00\u5708\u89c6\u9891\uff0c\u4ed4\u7ec6\u4e86\u89e3\u4e86\u8fd9\u7c7b\u60c5\u51b5\uff0c\u53c8\u53bb\u91cd\u8bfb\u4e86 requests \u7684\u6587\u6863\u548c\u90e8\u5206\u4ee3\u7801\uff0c\u6700\u540e\u7ec8\u4e8e\u786e\u5b9a\u662f\u5ba2\u6237\u7aef\u8bbe\u7f6e\u4e86keep-alive \u4f46\u5e76\u6ca1\u6709\u590d\u7528\uff0c\u4e8e\u662f\u670d\u52a1\u7aef\u603b\u662f\u88ab\u8feb\u4e3b\u52a8\u5173\u95ed\u94fe\u63a5\uff0c\u540c\u65f6\u4f1a\u7b49\u5f85\u4e24\u4e2a MSL\uff0c\u9ad8\u5e76\u53d1\u65f6\u4f1a\u9020\u6210 tcp \u94fe\u63a5\u88ab\u5927\u91cf\u5360\u7528\uff0c\u751a\u81f3\u5360\u6ee1\u3002\u6700\u540e\u52a0\u4e86\u4e00\u53e5 with \u4fdd\u8bc1\u5173\u95ed\u94fe\u63a5\u89e3\u51b3\u95ee\u9898\u3002\uff08\u8fd9\u662f\u521a\u521a\u53d1\u751f\u7684\u4e8b\uff0c\u4e0d\u786e\u5b9a\u63a5\u4e0b\u53bb\u51e0\u4e2a\u6708\u4f1a\u4e0d\u4f1a\u66b4\u9732\u51fa\u65b0\u7684\u95ee\u9898\uff09", 
+        "slide": null, 
+        "title": "requests \u957f\u94fe\u63a5\u4e0e TIME_WAIT"
+      }, 
+      "short_intro": "\u9ad8\u74f4\u8d44\u672c-\u767e\u4e3d\u56fd\u9645 \u540e\u7aef\u5de5\u7a0b\u5e08"
+    }, 
     "speaker_chengdu_zhihangliu": {
       "avatar": "../asset/images/speakers/liuzhihang.png", 
       "city_chengdu": 1, 
@@ -640,7 +669,7 @@
         "slide": null, 
         "title": ""
       }, 
-      "short_intro": "Armin Ronacher \u662f Flask\u3001Werkzeug\u3001Jinja2\u3001Click \u7b49\u6d41\u884c\u5f00\u6e90\u9879\u76ee\u7684\u4f5c\u8005\u3002\u4ed6\u5173\u6ce8\u4e8e\u8bbe\u8ba1\u826f\u597d\u7684\u7cfb\u7edf\u548c API\u3002\u76ee\u524d\u5f00\u53d1\u4e00\u6b3e\u540d\u4e3a Sentry \u7684\u5f00\u6e90\u9519\u8bef\u62a5\u544a\u5de5\u5177\u3002"
+      "short_intro": "Armin Ronacher is the creator of the Flask, Jinja2, Werkzeug, Click, etc. He cares about well designed systems and APIs. He is currently working on Sentry, an Open Source crash reporting tool."
     }, 
     "speaker_shanghai_congweisong": {
       "avatar": "../asset/images/speakers/songcongwei.jpg", 
@@ -654,15 +683,27 @@
       }, 
       "short_intro": "Zhijiang College of zjut"
     }, 
+    "speaker_shanghai_giampaolorodola": {
+      "avatar": "../asset/images/speakers/giampaolorodola.jpeg", 
+      "city_shanghai": 1, 
+      "intro": "My name is Giampaolo Rodola, from Italy. I am a python core-dev since 2010 and the author and maintainer of <a href=\"https://github.com/giampaolo/psutil\">psutil</a> and <a href=\"https://github.com/giampaolo/pyftpdlib\">python FTP server libs</a>. You can read more about me <a href=\"http://grodola.blogspot.com/p/about.html?m=1\">HERE</a>", 
+      "name": "Giampaolo Rodola", 
+      "shanghai_topic": {
+        "preview": "I love to study the design of programming languages, and I\u2019ve been coding in Python since 1998. Python is a masterpiece of design. This talk is about the parts of Python that I find are the most beautiful.", 
+        "slide": null, 
+        "title": "The timeless beauty of Python"
+      }, 
+      "short_intro": "Python Core - Developer"
+    }, 
     "speaker_shanghai_hengcui": {
       "avatar": "../asset/images/speakers/cuiheng.png", 
       "city_shanghai": 1, 
       "intro": "Master of USTC, have more than 10 years IT development and related experiences, used to work as Senior Engineer of Citrix, CTO of a startup company, now a technology expert of Alibaba. Over the passing years, I\u2019ve been using python for building automation system\u3001website and NLP based chatbot", 
       "name": "Heng Cui", 
       "shanghai_topic": {
-        "preview": "In order to alleviate the increasingly congested urban traffic problems, Alibaba cloud has proposed Et-Brain solution basing on data. Our team\u2019s project is to build a distributed\u3001low latency traffic simulation system of the whole city. As the system required all the calculation to be finished in real-time, we chose rust as the low-level implementation. For the high-level application, we use python. We\u2019ve succeed in building a distributed system, which has a lot of python based application running on it using rust-bindings.", 
+        "preview": "RobotFramework is an open-source testing framework based on Python automation for automated testing for continuous integration. RobotFramework is written in a custom scripting language (DSL) but often requires automated test engineers to remember a large number of function names and rules, which is not very convenient to debug. This topic shares a script development tool based on QScintilla+PyQt5 for RobotFramework. It supports syntax highlighting, auto-completion, custom icons, etc. Through this sharing, listeners can learn how to write syntax highlighting and auto-completion based on QScintilla. , error prompts, etc., and you can customize the IDE for the DSL field.", 
         "slide": null, 
-        "title": "Another Python and Rust Love Story"
+        "title": "Programming the DSL of RobotFramework based on the IDE of PyQt + QScintilla"
       }, 
       "short_intro": "\u963f\u91cc\u5df4\u5df4 - \u6280\u672f\u4e13\u5bb6"
     }, 
@@ -681,14 +722,14 @@
     "speaker_shanghai_huili": {
       "avatar": "../asset/images/speakers/lihui.jpg", 
       "city_shanghai": 1, 
-      "intro": "", 
-      "name": "Hui Li", 
+      "intro": "Freelance web developer, maintainer of Flask, author of \"Python Web Development with Flask\".", 
+      "name": "Grey Li", 
       "shanghai_topic": {
         "preview": "Most of us will face multiple difficulties in Python virtual environment and dependency. At first, you may use virtualenv + requirements.txt and probably with virtualenvwrapper; Then, more new things appear. Pipenv claims itself as a new generation of Python project environment and dependency management tools. It wants to replace those things mentioned above, but it seems that it doesn't do well. After that, more competitors come out. Poetry is the best one between them, it is able to manage dependency as Pipenv. What is more, it can even let you not to write setup.py. Is this the end of the story? Of course not, PEP 582, which still in draft stage, is on the sidelines, trying to end all this chaos.", 
         "slide": null, 
         "title": "Fighting among Python virtual environment and dependency management tools"
       }, 
-      "short_intro": "Individual developer, maintainer of Flask, author of Flask Web Development"
+      "short_intro": "Freelance web developer, maintainer of Flask, author of \"Python Web Development with Flask\"."
     }, 
     "speaker_shanghai_jiahualu": {
       "avatar": "../asset/images/speakers/lujiahua.jpg", 
@@ -714,10 +755,46 @@
       }, 
       "short_intro": "Leader of Ali cloud service in Shanghai"
     }, 
+    "speaker_shanghai_liqiyu": {
+      "avatar": "../asset/images/speakers/liqiyu.jpg", 
+      "city_shanghai": 1, 
+      "intro": "LeetCode china Backend architect, leader of backend team", 
+      "name": "Qiyu Li", 
+      "shanghai_topic": {
+        "preview": "Comparing to RESTful style API, GraphQL has not been popular since its publication. Many developers still take a wait-and-see attitude. LeetCode migrates all the ports to GraphQL for two years. Now our site which has hundreds of thousands of lines of codes, nearly all of the ports are GraphQL. This speech will introduce you about how LeetCode using GraphQL in order to relieve development work and how we solving problems about using GraphQL.", 
+        "slide": null, 
+        "title": "GraphQL in Django"
+      }, 
+      "short_intro": "LeetCode china Backend architect, leader of backend team"
+    }, 
+    "speaker_shanghai_lucianoramalho": {
+      "avatar": "../asset/images/speakers/lucianoramalho.jpeg", 
+      "city_shanghai": 1, 
+      "intro": "Luciano Ramalho is the author of Fluent Python, published in 9 languages. He is a principal consultant at @ThoughtWorks and a co-founder of @garoahc, the first hackerspace in Brazil.", 
+      "name": "Luciano Ramalho", 
+      "shanghai_topic": {
+        "preview": "I love to study the design of programming languages, and I\u2019ve been coding in Python since 1998. Python is a masterpiece of design. This talk is about the parts of Python that I find are the most beautiful.", 
+        "slide": null, 
+        "title": "The timeless beauty of Python"
+      }, 
+      "short_intro": "The author of Fluent Python"
+    }, 
+    "speaker_shanghai_tengjingmeina": {
+      "avatar": "../asset/images/speakers/tengjingmeina.png", 
+      "city_shanghai": 1, 
+      "intro": "Currently the head of multi-language system development for AI-CON, the first artificial intelligence legal service in Japan. Focus on linguistics and Chinese and Japanese natural language processing.", 
+      "name": "\u85e4\u4e95\u7f8e\u5a1c", 
+      "shanghai_topic": {
+        "preview": "This speech will introduce the theory and practical application of natural language processing in Python, especially the multi-language challenge and legal text processing. I'll try to inspire listeners in 30 minutes. The content is divided into 3 segments:<ol><li>Introduction of Python NLP<br />Introduction of Python as NLP theoretical basis and utility tools.</li><li>NLP in several languages<bt />NLP tool for other languages, different points of Chinese and Japanese practicals, precautions of NLP in multi-languages.</li><li>Practical sharing of Python contract risk prediction model<br />Through the analysis of the model construction process, including EDA\u3001Cosine Similarity\u3001BLUE\u3001ROUGE and some other similar algorithms' result comparisons and article semantic analysis, enhance the ability of the audience to process the legal texts.</li></ol>We cannot split human and language, NLP is able to process all the phenomenon of languages. I hope you can gain some points and try to use Python processing natural language in your field.", 
+        "slide": null, 
+        "title": "Python's NLP Practical Sharing-how to implement contract risk prediction model"
+      }, 
+      "short_intro": "Machine Learning Engineer/Data Scientist"
+    }, 
     "speaker_shanghai_xiaotan": {
       "avatar": "../asset/images/speakers/tanxiao.jpg", 
       "city_shanghai": 1, 
-      "intro": "", 
+      "intro": "Developer of Ant Fincial Inc.", 
       "name": "Xiao Tan", 
       "shanghai_topic": {
         "preview": "Graphics is an interesting subject, so using elegant Python code to implement algorithm is also a lovely diversion. In this speech, I'll share some funny things in the process of using Python to implement a simple software renderer", 
@@ -725,6 +802,30 @@
         "title": "Make a renderer within 500 lines Python codes"
       }, 
       "short_intro": "Developer of Ant Fincial Inc."
+    }, 
+    "speaker_shanghai_zhangjiayuan": {
+      "avatar": "../asset/images/speakers/zhangjiayuan.jpg", 
+      "city_shanghai": 1, 
+      "intro": "Contributors of Requests, Werkzeug  etc. open source project, and has years of Python development experience. Now he focuses on Python Web development. Speakers of PyCon China 2018 and CSDN Python develpers day.", 
+      "name": "Jiayuan Zhang", 
+      "shanghai_topic": {
+        "preview": "What is GIL? Why CPython import GIL and what problem does it solve? Why Python so slow? How to get rid of GIL? This speech will share every sides of GIL, including its history, principle analysis, how to avoid GIL in application layer and the future about GIL. Will the PEP 554 Multiple Interpreters in the Stdlib solve problem of GIL?", 
+        "slide": null, 
+        "title": "The Past and Future of GIL"
+      }, 
+      "short_intro": "Aiqiyi - backend development engineer"
+    }, 
+    "speaker_shanghai_zhangxiaojie": {
+      "avatar": "../asset/images/speakers/zhangjiaojie.png", 
+      "city_shanghai": 1, 
+      "intro": "Currently responsible for deep learning framework optimization and new features development base on GPU. Due to my work, I have studied some deep learning frameworks based on Python including TensorFlow and PyTorch, etc. I hope to share some experience about how to use Python training and deploying low-precision models. I hope it will be helpful to your work about deep learning.", 
+      "name": "Xiaojie Zhang", 
+      "shanghai_topic": {
+        "preview": "With the continuous improvement of deep learning technology, in order to fasten deep learning model's calculating speed and save the RAM it uses, using low-precision float (Semi-precision or fixed-point integer) to train deep learning model is used by more and more people nowadays. This speech about Python frontend of TensorFlow, I will introduce about how to use Python to construct a low-precision model and use it into training. What's more, export it as the format that can be used in TensorRT and finish the deployment of the model. I hope this speech will help you guys about training and deploying deep learning model.", 
+        "slide": null, 
+        "title": "Using Python to train and to deploy low-precision model"
+      }, 
+      "short_intro": "NVIDIA - Senior Deep Learning Architecture Engineer"
     }, 
     "speaker_shanghai_zhaoqiangchen": {
       "avatar": "../asset/images/speakers/chenzhaoqiang.png", 
@@ -762,6 +863,30 @@
       }, 
       "short_intro": "PhD student of Shenzhen Graduate School of Tsinghua University"
     }, 
+    "speaker_shenzhen_huangyi": {
+      "avatar": "../asset/images/speakers/huangyi.png", 
+      "city_shenzhen": 1, 
+      "intro": "Pythoner, C++\u4f7f\u7528\u8005\uff0cHaskell\u7231\u597d\u8005\uff0c\u6e38\u620f\u5f15\u64ce\u5f00\u53d1\u8005\uff0c\u533a\u5757\u94fe\u7814\u7a76\u8005\uff0c\u4ea4\u6613\u7cfb\u7edf\u4f18\u5316\u8005", 
+      "name": "Yi Huang", 
+      "shanghai_topic": {
+        "preview": "\u4ecb\u7ecd\u5f00\u6e90Python\u79fb\u52a8\u524d\u7aef\u5f00\u53d1\u6846\u67b6\u3002\u6846\u67b6\u57fa\u4e8eOpenGLES\uff0c\u53ef\u4ee5\u8fd0\u884c\u5728iOS/Android/Desktop\uff0c\u6838\u5fc3c++\u7f16\u5199\uff0c\u63d0\u4f9bPython binding\u3002\u80fd\u591f\u5f00\u53d1\u6e38\u620f\uff0c\u4e5f\u80fd\u5f00\u53d1App\u3002\u540c\u65f6\u4e5f\u4f1a\u4ecb\u7ecdPython\u5728\u79fb\u52a8\u524d\u7aef\u9886\u57df\u76f8\u5173\u7684\u751f\u6001\u3002", 
+        "slide": null, 
+        "title": "Python\u524d\u7aef\u5f00\u53d1"
+      }, 
+      "short_intro": "\u72ec\u7acb\u5f00\u53d1\u8005"
+    }, 
+    "speaker_shenzhen_mingxi": {
+      "avatar": "../asset/images/speakers/mingxi.jpg", 
+      "city_shenzhen": 1, 
+      "intro": "\u524d\u6d4b\u8bd5\u5de5\u7a0b\u5e08\uff0c\u73b0\u4e8e\u817e\u8baf\u8d22\u4ed8\u901a\u4ece\u4e8b\u6301\u7eed\u96c6\u6210\u76f8\u5173\u7684\u5f00\u53d1\u5de5\u4f5c\u3002\u5f00\u6e90\u8d21\u732e\u8005\uff0c\u73b0\u4e3aPipenv\u9879\u76ee\u7684\u6838\u5fc3\u7ef4\u62a4\u4e4b\u4e00\u3002 ", 
+      "name": "Xi Ming", 
+      "shanghai_topic": {
+        "preview": "\u5728Python\u7684\u4e16\u754c\u4e2d\uff0c\u4f9d\u8d56\u7ba1\u7406\u4ece\u6765\u4e0d\u662f\u4ef6\u5bb9\u6613\u7684\u4e8b\u3002\u7528pip + requirements.txt\u662f\u5426\u5df2\u7ecf\u8db3\u591f\uff1f\u6211\u4eec\u4e3a\u4ec0\u4e48\u9700\u8981\u4e00\u4e2a\u4e13\u95e8\u7684\u5de5\u5177\u6765\u7ba1\u7406\u5305\u548c\u4f9d\u8d56\uff1f \u672c\u6f14\u8bb2\u5c1d\u8bd5\u4ece\u57fa\u672c\u673a\u5236\u8bf4\u8d77\uff0c\u5398\u6e05pip, virtualenv, pipenv\u5404\u81ea\u7684\u76ee\u6807\u3002\u8bb2\u8ff0\u4f9d\u8d56\u7ba1\u7406\u4e2d\u7684\u75db\u70b9\uff0c\u548c\u89e3\u51b3\u529e\u6cd5\u3002\u5e76\u8fdb\u4e00\u6b65\u8bf4\u8bf4Pipenv\u4e4b\u5916\u7684\u5176\u4ed6\u5de5\u5177\u4eec\uff0c\u5404\u81ea\u89e3\u51b3\u4e86Python\u5305\u7ba1\u7406\u4e2d\u7684\u4ec0\u4e48\u95ee\u9898\u3002", 
+        "slide": null, 
+        "title": "Pipenv\u548cPython\u5305\u7ba1\u7406 "
+      }, 
+      "short_intro": "\u817e\u8baf - \u6301\u7eed\u96c6\u6210\u5f00\u53d1\u5de5\u7a0b\u5e08"
+    }, 
     "speaker_shenzhen_zagfai": {
       "avatar": "../asset/images/speakers/kuangzewei.jpg", 
       "city_shenzhen": 1, 
@@ -791,7 +916,7 @@
       {
         "intro": "Elastic is a search company. As the creators of the Elastic Stack (Elasticsearch, Kibana, Beats, and Logstash), Elastic builds self-managed and SaaS offerings that make data usable in real time and at scale for search, logging, security, and analytics use cases. Learn more at elastic.co.", 
         "link": "https://www.elastic.co/cn/", 
-        "logo": "../asset/images/sponsors/elastic.jpg", 
+        "logo": "../asset/images/sponsors/elastic.png", 
         "name": "Elastic"
       }
     ], 
@@ -802,13 +927,13 @@
         "style": "big"
       }, 
       {
-        "level": "silver", 
-        "name": "Silver", 
+        "level": "gold", 
+        "name": "Gold", 
         "style": "inline"
       }, 
       {
-        "level": "gold", 
-        "name": "Gold", 
+        "level": "silver", 
+        "name": "Silver", 
         "style": "inline"
       }, 
       {
@@ -862,10 +987,16 @@
     ], 
     "partners": [
       {
-        "intro": "", 
+        "intro": "360 Technical Committee ( Abbreviation: TC ) was found in 2012, it is a virtual organization, consist of experts from every fields in 360. It is the highest management organization in the company's technical field.", 
         "link": "https://www.360.cn/", 
         "logo": "../asset/images/sponsors/360.png", 
-        "name": "360\u6280\u672f\u59d4\u5458\u4f1a & 360\u5927\u5b66"
+        "name": "360 Technical Committee & 360 University"
+      }, 
+      {
+        "intro": "\u897f\u5357\u4ea4\u901a\u5927\u5b66\u662f\u56fd\u5185\u8f83\u65e9\u5f00\u8bbe\u7535\u5b50\u4e0e\u4fe1\u606f\u7c7b\u4e13\u4e1a\u7684\u5b66\u6821\uff0c\u65e9\u5728\u4e0a\u4e16\u7eaa\u516d\u5341\u5e74\u4ee3\u521d\u5c31\u521b\u529e\u4e86\u8ba1\u7b97\u6280\u672f\u3001\u81ea\u52a8\u5316\u548c\u65e0\u7ebf\u7535\u6280\u672f3\u4e2a\u4e13\u4e1a\uff0c1981\u5e74\u8ba1\u7b97\u673a\u53ca\u5e94\u7528\u4e13\u4e1a\u83b7\u5f97\u56fd\u5185\u9996\u6279\u7855\u58eb\u5b66\u4f4d\u6388\u4e88\u6743\u3002", 
+        "link": "http://sist.swjtu.edu.cn", 
+        "logo": "../asset/images/sponsors/sistswjtu.png", 
+        "name": "\u897f\u5357\u4ea4\u901a\u5927\u5b66 \u4fe1\u606f\u79d1\u5b66\u4e0e\u6280\u672f\u5b66\u9662"
       }
     ], 
     "platinum": null, 
@@ -885,16 +1016,16 @@
       {
         "avatar": "../asset/images/volunteers/dama.png", 
         "blog": "http://zoomquiet.io/", 
-        "intro": "Sponsor of PyChina<br />uSEE.tech CTO", 
-        "name": "Zoom.Quiet (Dama)", 
+        "intro": "Sponsor of PyChina<br />101.camp Founder", 
+        "name": "Zoom.Quiet (DamaDama)", 
         "role": "organizer", 
         "role_organizer": 1, 
-        "weibo": "http://weibo.com/zoomquiet"
+        "weibo": "https://py.101.camp"
       }, 
       {
         "avatar": "../asset/images/volunteers/lihui.png", 
         "blog": "http://greyli.com", 
-        "intro": "Shanghai <br />Freelance Web Developer", 
+        "intro": "Freelance Web Developer<br /> Maintainer of Flask", 
         "name": "Grey Li", 
         "role": "organizer", 
         "role_organizer": 1, 
@@ -903,7 +1034,7 @@
       {
         "avatar": "../asset/images/volunteers/wangbinxin.png", 
         "blog": "https://www.zhihu.com/people/prodesire", 
-        "intro": "Shanghai <br /> Aliyun - Senior Developer", 
+        "intro": "Aliyun - Senior Developer", 
         "name": "Binxin Wang", 
         "role": "organizer", 
         "role_organizer": 1, 
@@ -912,7 +1043,7 @@
       {
         "avatar": "../asset/images/volunteers/zhangjintao.png", 
         "blog": "https://moelove.info", 
-        "intro": "Shanghai | NetEase, Inc.", 
+        "intro": "NetEase, Inc.", 
         "name": "Jintao Zhang", 
         "role": "organizer", 
         "role_organizer": 1, 
@@ -930,7 +1061,7 @@
       {
         "avatar": "../asset/images/volunteers/zhanghongke.png", 
         "blog": null, 
-        "intro": "Shanghai | Dianwoda - Senior Developer", 
+        "intro": "Dianwoda - Senior Developer", 
         "name": "Hongke Zhang", 
         "role": "organizer", 
         "role_organizer": 1, 
@@ -939,7 +1070,7 @@
       {
         "avatar": "../asset/images/volunteers/dengliangju.png", 
         "blog": null, 
-        "intro": "Shanghai | Mita tec.", 
+        "intro": "Mita tec.", 
         "name": "Liangju Deng", 
         "role": "organizer", 
         "role_organizer": 1, 
@@ -948,7 +1079,7 @@
       {
         "avatar": "../asset/images/volunteers/jonhuang.png", 
         "blog": null, 
-        "intro": "Shanghai | Founder of yield.im", 
+        "intro": "Founder of yield.im", 
         "name": "Jon Huang", 
         "role": "organizer", 
         "role_organizer": 1, 
@@ -957,7 +1088,7 @@
       {
         "avatar": "../asset/images/volunteers/lizheao.png", 
         "blog": "https://www.zhihu.com/people/li-zhe-ao/activities\uff09", 
-        "intro": "Shanghai | Senior Developer of Ele.me", 
+        "intro": "Senior Developer of Ele.me", 
         "name": "Zheao Li", 
         "role": "organizer", 
         "role_organizer": 1, 
@@ -966,7 +1097,7 @@
       {
         "avatar": "../asset/images/volunteers/qinxuye.png", 
         "blog": "http://qinxuye.me/", 
-        "intro": "Shanghai | Senior Developer of Alibaba", 
+        "intro": "Senior Developer of Alibaba", 
         "name": "Xuye Qin", 
         "role": "organizer", 
         "role_organizer": 1, 
@@ -975,7 +1106,7 @@
       {
         "avatar": "../asset/images/volunteers/zhumingfang.png", 
         "blog": null, 
-        "intro": "Shanghai | Information security engineer of Saining", 
+        "intro": "Information security engineer of Saining", 
         "name": "Mingfang Zhu", 
         "role": "organizer", 
         "role_organizer": 1, 
@@ -984,7 +1115,7 @@
       {
         "avatar": "../asset/images/volunteers/shiyuankun.jpg", 
         "blog": null, 
-        "intro": "Shanghai | Software Engineer of Intel Inc.", 
+        "intro": "Software Engineer of Intel Inc.", 
         "name": "Yuankun Shi", 
         "role": "organizer", 
         "role_organizer": 1, 
@@ -993,7 +1124,7 @@
       {
         "avatar": "../asset/images/volunteers/river.jpg", 
         "blog": "http://river.aipy.org", 
-        "intro": "Shanghai | CTO of Quseit Inc., Developer of QPython", 
+        "intro": "CTO of Quseit Inc., Developer of QPython", 
         "name": "River", 
         "role": "organizer", 
         "role_organizer": 1, 
@@ -1002,7 +1133,7 @@
       {
         "avatar": "../asset/images/volunteers/daishaofei.png", 
         "blog": null, 
-        "intro": "Shanghai | Senior Developer", 
+        "intro": "Senior Developer", 
         "name": "Shaofei Dai", 
         "role": "organizer", 
         "role_organizer": 1, 
@@ -1011,7 +1142,7 @@
       {
         "avatar": "../asset/images/volunteers/hexiangyu.png", 
         "blog": null, 
-        "intro": "Shanghai | R&D Engineer of Bytedance Inc.", 
+        "intro": "R&D Engineer of Bytedance Inc.", 
         "name": "Xiangyu He", 
         "role": "organizer", 
         "role_organizer": 1, 
@@ -1020,7 +1151,7 @@
       {
         "avatar": "../asset/images/volunteers/yemin.jpg", 
         "blog": null, 
-        "intro": "Shanghai | Coach and Architect Designer of Automated Test in Nokia Bell", 
+        "intro": "Coach and Architect Designer of Automated Test in Nokia Bell", 
         "name": "Min Ye", 
         "role": "organizer", 
         "role_organizer": 1, 
@@ -1029,7 +1160,7 @@
       {
         "avatar": "../asset/images/volunteers/zhangjiaojie.png", 
         "blog": null, 
-        "intro": "Shanghai | Senior Architect Designer of Deep Learning in Nvidia. Shanghai", 
+        "intro": "Senior Architect Designer of Deep Learning in Nvidia. Shanghai", 
         "name": "Jiaojie Zhang", 
         "role": "organizer", 
         "role_organizer": 1, 
@@ -1038,7 +1169,7 @@
       {
         "avatar": "../asset/images/volunteers/dingjunhao.jpg", 
         "blog": null, 
-        "intro": "Shanghai | DevOps of Saicmobility Inc.", 
+        "intro": "DevOps of Saicmobility Inc.", 
         "name": "Junhao Ding", 
         "role": "organizer", 
         "role_organizer": 1, 
@@ -1047,8 +1178,17 @@
       {
         "avatar": "../asset/images/volunteers/gaojunteng.png", 
         "blog": null, 
-        "intro": "Shanghai | Engineer of Tencent Inc.", 
+        "intro": "Engineer of Tencent Inc.", 
         "name": "Spawnris", 
+        "role": "organizer", 
+        "role_organizer": 1, 
+        "weibo": null
+      }, 
+      {
+        "avatar": "../asset/images/volunteers/default.jpg", 
+        "blog": null, 
+        "intro": "Python Engineer of Huaguoshan Inc.", 
+        "name": "Eric", 
         "role": "organizer", 
         "role_organizer": 1, 
         "weibo": null
