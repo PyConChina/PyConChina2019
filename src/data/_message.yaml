@@ -10,29 +10,29 @@ booking_now:
   - name: "上海"
     name_en: "Shanghai"
     url: "https://www.bagevent.com/event/5293611"
-    time: "2018年5月19日"
-    time_en: "May 19, 2018"
+    time: "2019年9月21日"
+    time_en: "Sep.21st 2019"
     location: "上海杨浦宁国路25号上海兴荣温德姆酒店2楼会议厅"
     location_en: "Conference Hall, 2nd Floor, Wyndham Hotel Shanghai Xingrong, 25 Ningguo Road, Yangpu, Shanghai"
   - name: "北京"
     name_en: "Beijing"
     url: "https://www.bagevent.com/event/5717698"
-    time:
-    time_en:
+    time: "2019年10月19日"
+    time_en: "Otc.19th 2019"
     location: 
     location_en:
   - name: "杭州"
     name_en: "Hangzhou"
     url: "#"
-    time:
-    time_en:
+    time: "2019年10月19日"
+    time_en: "Otc.19th 2019"
     location: 
     location_en:
   - name: "深圳"
     name_en: "Shenzhen"
     url: "https://www.bagevent.com/event/5451680"
-    time:
-    time_en:
+    time: "2019年10月20日"
+    time_en: "Otc.20th 2019"
     location: 
     location_en:
   - name: "成都"
@@ -45,8 +45,8 @@ booking_now:
   - name: "南宁"
     name_en: "Nanning"
     url: "#"
-    time:
-    time_en:
+    time: "2019年10月26日"
+    time_en: "Otc.26th 2019"
     location: 
     location_en:
 
