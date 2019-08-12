@@ -214,8 +214,8 @@ speaker_shanghai_lujianhui:
   name: 卢建晖
   name_en: Jianhui Lu
   city_shanghai: 1
-  avatar: 
-  avatar_en: 
+  avatar: ./asset/images/speakers/default.jpg
+  avatar_en: ../asset/images/speakers/default.jpg
   short_intro: "微软最有价值专家"
   short_intro_en: "Microsoft's most valuable expert"
   intro: ""
@@ -408,7 +408,7 @@ speaker_beijing_liuzheng:
 speaker_beijing_huangshaoxuan:
   name: 黄少瑄
   name_en: Shaoxuan Huang
-  city_shanghai: 1
+  city_beijing: 1
   avatar: ./asset/images/speakers/huangshaoxuan.png
   avatar_en: ../asset/images/speakers/huangshaoxuan.png
   short_intro: "清华大学/平安科技实习"
@@ -424,7 +424,7 @@ speaker_beijing_huangshaoxuan:
 speaker_beijing_liuyulong:
   name: 刘玉龙
   name_en: Yulong Liu
-  city_shanghai: 1
+  city_beijing: 1
   avatar: ./asset/images/speakers/liuyulong.png
   avatar_en: ../asset/images/speakers/liuyulong.png
   short_intro: "高瓴资本-百丽国际 后端工程师"
@@ -531,10 +531,10 @@ speaker_shenzhen_huangyi:
     preview: "介绍开源Python移动前端开发框架。框架基于OpenGLES，可以运行在iOS/Android/Desktop，核心c++编写，提供Python binding。能够开发游戏，也能开发App。同时也会介绍Python在移动前端领域相关的生态。"
     preview_en: "介绍开源Python移动前端开发框架。框架基于OpenGLES，可以运行在iOS/Android/Desktop，核心c++编写，提供Python binding。能够开发游戏，也能开发App。同时也会介绍Python在移动前端领域相关的生态。"
     slide: #
-speaker_chengdu_giampaolorodola:
+speaker_beijing_giampaolorodola:
   name: Giampaolo Rodola
   name_en: Giampaolo Rodola
-  city_chengdu: 1
+  city_beijing: 1
   avatar: ./asset/images/speakers/giampaolorodola.jpeg
   avatar_en: ../asset/images/speakers/giampaolorodola.jpeg
   short_intro: "Python 核心开发者"
