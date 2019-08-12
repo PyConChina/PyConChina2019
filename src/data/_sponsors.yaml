@@ -7,6 +7,11 @@ meta:
     name: 主办方
     name_en: Organizer
   -
+    level: diamond
+    style: inline
+    name: 钻石赞助
+    name_en: Diamond
+  -
     level: platinum
     style: inline
     name: 白金赞助
@@ -80,7 +85,14 @@ organizer:
 # 钻石级
 #########################################
 diamond:
-
+  -
+    logo: ./asset/images/sponsors/azure.png
+    logo: ./asset/images/sponsors/azure.png
+    link: "https://azure.microsoft.com/zh-cn/"
+    name: "Microsoft Azure"
+    name_en: "Microsoft Azure"
+    intro: "高效、混合、智能、可信赖。Azure 是一个不断扩展的云计算服务集合，它可以帮助组织应对各种商业挑战。通过 Azure，公司和组织可使用首选工具和框架，在大规模全球性网络上随心所欲地构建、管理和部署应用程序。"
+    intro_en: "Productive, Hybrid, Intelligent and Trusted. Azure is an ever-expanding set of cloud computing services to help your organization meet its business challenges. With Azure, your business or organization has the freedom to build, manage, and deploy applications on a massive, global network using your preferred tools and frameworks."
 
 #########################################
 # 白金级
@@ -162,4 +174,3 @@ partners:
     name_en: "西南交通大学 信息科学与技术学院"
     intro: "西南交通大学是国内较早开设电子与信息类专业的学校，早在上世纪六十年代初就创办了计算技术、自动化和无线电技术3个专业，1981年计算机及应用专业获得国内首批硕士学位授予权。"
     intro_en: "西南交通大学是国内较早开设电子与信息类专业的学校，早在上世纪六十年代初就创办了计算技术、自动化和无线电技术3个专业，1981年计算机及应用专业获得国内首批硕士学位授予权。"
-
