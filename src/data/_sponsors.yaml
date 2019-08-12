@@ -87,7 +87,7 @@ organizer:
 diamond:
   -
     logo: ./asset/images/sponsors/azure.png
-    logo: ./asset/images/sponsors/azure.png
+    logo: ../asset/images/sponsors/azure.png
     link: "https://azure.microsoft.com/zh-cn/"
     name: "Microsoft Azure"
     name_en: "Microsoft Azure"
