@@ -214,8 +214,8 @@ speaker_shanghai_lujianhui:
   name: 卢建晖
   name_en: Jianhui Lu
   city_shanghai: 1
-  avatar: 
-  avatar_en: 
+  avatar: ./asset/images/volunteers/default.jpg
+  avatar_en: ../asset/images/volunteers/default.jpg
   short_intro: "微软最有价值专家"
   short_intro_en: "Microsoft's most valuable expert"
   intro: ""
@@ -459,6 +459,22 @@ speaker_hangzhou_liuyulong:
 ####################################################################
 # 深圳
 ####################################################################
+speaker_shenzhen_giampaolorodola:
+  name: Giampaolo Rodola
+  name_en: Giampaolo Rodola
+  city_shenzhen: 1
+  avatar: ./asset/images/speakers/giampaolorodola.jpeg
+  avatar_en: ../asset/images/speakers/giampaolorodola.jpeg
+  short_intro: "Python 核心开发者"
+  short_intro_en: "Python Core - Developer"
+  intro: "我是来自意大利的 Giampaolo Rodola，从 2010 年开始我加入了 Python 的核心开发者的行列，同时我也是 <a href=\"https://github.com/giampaolo/psutil\">psutil</a> 和 <a href=\"https://github.com/giampaolo/pyftpdlib\">python FTP server libs</a> 的作者和维护者。你可以在<a href=\"http://grodola.blogspot.com/p/about.html?m=1\">这里</a>了解更多关于我的信息 "
+  intro_en: "My name is Giampaolo Rodola, from Italy. I am a python core-dev since 2010 and the author and maintainer of <a href=\"https://github.com/giampaolo/psutil\">psutil</a> and <a href=\"https://github.com/giampaolo/pyftpdlib\">python FTP server libs</a>. You can read more about me <a href=\"http://grodola.blogspot.com/p/about.html?m=1\">HERE</a>"
+  shanghai_topic:
+    title: ""
+    title_en: ""
+    preview: ""
+    preview_en: ""
+    slide: #
 speaker_shenzhen_zagfai:
   name: 邝泽徽
   name_en: Zagfai
@@ -530,22 +546,6 @@ speaker_shenzhen_huangyi:
     title_en: "Python前端开发"
     preview: "介绍开源Python移动前端开发框架。框架基于OpenGLES，可以运行在iOS/Android/Desktop，核心c++编写，提供Python binding。能够开发游戏，也能开发App。同时也会介绍Python在移动前端领域相关的生态。"
     preview_en: "介绍开源Python移动前端开发框架。框架基于OpenGLES，可以运行在iOS/Android/Desktop，核心c++编写，提供Python binding。能够开发游戏，也能开发App。同时也会介绍Python在移动前端领域相关的生态。"
-    slide: #
-speaker_chengdu_giampaolorodola:
-  name: Giampaolo Rodola
-  name_en: Giampaolo Rodola
-  city_chengdu: 1
-  avatar: ./asset/images/speakers/giampaolorodola.jpeg
-  avatar_en: ../asset/images/speakers/giampaolorodola.jpeg
-  short_intro: "Python 核心开发者"
-  short_intro_en: "Python Core - Developer"
-  intro: "我是来自意大利的 Giampaolo Rodola，从 2010 年开始我加入了 Python 的核心开发者的行列，同时我也是 <a href=\"https://github.com/giampaolo/psutil\">psutil</a> 和 <a href=\"https://github.com/giampaolo/pyftpdlib\">python FTP server libs</a> 的作者和维护者。你可以在<a href=\"http://grodola.blogspot.com/p/about.html?m=1\">这里</a>了解更多关于我的信息 "
-  intro_en: "My name is Giampaolo Rodola, from Italy. I am a python core-dev since 2010 and the author and maintainer of <a href=\"https://github.com/giampaolo/psutil\">psutil</a> and <a href=\"https://github.com/giampaolo/pyftpdlib\">python FTP server libs</a>. You can read more about me <a href=\"http://grodola.blogspot.com/p/about.html?m=1\">HERE</a>"
-  shanghai_topic:
-    title: ""
-    title_en: ""
-    preview: ""
-    preview_en: ""
     slide: #
 speaker_shenzhen_fengzhao:
   name: 赵丰
