@@ -210,22 +210,6 @@ speaker_shanghai_Elizaveta_Shashkova:
     preview: "在这个演讲中我将会分享 Python debugger 的内部原理，它们有什么局限，以及近几年来在我们努力之下取得了什么突破。这个演讲不仅会讨论本地运行 debug，也同时会涉及到远程 debug 以及对不同文件格式的 debug。最后，我会分享一些在 PyCharm IDE 里使用可视化 debugger 的实用小技巧。"
     preview_en: "In this talk we’ll learn how Python debuggers work internally. We’ll learn which bottlenecks and limitations they have, and which improvements were implemented in this area in the past few years. During the talk we’ll consider not only local process debugging, but also remote cases and debugging of different types of files. After that we’ll learn useful techniques for daily use on the example of visual debugger in the PyCharm IDE."
     slide: #
-speaker_shanghai_lujianhui:
-  name: 卢建晖
-  name_en: Jianhui Lu
-  city_shanghai: 1
-  avatar: ./asset/images/volunteers/default.jpg
-  avatar_en: ../asset/images/volunteers/default.jpg
-  short_intro: "微软最有价值专家"
-  short_intro_en: "Microsoft's most valuable expert"
-  intro: ""
-  intro_en: ""
-  shanghai_topic:
-    title: "云中起舞—— Python的人工智能开发在微软云中的应用"
-    title_en: "Dance in the cloud --- Application of Python AI in Microsoft Cloud"
-    preview: "微软从开发工具到云端方案对Python都有很好的支持。 Microsoft Azure Machine Learing Service 结合Python让人工智能应用开发更加快速便捷，不论从模型训练，到模型调优，再到模型部署都有很大帮助。而 Visual Studio Code 有非常棒的Python插件，支持服务端到云端以及人工智能应用开发。本课程通过使用Visual Studio Code 结合Microsoft Azure  Machine 完成一个基于Python从训练，调优再到模型云端部署的现代化人工智能应用场景，并结合Azure DevOps 完成CI/CD的开发管理。"
-    preview_en: "Microsoft has great support for Python from development tools to cloud solutions. The combination of Microsoft Azure Machine Learing Service and Python will catalyze the AI application development.   Visual Studio Code also has a good Python extension. It can support AI application development from sever side to cloud side, This course will use Visual Studio Code and Microsoft Azure  Machine to construct a modern AI application scenarios based on Python from training, tuning to cloud deployment of model, and using Azure DevOps to complete development managment of CI/CD."
-    slide: #
 speaker_shanghai_liuzheng:
   name: 刘征
   name_en: Zheng Liu
@@ -274,22 +258,22 @@ speaker_shanghai_laike9m:
     preview: ""
     preview_en: ""
     slide: #
-speaker_shanghai_huili:
-  name: 李辉
-  name_en: Grey Li
-  city_shanghai: 1
-  avatar: ./asset/images/speakers/lihui.jpg
-  avatar_en: ../asset/images/speakers/lihui.jpg
-  short_intro: "独立 Web 开发者，Flask 维护者，《Flask Web 开发实战》作者。"
-  short_intro_en: "Freelance web developer, maintainer of Flask, author of \"Python Web Development with Flask\"."
-  intro: "独立 Web 开发者，Flask 维护者，《Flask Web 开发实战》作者。"
-  intro_en: "Freelance web developer, maintainer of Flask, author of \"Python Web Development with Flask\"."
-  shanghai_topic:
-    title: "Python 虚拟环境和依赖管理工具大乱斗"
-    title_en: "Fighting among Python virtual environment and dependency management tools"
-    preview: "大多数人都会在 Python 虚拟环境和依赖管理的路上经历重重困难。一开始，你使用 pip + virtualenv + requirements.txt 的工具组合，或者再加上 virtualenvwrapper；接着，更高级的新东西出现了。Pipenv 号称新一代 Python 项目环境和依赖管理工具，打算替代上面的复杂组合，但是发展并不顺利；接着，竞争者出现了，其中实力最强的 Poetry 除了可以替代 Pipenv 来管理依赖之外，甚至还可以让你不用写 setup.py。故事就这样结束了吗？当然没有，尚在草案阶段的 PEP 582 在一边虎视眈眈，试图终结这一切混乱……"
-    preview_en: "Most of us will face multiple difficulties in Python virtual environment and dependency. At first, you may use virtualenv + requirements.txt and probably with virtualenvwrapper; Then, more new things appear. Pipenv claims itself as a new generation of Python project environment and dependency management tools. It wants to replace those things mentioned above, but it seems that it doesn't do well. After that, more competitors come out. Poetry is the best one between them, it is able to manage dependency as Pipenv. What is more, it can even let you not to write setup.py. Is this the end of the story? Of course not, PEP 582, which still in draft stage, is on the sidelines, trying to end all this chaos."
-    slide: #
+# speaker_shanghai_huili:
+#   name: 李辉
+#   name_en: Grey Li
+#   city_shanghai: 1
+#   avatar: ./asset/images/speakers/lihui.jpg
+#   avatar_en: ../asset/images/speakers/lihui.jpg
+#   short_intro: "独立 Web 开发者，Flask 维护者，《Flask Web 开发实战》作者。"
+#   short_intro_en: "Freelance web developer, maintainer of Flask, author of \"Python Web Development with Flask\"."
+#   intro: "独立 Web 开发者，Flask 维护者，《Flask Web 开发实战》作者。"
+#   intro_en: "Freelance web developer, maintainer of Flask, author of \"Python Web Development with Flask\"."
+#   shanghai_topic:
+#     title: "Python 虚拟环境和依赖管理工具大乱斗"
+#     title_en: "Fighting among Python virtual environment and dependency management tools"
+#     preview: "大多数人都会在 Python 虚拟环境和依赖管理的路上经历重重困难。一开始，你使用 pip + virtualenv + requirements.txt 的工具组合，或者再加上 virtualenvwrapper；接着，更高级的新东西出现了。Pipenv 号称新一代 Python 项目环境和依赖管理工具，打算替代上面的复杂组合，但是发展并不顺利；接着，竞争者出现了，其中实力最强的 Poetry 除了可以替代 Pipenv 来管理依赖之外，甚至还可以让你不用写 setup.py。故事就这样结束了吗？当然没有，尚在草案阶段的 PEP 582 在一边虎视眈眈，试图终结这一切混乱……"
+#     preview_en: "Most of us will face multiple difficulties in Python virtual environment and dependency. At first, you may use virtualenv + requirements.txt and probably with virtualenvwrapper; Then, more new things appear. Pipenv claims itself as a new generation of Python project environment and dependency management tools. It wants to replace those things mentioned above, but it seems that it doesn't do well. After that, more competitors come out. Poetry is the best one between them, it is able to manage dependency as Pipenv. What is more, it can even let you not to write setup.py. Is this the end of the story? Of course not, PEP 582, which still in draft stage, is on the sidelines, trying to end all this chaos."
+#     slide: #
 speaker_shanghai_zhaoqiangchen:
   name: 陈照强
   name_en: Zhaoqiang Chen
@@ -392,7 +376,7 @@ speaker_beijing_hengcui:
 speaker_beijing_huangshaoxuan:
   name: 黄少瑄
   name_en: Shaoxuan Huang
-  city_shanghai: 1
+  city_beijing: 1
   avatar: ./asset/images/speakers/huangshaoxuan.png
   avatar_en: ../asset/images/speakers/huangshaoxuan.png
   short_intro: "清华大学/平安科技实习"
@@ -408,7 +392,7 @@ speaker_beijing_huangshaoxuan:
 speaker_beijing_liuyulong:
   name: 刘玉龙
   name_en: Yulong Liu
-  city_shanghai: 1
+  city_beijing: 1
   avatar: ./asset/images/speakers/liuyulong.png
   avatar_en: ../asset/images/speakers/liuyulong.png
   short_intro: "高瓴资本-百丽国际 后端工程师"
@@ -425,8 +409,8 @@ speaker_beijing_liuyulong:
 # 杭州
 ####################################################################
 speaker_hangzhou_liuyulong:
-  name: 赵王宏楦
-  name_en: Taine Zhao
+  name: thautwarm
+  name_en: thautwarm
   city_hangzhou: 1
   avatar: ./asset/images/speakers/Taine_Zhao.jpg
   avatar_en: ../asset/images/speakers/Taine_Zhao.jpg
@@ -454,7 +438,7 @@ speaker_shenzhen_giampaolorodola:
   intro: "我是来自意大利的 Giampaolo Rodola，从 2010 年开始我加入了 Python 的核心开发者的行列，同时我也是 <a href=\"https://github.com/giampaolo/psutil\">psutil</a> 和 <a href=\"https://github.com/giampaolo/pyftpdlib\">python FTP server libs</a> 的作者和维护者。你可以在<a href=\"http://grodola.blogspot.com/p/about.html?m=1\">这里</a>了解更多关于我的信息 "
   intro_en: "My name is Giampaolo Rodola, from Italy. I am a python core-dev since 2010 and the author and maintainer of <a href=\"https://github.com/giampaolo/psutil\">psutil</a> and <a href=\"https://github.com/giampaolo/pyftpdlib\">python FTP server libs</a>. You can read more about me <a href=\"http://grodola.blogspot.com/p/about.html?m=1\">HERE</a>"
   shanghai_topic:
-    title: ""
+    title: "待定"
     title_en: ""
     preview: ""
     preview_en: ""
@@ -571,8 +555,8 @@ speaker_shenzhen_fengzhao:
 # 成都
 ####################################################################
 speaker_chengdu_liuyulong:
-  name: 赵王宏楦
-  name_en: Taine Zhao
+  name: thautwarm
+  name_en: thautwarm
   city_chengdu: 1
   avatar: ./asset/images/speakers/Taine_Zhao.jpg
   avatar_en: ../asset/images/speakers/Taine_Zhao.jpg
@@ -618,3 +602,20 @@ speaker_chengdu_zhihangliu:
     preview: "不同于从实践的角度来安利静态类型标注，本次演讲将从学术界的角度讲述Python类型化的必要性，静态类型语言相较于等价动态语言的区别的本质是什么，以及如何利用现代PLT中的全局类型推导（Global Type Inference）技术，在不失灵活性的前提下，给Python加上静态类型系统。"
     preview_en: "From the perspective of academia, this talk will show the necessity of the static-typed Python, what is the essence of the difference of the static- and dynamic-typed language, and how to add static-typed sysyem into Python with the help of Global Type Inference while remaining Python's flaxibility."
     slide: #
+speaker_chengdu_huili:
+  name: 李辉 
+  name_en: Grey Li
+  city_chengdu: 1
+  avatar: ./asset/images/speakers/lihui.jpg
+  avatar_en: ../asset/images/speakers/lihui.jpg
+  short_intro: "独立 Web 开发者，Flask 维护者，《Flask Web 开发实战》作者。"
+  short_intro_en: "Freelance web developer, maintainer of Flask, author of \"Python Web Development with Flask\"."
+  intro: "独立 Web 开发者，Flask 维护者，《Flask Web 开发实战》作者。"
+  intro_en: "Freelance web developer, maintainer of Flask, author of \"Python Web Development with Flask\"."
+  shanghai_topic:
+    title: "基于 Flask 的 REST API 开发指南（暂定）"
+    title_en: "Building REST API with Flask"
+    preview: "作为一个微框架，轻量灵活的 Flask 很适合用来开发 REST API 服务。相对于 Django REST Framework 和 APIStar，Flask 有什么优势和缺点？为了减少工作量，我们通常会使用一些工具来辅助编写，面对 Flask-RESTful、Flask-RESTPlus、Flask-API、Webargs、Marshmallow 等扩展和工具库，我们应该如何选择？虽然我们经常使用 REST API 这个名称，但是大部分的 API 都不够 RESTful，那么什么样的 API 才能算是 REST API？在这个议题中，我们将对这几个问题逐一进行探讨，并了解如何使用 Flask 编写出功能完善的 REST API 服务。"
+    preview_en: "As a micro framework, Flask is very suitable for developing REST API. What is the merits and drawback of Flask comparing to  Django REST Framework and APIStar? In order to simplify our work, we will use some tools to help us. What should we choose between several tools and extension like Flask-RESTful、Flask-RESTPlus、Flask-API、Webargs、Marshmallow? Although we usually use REST API to name our API, most of them are not \"RESTful\" enough. Therefore, which kind of API is the truly REST API? In this topic speech, we will discuss these questions and introduce how to write a fully functional REST API using Flask."
+    slide: #
+
