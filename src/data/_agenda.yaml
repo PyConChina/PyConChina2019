@@ -139,8 +139,8 @@ hangzhou:
   address_en: Hangzhou China
   maplink: 'https://www.amap.com/place/B0015731XR'
   video: ''
-  date: 2019年9月21日
-  date_en: Sept.21st 2019
+  date: 2019年10月19日
+  date_en: Otc.19th 2019
   notices: ""
   places:
     - place_name: 会场 A
@@ -197,8 +197,8 @@ shenzhen:
   address_en: Shenzhen China
   maplink: 'https://www.amap.com/place/B0015731XR'
   video: ''
-  date: 2019年9月21日
-  date_en: Sept.21st 2019
+  date: 2019年10月20日
+  date_en: Otc.20th 2019
   notices: ""
   places:
     - place_name: 会场 A
@@ -255,8 +255,8 @@ chengdu:
   address_en: Chengdu China
   maplink: 'https://www.amap.com/place/B0015731XR'
   video: ''
-  date: 2019年9月21日
-  date_en: Sept.21st 2019
+  date: 2019年10月26日
+  date_en: Otc.26th 2019
   notices: ""
   places:
     - place_name: 会场 A
@@ -313,8 +313,8 @@ nanning:
   address_en: Nanning China
   maplink: 'https://www.amap.com/place/B0015731XR'
   video: ''
-  date: 2019年9月21日
-  date_en: Sept.21st 2019
+  date: 2019年10月26日
+  date_en: Otc.26th 2019
   notices: ""
   places:
     - place_name: 会场 A
