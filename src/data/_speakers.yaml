@@ -389,22 +389,6 @@ speaker_beijing_hengcui:
     preview: "RobotFramework是一个基于Python自动化的开源测试框架，用于进行自动化的测试以便进行持续集成。RobotFramework采用一种自定义的脚本语言(DSL)进行编写，但往往需要自动化测试工程师记住大量的函数名和规则，调试起来不是很方便。本话题分享一个基于QScintilla+PyQt5做的异步面向RobotFramework的脚本开发工具，支持语法高亮、自动化补全、自定义图标等，通过该分享，听众可以了解如何基于QScintilla编写语法高亮、自动补全、错误提示等，可以定制面向DSL领域的IDE。"
     preview_en: "RobotFramework is an open-source testing framework based on Python automation for automated testing for continuous integration. RobotFramework is written in a custom scripting language (DSL) but often requires automated test engineers to remember a large number of function names and rules, which is not very convenient to debug. This topic shares a script development tool based on QScintilla+PyQt5 for RobotFramework. It supports syntax highlighting, auto-completion, custom icons, etc. Through this sharing, listeners can learn how to write syntax highlighting and auto-completion based on QScintilla. , error prompts, etc., and you can customize the IDE for the DSL field."
     slide: #
-speaker_beijing_liuzheng:
-  name: 刘征 
-  name_en: Zheng Liu
-  city_beijing: 1
-  avatar: ./asset/images/speakers/liuzheng.jpg
-  avatar_en: ../asset/images/speakers/liuzheng.jpg
-  short_intro: "Elastic公司社区布道师 / 中国DevOps社区核心组织者"
-  short_intro_en: "Elastic公司社区布道师 / 中国DevOps社区核心组织者"
-  intro: "《DevOps Handbook》《The Site Reliability Workbook》译者；精通DevOps/SRE/ITSM等理论体系和相关实践的落地实现。致力于在全国范围内通过社区推广DevOps的理念、技术和实践。推动开源Elastic Stack技术堆栈的应用，包括运维大数据分析平台、云原生服务治理、APM全链路监控和AIOps等使用场景。"
-  intro_en: "《DevOps Handbook》《The Site Reliability Workbook》译者；精通DevOps/SRE/ITSM等理论体系和相关实践的落地实现。致力于在全国范围内通过社区推广DevOps的理念、技术和实践。推动开源Elastic Stack技术堆栈的应用，包括运维大数据分析平台、云原生服务治理、APM全链路监控和AIOps等使用场景。"
-  shanghai_topic:
-    title: "Google SRE体系核心基础解读"
-    title_en: "Google SRE体系核心基础解读"
-    preview: "近几年SRE职位的广泛出现，证明了这套起源于Google的运维体系的巨大价值和生命力。SRE其实也可以是一个广泛通用的套路，但是你必至少须熟练掌握SLO、监控、告警、减少琐事和简单化等核心原则。本演讲还将探讨如何将它们转化成为在你的组织里也可用实践的技巧，并包含针对一套典型应用系统的SLO指定的流程讲解。"
-    preview_en: "近几年SRE职位的广泛出现，证明了这套起源于Google的运维体系的巨大价值和生命力。SRE其实也可以是一个广泛通用的套路，但是你必至少须熟练掌握SLO、监控、告警、减少琐事和简单化等核心原则。本演讲还将探讨如何将它们转化成为在你的组织里也可用实践的技巧，并包含针对一套典型应用系统的SLO指定的流程讲解。"
-    slide: #
 speaker_beijing_huangshaoxuan:
   name: 黄少瑄
   name_en: Shaoxuan Huang
@@ -474,6 +458,22 @@ speaker_shenzhen_giampaolorodola:
     title_en: ""
     preview: ""
     preview_en: ""
+    slide: #
+speaker_shenzhen_liuzheng:
+  name: 刘征 
+  name_en: Zheng Liu
+  city_shenzhen: 1
+  avatar: ./asset/images/speakers/liuzheng.jpg
+  avatar_en: ../asset/images/speakers/liuzheng.jpg
+  short_intro: "Elastic公司社区布道师 / 中国DevOps社区核心组织者"
+  short_intro_en: "Elastic公司社区布道师 / 中国DevOps社区核心组织者"
+  intro: "《DevOps Handbook》《The Site Reliability Workbook》译者；精通DevOps/SRE/ITSM等理论体系和相关实践的落地实现。致力于在全国范围内通过社区推广DevOps的理念、技术和实践。推动开源Elastic Stack技术堆栈的应用，包括运维大数据分析平台、云原生服务治理、APM全链路监控和AIOps等使用场景。"
+  intro_en: "《DevOps Handbook》《The Site Reliability Workbook》译者；精通DevOps/SRE/ITSM等理论体系和相关实践的落地实现。致力于在全国范围内通过社区推广DevOps的理念、技术和实践。推动开源Elastic Stack技术堆栈的应用，包括运维大数据分析平台、云原生服务治理、APM全链路监控和AIOps等使用场景。"
+  shanghai_topic:
+    title: "Google SRE体系核心基础解读"
+    title_en: "Google SRE体系核心基础解读"
+    preview: "近几年SRE职位的广泛出现，证明了这套起源于Google的运维体系的巨大价值和生命力。SRE其实也可以是一个广泛通用的套路，但是你必至少须熟练掌握SLO、监控、告警、减少琐事和简单化等核心原则。本演讲还将探讨如何将它们转化成为在你的组织里也可用实践的技巧，并包含针对一套典型应用系统的SLO指定的流程讲解。"
+    preview_en: "近几年SRE职位的广泛出现，证明了这套起源于Google的运维体系的巨大价值和生命力。SRE其实也可以是一个广泛通用的套路，但是你必至少须熟练掌握SLO、监控、告警、减少琐事和简单化等核心原则。本演讲还将探讨如何将它们转化成为在你的组织里也可用实践的技巧，并包含针对一套典型应用系统的SLO指定的流程讲解。"
     slide: #
 speaker_shenzhen_zagfai:
   name: 邝泽徽
