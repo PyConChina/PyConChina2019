@@ -10,6 +10,8 @@
 	<link rel="shortcut icon" href="{{ site.base_url }}/asset/img/favicon.png">
 	<link rel="apple-touch-icon" href="{{ site.base_url }}/asset/img/favicon.png">
 
+	{% include "base/_ga.html" %}
+
 	{% if site.description %}<meta name="description" content="{{ site.description }}">{% endif %}
     {% if site.author %}<meta name="author" content="{{ site.author }}">{% endif %}
     {% if canonical_url %}<link rel="canonical" href="{{ canonical_url }}">{% endif %}
@@ -193,7 +195,5 @@
 			</script>
 
     {% block js_block %}{% endblock %}
-
-    {% include "base/_ga.html" %}
 </body>
 </html>
