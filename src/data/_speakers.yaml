@@ -438,8 +438,8 @@ speaker_shenzhen_giampaolorodola:
   intro: "我是来自意大利的 Giampaolo Rodola，从 2010 年开始我加入了 Python 的核心开发者的行列，同时我也是 <a href=\"https://github.com/giampaolo/psutil\">psutil</a> 和 <a href=\"https://github.com/giampaolo/pyftpdlib\">python FTP server libs</a> 的作者和维护者。你可以在<a href=\"http://grodola.blogspot.com/p/about.html?m=1\">这里</a>了解更多关于我的信息 "
   intro_en: "My name is Giampaolo Rodola, from Italy. I am a python core-dev since 2010 and the author and maintainer of <a href=\"https://github.com/giampaolo/psutil\">psutil</a> and <a href=\"https://github.com/giampaolo/pyftpdlib\">python FTP server libs</a>. You can read more about me <a href=\"http://grodola.blogspot.com/p/about.html?m=1\">HERE</a>"
   shanghai_topic:
-    title: "待定"
-    title_en: ""
+    title: "加速 Python 中的文件传输和拷贝"
+    title_en: "Speed up file transfers and file copies in Python"
     preview: ""
     preview_en: ""
     slide: #
