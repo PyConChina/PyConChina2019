@@ -18,6 +18,22 @@ speaker_shanghai_lucianoramalho:
     preview: "我热衷与学习程序语言的设计，并且从 1998 年就开始接触 Python。Python 是一个艺术品，这个演讲里我将会分享我个人认为 Python 中最美丽的部分。"
     preview_en: "I love to study the design of programming languages, and I’ve been coding in Python since 1998. Python is a masterpiece of design. This talk is about the parts of Python that I find are the most beautiful."
     slide: #
+speaker_shanghai_lurong:
+  name: 陆榕
+  name_en: Rong Lu
+  city_shanghai: 1
+  avatar: ./asset/images/speakers/lurong.png
+  avatar_en: ../asset/images/speakers/lurong.png
+  short_intro: "微软 Visual Studio Code Python 首席产品经理"
+  short_intro_en: "Chief Product Manager of Microsoft Visual Studio Code"
+  intro: "致力于 Visual Studio Code 和 Azure 中的 Python 数据科学工具开发和管理工作。在她获得有计算机科学硕士学位之后，她在 Visual Studio 团队从事开发，产品经理等工作已经10多年了。此前，她负责 Visual Studio 中的 C++ 开发部分，以及为游戏和移动开发开发 Visual Studio 工具。"
+  intro_en: "Committed to the development and management of Python data science tools in Visual Studio Code and Azure. After getting her master's degree in computer science, she has been working in the Visual Studio team for R&D, product manager, etc. for more than 10 years. Previously, she was responsible for the C++ development of Visual Studio and developing Visual Studio tools for game and mobile development."
+  shanghai_topic:
+    title: "Python 在 Azure Notebook 产品发展中的核心地位以及通过 Visual Studio Code 的最佳 Azure 实践"
+    title_en: "Python's key position in the development of Azure Notebook products and the best Azure practices through Visual Studio Code"
+    preview: ""
+    preview_en: ""
+    slide: #
 speaker_shanghai_arminronacher:
   name: Armin Ronacher
   name_en: Armin Ronacher

@@ -25,45 +25,148 @@ shanghai:
   date_en: Sept.21st 2019
   notices: ""
   places:
-    - place_name: 会场 A
-      place_name_en: "Venue A"
+    - place_name: 主会场
+      place_name_en: "Main Venue"
       url: place_shanghai_auditorium1
       actived: active
       speechs:
         - time: "09:00-09:20"
           topic: "开场致词"
           topic_en: "Opening remarks"
-        - { time: "09:20-10:00", topic: "主题待定", topic_en: "To be determined" }
-        - { time: "10:00-10:40", topic: "主题待定", topic_en: "To be determined"}
+        - { time: "09:20-10:00", topic: "Python 的永恒之美 - Luciano Ramalho", topic_en: "The timeless beauty of Python - Luciano Ramalho" }
+        - { time: "10:00-10:40", topic: "Python 在 Azure Notebook 产品发展中的核心地位 - 以及通过 Visual Studio Code 的最佳 Azure 实践 - 陆榕", topic_en: "Python's key position in the development of Azure Notebook products and the best Azure practices through Visual Studio Code - Rong Lu"}
         - { time: "10:40-11:20", topic: "主题待定", topic_en: "To be determined" }
-        - { time: "11:20-12:00", topic: "主题待定", topic_en: "To be determined" }
+        - { time: "11:20-12:00", topic: "调试是一种新的发布：慢语言的意外优势 - Armin Ronacher", topic_en: "Debug is the new Release: The Unexpected Benefits of Slow Languages - Armin Ronacher" }
+
+    - place_name: 会场 A
+      place_name_en: Venue A
+      url: place_shanghai_auditorium2
+      speechs:
+        - time: "13:00-13:40"
+          topic: "可视化的 Python debugger：从内部原理到日常使用 - Elizaveta Shashkova"
+          topic_en: "Python Visual Debugger: from internals to daily use - Elizaveta Shashkova"
+        - time: "12:40-14:20"
+          topic: "GIL 的过去和未来 - 张佳圆"
+          topic_en: "The Past and Future of GIL - Jiayuan Zhang"        
+        - time: "14:20-15:00"
+          topic: "加速 Python 中的文件传输和拷贝 - Giampaolo Rodola"
+          topic_en: "Speed up file transfers and file copies in Python - Giampaolo Rodola"
+        - time: "15:20-16:00"
+          topic: "Python语法扩展框架moshmosh和其上的CPython compatible JIT实现 - thautwarm"
+          topic_en: "Python syntax extension framework moshmosh and CPython-compatible JIT implementation on it - thautwarm"
+        - time: "16:00-16:40"
+          topic: "Python 调试新思路 - laike9m"
+          topic_en: "New ideas on Python debugging - laike9m"
 
     - place_name: 会场 B
       place_name_en: Venue B
-      url: place_shanghai_auditorium2
+      url: place_shanghai_auditorium3
       speechs:
-        - time: "09:00-16:00"
-          topic: "待定"
-          topic_en: "To be determined"
-        
+        - time: "13:00-13:40"
+          topic: "Mars：numpy 与 pandas 的并行和分布式加速器 - 秦续业"
+          topic_en: "Mars: concurrence and distributed accelerator for numpy and pandas - Xuye Qin"
+        - time: "13:40-14:20"
+          topic: "使用Python训练和部署低精度模型 - 张校捷"
+          topic_en: "Using Python to train and to deploy low-precision model"        
+        - time: "14:20-15:00"
+          topic: "Python 的 NLP 实战分享-如何实现合同风险预测模型？ - 藤井美娜"
+          topic_en: "Python's NLP Practical Sharing-how to implement contract risk prediction model - MinaFujii"
+        - time: "15:20-16:00"
+          topic: "Python深度学习实践 - 王顺 "
+          topic_en: "Python Deep Learning in Practice - Shun Wang"
+        - time: "16:00-16:40"
+          topic: "Python机器学习性能优化——以BERT服务为例，从1到1000 - 刘欣"
+          topic_en: ""
 
     - place_name: 会场 C
       place_name_en: Venue C
-      url: place_shanghai_auditorium3
+      url: place_shanghai_auditorium4
       speechs:
-        - time: "09:00-16:00"
-          topic: "待定"
+        - time: "13:00-13:40"
+          topic: "分层次构建应用系统的可观测性 - 刘征"
+          topic_en: "Hierarchically build the observability of the application system - Zheng Liu"
+        - time: "13:40-14:20"
+          topic: "主题待定"
           topic_en: "To be determined"
+        - time: "14:20-15:00"
+          topic: "Python在量化投资领域的应用 - 刘欣"
+          topic_en: "Python in Quantative Investing - Xin Liu"
+        - time: "15:20-16:00"
+          topic: "开源AIOps数据中台搭建与Python的作用 - 丁来强"
+          topic_en: "Building of Open Source AIOps Data Center and the Role of Python - Laiqiang Ding"
+        - time: "16:00-16:40"
+          topic: "从Thriftpy中学习RPC协议 - 张汝家"
+          topic_en: "Learn RPC protocol from Thriftpy - Rujia Zhang"
 
     - place_name: 会场 D
       place_name_en: Venue D
-      url: place_shanghai_auditorium4
+      url: place_shanghai_auditorium5
       speechs:
-        - time: "09:00-16:00"
-          topic: "待定"
+        - time: "13:00-13:40"
+          topic: "危险的 Flask - Hsiaoming Yang"
+          topic_en: "The dangerous Flask - Hsiaoming Yang"
+        - time: "13:40-14:20"
+          topic: "基于 Flask 的 REST API 开发指南 - 李辉"
+          topic_en: "Building REST API with Flask - Grey Li"        
+        - time: "14:20-15:00"
+          topic: "Django 中的 GraphQL - 李齐雨"
+          topic_en: "GraphQL in Django - Qiyu Li"
+        - time: "15:20-16:00"
+          topic: "Django ORM 原理 - 赖信涛"
+          topic_en: "Django Migration Under the Hood - Xintao Lai"
+        - time: "16:00-16:40"
+          topic: "主题待定"
           topic_en: "To be determined"
 
+    - place_name: 会场 E
+      place_name_en: Venue E
+      url: place_shanghai_auditorium6
+      speechs:
+        - time: "13:00-13:40"
+          topic: "构建 Python 物联网（IoT）图像分类解决方案并与 Azure 无服务器功能集成 - Dave Glover"
+          topic_en: "Build a Python Internet of Things (IoT) Image Classification solution and integrate with Azure Serverless Functions - Dave Glover"
+        - time: "13:40-14:20"
+          topic: "云中起舞—— Python的人工智能开发在微软云中的应用 - 卢建晖"
+          topic_en: "Dance in the cloud --- Application of Python AI in Microsoft Cloud - Jianhui Lu"        
+        - time: "14:20-15:00"
+          topic: "主题待定"
+          topic_en: "To be determined"
+        - time: "15:20-16:00"
+          topic: "主题待定"
+          topic_en: "To be determined"
+        - time: "16:00-16:40"
+          topic: "主题待定"
+          topic_en: "To be determined"
+
+    - place_name: 会场 F
+      place_name_en: Venue F
+      url: place_shanghai_auditorium7
+      speechs:
+        - time: "13:00-13:40"
+          topic: "当Python遇上FPGA – Pynq开源项目的实践与体会 - 陆佳华"
+          topic_en: "When Python Meet FPGA -- the Experience and Feeling of PYNQ Open Source Project - Jiahua Lu"
+        - time: "13:40-14:20"
+          topic: "主题待定"
+          topic_en: "To be determined"        
+        - time: "14:20-15:00"
+          topic: "主题待定"
+          topic_en: "To be determined"
+        - time: "15:20-16:00"
+          topic: "主题待定"
+          topic_en: "To be determined"
+        - time: "16:00-16:40"
+          topic: "主题待定"
+          topic_en: "To be determined"
+
+
   lightening_talks:
+      place_name: 闪电演讲
+      place_name_en: Lighting talk
+      url: place_shanghai_auditorium8
+      speechs:
+        - time: "13:00-13:40"
+          topic: "当Python遇上FPGA – Pynq开源项目的实践与体会 - 陆佳华"
+          topic_en: ""
   cancel_talks:
 
 
