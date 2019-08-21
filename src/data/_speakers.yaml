@@ -24,13 +24,13 @@ speaker_shanghai_arminronacher:
   city_shanghai: 1
   avatar: ./asset/images/speakers/arminronacher.png
   avatar_en: ../asset/images/speakers/arminronacher.png
-  short_intro: "Armin Ronacher 是 Flask、Werkzeug、Jinja2、Click 等流行开源项目的作者。他关注于设计良好的系统和 API。目前开发一款名为 Sentry 的开源错误报告工具。"
-  short_intro_en: "Armin Ronacher is the creator of the Flask, Jinja2, Werkzeug, Click, etc. He cares about well designed systems and APIs. He is currently working on Sentry, an Open Source crash reporting tool."
+  short_intro: "Armin Ronacher 是 Flask、Werkzeug、Jinja2、Click 等流行开源项目的作者。"
+  short_intro_en: "Armin Ronacher is the creator of the Flask, Jinja2, Werkzeug, Click, etc."
   intro: "Armin Ronacher 是 Flask、Werkzeug、Jinja2、Click 等流行开源项目的作者。他关注于设计良好的系统和 API。目前开发一款名为 Sentry 的开源错误报告工具。"
   intro_en: "Armin Ronacher is the creator of the Flask, Jinja2, Werkzeug, Click, etc. He cares about well designed systems and APIs. He is currently working on Sentry, an Open Source crash reporting tool."
   shanghai_topic:
-    title: "待定"
-    title_en: ""
+    title: "调试是一种新的发布：慢语言的意外优势"
+    title_en: "Debug is the new Release: The Unexpected Benefits of Slow Languages"
     preview: ""
     preview_en: ""
     slide: #
