@@ -12,6 +12,7 @@ base_url: "."
 base_url_en: ".."
 speech_apply_url: https://jinshuju.net/f/BH2z26
 volunteer_apply_url: https://jinshuju.net/f/ibpDI3
+sponsor_apply_url: mailto:cynthia@python-china.org.cn?subject=Apply Sponsor
 
 beijing:
   booking_url: "#"
