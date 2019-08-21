@@ -67,7 +67,7 @@ shanghai:
           topic_en: "Mars: concurrence and distributed accelerator for numpy and pandas - Xuye Qin"
         - time: "13:40-14:20"
           topic: "使用Python训练和部署低精度模型 - 张校捷"
-          topic_en: "Using Python to train and to deploy low-precision model"        
+          topic_en: "Using Python to train and to deploy low-precision model - Jiaojie Zhang"        
         - time: "14:20-15:00"
           topic: "Python 的 NLP 实战分享-如何实现合同风险预测模型？ - 藤井美娜"
           topic_en: "Python's NLP Practical Sharing-how to implement contract risk prediction model - MinaFujii"
@@ -76,7 +76,7 @@ shanghai:
           topic_en: "Python Deep Learning in Practice - Shun Wang"
         - time: "16:00-16:40"
           topic: "Python机器学习性能优化——以BERT服务为例，从1到1000 - 刘欣"
-          topic_en: ""
+          topic_en: "Python machine learning performance optimization - Take BERT as Example, from 1 to 1000 - Xin Liu"
 
     - place_name: 会场 C
       place_name_en: Venue C
