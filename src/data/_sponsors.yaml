@@ -75,8 +75,8 @@ organizer:
   -
     logo: ./asset/images/sponsors/pycon.jpeg
     logo: ../asset/images/sponsors/pycon.jpeg
-    link: "https://cn.pycon.org"
-    name: "PyChina 社区"
+    link: "https://pychina.org"
+    name: "PyChina - Python 中国社区"
     name_en: "PyChina"
     intro: "PyChina于2014年继2002年成立的CPyUG社区之后，在广大Python爱好者的推动下为宣传和发展Python而成立的。不定期推动，促进各地Python线下活动和在线活动，主办PyCon大会。"
     intro_en: "After the establishment of CPyUG, lots of Python fans set up a new group called PyChina in 2014 to advertise and develop Python. PyChina will encourage online and offline activities from all over China, especially PyCon."
