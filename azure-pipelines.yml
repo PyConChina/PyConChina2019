@@ -30,8 +30,5 @@ steps:
     python ./bin/app.py -g
   displayName: '生成静态文件'
 - script: echo "生成完成"
-- task: CopyFiles@2
-  inputs:
-    SourceFolder: 'public'
-    Contents: '**'
-    TargetFolder: '$(Build.ArtifactStagingDirectory)'
+- script: pwd
+- script: ls $(System.DefaultWorkingDirectory)/_PyConChina.PyConChina2019
