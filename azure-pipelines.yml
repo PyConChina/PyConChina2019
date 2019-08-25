@@ -30,3 +30,10 @@ steps:
     python ./bin/app.py -g
   displayName: '生成静态文件'
 - script: echo "生成完成"
+- task: CopyFiles@2
+  displayName: 'Copy Files to: $(Build.ArtifactStagingDirectory)'
+  inputs:
+    Contents: 'public/**'
+    TargetFolder: '$(Build.ArtifactStagingDirectory)'
+    OverWrite: true
+    
