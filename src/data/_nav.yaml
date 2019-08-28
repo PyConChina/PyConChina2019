@@ -1,7 +1,7 @@
 - title: 首页2019
   title_en: HOME2019
-  url: "#about"
-  url_en: "#about"
+  url: "#"
+  url_en: "#"
 - title: 讲师&主题
   title_en: SPEAKER
   url: "#speakers"
@@ -23,6 +23,10 @@
   title_en: SPONSER
   url: "#sponsors"
   url_en: "#sponsors"
+- title: 工作人员
+  title_en: STAFF
+  url: "staff.html"
+  url_en: "staff.html"
 - title: 往届回顾
   title_en: HISTORY
   children:

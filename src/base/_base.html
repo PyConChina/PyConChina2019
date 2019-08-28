@@ -55,6 +55,9 @@
 			.speaker .name {
 				letter-spacing: .1em;
 			}
+			.staff {
+				min-height: 250px;
+			}
 			.banner__btnWraper .btn {
 				margin-bottom: 12px;
 			}
@@ -92,7 +95,8 @@
 
 </head>
 <body>
-   <section id="hero" class="hero-section bg1 bg-cover window-height light-text">
+	{% block hero %}
+    <section id="hero" class="hero-section bg1 bg-cover window-height light-text">
 		<div class="heading-mask"></div>
 		<div class="heading-block centered-block align-center">
 			<div class="container">
@@ -122,6 +126,7 @@
 			</div>
 		</div>
 	</section>
+	{% endblock %}
 
     {% include "base/_nav.html" %}
     {% block content %}{% endblock %}

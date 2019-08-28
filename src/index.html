@@ -28,40 +28,33 @@
 </section>
 
 <section id="schedule" class="section schedule-section align-center">
-        {% macro agenda_link(city) %}
-            <li class="{{ city.actived }}">
-                <a href="#{{ city.url }}" data-toggle="tab">
-                    <h5 class="highlight">{{ city.name }}</h5>
-                    <p class="text-alt">{{ city.date }}</p>
-                </a>
-            </li>
-        {% endmacro %}
+    {% macro agenda_link(city) %}
+        <li class="{{ city.actived }}">
+            <a href="#{{ city.url }}" data-toggle="tab">
+                <h5 class="highlight">{{ city.name }}</h5>
+                <p class="text-alt">{{ city.date }}</p>
+            </a>
+        </li>
+    {% endmacro %}
 
-		<div class="container">
-			<span class="icon section-icon icon-office-21"></span>
-			<h3>{{ message.agenda_title }}</h3>
-			<br />
-			<br />
-			<div class="schedule">
-				<ul class="nav nav-schedule">
-                    {% for city_name in agenda.city_list %}{{ agenda_link(agenda[city_name]) }}{% endfor %}
-				</ul>
-				<div class="tab-content">
-                    {% for city_name in agenda.city_list %}
-                        {{ schedule_macro.schedule_block(speakers, agenda[city_name]) }}
-                    {% endfor %}
-				</div>
+    <div class="container">
+        <span class="icon section-icon icon-office-21"></span>
+        <h3>{{ message.agenda_title }}</h3>
+        <br />
+        <br />
+        <div class="schedule">
+            <ul class="nav nav-schedule">
+                {% for city_name in agenda.city_list %}{{ agenda_link(agenda[city_name]) }}{% endfor %}
+            </ul>
+            <div class="tab-content">
+                {% for city_name in agenda.city_list %}
+                    {{ schedule_macro.schedule_block(speakers, agenda[city_name]) }}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>
 
-			</div>
-
-		</div>
-
-	</section>
-    <section id="volunteers" class="section align-center">
-        {% for role in volunteers.role_list %}
-        {{ volunteer_macro.volunteer_block(role, volunteers[role.role], '') }}
-        {% endfor%}
-    </section>
 <section id="sponsors" class="section align-center">
 
  <div class="container">

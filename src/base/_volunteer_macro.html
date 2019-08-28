@@ -1,25 +1,27 @@
 {% macro volunteer_block(volunteer_role, volunteer_list, extra_class) %}
-<div class="container">
-    <span class="icon section-icon icon-faces-users-04"></span>
-    <h3>{{ volunteer_role.name }}</h3>
-    <br />
-    <br />
-    {% if volunteer_list %}
-        {% set volunteer_list_len = volunteer_list | length %}
-        {% for i in range(0, volunteer_list_len, 3) %}
-        <!-- 每行显示3个志愿者 -->
-          {% for j in range(0, 3 if volunteer_list_len - i > 2 else volunteer_list_len - i) %}
-          {% set cur_volunteer = volunteer_list[i + j] %}
-          <div class="col-sm-4 speaker__colWraper col-xs-6">
-              <div class="speaker">
-                  <div class="photo-wrapper rounded"><img src="{{ cur_volunteer.avatar }}" alt="{{ cur_volunteer.name }}" class="img-responsive"></div>
-                  <h3 class="name">{{ cur_volunteer.name }}</h3>
-                  <p class="text-alt"><small>{{ cur_volunteer.intro }}</small></p>
-              </div>
-          </div> <!-- ./志愿者 -->
-          {% endfor %}
-      {% endfor %}
-    {% endif %}
-
-  </div>
+<div class="container text-left">
+  <h4>{{ volunteer_role.name }}</h4>
+  <br />
+  <br />
+  {% if volunteer_list %}
+      {% set volunteer_list_len = volunteer_list | length %}
+      {% for i in range(0, volunteer_list_len, 3) %}
+      <!-- 每行显示3个志愿者 -->
+        {% for j in range(0, 3 if volunteer_list_len - i > 2 else volunteer_list_len - i) %}
+        {% set cur_volunteer = volunteer_list[i + j] %}
+        <div class="col-sm-4 speaker__colWraper col-xs-6">
+            <div class="speaker staff">
+                <div class="photo-wrapper rounded">
+                    {% if cur_volunteer.blog %}<a href="{{ cur_volunteer.blog }}" target="_blank">{% endif %}
+                    <img src="{{ cur_volunteer.avatar }}" alt="{{ cur_volunteer.name }}" class="img-responsive">
+                    {% if cur_volunteer.blog %}</a>{% endif %}
+                </div>
+                <h3 class="name">{{ cur_volunteer.name }}</h3>
+                {% if cur_volunteer.intro %}<p class="text-alt"><small>{{ cur_volunteer.intro }}</small></p>{% endif %}
+            </div>
+        </div> <!-- ./志愿者 -->
+        {% endfor %}
+    {% endfor %}
+  {% endif %}
+</div>
 {% endmacro %}

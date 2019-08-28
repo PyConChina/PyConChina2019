@@ -1,28 +1,28 @@
 {% import 'base/_nav_macro.html' as nav_macro %}
 
 <header class="header header-black">
-		<div class="header-wrapper">
-			<div class="container">
-				<div class="col-sm-2 col-xs-12 navigation-header">
-					<a href="#" class="logo">
-						<img src="{{ site.base_url }}/asset/img/pycon_logo.png" alt="PyCon"  class="retina-hide">
-						<img src="{{ site.base_url }}/asset/img/pycon_logo@2x.png" alt="PyCon"  class="retina-show">
-					</a>
-					<button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigation" aria-expanded="false" aria-controls="navigation">
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-				</div>
+	<div class="header-wrapper">
+		<div class="container">
+			<div class="col-sm-2 col-xs-12 navigation-header">
+				<a href="#" class="logo">
+					<img src="{{ site.base_url }}/asset/img/pycon_logo.png" alt="PyCon"  class="retina-hide">
+					<img src="{{ site.base_url }}/asset/img/pycon_logo@2x.png" alt="PyCon"  class="retina-show">
+				</a>
+				<button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigation" aria-expanded="false" aria-controls="navigation">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
 
-				<div class="col-sm-10 col-xs-12 navigation-container">
-					<div id="navigation" class="navbar-collapse collapse">
-						<ul class="navigation-list pull-left light-text">
-							{{ nav_macro.nav_menu(site, nav) }}
-						</ul>
-						<a href="#" class="pull-right buy-btn">{{ site.buy_ticket }}</a>
-					</div>
+			<div class="col-sm-10 col-xs-12 navigation-container">
+				<div id="navigation" class="navbar-collapse collapse">
+					<ul class="navigation-list pull-left light-text">
+						{{ nav_macro.nav_menu(site, nav) }}
+					</ul>
+					<a href="./#" class="pull-right buy-btn">{{ site.buy_ticket }}</a>
 				</div>
 			</div>
 		</div>
-	</header>
+	</div>
+</header>

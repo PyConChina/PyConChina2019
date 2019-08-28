@@ -1,0 +1,26 @@
+{% extends "base/_base.html" %}
+{% import 'base/_speaker_macro.html' as speaker_macro %}
+{% import 'base/_schedule_macro.html' as schedule_macro %}
+{% import 'base/_volunteer_macro.html' as volunteer_macro %}
+{% set page_title = message.page_title_index %}
+{% block hero %}{% endblock %}
+
+{% block content %}
+<!-- <section id="about" class="section align-center">
+    <div class="container">
+        <span class="icon section-icon icon-multimedia-12"></span>
+        <h3>{{ message.staff_intro_title }}</h3>
+        <br />
+        <br />
+        <div style="text-align: center; font-size: 16px; line-height: 50px;">
+            {{ message.staff_intro }}
+        </div>
+    </div>
+</section> -->
+
+<section id="volunteers" class="section align-center">
+    {% for role in volunteers.role_list %}
+    {{ volunteer_macro.volunteer_block(role, volunteers[role.role], '') }}
+    {% endfor%}
+</section>
+{% endblock %}
