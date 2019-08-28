@@ -1,0 +1,43 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger:
+- master
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+- task: UsePythonVersion@0
+  inputs:
+    versionSpec: '2.7'
+    addToPath: true
+    architecture: 'x64'
+- task: NodeTool@0
+  inputs:
+    versionSpec: '10.16.3'
+- task: UseRubyVersion@0
+  inputs:
+    versionSpec: '>= 2.6'
+- script: |
+    npm install uglify-js -g
+    gem install sass
+    pip install -r requirements.txt --user
+  displayName: '安装依赖'
+- script: |
+    python ./bin/app.py -g
+  displayName: '生成静态文件'
+- task: CopyFiles@2
+  displayName: 'Copy Files to: $(Build.ArtifactStagingDirectory)'
+  inputs:
+    Contents: 'public/**'
+    TargetFolder: '$(Build.ArtifactStagingDirectory)'
+    OverWrite: true
+
+- task: PublishBuildArtifacts@1
+  inputs:
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+    ArtifactName: 'drop'
+    publishLocation: 'Container'
