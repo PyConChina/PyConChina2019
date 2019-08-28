@@ -1,9 +1,9 @@
 [![Build Status](https://dev.azure.com/h1x2y3awalm/PyCon%20China/_apis/build/status/PyConChina.PyConChina2019?branchName=master)](https://dev.azure.com/h1x2y3awalm/PyCon%20China/_build/latest?definitionId=1&branchName=master)
 # PyConChina2019
 
-The official website of PyCon China 2019, 基于 [https://github.com/PyConChina/staticpycon](https://github.com/PyConChina/staticpycon)
+The official website of PyCon China 2019, 基于 [https://github.com/PyConChina/staticpycon](https://github.com/PyConChina/staticpycon) 
 
-## Dev
+## Dev 
 
 ```bash
 npm install uglify-js -g
