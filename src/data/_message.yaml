@@ -15,28 +15,18 @@ booking_now:
   - name: "北京"
     name_en: "Beijing"
     url: "https://www.bagevent.com/event/5717698"
-    location: 
-    location_en:
   - name: "杭州"
     name_en: "Hangzhou"
     url: "#"
-    location: 
-    location_en:
   - name: "深圳"
     name_en: "Shenzhen"
     url: "https://www.bagevent.com/event/5451680"
-    location: 
-    location_en:
   - name: "成都"
     name_en: "Chengdu"
     url: "https://www.bagevent.com/event/5862103"
-    location: 
-    location_en:
   - name: "南宁"
     name_en: "Nanning"
     url: "#"
-    location: 
-    location_en:
 
 booking_title_before: ""
 booking_title_after: "站"
@@ -81,12 +71,8 @@ position_en: Shanghai
 speakers: 讲师
 speakers_en: ' Speakers'
 
-conference_location_title: "大会地点"
-conference_location_title_en: Location
-conference_location: "上海杨浦宁国路25号上海兴荣温德姆酒店2楼会议厅"
-conference_location_en: "Conference Hall, 2nd Floor<br />Wyndham Hotel Shanghai Xingrong<br />25 Ningguo Road, Yangpu, Shanghai"
-conference_time: "2019年9月21日 8:30 ～ 2019年9月22日 17:00"
-conference_time_en: "Sept. 21, 2019 8:30 ~ Sept. 22, 2019 17:00"
-
 agenda_title: 日程
 agenda_title_en: Agenda
+
+conference_location_title: "大会地点"
+conference_location_title_en: Location

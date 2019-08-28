@@ -62,9 +62,9 @@
       {% endfor %}
     </ul>
     <!-- Navigation by auditorium start -->
-
     <!-- Second level content start -->
     <div class="tab-content tab-content-schedule">
+        <h6><i class="fa fa-map-marker"></i> {{ city.address }}</h6>
         {% for place in city.places %}
             {{ speech_block(speakers,city, place) }}
         {% endfor %}
