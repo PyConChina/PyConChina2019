@@ -1,16 +1,299 @@
 role_list:
  - 
+  role: coordinate
+  name: 总协调组
+  name_en: Stuffs
+ - 
+  role: media
+  name: 媒体组
+  name_en: Stuffs
+ - 
+  role: finance
+  name: 财务组
+  name_en: Stuffs
+ - 
+  role: marketing
+  name: 市场组
+  name_en: Stuffs
+ - 
+  role: translation
+  name: 翻译组
+  name_en: Stuffs
+ - 
+  role: website
+  name: 网站组
+  name_en: Stuffs
+ -
+  role: purchase
+  name: 采购组
+  name_en: Stuffs
+ - 
+  role: design
+  name: 设计组
+  name_en: Stuffs
+ - 
+  role: conf
+  name: 会务组
+  name_en: Stuffs
+#  -
+#   role: reception
+#   name: 接待组
+#   name_en: Stuffs
+#  - 
+#   role: talks
+#   name: 议题审核组
+#   name_en: Stuffs
+ - 
+  role: photo
+  name: 摄影组
+  name_en: Stuffs
+ - 
+  role: citys
+  name: 各城市负责人
+  name_en: Stuffs
+ - 
   role: organizers
   name: 出品人
   name_en: Organizers
+#  - 
+#   role: technicians
+#   name: 技术支持
+#   name_en: Technicians
  - 
-  role: technicians
-  name: 技术支持
-  name_en: Technicians
- - 
-  role: conference
+  role: volunteer
   name: 现场志愿者
   name_en: Volunteer
+
+coordinate:
+  -
+    name: 辛庆
+    name_en: Cynthia Xin
+    role: coordinate
+    role_coordinate: 1
+    avatar: ./asset/images/staffs/xinqing.png
+    avatar_en: ../asset/images/staffs/xinqing.png
+    blog:
+  -
+    name: Zoom.Quiet (大妈)
+    name_en: Zoom.Quiet (DamaDama)
+    role: coordinate
+    avatar: ./asset/images/staffs/dama.png
+    avatar_en: ../asset/images/staffs/dama.png
+    blog: http://zoomquiet.io/
+    weibo: https://py.101.camp
+  -
+    name: 李者璈
+    name_en: Zheao Li
+    role: coordinate
+    avatar: ./asset/images/staffs/lizheao.png
+    avatar_en: ../asset/images/staffs/lizheao.png
+    blog: https://www.zhihu.com/people/li-zhe-ao/activities
+    weibo:
+  -
+    name: 许银
+    name_en: Jamie Xu
+    role: coordinate
+    avatar: ./asset/images/staffs/xuyin.jpg
+    avatar_en: ../asset/images/staffs/xuyin.jpg
+    blog: https://github.com/jueduizone
+    weibo:
+  -
+    name: 李辉
+    name_en: Grey Li
+    role: coordinate
+    avatar: ./asset/images/staffs/lihui.png
+    avatar_en: ../asset/images/staffs/lihui.png
+    blog: http://greyli.com
+
+media:
+  -
+    name: 晁倩
+    avatar: ./asset/images/staffs/chaoqian.jpg
+    avatar_en: ../asset/images/staffs/chaoqian.jpg
+    blog: https://github.com/QueenaChao
+  -
+    name: 王梦兰
+    avatar: ./asset/images/staffs/wangmenglan.jpg
+    avatar_en: ../asset/images/staffs/wangmenglan.jpg
+    blog: https://github.com/Wangalan30
+  -
+    name: 李辉
+    name_en: Grey Li
+    avatar: ./asset/images/staffs/lihui.png
+    avatar_en: ../asset/images/staffs/lihui.png
+    blog: http://greyli.com
+
+finance:
+  -
+    name: 王梦兰
+    avatar: ./asset/images/staffs/wangmenglan.jpg
+    avatar_en: ../asset/images/staffs/wangmenglan.jpg
+    blog: https://github.com/Wangalan30
+
+
+marketing:
+  -
+    name: 辛庆
+    name_en: Cynthia Xin
+    role: coordinate
+    avatar: ./asset/images/staffs/xinqing.png
+    avatar_en: ../asset/images/staffs/xinqing.png
+    blog:
+    weibo:
+
+translation:
+  -
+    name: 王梦兰
+    avatar: ./asset/images/staffs/wangmenglan.jpg
+    avatar_en: ../asset/images/staffs/wangmenglan.jpg
+    blog: https://github.com/Wangalan30
+  -
+    name: 刘茜文
+    avatar: ./asset/images/staffs/liuqianwen.jpg
+    avatar_en: ../asset/images/staffs/liuqianwen.jpg
+    blog:
+  -
+    name: 王晓珂
+    avatar: ./asset/images/staffs/wangxiaoke.jpg
+    avatar_en: ../asset/images/staffs/wangxiaoke.jpg
+    blog: https://github.com/nicoconionno
+  -
+    name: 李辉
+    name_en: Grey Li
+    avatar: ./asset/images/staffs/lihui.png
+    avatar_en: ../asset/images/staffs/lihui.png
+    blog: http://greyli.com
+
+website:
+  -
+    name: 何翔宇
+    name_en: Xiangyu He
+    avatar: ./asset/images/volunteers/hexiangyu.png
+    avatar_en: ../asset/images/volunteers/hexiangyu.png
+    blog: http://hexiangyu.me/
+  -
+    name: 李辉
+    name_en: Grey Li
+    avatar: ./asset/images/staffs/lihui.png
+    avatar_en: ../asset/images/staffs/lihui.png
+    blog: http://greyli.com 
+  -
+    name: 郝昱
+    avatar: ./asset/images/staffs/haoyu.jpg
+    blog: https://haoyu.love
+  -
+    name: 唐萌
+    avatar: ./asset/images/staffs/tangmeng.jpg
+    blog: 
+  -
+    name: 段天骄
+    avatar: ./asset/images/staffs/duantianjiao.jpg
+    blog: 
+
+
+purchase:
+  -
+    name: 王晓珂
+    avatar: ./asset/images/staffs/wangxiaoke.jpg
+    avatar_en: ../asset/images/staffs/wangxiaoke.jpg
+    blog: https://github.com/nicoconionno
+  
+design:
+  -
+    name: 吴妙璇
+    avatar: ./asset/images/staffs/wumiaoxuan.jpg
+    blog: https://mxuan.zcool.com.cn
+
+conf:
+  -
+    name: 许银
+    name_en: Jamie Xu
+    role: coordinate
+    avatar: ./asset/images/staffs/xuyin.jpg
+    avatar_en: ../asset/images/staffs/xuyin.jpg
+    blog: https://github.com/jueduizone
+    weibo:
+  -
+    name: 辛庆
+    name_en: Cynthia Xin
+    avatar: ./asset/images/staffs/xinqing.png
+    avatar_en: ../asset/images/staffs/xinqing.png
+    blog: 
+  -
+    name: 晁倩
+    avatar: ./asset/images/staffs/chaoqian.jpg
+    avatar_en: ../asset/images/staffs/chaoqian.jpg
+    blog: https://github.com/QueenaChao
+  -
+    name: 李者璈
+    name_en: Zheao Li
+    role: coordinate
+    avatar: ./asset/images/staffs/lizheao.png
+    avatar_en: ../asset/images/staffs/lizheao.png
+    blog: https://www.zhihu.com/people/li-zhe-ao/activities
+    weibo:
+  -
+    name: 王梦兰
+    avatar: ./asset/images/staffs/wangmenglan.jpg
+    avatar_en: ../asset/images/staffs/wangmenglan.jpg
+    blog: https://github.com/Wangalan30
+  -
+    name: 吴妙璇
+    avatar: ./asset/images/staffs/wumiaoxuan.jpg
+    blog: https://mxuan.zcool.com.cn
+  -
+    name: River
+    name_en: River
+    avatar: ./asset/images/volunteers/river.jpg
+    avatar_en: ../asset/images/volunteers/river.jpg
+    blog: http://river.aipy.org
+
+reception:
+
+talks:
+
+photo:
+  -
+    name: 丁俊豪
+    avatar: ./asset/images/staffs/dingjunhao.jpg
+    blog: https://www.ossky.org
+
+citys:
+  -
+    name: 辛庆
+    name_en: Cynthia Xin
+    avatar: ./asset/images/staffs/xinqing.png
+    avatar_en: ../asset/images/staffs/xinqing.png
+    blog: 
+  -
+    name: 李者璈
+    name_en: Zheao Li
+    avatar: ./asset/images/staffs/lizheao.png
+    avatar_en: ../asset/images/staffs/lizheao.png
+    blog: https://www.zhihu.com/people/li-zhe-ao/activities
+    weibo:
+  -
+    name: 叶敏
+    name_en: Min Ye
+    avatar: ./asset/images/volunteers/yemin.jpg
+    avatar_en: ../asset/images/volunteers/yemin.jpg
+    blog: 
+    weibo:
+  -
+    name: 代少飞
+    name_en: Shaofei Dai
+    avatar: ./asset/images/volunteers/daishaofei.png
+    avatar_en: ../asset/images/volunteers/daishaofei.png
+    blog: 
+    weibo:
+  -
+    name: River
+    name_en: River
+    avatar: ./asset/images/volunteers/river.jpg
+    avatar_en: ../asset/images/volunteers/river.jpg
+    blog: http://river.aipy.org
+    weibo:
+
 
 organizers:
   -
@@ -121,7 +404,7 @@ organizers:
     avatar_en: ../asset/images/volunteers/lizheao.png
     intro: 饿了么 - 资深开发工程师
     intro_en: Senior Developer of Ele.me
-    blog: https://www.zhihu.com/people/li-zhe-ao/activities）
+    blog: https://www.zhihu.com/people/li-zhe-ao/activities
     weibo:
   -
     name: 秦续业
@@ -247,4 +530,8 @@ organizers:
 
 technicians:
 
-conference:
+volunteer:
+  -
+    name: 统计中……
+    avatar: ./asset/images/volunteers/default.jpg
+    avatar_en: ../asset/images/volunteers/default.jpg
