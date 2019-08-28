@@ -38,7 +38,7 @@ shanghai:
         - { time: "10:40-11:20", topic: "主题待定", topic_en: "To be determined" }
         - { time: "11:20-12:00", topic: "调试是一种新的发布：慢语言的意外优势 - Armin Ronacher", topic_en: "Debug is the new Release: The Unexpected Benefits of Slow Languages - Armin Ronacher" }
 
-    - place_name: 会场 A
+    - place_name: 会场 A（语言特性）
       place_name_en: Venue A
       url: place_shanghai_auditorium2
       speechs:
@@ -58,9 +58,32 @@ shanghai:
           topic: "Python 调试新思路 - laike9m"
           topic_en: "New ideas on Python debugging - laike9m"
 
-    - place_name: 会场 B
+    - place_name: 会场 B（Web 专场）
       place_name_en: Venue B
       url: place_shanghai_auditorium3
+      speechs:
+        - time: "13:00-13:40"
+          topic: "危险的 Flask - Hsiaoming Yang"
+          topic_en: "The dangerous Flask - Hsiaoming Yang"
+        - time: "13:40-14:20"
+          topic: "基于 Flask 的 REST API 开发指南 - 李辉"
+          topic_en: "Building REST API with Flask - Grey Li"        
+        - time: "14:20-15:00"
+          topic: "Django 中的 GraphQL - 李齐雨"
+          topic_en: "GraphQL in Django - Qiyu Li"
+        - time: "15:20-16:00"
+          topic: "Django ORM 原理 - 赖信涛"
+          topic_en: "Django Migration Under the Hood - Xintao Lai"
+        - time: "16:00-16:40"
+          topic: "从Thriftpy中学习RPC协议 - 张汝家"
+          topic_en: "Learn RPC protocol from Thriftpy - Rujia Zhang"
+        - time: "16:40-17:20"
+          topic: "闪电演讲（独占）"
+          topic_en: "Lighting Talk"
+
+    - place_name: 会场 C（人工智能 / 大数据）
+      place_name_en: Venue C
+      url: place_shanghai_auditorium4
       speechs:
         - time: "13:00-13:40"
           topic: "Mars：numpy 与 pandas 的并行和分布式加速器 - 秦续业"
@@ -77,50 +100,10 @@ shanghai:
         - time: "16:00-16:40"
           topic: "Python机器学习性能优化——以BERT服务为例，从1到1000 - 刘欣"
           topic_en: "Python machine learning performance optimization - Take BERT as Example, from 1 to 1000 - Xin Liu"
-
-    - place_name: 会场 C
-      place_name_en: Venue C
-      url: place_shanghai_auditorium4
-      speechs:
-        - time: "13:00-13:40"
-          topic: "分层次构建应用系统的可观测性 - 刘征"
-          topic_en: "Hierarchically build the observability of the application system - Zheng Liu"
-        - time: "13:40-14:20"
-          topic: "主题待定"
-          topic_en: "To be determined"
-        - time: "14:20-15:00"
-          topic: "Python在量化投资领域的应用 - 刘欣"
-          topic_en: "Python in Quantative Investing - Xin Liu"
-        - time: "15:20-16:00"
-          topic: "开源AIOps数据中台搭建与Python的作用 - 丁来强"
-          topic_en: "Building of Open Source AIOps Data Center and the Role of Python - Laiqiang Ding"
-        - time: "16:00-16:40"
-          topic: "从Thriftpy中学习RPC协议 - 张汝家"
-          topic_en: "Learn RPC protocol from Thriftpy - Rujia Zhang"
-
-    - place_name: 会场 D
+      
+    - place_name: 会场 D（微软专场）
       place_name_en: Venue D
       url: place_shanghai_auditorium5
-      speechs:
-        - time: "13:00-13:40"
-          topic: "危险的 Flask - Hsiaoming Yang"
-          topic_en: "The dangerous Flask - Hsiaoming Yang"
-        - time: "13:40-14:20"
-          topic: "基于 Flask 的 REST API 开发指南 - 李辉"
-          topic_en: "Building REST API with Flask - Grey Li"        
-        - time: "14:20-15:00"
-          topic: "Django 中的 GraphQL - 李齐雨"
-          topic_en: "GraphQL in Django - Qiyu Li"
-        - time: "15:20-16:00"
-          topic: "Django ORM 原理 - 赖信涛"
-          topic_en: "Django Migration Under the Hood - Xintao Lai"
-        - time: "16:00-16:40"
-          topic: "主题待定"
-          topic_en: "To be determined"
-
-    - place_name: 会场 E
-      place_name_en: Venue E
-      url: place_shanghai_auditorium6
       speechs:
         - time: "13:00-13:40"
           topic: "构建 Python 物联网（IoT）图像分类解决方案并与 Azure 无服务器功能集成 - Dave Glover"
@@ -137,8 +120,25 @@ shanghai:
         - time: "16:00-16:40"
           topic: "主题待定"
           topic_en: "To be determined"
+      
+    - place_name: 会场 E（基础架构）
+      place_name_en: Venue E
+      url: place_shanghai_auditorium6
+      speechs:
+        - time: "13:00-13:40"
+          topic: "分层次构建应用系统的可观测性 - 刘征"
+          topic_en: "Hierarchically build the observability of the application system - Zheng Liu"
+        - time: "13:40-14:20"
+          topic: "主题待定"
+          topic_en: "To be determined"
+        - time: "14:20-15:00"
+          topic: "Python在量化投资领域的应用 - 刘欣"
+          topic_en: "Python in Quantative Investing - Xin Liu"
+        - time: "15:20-16:00"
+          topic: "开源AIOps数据中台搭建与Python的作用 - 丁来强"
+          topic_en: "Building of Open Source AIOps Data Center and the Role of Python - Laiqiang Ding"
 
-    - place_name: 会场 F
+    - place_name: 会场 F（创新领域）
       place_name_en: Venue F
       url: place_shanghai_auditorium7
       speechs:

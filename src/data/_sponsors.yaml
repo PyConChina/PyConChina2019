@@ -126,7 +126,7 @@ silver:
   -
     logo: ./asset/images/sponsors/jetbrains.png
     logo: ../asset/images/sponsors/jetbrains.png
-    link: "www.jetbrains.com"
+    link: "https://www.jetbrains.com"
     name: "Jetbrains"
     name_en: "Jetbrains"
     intro: "JetBrains creates professional software development tools for coding in Kotlin, Python,  Java, and more languages, as well as advanced team collaboration tools."
