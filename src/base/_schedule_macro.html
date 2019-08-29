@@ -8,9 +8,10 @@
 
         {% for speech in place.speechs %}
         <!-- Lecture start -->
+
         <div class="panel schedule-item">
             <div class="lecture-icon-wrapper">
-                 {% if speech.speaker %}
+                 {% if speech.speaker and speech.speaker in speakers %}
                     {% set a_speaker = speakers[speech.speaker] %}
                     <img src="{{a_speaker.avatar}}" alt="" class="img-responsive">
                  {% else %}
@@ -18,20 +19,21 @@
                  {% endif %}
 
             </div>
-             {% if speech.speaker %}
+             {% if speech.speaker and speech.speaker in speakers %}
                 {% set a_speaker = speakers[speech.speaker] %}
                 {% set topic = a_speaker[city.city + '_topic'] or a_speaker.topic %}
-                <a data-toggle="collapse" data-parent="#{{ place.url }}_timeline" href="#{{ place.url }}_time1" class="schedule-item-toggle">
+                <a data-toggle="collapse" data-parent="#{{ place.url }}{{ speech.speaker }}_timeline" href="#{{ place.url }}{{ speech.speaker }}_time1" class="schedule-item-toggle">
                     <strong class="time highlight"><span class="icon icon-office-24"></span>{{ speech.time }}</strong>
                     <h6 class="title">{{ topic.title }}<i class="icon icon-arrows-06"></i></h6>
                 </a>
-                <div id="{{ place.url }}_time1" class="panel-collapse collapse in schedule-item-body">
+                <div id="{{ place.url }}{{ speech.speaker }}_time1" class="panel-collapse collapse in schedule-item-body">
                     <article>
                         <!--b>作者简介:</b> {{ a_speaker.short_intro or a_speaker.intro }}
                         <br />
                         <b>演讲简介:</b> {{ topic.preview }}-->
                         <p class="description">{{ topic.preview }}</p>
-                        <strong class="highlight speaker-name">{{ a_speaker.name }}</strong>
+                        <strong class="highlight speaker-name">{{ a_speaker.name }}</strong><br>
+                        <small>{{ a_speaker.short_intro or a_speaker.intro }}</small>
                     </article>
                 </div>
             {% else %}

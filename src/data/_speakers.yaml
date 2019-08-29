@@ -274,22 +274,22 @@ speaker_shanghai_laike9m:
     preview: ""
     preview_en: ""
     slide: #
-# speaker_shanghai_huili:
-#   name: 李辉
-#   name_en: Grey Li
-#   city_shanghai: 1
-#   avatar: ./asset/images/speakers/lihui.jpg
-#   avatar_en: ../asset/images/speakers/lihui.jpg
-#   short_intro: "独立 Web 开发者，Flask 维护者，《Flask Web 开发实战》作者。"
-#   short_intro_en: "Freelance web developer, maintainer of Flask, author of \"Python Web Development with Flask\"."
-#   intro: "独立 Web 开发者，Flask 维护者，《Flask Web 开发实战》作者。"
-#   intro_en: "Freelance web developer, maintainer of Flask, author of \"Python Web Development with Flask\"."
-#   shanghai_topic:
-#     title: "Python 虚拟环境和依赖管理工具大乱斗"
-#     title_en: "Fighting among Python virtual environment and dependency management tools"
-#     preview: "大多数人都会在 Python 虚拟环境和依赖管理的路上经历重重困难。一开始，你使用 pip + virtualenv + requirements.txt 的工具组合，或者再加上 virtualenvwrapper；接着，更高级的新东西出现了。Pipenv 号称新一代 Python 项目环境和依赖管理工具，打算替代上面的复杂组合，但是发展并不顺利；接着，竞争者出现了，其中实力最强的 Poetry 除了可以替代 Pipenv 来管理依赖之外，甚至还可以让你不用写 setup.py。故事就这样结束了吗？当然没有，尚在草案阶段的 PEP 582 在一边虎视眈眈，试图终结这一切混乱……"
-#     preview_en: "Most of us will face multiple difficulties in Python virtual environment and dependency. At first, you may use virtualenv + requirements.txt and probably with virtualenvwrapper; Then, more new things appear. Pipenv claims itself as a new generation of Python project environment and dependency management tools. It wants to replace those things mentioned above, but it seems that it doesn't do well. After that, more competitors come out. Poetry is the best one between them, it is able to manage dependency as Pipenv. What is more, it can even let you not to write setup.py. Is this the end of the story? Of course not, PEP 582, which still in draft stage, is on the sidelines, trying to end all this chaos."
-#     slide: #
+speaker_shanghai_huili2:
+  name: 李辉
+  name_en: Grey Li
+  city_shanghai: 1
+  avatar: ./asset/images/speakers/lihui.jpg
+  avatar_en: ../asset/images/speakers/lihui.jpg
+  short_intro: "独立 Web 开发者，Flask 维护者，《Flask Web 开发实战》作者。"
+  short_intro_en: "Freelance web developer, maintainer of Flask, author of \"Python Web Development with Flask\"."
+  intro: "独立 Web 开发者，Flask 维护者，《Flask Web 开发实战》作者。"
+  intro_en: "Freelance web developer, maintainer of Flask, author of \"Python Web Development with Flask\"."
+  shanghai_topic:
+    title: "Python 虚拟环境和依赖管理工具大乱斗"
+    title_en: "Fighting among Python virtual environment and dependency management tools"
+    preview: "大多数人都会在 Python 虚拟环境和依赖管理的路上经历重重困难。一开始，你使用 pip + virtualenv + requirements.txt 的工具组合，或者再加上 virtualenvwrapper；接着，更高级的新东西出现了。Pipenv 号称新一代 Python 项目环境和依赖管理工具，打算替代上面的复杂组合，但是发展并不顺利；接着，竞争者出现了，其中实力最强的 Poetry 除了可以替代 Pipenv 来管理依赖之外，甚至还可以让你不用写 setup.py。故事就这样结束了吗？当然没有，尚在草案阶段的 PEP 582 在一边虎视眈眈，试图终结这一切混乱……"
+    preview_en: "Most of us will face multiple difficulties in Python virtual environment and dependency. At first, you may use virtualenv + requirements.txt and probably with virtualenvwrapper; Then, more new things appear. Pipenv claims itself as a new generation of Python project environment and dependency management tools. It wants to replace those things mentioned above, but it seems that it doesn't do well. After that, more competitors come out. Poetry is the best one between them, it is able to manage dependency as Pipenv. What is more, it can even let you not to write setup.py. Is this the end of the story? Of course not, PEP 582, which still in draft stage, is on the sidelines, trying to end all this chaos."
+    slide: #
 speaker_shanghai_zhaoqiangchen:
   name: 陈照强
   name_en: Zhaoqiang Chen
@@ -301,8 +301,8 @@ speaker_shanghai_zhaoqiangchen:
   intro: "开发药物研发相关软件D3Pockets; 利用sphinx制作网站：http://pymol.chenzhaoqiang.com/"
   intro_en: "He developes D3Pockets which is a software related to medicine reserch; Using sphinx making website http://pymol.chenzhaoqiang.com/"
   shanghai_topic:
-    title: "Sphinx制作WEB文档"
-    title_en: "Using spinx to make WEB document"
+    title: "用 Sphinx 制作 Web文档"
+    title_en: "Using Spinx to make Web document"
     preview: "Sphinx 是一种工具，它允许开发人员以纯文本格式编写文档，可以输出各种文档，如PDF, HTML等。Sphinx 是用 Python 编写的，并且最初是为 Python 语言文档而创建，多个项目都是用sphinx工具制作的文档，如：matplotlib, scrapy, 等。默认情况下，Sphinx 会为 Python 突出显示代码，但它还允许定义其他编程语言，比如 C 和 Ruby。和MarkDown 相比，它复杂一点，但灵活度更高，制作的文档更加精美，支持自定义语法。在我看来，markdown 好比一张纸，而sphinx好比一本书。如果你觉得你要记录的东西很多，不妨试试sphinx。"
     preview_en: "Sphinx is a tool which allows developers to write their document in plain text and output several formats like PDF, HTML, etc. Sphinx is written in Python and its original design aim is to help to make Python document. And many projects are using sphinx to write their document, for example, matplotlib, scrapy... Sphinx will high light Python codes in default, but it still supports other programming languages like C and Ruby. Comparing to MarkDown, it is a bit more complicated but with higher flexibility and can make a more beautiful document. It also supports customize grammar. In my point of view, markdown is a piece of paper and sphinx is a book. If you want to record many things, why not try to use sphinx?"
     slide: #
