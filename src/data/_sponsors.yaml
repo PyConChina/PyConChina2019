@@ -131,6 +131,14 @@ silver:
     name_en: "Jetbrains"
     intro: "JetBrains creates professional software development tools for coding in Kotlin, Python,  Java, and more languages, as well as advanced team collaboration tools."
     intro_en: "JetBrains creates professional software development tools for coding in Kotlin, Python,  Java, and more languages, as well as advanced team collaboration tools."
+  -
+    logo: ./asset/images/sponsors/shinnytech.png
+    logo: ../asset/images/sponsors/shinnytech.png
+    link: "https://www.shinnytech.com/tianqin/"
+    name: "信易科技"
+    name_en: "信易科技"
+    intro: "信易科技是一家专注于期货相关领域的 IT 公司。自2006年以来，我们已经向全国超过130家期货公司和数百万终端用户提供了一系列期货相关的软件和服务。旗下的天勤量化软件免费提供完整的Python量化程序框架和数据、交易支持。"
+    intro_en: "信易科技是一家专注于期货相关领域的 IT 公司。自2006年以来，我们已经向全国超过130家期货公司和数百万终端用户提供了一系列期货相关的软件和服务。旗下的天勤量化软件免费提供完整的Python量化程序框架和数据、交易支持。"
 #########################################
 # 青铜级赞助
 #########################################
