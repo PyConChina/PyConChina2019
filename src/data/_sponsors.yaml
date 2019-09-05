@@ -187,7 +187,7 @@ community:
   -
     logo: ./asset/images/sponsors/leetcode.jpg
     logo_en: ../asset/images/sponsors/leetcode.jpg
-    link: "https://leetcode.com"
+    link: "https://leetcode-cn.com"
     name: "力扣"
     name_en: "LeetCode"
   -
@@ -195,4 +195,4 @@ community:
     logo_en: ../asset/images/sponsors/juejin.jpg
     link: "https://juejin.im"
     name: "掘金"
-    name_en: "Juejin"
+    name_en: "JueJin.im"
