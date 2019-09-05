@@ -57,16 +57,15 @@ meta:
     name: 报名平台
     name_en: Registration platform
   -
-    level: community
-    style: inline
-    name: 社区合作伙伴
-    name_en: Community partners
-  -
     level: partners
     style: inline
     name: 战略合作伙伴
     name_en: Partners
-
+  -
+    level: community
+    style: inline
+    name: 社区合作伙伴
+    name_en: Community partners
 
 #########################################
 # 主办方
@@ -157,10 +156,7 @@ book:
     intro: "北京图灵文化发展有限公司，始终以策划出版高质量的科技图书为核心业务。旗下图灵教育品牌是国内计算机图书领域的高端品牌之一。图灵社区是图灵公司打造的综合性服务平台，集图书内容生产、作译者服务、电子书销售、技术人士交流于一体。"
     intro_en: "北京图灵文化发展有限公司，始终以策划出版高质量的科技图书为核心业务。旗下图灵教育品牌是国内计算机图书领域的高端品牌之一。图灵社区是图灵公司打造的综合性服务平台，集图书内容生产、作译者服务、电子书销售、技术人士交流于一体。"
 
-#########################################
-# 社区合作伙伴
-#########################################
-community:
+
 
 #########################################
 # 战略合作伙伴
@@ -182,3 +178,21 @@ partners:
     name_en: "西南交通大学 信息科学与技术学院"
     intro: "西南交通大学是国内较早开设电子与信息类专业的学校，早在上世纪六十年代初就创办了计算技术、自动化和无线电技术3个专业，1981年计算机及应用专业获得国内首批硕士学位授予权。"
     intro_en: "西南交通大学是国内较早开设电子与信息类专业的学校，早在上世纪六十年代初就创办了计算技术、自动化和无线电技术3个专业，1981年计算机及应用专业获得国内首批硕士学位授予权。"
+
+
+#########################################
+# 社区合作伙伴
+#########################################
+community:
+  -
+    logo: ./asset/images/sponsors/leetcode.jpg
+    logo_en: ../asset/images/sponsors/leetcode.jpg
+    link: "https://leetcode.com"
+    name: "力扣"
+    name_en: "LeetCode"
+  -
+    logo: ./asset/images/sponsors/juejin.jpg
+    logo_en: ../asset/images/sponsors/juejin.jpg
+    link: "https://juejin.im"
+    name: "掘金"
+    name_en: "Juejin"

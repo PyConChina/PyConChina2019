@@ -56,14 +56,17 @@
 </section>
 
 <section id="sponsors" class="section align-center">
-
- <div class="container">
-     <span class="icon section-icon icon-documents-bookmarks-12"></span>
-     <h3>{{ sponsors.sponsor_title }}</h3>
-     <br/>
-     <br/>
+    <span class="icon section-icon icon-documents-bookmarks-12"></span>
+    <h3>{{ sponsors.sponsor_title }}</h3>
+    <br/>
+    <br/>
+ 
     {% macro sponsor_block(sponsor_meta, sponsor_list) %}
-      {% if sponsor_list %} {% for sponsor_info in sponsor_list %}
+       {% if sponsor_list %}
+       <div class="container text-left">
+            <h4>{{ sponsor_meta.name }}</h4>
+            <hr>
+            {% for sponsor_info in sponsor_list %}
             <div class="sponsors-wraper col-sm-6 col-md-4 col-lg-4">
                 <img src="{{ sponsor_info.logo }}" alt="">
                 <div class="support_name">
@@ -72,14 +75,14 @@
                 </div>
                 <div class="support_intro">{{ sponsor_info.intro }}</div>
             </div>
-        {% endfor %} {% endif %}
-      {% endmacro %}
+            {% endfor %}
+        </div>
+        {% endif %}
+    {% endmacro %}
 
     {% for sponsor_meta in sponsors.meta %}
-    {{ sponsor_block(sponsor_meta, sponsors[sponsor_meta.level]) }}
+        {{ sponsor_block(sponsor_meta, sponsors[sponsor_meta.level]) }}
     {% endfor %}
- </div>
-
 </section>
 
 <section id="contacts">
