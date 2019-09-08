@@ -171,8 +171,8 @@ shanghai_speaker_hsiaoming_yang:
     name_en: Hsiaoming Yang
     avatar: ./asset/images/people/hsiaomingyang.jpg
     avatar_en: ../asset/images/people/hsiaomingyang.jpg
-    short_intro: ''
-    short_intro_en: ''
+    short_intro: 'Authlib 和 Typlog 的作者'
+    short_intro_en: 'Author of Authlib and Typlog'
     intro: Authlib 和 Typlog 的作者，Flask 等项目的维护者，Hsiaoming Ltd 创始人。
     intro_en: Founder of Hsiaoming Ltd. Maintainer of Flask. Running Authlib and Typlog.
     city_shanghai: 1
