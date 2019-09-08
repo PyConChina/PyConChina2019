@@ -171,12 +171,12 @@ shanghai_speaker_hsiaoming_yang:
     name_en: Hsiaoming Yang
     avatar: ./asset/images/people/hsiaomingyang.jpg
     avatar_en: ../asset/images/people/hsiaomingyang.jpg
-    short_intro: ''
-    short_intro_en: ''
+    short_intro: Typlog 和 Authlib 作者
+    short_intro_en: Author of Typlog and Authlib
     intro: Authlib 和 Typlog 的作者，Flask 等项目的维护者，Hsiaoming Ltd 创始人。
     intro_en: Founder of Hsiaoming Ltd. Maintainer of Flask. Running Authlib and Typlog.
     city_shanghai: 1
-    topic_title: 从零开始打造一个 Python 开源项目
+    topic_title: 危险的 Flask
 shanghai_speaker_grey_li:
     name: 李辉
     name_en: Grey Li
@@ -189,7 +189,7 @@ shanghai_speaker_grey_li:
         of HelloFlask.com, author of "Python Web Development with Flask". You can
         find more information on his website greyli.com.
     city_shanghai: 1
-    topic_title: Python Web 开发第一课
+    topic_title: 基于 Flask 的 REST API 开发指南
 shanghai_speaker_qiyu_li:
     name: 李齐雨
     name_en: Qiyu Li
@@ -282,24 +282,6 @@ shanghai_speaker_shun_wang:
         Store in Tao Coffee. EMR Subject Matter Expert of AWS.
     city_shanghai: 1
     topic_title: Python 的深度学习实践
-shanghai_speaker_xin_liu0:
-    name: 刘欣-0
-    name_en: Xin Liu-0
-    avatar: ./asset/images/people/liuxin_0.jpeg
-    avatar_en: ../asset/images/people/liuxin_0.jpeg
-    short_intro: 香侬科技算法平台负责人/前网易游戏技术总监
-    short_intro_en: Leader of Shannon Technology Algorithm Platform/Former CTO of
-        NetEase Game
-    intro: 8年 Python 开发者，开源项目 Airtest（https://github.com/AirtestProject）的作者和 Leader，前网易游戏技术专家。现任香侬科技技术合伙人，目前主要从事机器学习项目服务端架构和优化。个人
-        Github（https://github.com/Meteorix）。有丰富的 Python web 后端、游戏服务端、机器学习项目经验。
-    intro_en: Python developer for 8 years, author and leader of open source project
-        Airtest(https://github.com/AirtestProject), former technologist in NetEase
-        Game. Technical partner of Shannon Technology for now. Currently engaged in
-        the server-side architecture and optimazation of machine learning project.
-        My Github page is https://github.com/Meteorix. I have rich experience in Python
-        web backend, game server side and machine learning project.
-    city_shanghai: 1
-    topic_title: Python 机器学习性能优化——以 BERT 服务为例，从1到1000
 shanghai_speaker_dave_glover:
     name: Dave Glover
     name_en: Dave Glover
@@ -317,7 +299,7 @@ shanghai_speaker_dave_glover:
         and cloud-centric computing. I am curious by nature, love to learn and connect
         with the developer community.
     city_shanghai: 1
-    topic_title: Python 调试：专业小贴士和不那么明显的技巧
+    topic_title: 构建 Python 物联网（IoT）图像分类解决方案并与 Azure 无服务器功能集成
 shanghai_speaker_alex_zhao:
     name: Alex Zhao
     name_en: Alex Zhao
@@ -372,7 +354,7 @@ shanghai_speaker_laiqiang_ding:
         Monitoring, Visual Analysis, and Python Core Series. These speeches gain warmly
         welcomed by the audience.
     city_shanghai: 1
-    topic_title: 使用 Python 与 ElasticSearch 做海量数据爬取与分析可视化
+    topic_title: 开源 AIOps 数据中台搭建与 Python 的作用
 shanghai_speaker_zheng_liu:
     name: 刘征
     name_en: Zheng Liu
@@ -421,21 +403,6 @@ shanghai_speaker_yang_liu:
         solutions development.
     city_shanghai: 1
     topic_title: 基于 Python 构建高稳定可扩展的自动化测试集群——网易游戏自动化测试实践分享
-shanghai_speaker_xin_liu1:
-    name: 刘欣-1
-    name_en: Xin Liu-1
-    avatar: ./asset/images/people/liuxin_1.jpeg
-    avatar_en: ../asset/images/people/liuxin_1.jpeg
-    short_intro: 上海澎博财经量化交易产品经理
-    short_intro_en: Quantitative Trading Product Manager of Shanghai Pengbo Finance
-    intro: 主导过二级市场资管系统、风控系统、量化交易系统、策略研究系统的开发，有大量的 Python与金融科技产品开发经验。上海澎博财经是中国最大的衍生品交易系统提供商。
-    intro_en: Has led the development of secondary market management system, wind
-        control system, quantitative trading system and strategy research system.
-        Has rich experience in Python and financial technology product development.
-        Shanghai Pengbo Finance and Economics is the largest provider of derivatives
-        trading system in China.
-    city_shanghai: 1
-    topic_title: Python 在量化投资领域的应用
 shanghai_speaker_jiahua_lu:
     name: 陆佳华
     name_en: Jiahua Lu
@@ -527,7 +494,7 @@ shanghai_speaker_zhaoqiang_chen:
     intro_en: 'Self introductin: He developes D3Pockets which is a software related
         to medicine reserch; Using sphinx making website http://pymol.chenzhaoqiang.com/'
     city_shanghai: 1
-    topic_title: sphinx 制作 WEB 文档
+    topic_title: 使用 Sphinx 制作 Web 文档
 shanghai_speaker_zehua_wei:
     name: 韦泽华
     name_en: Zehua Wei
@@ -615,7 +582,7 @@ beijing_speaker_xiaoqing_zhang:
         of tens of billions of open social networking data based on Python, used as
         a corpus of casual conversation for DuMi.
     city_beijing: 1
-    topic_title: "Python\n  的智能问答之路"
+    topic_title: Python 的智能问答之路
 beijing_speaker_ruoran_pang:
     name: 庞若然
     name_en: Ruoran Pang
@@ -674,7 +641,7 @@ beijing_speaker_yulong_liu:
     intro: 高瓴资本-百丽国际 后端工程师
     intro_en: Gaolu Capital-Baili International, Back-end Engineer
     city_beijing: 1
-    topic_title: requests 长链接与 TIME_WAIT
+    topic_title: Requests 长链接与 TIME_WAIT
 hangzhou_speaker_thautwarm:
     name: thautwarm
     name_en: thautwarm
