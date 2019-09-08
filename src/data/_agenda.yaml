@@ -33,7 +33,7 @@ shanghai:
             intro_en: ''
             slides: ''
         -   time: 09:00～09:20
-            speaker: 主持人 - 李者璈 - 饿了么 高级开发工程师
+            speaker: 主持人
             topic: 开场致辞
             topic_en: Opening Remarks
             intro: ''
@@ -373,7 +373,7 @@ shanghai:
                 with the common problems.
             slides: '#'
         -   time: 16:00～16:40
-            speaker: shanghai_speaker_xin_liu0
+            speaker: 刘欣-0
             topic: Python 机器学习性能优化——以 BERT 服务为例，从1到1000
             topic_en: 'Python Machine Learning Performance Optimization: Take BERT
                 Service as an Example, from 1 to 1000'
@@ -427,9 +427,9 @@ shanghai:
                 and parameters, and create Pipelines to automate the whole life cycle
                 of AI development.<br />Overall support for open source frameworks,
                 technologies and tools: TensorFlow, CNTK, Caffe2, Keras, MxNET, PyTorch,
-                Scikit-learn, Jupyter notebook, VS Code… <br />Flexible model management,
-                deployment mode. Can be easily deployed on Azure, on premises and
-                IoT edge by using the latest container technologies and framworks.'
+                Scikit-learn, Jupyter notebook, VS Code… <br />Flexible model management
+                and deployment mode. It can be easily deployed on Azure, on premises
+                and IoT edge by using the latest container technologies and framworks.'
             slides: '#'
         -   time: 14:20～15:00
             speaker: shanghai_speaker_dawei_wang
@@ -548,7 +548,7 @@ shanghai:
                 automation solutions.
             slides: '#'
         -   time: 16:00～16:40
-            speaker: shanghai_speaker_xin_liu1
+            speaker: 刘欣-1
             topic: Python 在量化投资领域的应用
             topic_en: Application of Python in the Field of Quantitative Investment
             intro: 中国量化投资近年来高速发展。但传统的基于 C++ 的量化投资工具给广大中小投资者设置了过多的门槛。而 Python 出现后，其灵活、易懂、高效便捷的特性使得越来越多的投资者可以进入量化投资领域。我将介绍
@@ -726,8 +726,8 @@ shanghai:
 
                 闪电演讲'
             speaker: shanghai_speaker_zhaoqiang_chen
-            topic: sphinx 制作 WEB 文档
-            topic_en: "Using Sphinx To Make\n  WEB Document"
+            topic: 使用 Sphinx 制作 Web 文档
+            topic_en: Using Sphinx To Make WEB Document
             intro: Sphinx 是一种工具，它允许开发人员以纯文本格式编写文档，可以输出各种文档，如 PDF, HTML 等。Sphinx 是用
                 Python 编写的，并且最初是为 Python 语言文档而创建，多个项目都是用 sphinx 工具制作的文档，如：matplotlib,
                 scrapy, 等。默认情况下，Sphinx 会为 Python 突出显示代码，但它还允许定义其他编程语言，比如 C 和 Ruby。和
@@ -1111,8 +1111,8 @@ beijing:
             slides: '#'
         -   time: 13:30～14:10
             speaker: "Hideyuki\n  Ogawa"
-            topic: "用\n  Dash 实现交互式数据可视化"
-            topic_en: "Interactive\n  Data Visualization With Dash"
+            topic: 用 Dash 实现交互式数据可视化
+            topic_en: Interactive Data Visualization With Dash
             intro: 我将介绍如何使用 Python 的数据分析 web 框架 Dash 有效的实现数据的挖掘、监测及共享。特别是数据共享。<br
                 />・ 共享更多数据的能力。<br />・ 提高最高管理层以及客户对数据的理解，并在数据分析中反映他们的意见。<br />・ 能够加快业务发展。<br
                 />我将使用 Dash 应用进行演示。
@@ -1126,8 +1126,8 @@ beijing:
             slides: '#'
         -   time: 14:10～14:50
             speaker: beijing_speaker_xiaoqing_zhang
-            topic: "Python\n  的智能问答之路"
-            topic_en: "Python's\n  Way To Intelligent QA"
+            topic: Python 的智能问答之路
+            topic_en: Python's Way To Intelligent QA
             intro: ・ 语言比较：Python 在快速编程、开源工具库上的优势<br />・ Python 的智能问答实践及策略快速迭代<br />・
                 性能瓶颈及应对措施<br />・ 期望：语言本身支持更多的协程、高并发、多核等
             intro_en: '・ Language comparison: Python''s advantages in rapid programming
@@ -1207,7 +1207,7 @@ beijing:
                 闪电演讲'
             speaker: beijing_speaker_lizhuo_guo
             topic: Python 与视效行业
-            topic_en: Python With the Visual Effects Industry
+            topic_en: Python with the Visual Effects Industry
             intro: 介绍 Python 在视效行业的应用与案例，包括视效行业特点，视效制作流程简介，炫酷的视效镜头如何从创意想象变成观众看到的效果，国内视效公司与国外视效公司的差距，Python
                 在视效制作领域的应用，希望通过主题分享让更多的程序员了解视效技术，加入视效行业，让大荧幕上呈现更多精彩的画面。
             intro_en: I will introduce applications and cases of Python in the visual
@@ -1224,8 +1224,8 @@ beijing:
 
                 闪电演讲'
             speaker: beijing_speaker_yulong_liu
-            topic: requests 长链接与 TIME_WAIT
-            topic_en: requests Long Links and TIME_WAIT
+            topic: Requests 长链接与 TIME_WAIT
+            topic_en: Requests Long Links and TIME_WAIT
             intro: 去年服务拆分时，为了给内部服务间 http 调用加上默认的重试次数，把 requests.get 改成了 request.Session().get，中间加了
                 HTTPAdapter 但是忘记了关闭 tcp 链接，初期请求量小没啥问题，后来并发一高就会出现建立链接失败的问题，而且报错还都是重试次数耗尽，一开始有同学改了
                 timeout，但这也不是 timeout 的问题啊，这链接都没建立成功…这个问题困扰了我们好久。后来我想起之前听过百度的一个分享，里面有讲类似的问题，于是去翻了一圈视频，仔细了解了这类情况，又去重读了
@@ -1700,16 +1700,16 @@ chengdu:
                 introduce how to extend semantics under the current Python syntax.
             slides: '#'
         -   time: 12:20～13:30
-            speaker: 午间休息
-            topic: 主题待定
+            speaker: ''
+            topic: 午间休息
             topic_en: To be determined
             intro: ''
             intro_en: ''
             slides: '#'
         -   time: 13:30～14:10
             speaker: ''
-            topic: 主题待定
-            topic_en: To be determined
+            topic: 茶歇
+            topic_en: Tea Break
             intro: ''
             intro_en: ''
             slides: ''
@@ -1781,10 +1781,10 @@ chengdu:
             intro_en: Python is widely used in Web development, numerical computing
                 and hot AI fields, and has made a lot of achievements, which benefit
                 from its strong base libraries and community contribution. But in
-                Block Chains, the frequency of Python is quite different from that
-                of Go, C++, JavaScript, Java and other languages, even compared with
-                some minority languages like Rust. So what's the problem? How can
-                Python emit light and heat in Block Chains? I hope you can reflect
+                Block Chains, the use frequency of Python is quite different from
+                that of Go, C++, JavaScript, Java and other languages, even compared
+                with some minority languages like Rust. So what's the problem? How
+                can Python emit light and heat in Block Chains? I hope you can reflect
                 on this issue together with my speech.
             slides: ''
         actived: active
