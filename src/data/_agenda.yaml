@@ -997,7 +997,7 @@ shanghai:
                 Open Source.<br />Tutorial Content<br />PyCon Debugging Tutorial:
                 https://github.com/gloveboxes/PyCon-Hands-on-Lab'
             slides: '#'
-    actived: actived
+    actived: active
 beijing:
     city: beijing
     name: 北京
