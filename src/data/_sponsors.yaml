@@ -1,198 +1,200 @@
 sponsor_title: 合作伙伴
 sponsor_title_en: Sponsors
 meta:
-  -
-    level: organizer
+-   level: organizer
     style: big
     name: 主办方
     name_en: Organizer
-  -
-    level: diamond
+-   level: diamond
     style: inline
     name: 钻石赞助
     name_en: Diamond
-  -
-    level: platinum
+-   level: platinum
     style: inline
     name: 白金赞助
     name_en: Platinum
-  -
-    level: gold
+-   level: gold
     style: inline
     name: 黄金赞助
     name_en: Gold
-  -
-    level: silver
+-   level: silver
     style: inline
     name: 白银赞助
     name_en: Silver
-  -
-    level: bronze
+-   level: bronze
     style: inline
     name: 青铜赞助
     name_en: Bronze
-  -
-    level: support
+-   level: support
     style: inline
     name: 特别支持
     name_en: Special
-  -
-    level: assist
+-   level: assist
     style: big
     name: 协办方
     name_en: Assist
-  -
-    level: book
+-   level: book
     style: inline
     name: 图书赞助
     name_en: Book
-  -
-    level: video
+-   level: video
     style: inline
     name: 视频支持
     name_en: Video
-  -
-    level: signup
+-   level: signup
     style: inline
     name: 报名平台
     name_en: Registration platform
-  -
-    level: partners
+-   level: partners
     style: inline
     name: 战略合作伙伴
     name_en: Partners
-  -
-    level: community
+-   level: community
     style: inline
     name: 社区合作伙伴
     name_en: Community partners
-
-#########################################
-# 主办方
-#########################################
 organizer:
-  -
-    logo: ./asset/images/sponsors/pycon.jpeg
-    logo: ../asset/images/sponsors/pycon.jpeg
-    link: "https://pychina.org"
-    name: "PyChina - Python 中国社区"
-    name_en: "PyChina"
-    intro: "PyChina于2014年继2002年成立的CPyUG社区之后，在广大Python爱好者的推动下为宣传和发展Python而成立的。不定期推动，促进各地Python线下活动和在线活动，主办PyCon大会。"
-    intro_en: "After the establishment of CPyUG, lots of Python fans set up a new group called PyChina in 2014 to advertise and develop Python. PyChina will encourage online and offline activities from all over China, especially PyCon."
-
-#########################################
-# 钻石级
-#########################################
+-   logo: ./asset/images/sponsors/pycon.jpeg
+    logo_en: ../asset/images/sponsors/pycon.jpeg
+    link: https://pychina.org
+    name: PyChina - Python 中国社区
+    name_en: PyChina
+    intro: 继2002年成立的 CPyUG 社区之后，在广大 Python 爱好者的推动下，为宣传和发展 Python，PyChina 于2014年成立。PyChina
+        会不定期推动，促进各地 Python 线下活动和在线活动，主办 PyCon 大会。
+    intro_en: After the establishment of CPyUG in 2002, lots of Python fans set up
+        a new group called PyChina in 2014 to advertise and develop Python. PyChina
+        will encourage online and offline activities from all over China, especially
+        PyCon.
 diamond:
-  -
-    logo: ./asset/images/sponsors/azure.png
-    logo: ../asset/images/sponsors/azure.png
-    link: "https://azure.microsoft.com/zh-cn/"
-    name: "Microsoft Azure"
-    name_en: "Microsoft Azure"
-    intro: "高效、混合、智能、可信赖。Azure 是一个不断扩展的云计算服务集合，它可以帮助组织应对各种商业挑战。通过 Azure，公司和组织可使用首选工具和框架，在大规模全球性网络上随心所欲地构建、管理和部署应用程序。"
-    intro_en: "Productive, Hybrid, Intelligent and Trusted. Azure is an ever-expanding set of cloud computing services to help your organization meet its business challenges. With Azure, your business or organization has the freedom to build, manage, and deploy applications on a massive, global network using your preferred tools and frameworks."
-
-#########################################
-# 白金级
-#########################################
+-   logo: ./asset/images/sponsors/azure.png
+    logo_en: ../asset/images/sponsors/azure.png
+    link: https://azure.microsoft.com/zh-cn/
+    name: Microsoft Azure
+    name_en: Microsoft Azure
+    intro: 高效、混合、智能、可信赖。Azure 是一个不断扩展的云计算服务集合，它可以帮助组织应对各种商业挑战。通过 Azure，公司和组织可使用首选工具和框架，在大规模全球性网络上随心所欲地构建、管理和部署应用程序。
+    intro_en: Productive, Hybrid, Intelligent and Trusted. Azure is an ever-expanding
+        set of cloud computing services to help your organization meet its business
+        challenges. With Azure, your business or organization has the freedom to build,
+        manage, and deploy applications on a massive, global network using your preferred
+        tools and frameworks.
 platinum:
-  -
-    logo: ./asset/images/sponsors/aws.png
-    logo: ../asset/images/sponsors/aws.png
-    link: "https://amazonaws-china.com/cn/developer/?nc1=f_dr"
-    name: "AWS"
-    name_en: "AWS"
-    intro: "13 年以来，Amazon Web Services（AWS）一直是世界上服务丰富、应用广泛的云服务平台。全球数百万客户通过AWS的服务强化其基础设施，提高敏捷性，降低成本。更多信息请访问：http://aws.amazon.com"
-    intro_en: "For 13 years, Amazon Web Services has been the world’s most comprehensive and broadly adopted cloud platform. Millions of customers trust AWS to power their infrastructure, become more agile, and lower costs. To learn more about AWS, visit aws.amazon.com."
-
-#########################################
-# 黄金级
-#########################################
+-   logo: ./asset/images/sponsors/aws.png
+    logo_en: ../asset/images/sponsors/aws.png
+    link: https://amazonaws-china.com/cn/developer/?nc1=f_dr
+    name: AWS
+    name_en: AWS
+    intro: 13年以来，Amazon Web Services（AWS）一直是世界上服务丰富、应用广泛的云服务平台。通过位于美国、澳大利亚、巴林、巴西、加拿大、中国、法国、德国、印度、爱尔兰、日本、韩国、新加坡、瑞典和英国的
+        22 个地理区域、69个可用区（AZ），AWS 向客户提供超过165项功能全面的服务，涵盖计算、存储、数据库、联网、分析、机器人、机器学习与人工智能、物联网、移动、安全、混合云、虚拟现实与增强现实、媒体，以及应用服务、部署与管理等方面。全球数百万客户，包括发展迅速的初创公司、大型企业和领先的政府机构信赖
+        AWS，通过 AWS 的服务强化其基础设施，提高敏捷性，降低成本。
+    intro_en: For 13 years, Amazon Web Services has been the world’s most comprehensive
+        and broadly adopted cloud platform. AWS offers over 165 fully featured services
+        for compute, storage, databases, networking, analytics, robotics, machine
+        learning and artificial intelligence (AI), Internet of Things (IoT), mobile,
+        security, hybrid, virtual and augmented reality (VR and AR), media, and application
+        development, deployment, and management from 69 Availability Zones (AZs) within
+        22 geographic regions, spanning the U.S., Australia, Bahrain, Brazil, Canada,
+        China, France, Germany, Hong Kong Special Administrative Region, India, Ireland,
+        Japan, Korea, Singapore, Sweden, and the UK. Millions of customers—including
+        the fastest-growing startups, largest enterprises, and leading government
+        agencies—trust AWS to power their infrastructure, become more agile, and lower
+        costs.
 gold:
-  -
-    logo: ./asset/images/sponsors/elastic.png
-    logo: ../asset/images/sponsors/elastic.png
-    link: "https://www.elastic.co/cn/"
-    name: "Elastic"
-    name_en: "Elastic"
-    intro: "Elastic是一家搜索公司。作为Elastic Stack（Elasticsearch，Kibana，Beats和Logstash）的创建者，Elastic构建了自我管理和SaaS产品，使数据可以实时，大规模地用于搜索，日志记录，安全和分析用例。"
-    intro_en: "Elastic is a search company. As the creators of the Elastic Stack (Elasticsearch, Kibana, Beats, and Logstash), Elastic builds self-managed and SaaS offerings that make data usable in real time and at scale for search, logging, security, and analytics use cases. Learn more at elastic.co."
-#########################################
-# 白银级赞助
-#########################################
+-   logo: ./asset/images/sponsors/elastic.png
+    logo_en: ../asset/images/sponsors/elastic.png
+    link: https://www.elastic.co/cn/
+    name: Elastic
+    name_en: Elastic
+    intro: Elastic 是一家搜索公司。作为 Elastic Stack（Elasticsearch，Kibana，Beats和Logstash）的创建者，Elastic
+        构建了自我管理和SaaS 产品，使数据可以实时，大规模地用于搜索，日志记录，安全和分析用例。
+    intro_en: Elastic is a search company. As the creators of the Elastic Stack (Elasticsearch,
+        Kibana, Beats, and Logstash), Elastic builds self-managed and SaaS offerings
+        that make data usable in real time and at scale for search, logging, security,
+        and analytic use cases.
+-   logo: ./asset/images/sponsors/avnet.png
+    logo_en: ../asset/images/sponsors/avnet.png
+    link: https://www.avnet.com/wps/portal/apac/
+    name: 安富利
+    name_en: Avnet
+    intro: 从构思到设计，从创建原型到批量生产，安富利在产品生命周期的每一阶段为客户提供支持。我们以全面的设计和供应链服务，引导决定 技术变革步伐的创新者。近一世纪以来，安富利协助全球客户和供应商不断将技术成果转化为现实。立即与安富利团队联系，了解满足您
+        业务需求的应用，充分利用物联网带来的发展商机。
+    intro_en: From idea to design and from prototype to production, Avnet supports
+        customers at each stage of a product’s lifecycle. A comprehensive portfolio
+        of design and supply chain services make Avnet the guide for innovators who
+        set the pace for technical change. For nearly a century, Avnet has helped
+        its customers and suppliers around the world realize the possibilities of
+        technological transformation.
 silver:
-  -
-    logo: ./asset/images/sponsors/jetbrains.png
-    logo: ../asset/images/sponsors/jetbrains.png
-    link: "https://www.jetbrains.com"
-    name: "Jetbrains"
-    name_en: "Jetbrains"
-    intro: "JetBrains creates professional software development tools for coding in Kotlin, Python,  Java, and more languages, as well as advanced team collaboration tools."
-    intro_en: "JetBrains creates professional software development tools for coding in Kotlin, Python,  Java, and more languages, as well as advanced team collaboration tools."
-  -
-    logo: ./asset/images/sponsors/shinnytech.png
-    logo: ../asset/images/sponsors/shinnytech.png
-    link: "https://www.shinnytech.com/tianqin/"
-    name: "信易科技"
-    name_en: "信易科技"
-    intro: "信易科技是一家专注于期货相关领域的 IT 公司。自2006年以来，我们已经向全国超过130家期货公司和数百万终端用户提供了一系列期货相关的软件和服务。旗下的天勤量化软件免费提供完整的Python量化程序框架和数据、交易支持。"
-    intro_en: "信易科技是一家专注于期货相关领域的 IT 公司。自2006年以来，我们已经向全国超过130家期货公司和数百万终端用户提供了一系列期货相关的软件和服务。旗下的天勤量化软件免费提供完整的Python量化程序框架和数据、交易支持。"
-#########################################
-# 青铜级赞助
-#########################################
-bronze:
-
-#########################################
-# 图书赞助
-#########################################
+-   logo: ./asset/images/sponsors/jetbrains.png
+    logo_en: ../asset/images/sponsors/jetbrains.png
+    link: http://www.jetbrains.com
+    name: Jetbrains
+    name_en: Jetbrains
+    intro: Jetbrains 制造了许多专业的 IDE，适用于 Kotlin, Python,  Java 等语言。它开发了杰出的能够帮助团队更好合作的辅助软件。
+    intro_en: JetBrains creates professional software development tools for coding
+        in Kotlin, Python,  Java, and more languages, as well as advanced team collaboration
+        tools.
+-   logo: ./asset/images/sponsors/shinnytech.png
+    logo_en: ../asset/images/sponsors/shinnytech.png
+    link: https://www.shinnytech.com/tianqin/
+    name: 信易科技
+    name_en: Xinyi Technology
+    intro: 信易科技是一家专注于期货相关领域的 IT 公司。自2006年以来，我们已经向全国超过130家期货公司和数百万终端用户提供了一系列期货相关的软件和服务。旗下的天勤量化软件免费提供完整的Python量化程序框架和数据、交易支持。
+    intro_en: Xinyi Technology is an IT company specializing in futures-related fields.
+        Since 2006, we have provided a range of futures-related software and services
+        to more than 130 futures companies and millions of end users across the country.
+        Tianqin Quantification Software under Xinyi Technology provides complete Python
+        Quantization Program Framework and data, transaction supoort free of charge.
+bronze: []
+support: []
+assist: []
 book:
-  -
-    logo: ./asset/images/sponsors/turing.jpeg
+-   logo: ./asset/images/sponsors/turing.jpeg
     logo_en: ../asset/images/sponsors/turing.jpeg
-    link: "https://ituring.cn"
-    name: "图灵教育"
-    name_en: "Turing"
-    intro: "北京图灵文化发展有限公司，始终以策划出版高质量的科技图书为核心业务。旗下图灵教育品牌是国内计算机图书领域的高端品牌之一。图灵社区是图灵公司打造的综合性服务平台，集图书内容生产、作译者服务、电子书销售、技术人士交流于一体。"
-    intro_en: "北京图灵文化发展有限公司，始终以策划出版高质量的科技图书为核心业务。旗下图灵教育品牌是国内计算机图书领域的高端品牌之一。图灵社区是图灵公司打造的综合性服务平台，集图书内容生产、作译者服务、电子书销售、技术人士交流于一体。"
-
-
-
-#########################################
-# 战略合作伙伴
-#########################################
+    link: https://ituring.cn
+    name: 图灵教育
+    name_en: Turing
+    intro: 北京图灵文化发展有限公司，始终以策划出版高质量的科技图书为核心业务。旗下图灵教育品牌是国内计算机图书领域的高端品牌之一。图灵社区是图灵公司打造的综合性服务平台，集图书内容生产、作译者服务、电子书销售、技术人士交流于一体。
+    intro_en: Beijing Turing Culture Development Co., Ltd. always takes the planning
+        and publishing of high-quality science and technology books as its core business.
+        Its brand, Turing education is one of the high-end brands in the field of
+        computer related books in China. Turing Community is a comprehensive service
+        platform created by Turing, which integrates book content production, translator
+        service, e-book sales, and technical exchanges.
+video: []
+signup: []
 partners:
-  -
-    logo: ./asset/images/sponsors/360.png
+-   logo: ./asset/images/sponsors/360.png
     logo_en: ../asset/images/sponsors/360.png
-    link: "https://www.360.cn/"
-    name: "360技术委员会 & 360大学"
-    name_en: "360 Technical Committee & 360 University"
-    intro: "360技术委员会（简称：TC）成立于2012年，是一个虚拟组织，由来自360各个领域的技术专家组成。是公司技术专业领域的最高管理机构。"
-    intro_en: "360 Technical Committee ( Abbreviation: TC ) was found in 2012, it is a virtual organization, consist of experts from every fields in 360. It is the highest management organization in the company's technical field."
-  -
-    logo: ./asset/images/sponsors/sistswjtu.png
+    link: https://www.360.cn/
+    name: 360技术委员会 & 360大学
+    name_en: 360 Technical Committee & 360 University
+    intro: 360技术委员会（简称：TC）成立于2012年，是一个虚拟组织，由来自360各个领域的技术专家组成。是公司技术专业领域的最高管理机构。
+    intro_en: '360 Technical Committee ( Abbreviation: TC ) was found in 2012. It
+        is a virtual organization and consist of experts from every fields in 360.
+        It is the highest management organization in the company''s technical field.'
+-   logo: ./asset/images/sponsors/sistswjtu.png
     logo_en: ../asset/images/sponsors/sistswjtu.png
-    link: "http://sist.swjtu.edu.cn"
-    name: "西南交通大学 信息科学与技术学院"
-    name_en: "西南交通大学 信息科学与技术学院"
-    intro: "西南交通大学是国内较早开设电子与信息类专业的学校，早在上世纪六十年代初就创办了计算技术、自动化和无线电技术3个专业，1981年计算机及应用专业获得国内首批硕士学位授予权。"
-    intro_en: "西南交通大学是国内较早开设电子与信息类专业的学校，早在上世纪六十年代初就创办了计算技术、自动化和无线电技术3个专业，1981年计算机及应用专业获得国内首批硕士学位授予权。"
-
-
-#########################################
-# 社区合作伙伴
-#########################################
+    link: http://sist.swjtu.edu.cn
+    name: 西南交通大学 信息科学与技术学院
+    name_en: Southwest Jiaotong University
+    intro: 西南交通大学是国内较早开设电子与信息类专业的学校，早在上世纪六十年代初就创办了计算技术、自动化和无线电技术3个专业，1981年计算机及应用专业获得国内首批硕士学位授予权。
+    intro_en: Southwest Jiaotong University is a school that opened electronics and
+        information majors earlier in China. It started three majors in computing
+        technology, automation and radio technology in the early 1960s. In 1981, the
+        computer and application majors obtained the first batch of master's degrees
+        in China.
 community:
-  -
-    logo: ./asset/images/sponsors/leetcode.jpg
+-   logo: ./asset/images/sponsors/leetcode.jpg
     logo_en: ../asset/images/sponsors/leetcode.jpg
-    link: "https://leetcode-cn.com"
-    name: "力扣"
-    name_en: "LeetCode"
-  -
-    logo: ./asset/images/sponsors/juejin.jpg
+    link: https://leetcode-cn.com
+    name: 力扣
+    name_en: LeetCode
+    intro: ''
+    intro_en: ''
+-   logo: ./asset/images/sponsors/juejin.jpg
     logo_en: ../asset/images/sponsors/juejin.jpg
-    link: "https://juejin.im"
-    name: "掘金"
-    name_en: "JueJin.im"
+    link: https://juejin.im
+    name: 掘金
+    name_en: JueJin.im
+    intro: ''
+    intro_en: ''

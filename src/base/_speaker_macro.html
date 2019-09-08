@@ -1,24 +1,25 @@
 {% macro speaker_block(speaker_city, speaker_list, extra_class) %}
 <div class="container">
-	<span class="icon section-icon icon-faces-users-04"></span>
-	<h3>{{ speaker_city }}</h3>
-	<br />
-	<br />
+    <span class="icon section-icon icon-faces-users-04"></span>
+    <h3>{{ speaker_city }}</h3>
+    <br />
+    <br />
     {% set speaker_list_len = speaker_list | length %}
     {% for i in range(0, speaker_list_len, 3) %}
-        <!-- 每行显示3个讲师 -->
-      {% for j in range(0, 3 if speaker_list_len - i > 3 else speaker_list_len - i) %}
-      {% set cur_speaker = speaker_list[i + j] %}
-        <div class="col-sm-4 speaker__colWraper col-xs-6">
-            <div class="speaker">
-                <div class="photo-wrapper rounded"><img src="{{ cur_speaker.avatar }}" alt="{{ cur_speaker.name }}" class="img-responsive"></div>
-                <h3 class="name">{{ cur_speaker.name }}</h3>
-                <div>{{ cur_speaker.short_intro }}</div>
-                <div style="font-weight: bold; margin-top: 6px;">{{ cur_speaker.shanghai_topic.title }}</div>
-<!--                <p class="text-alt"><small>{{ cur_speaker.intro }}</small></p>-->
-            </div>
+    <!-- 每行显示3个讲师 -->
+    {% for j in range(0, 3 if speaker_list_len - i > 3 else speaker_list_len - i) %}
+    {% set cur_speaker = speaker_list[i + j] %}
+    <div class="col-sm-4 speaker__colWraper col-xs-6">
+        <div class="speaker">
+            <div class="photo-wrapper rounded"><img src="{{ cur_speaker.avatar }}" alt="{{ cur_speaker.name }}"
+                    class="img-responsive"></div>
+            <h3 class="name">{{ cur_speaker.name }}</h3>
+            <div>{{ cur_speaker.short_intro }}</div>
+            <div style="font-weight: bold; margin-top: 6px;">{{ cur_speaker.topic_title }}</div>
+            <!--                <p class="text-alt"><small>{{ cur_speaker.intro }}</small></p>-->
         </div>
-      {% endfor %}
+    </div>
+    {% endfor %}
     {% endfor %}
 </div>
 {% endmacro %}
