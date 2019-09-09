@@ -27,19 +27,12 @@ shanghai:
         speechs:
         -   time: 08:30～09:00
             speaker: ''
-            topic: 签到
+            topic: 签到/主持人开场致辞
             topic_en: Check In
             intro: ''
             intro_en: ''
             slides: ''
-        -   time: 09:00～09:20
-            speaker: 主持人
-            topic: 开场致辞
-            topic_en: Opening Remarks
-            intro: ''
-            intro_en: ''
-            slides: ''
-        -   time: 09:20～09:45
+        -   time: 09:00～09:45
             speaker: shanghai_speaker_luciano_ramalho
             topic: Python 的永恒之美
             topic_en: The Timeless Beauty of Python
