@@ -373,7 +373,7 @@ shanghai:
                 with the common problems.
             slides: '#'
         -   time: 16:00～16:40
-            speaker: 刘欣-0
+            speaker: shanghai_speaker_xin_liu_a
             topic: Python 机器学习性能优化——以 BERT 服务为例，从1到1000
             topic_en: 'Python Machine Learning Performance Optimization: Take BERT
                 Service as an Example, from 1 to 1000'
@@ -548,7 +548,7 @@ shanghai:
                 automation solutions.
             slides: '#'
         -   time: 16:00～16:40
-            speaker: 刘欣-1
+            speaker: shanghai_speaker_xin_liu_b
             topic: Python 在量化投资领域的应用
             topic_en: Application of Python in the Field of Quantitative Investment
             intro: 中国量化投资近年来高速发展。但传统的基于 C++ 的量化投资工具给广大中小投资者设置了过多的门槛。而 Python 出现后，其灵活、易懂、高效便捷的特性使得越来越多的投资者可以进入量化投资领域。我将介绍
@@ -680,7 +680,7 @@ shanghai:
 
                 闪电演讲'
             speaker: shanghai_speaker_xiao_tan
-            topic: 500行 Python 写一个渲染器
+            topic: 500 行 Python 写一个渲染器
             topic_en: Make A Renderer Within 500 Lines Python Codes
             intro: 图形学是很有意思的一门学科，用简洁优雅的 Python 来实现图形学算法，更是一件充满了情怀和乐趣的事。在这个主题中我将分享用
                 Python 实现一个简单的软件渲染器的过程中遇到的一些有意思的事情。
