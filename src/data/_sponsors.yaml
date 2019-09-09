@@ -83,21 +83,12 @@ platinum:
     link: https://amazonaws-china.com/cn/developer/?nc1=f_dr
     name: AWS
     name_en: AWS
-    intro: 13年以来，Amazon Web Services（AWS）一直是世界上服务丰富、应用广泛的云服务平台。通过位于美国、澳大利亚、巴林、巴西、加拿大、中国、法国、德国、印度、爱尔兰、日本、韩国、新加坡、瑞典和英国的
-        22 个地理区域、69个可用区（AZ），AWS 向客户提供超过165项功能全面的服务，涵盖计算、存储、数据库、联网、分析、机器人、机器学习与人工智能、物联网、移动、安全、混合云、虚拟现实与增强现实、媒体，以及应用服务、部署与管理等方面。全球数百万客户，包括发展迅速的初创公司、大型企业和领先的政府机构信赖
+    intro: 13年以来，Amazon Web Services（AWS）一直是世界上服务丰富、应用广泛的云服务平台。全球数百万客户，包括发展迅速的初创公司、大型企业和领先的政府机构信赖
         AWS，通过 AWS 的服务强化其基础设施，提高敏捷性，降低成本。
     intro_en: For 13 years, Amazon Web Services has been the world’s most comprehensive
-        and broadly adopted cloud platform. AWS offers over 165 fully featured services
-        for compute, storage, databases, networking, analytics, robotics, machine
-        learning and artificial intelligence (AI), Internet of Things (IoT), mobile,
-        security, hybrid, virtual and augmented reality (VR and AR), media, and application
-        development, deployment, and management from 69 Availability Zones (AZs) within
-        22 geographic regions, spanning the U.S., Australia, Bahrain, Brazil, Canada,
-        China, France, Germany, Hong Kong Special Administrative Region, India, Ireland,
-        Japan, Korea, Singapore, Sweden, and the UK. Millions of customers—including
-        the fastest-growing startups, largest enterprises, and leading government
-        agencies—trust AWS to power their infrastructure, become more agile, and lower
-        costs.
+        and broadly adopted cloud platform. Millions of customers—including the fastest-growing
+        startups, largest enterprises, and leading government agencies—trust AWS to
+        power their infrastructure, become more agile, and lower costs.
 gold:
 -   logo: ./asset/images/sponsors/elastic.png
     logo_en: ../asset/images/sponsors/elastic.png
@@ -163,6 +154,20 @@ book:
 video: []
 signup: []
 partners:
+-   logo: ./asset/images/sponsors/youdao.png
+    logo_en: ../asset/images/sponsors/youdao.png
+    link: https://tongchuan.youdao.com/
+    name: 有道同传[同传支持]
+    name_en: Youdao Simultaneous Transmission
+    intro: 网易有道公司成立于2006年，是一家以技术驱动产品的教育科技公司。致力于让语言交流和学习工作更加轻松高效，打造了一系列深受用户喜欢的口碑型大众学习工具产品，包括有道词典、有道云笔记、有道翻译官、有道精品课。在2018年，推出有道同传，旨在为各类会议提供精准可靠专业的机器同传服务。
+    intro_en: NetEase Youdao Company was founded in 2006. It is a technology-driven
+        educational technology company. It dedicates to make language communication
+        and learning easier and more efficient, and have created a series of popular
+        learning tools which are popular with users, including Youdao Dictionary,
+        Youdao Cloud Note, Youdao Translation Officer and Youdao Excellent Courses.
+        In 2018, Youdao simultaneous Interpretation was launched to provide accurate,
+        reliable and professional machine simultaneous interpreting services for various
+        conferences.
 -   logo: ./asset/images/sponsors/360.png
     logo_en: ../asset/images/sponsors/360.png
     link: https://www.360.cn/
