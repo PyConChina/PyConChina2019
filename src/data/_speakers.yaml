@@ -12,6 +12,7 @@ shanghai_speaker_luciano_ramalho:
         the first hackerspace in Brazil.
     city_shanghai: 1
     topic_title: Python 的永恒之美
+    topic_title_en: The Timeless Beauty of Python
 shanghai_speaker_rong_lu:
     name: 陆榕
     name_en: Rong Lu
@@ -30,6 +31,8 @@ shanghai_speaker_rong_lu:
     city_shanghai: 1
     topic_title: Python 在 Azure Notebook 产品发展中的核心地位以及通过 Visual Studio Code 的最佳 Azure
         实践
+    topic_title_en: Python's key position in the development of Azure Notebook products
+        and the best Azure practices through Visual Studio Code
 shanghai_speaker_pahud_hsieh:
     name: 谢洪恩
     name_en: Pahud Hsieh
@@ -62,6 +65,8 @@ shanghai_speaker_pahud_hsieh:
         http://github.com/pahud<br />LinkedIn: http://linkedin.com/in/pahud'
     city_shanghai: 1
     topic_title: 从模块化到全球分发，Python 在Serverless 领域你不能错过的最新功能
+    topic_title_en: From Modularization to Global Distribution, Python's Latest Features
+        in Serverless Area that Cannot be Missed
 shanghai_speaker_armin_ronacher:
     name: Armin Ronacher
     name_en: Armin Ronacher
@@ -76,6 +81,7 @@ shanghai_speaker_armin_ronacher:
         on Sentry, an Open Source crash reporting tool.
     city_shanghai: 1
     topic_title: 调试是一种新的发布：慢语言的意外优势
+    topic_title_en: 'Debug is the New Release: The Unexpected Benefits of Slow Languages'
 shanghai_speaker_elizaveta_shashkova:
     name: Elizaveta Shashkova
     name_en: Elizaveta Shashkova
@@ -87,6 +93,7 @@ shanghai_speaker_elizaveta_shashkova:
     intro_en: Working on the Python debugger and Data Science tools.
     city_shanghai: 1
     topic_title: Python 可视化调试器：从内部原理到日常使用
+    topic_title_en: 'Python Visual Debugger: From Internals to Daily Use'
 shanghai_speaker_jiayuan_zhang:
     name: 张佳圆
     name_en: Jiayuan Zhang
@@ -101,6 +108,7 @@ shanghai_speaker_jiayuan_zhang:
         Speaker of PyCon China 2018 and CSDN Python Developers Day.
     city_shanghai: 1
     topic_title: GIL 的过去和未来
+    topic_title_en: The Past and Future of GIL
 shanghai_speaker_giampaolo_rodola:
     name: Giampaolo Rodola
     name_en: Giampaolo Rodola
@@ -110,13 +118,13 @@ shanghai_speaker_giampaolo_rodola:
     short_intro_en: Python Core - Developer
     intro: 我叫 Giampaolo Rodola，来自意大利，从 2010 年开始我加入了 Python 核心开发者的行列，同时我也是 psutil 和
         python FTP server libs 的作者和维护者：<br />https://github.com/giampaolo/psutil<br
-        />https://github.com/giampaolo/pyftpdlib <br />你可以在下列网页了解更多关于我的信息：<br />http://grodola.blogspot.com/p/about.html?m=1
+        />https://github.com/giampaolo/pyftpdlib<br />你可以在下列网页了解更多关于我的信息：<br />http://grodola.blogspot.com/p/about.html?m=1
     intro_en: My name is Giampaolo Rodola, from Italy. I am a python core-dev since
-        2010 and the author and maintainer of psutil and python FTP server libs:<br
-        />https://github.com/giampaolo/psutil<br />https://github.com/giampaolo/pyftpdlib<br
-        />You can read more about me at:<br />http://grodola.blogspot.com/p/about.html?m=1
+        2010 and the author and maintainer of psutil and python FTP server libs:https://github.com/giampaolo/psutilhttps://github.com/giampaolo/pyftpdlibYou
+        can read more about me at:http://grodola.blogspot.com/p/about.html?m=1
     city_shanghai: 1
     topic_title: 使用 Python 加速文件传输和文件复制
+    topic_title_en: Speed Up File Transfers And File Copies In Python
 shanghai_speaker_thautwarm:
     name: thautwarm
     name_en: thautwarm
@@ -155,6 +163,8 @@ shanghai_speaker_thautwarm:
         />8. https://github.com/thautwarm/MLStyle.jl<br />9. https://github.com/thautwarm/LLAst
     city_shanghai: 1
     topic_title: Python 语法扩展框架 Moshmosh 和其上 CPython 兼容的 JIT 实现
+    topic_title_en: Python Syntax Extension Framework Moshmosh And CPython-compatible
+        JIT Implementation On It
 shanghai_speaker_laike9m:
     name: laike9m
     name_en: laike9m
@@ -166,6 +176,7 @@ shanghai_speaker_laike9m:
     intro_en: Working for Google since 2016, using Python since 2012.
     city_shanghai: 1
     topic_title: Python 调试新思路
+    topic_title_en: New Ideas on Python Debug
 shanghai_speaker_hsiaoming_yang:
     name: Hsiaoming Yang
     name_en: Hsiaoming Yang
@@ -177,6 +188,7 @@ shanghai_speaker_hsiaoming_yang:
     intro_en: Founder of Hsiaoming Ltd. Maintainer of Flask. Running Authlib and Typlog.
     city_shanghai: 1
     topic_title: 危险的 Flask
+    topic_title_en: The dangerous Flask
 shanghai_speaker_grey_li:
     name: 李辉
     name_en: Grey Li
@@ -190,6 +202,7 @@ shanghai_speaker_grey_li:
         find more information on his website greyli.com.
     city_shanghai: 1
     topic_title: 基于 Flask 的 REST API 开发指南
+    topic_title_en: Building REST API with Flask
 shanghai_speaker_qiyu_li:
     name: 李齐雨
     name_en: Qiyu Li
@@ -201,6 +214,7 @@ shanghai_speaker_qiyu_li:
     intro_en: ''
     city_shanghai: 1
     topic_title: Django 中的 GraphQL
+    topic_title_en: GraphQL in Django
 shanghai_speaker_xintao_lai:
     name: 赖信涛
     name_en: Xintao Lai
@@ -213,6 +227,7 @@ shanghai_speaker_xintao_lai:
         Parallel Programming Cookbook", blog: www.kawabangga.com'
     city_shanghai: 1
     topic_title: Django Migrations 的工作原理
+    topic_title_en: Django Migration Under the Hood
 shanghai_speaker_rujia_zhang:
     name: 张汝家
     name_en: Rujia Zhang
@@ -224,6 +239,7 @@ shanghai_speaker_rujia_zhang:
     intro_en: ''
     city_shanghai: 1
     topic_title: 从 thriftpy 中学习 rpc 协议
+    topic_title_en: Learning RPC Protocol from thriftpy
 shanghai_speaker_xuye_qin:
     name: 秦续业
     name_en: Xuye Qin
@@ -236,6 +252,7 @@ shanghai_speaker_xuye_qin:
         and architect of the Mars project.
     city_shanghai: 1
     topic_title: Mars：numpy 与 pandas 的并行和分布式加速器
+    topic_title_en: 'Mars: Concurrence and Distributed Accelerator for Numpy and Pandas'
 shanghai_speaker_xiaojie_zhang:
     name: 张校捷
     name_en: Xiaojie Zhang
@@ -253,6 +270,7 @@ shanghai_speaker_xiaojie_zhang:
         learning work.
     city_shanghai: 1
     topic_title: 使用 Python 训练和部署低精度模型
+    topic_title_en: Using Python to Train and Deploy Low-precision Model
 shanghai_speaker_tengjingmeina:
     name: 藤井美娜
     name_en: 藤井美娜
@@ -266,6 +284,8 @@ shanghai_speaker_tengjingmeina:
         and Chinese and Japanese natural language processing.
     city_shanghai: 1
     topic_title: Python 的 NLP 实战分享-如何实现合同风险预测模型
+    topic_title_en: The NLP Practical Sharing In Python - How to Implement Contract
+        Risk Prediction Model
 shanghai_speaker_shun_wang:
     name: 王顺
     name_en: Shun Wang
@@ -282,6 +302,27 @@ shanghai_speaker_shun_wang:
         Store in Tao Coffee. EMR Subject Matter Expert of AWS.
     city_shanghai: 1
     topic_title: Python 的深度学习实践
+    topic_title_en: The Deep Learning Practice of Python
+shanghai_speaker_xin_liu_a:
+    name: 刘欣A
+    name_en: Xin Liu A
+    avatar: ./asset/images/people/liuxin_0.jpeg
+    avatar_en: ../asset/images/people/liuxin_0.jpeg
+    short_intro: 香侬科技算法平台负责人/前网易游戏技术总监
+    short_intro_en: Leader of Shannon Technology Algorithm Platform/Former CTO of
+        NetEase Game
+    intro: 8年 Python 开发者，开源项目 Airtest（https://github.com/AirtestProject）的作者和 Leader，前网易游戏技术专家。现任香侬科技技术合伙人，目前主要从事机器学习项目服务端架构和优化。个人
+        Github（https://github.com/Meteorix）。有丰富的 Python web 后端、游戏服务端、机器学习项目经验。
+    intro_en: Python developer for 8 years, author and leader of open source project
+        Airtest(https://github.com/AirtestProject), former technologist in NetEase
+        Game. Technical partner of Shannon Technology for now. Currently engaged in
+        the server-side architecture and optimazation of machine learning project.
+        My Github page is https://github.com/Meteorix. I have rich experience in Python
+        web backend, game server side and machine learning project.
+    city_shanghai: 1
+    topic_title: Python 机器学习性能优化——以 BERT 服务为例，从1到1000
+    topic_title_en: 'Python Machine Learning Performance Optimization: Take BERT Service
+        as an Example, from 1 to 1000'
 shanghai_speaker_dave_glover:
     name: Dave Glover
     name_en: Dave Glover
@@ -300,6 +341,8 @@ shanghai_speaker_dave_glover:
         with the developer community.
     city_shanghai: 1
     topic_title: 构建 Python 物联网（IoT）图像分类解决方案并与 Azure 无服务器功能集成
+    topic_title_en: Build a Python Internet of Things (IoT) Image Classification Solution
+        and Integrate with Azure Serverless Functions
 shanghai_speaker_alex_zhao:
     name: Alex Zhao
     name_en: Alex Zhao
@@ -313,6 +356,7 @@ shanghai_speaker_alex_zhao:
         on Azure Machine Learning Service with Python. Focus on AI, IOT & DevOps industry.
     city_shanghai: 1
     topic_title: Azure 机器学习
+    topic_title_en: Azure Machine Learning for Python
 shanghai_speaker_dawei_wang:
     name: 王大伟
     name_en: Dawei Wang
@@ -324,6 +368,7 @@ shanghai_speaker_dawei_wang:
     intro_en: ''
     city_shanghai: 1
     topic_title: 基于 Azure 的 Python 机器学习
+    topic_title_en: Python Machine Learning Base on Azure
 shanghai_speaker_jian_zhao:
     name: 赵健
     name_en: Jian Zhao
@@ -338,6 +383,7 @@ shanghai_speaker_jian_zhao:
         with open source ecology.
     city_shanghai: 1
     topic_title: Python on Azure Function
+    topic_title_en: Python on Azure Function
 shanghai_speaker_laiqiang_ding:
     name: 丁来强
     name_en: Laiqiang Ding
@@ -355,6 +401,7 @@ shanghai_speaker_laiqiang_ding:
         welcomed by the audience.
     city_shanghai: 1
     topic_title: 开源 AIOps 数据中台搭建与 Python 的作用
+    topic_title_en: Building of Open Source AIOps Data Center and the Role of Python
 shanghai_speaker_zheng_liu:
     name: 刘征
     name_en: Zheng Liu
@@ -373,6 +420,7 @@ shanghai_speaker_zheng_liu:
         monitoring and AIOps.
     city_shanghai: 1
     topic_title: 分层次构建应用系统的可观测性
+    topic_title_en: Hierarchically Build the Observability of the Application System
 shanghai_speaker_yu_zhang:
     name: 张裕
     name_en: Yu Zhang
@@ -384,6 +432,8 @@ shanghai_speaker_yu_zhang:
     intro_en: ''
     city_shanghai: 1
     topic_title: 从零开始快速构建 DevOps 系统 - 一个小型 to B 团队的 DevOps 系统诞生之路
+    topic_title_en: Quick Construction of DevOps System from zero - The Way To the
+        Birth of A Small to B Team's DevOps System
 shanghai_speaker_yang_liu:
     name: 杨柳
     name_en: Yang Liu
@@ -403,6 +453,24 @@ shanghai_speaker_yang_liu:
         solutions development.
     city_shanghai: 1
     topic_title: 基于 Python 构建高稳定可扩展的自动化测试集群——网易游戏自动化测试实践分享
+    topic_title_en: Building a Highly Stable and Scalable Automated Test Cluster Based
+        on Python - Automation Test Practice Sharing in NetEase Games
+shanghai_speaker_xin_liu_b:
+    name: 刘欣B
+    name_en: Xin Liu B
+    avatar: ./asset/images/people/liuxin_1.jpeg
+    avatar_en: ../asset/images/people/liuxin_1.jpeg
+    short_intro: 上海澎博财经量化交易产品经理
+    short_intro_en: Quantitative Trading Product Manager of Shanghai Pengbo Finance
+    intro: 主导过二级市场资管系统、风控系统、量化交易系统、策略研究系统的开发，有大量的 Python与金融科技产品开发经验。上海澎博财经是中国最大的衍生品交易系统提供商。
+    intro_en: Has led the development of secondary market management system, wind
+        control system, quantitative trading system and strategy research system.
+        Has rich experience in Python and financial technology product development.
+        Shanghai Pengbo Finance and Economics is the largest provider of derivatives
+        trading system in China.
+    city_shanghai: 1
+    topic_title: Python 在量化投资领域的应用
+    topic_title_en: Application of Python in the Field of Quantitative Investment
 shanghai_speaker_jiahua_lu:
     name: 陆佳华
     name_en: Jiahua Lu
@@ -423,6 +491,8 @@ shanghai_speaker_jiahua_lu:
         - Customizable Computing Talent Training Committee.
     city_shanghai: 1
     topic_title: 当 Python 遇上 FPGA – PYNQ 开源项目的实践与体会
+    topic_title_en: When Python Meet FPGA -- the Experience and Feeling of PYNQ Open
+        Source Project
 shanghai_speaker_noah_chen:
     name: Noah Chen
     name_en: Noah Chen
@@ -437,13 +507,14 @@ shanghai_speaker_noah_chen:
     intro_en: Noah is a PyCon Nomad, a volunteer of FOSSASIA, a non-for-profit organization
         for promoting FOSS and open technologies in Asia, and a volunteer of PyCon
         TW/JP/KR/SG/ID/MY/TH/HK/PH and PyCon APAC since 2015. He is also a volunteer
-        and speaker of EuroPython 2018. <br />As a managing member of Python Software
+        and speaker of EuroPython 2018.<br />As a managing member of Python Software
         Foundation, Noah’s wish is to connect everyone who enjoy using Python, and
         try to promote programming education to young generation or everyone who interested
         in programming by teaching basic programming skill using Python and R, for
         example, be a mentor of Hour of Code, or Google Summer of Code with FOSSASIA.
     city_shanghai: 1
     topic_title: Connect to the World of Python's Community
+    topic_title_en: Connect to the World of Pyrhon's Community
 shanghai_speaker_xiao_tan:
     name: 谭啸
     name_en: Xiao Tan
@@ -454,7 +525,8 @@ shanghai_speaker_xiao_tan:
     intro: ''
     intro_en: ''
     city_shanghai: 1
-    topic_title: 500行 Python 写一个渲染器
+    topic_title: 500 行 Python 写一个渲染器
+    topic_title_en: Make A Renderer Within 500 Lines Python Codes
 shanghai_speaker_william_song:
     name: 宋丛威
     name_en: William Song
@@ -467,6 +539,7 @@ shanghai_speaker_william_song:
         my dream is the strong AI
     city_shanghai: 1
     topic_title: 基于 OwlReady2 的人机交互
+    topic_title_en: Human–Machine Interaction Based On OwlReady2
 shanghai_speaker_jondy:
     name: 赵俊德
     name_en: Jondy
@@ -482,6 +555,7 @@ shanghai_speaker_jondy:
         The goal of PyArmor is to make Python applied to commercial application easily.
     city_shanghai: 1
     topic_title: Byte Code 的革命
+    topic_title_en: The Revolution of Byte Code
 shanghai_speaker_zhaoqiang_chen:
     name: 陈照强
     name_en: Zhaoqiang Chen
@@ -495,6 +569,7 @@ shanghai_speaker_zhaoqiang_chen:
         to medicine reserch; Using sphinx making website http://pymol.chenzhaoqiang.com/'
     city_shanghai: 1
     topic_title: 使用 Sphinx 制作 Web 文档
+    topic_title_en: Using Sphinx To Make WEB Document
 shanghai_speaker_zehua_wei:
     name: 韦泽华
     name_en: Zehua Wei
@@ -506,6 +581,7 @@ shanghai_speaker_zehua_wei:
     intro_en: One of the current Developers of VNPY Trading Software.
     city_shanghai: 1
     topic_title: 一键将 C/C++ 代码转换为 Python 能调用的代码
+    topic_title_en: Convert C/C++ Code Into Code That Python Can Call With One Click
 beijing_speaker_heng_cui:
     name: 崔衡
     name_en: Heng Cui
@@ -521,6 +597,8 @@ beijing_speaker_heng_cui:
         python for building automation system, website and NLP based chatbot.
     city_beijing: 1
     topic_title: 基于 PyQt + QScintilla 的 IDE 对 RobotFramework 的 DSL 进行编程
+    topic_title_en: Programming the DSL of RobotFramework Based On the IDE Of PyQt
+        + QScintilla
 beijing_speaker_jintao_zhang:
     name: 张晋涛
     name_en: Jintao Zhang
@@ -533,6 +611,7 @@ beijing_speaker_jintao_zhang:
         author of the book: Kubernets: from getting started to practicing.'
     city_beijing: 1
     topic_title: 云原生时代下 Python 开发的新体验
+    topic_title_en: A new experience of Python development in the Cloud Native
 beijing_speaker_yi_wang:
     name: 王祎
     name_en: Yi Wang
@@ -546,6 +625,8 @@ beijing_speaker_yi_wang:
         pursuit of technological excellence.
     city_beijing: 1
     topic_title: 用 Python 实现文本信息的结构化信息提取
+    topic_title_en: Using Python to Achieve Structured Information Extraction of Text
+        Information
 beijing_speaker_lianghong_fei:
     name: 费良宏
     name_en: Lianghong Fei
@@ -567,6 +648,7 @@ beijing_speaker_lianghong_fei:
         of Web applications, mobile applications and machine learning.
     city_beijing: 1
     topic_title: 在30分钟内迁移 Python Web 应用到无服务器
+    topic_title_en: Migrating Your Python Web App To Serverless In 30 Minutes
 beijing_speaker_xiaoqing_zhang:
     name: 张晓庆
     name_en: Xiaoqing Zhang
@@ -583,6 +665,7 @@ beijing_speaker_xiaoqing_zhang:
         a corpus of casual conversation for DuMi.
     city_beijing: 1
     topic_title: Python 的智能问答之路
+    topic_title_en: Python's Way To Intelligent QA
 beijing_speaker_ruoran_pang:
     name: 庞若然
     name_en: Ruoran Pang
@@ -600,6 +683,7 @@ beijing_speaker_ruoran_pang:
         and the development of dimension tools in iQIYI.
     city_beijing: 1
     topic_title: Python 与 Redis 的一二事
+    topic_title_en: One or Two Things Between Python and Redis
 beijing_speaker_shaoxuan_huang:
     name: 黄少瑄
     name_en: Shaoxuan Huang
@@ -618,6 +702,8 @@ beijing_speaker_shaoxuan_huang:
         to explore more possibilities on the road of data science.
     city_beijing: 1
     topic_title: 图算法你好：反欺诈应用介绍与实作
+    topic_title_en: 'Hello Graph Algorithm: Anti-fraud Application Introduction and
+        Implementation'
 beijing_speaker_lizhuo_guo:
     name: 郭李灼
     name_en: Lizhuo Guo
@@ -631,6 +717,7 @@ beijing_speaker_lizhuo_guo:
         support.
     city_beijing: 1
     topic_title: Python 与视效行业
+    topic_title_en: Python with the Visual Effects Industry
 beijing_speaker_yulong_liu:
     name: 刘玉龙
     name_en: Yulong Liu
@@ -642,6 +729,7 @@ beijing_speaker_yulong_liu:
     intro_en: Gaolu Capital-Baili International, Back-end Engineer
     city_beijing: 1
     topic_title: Requests 长链接与 TIME_WAIT
+    topic_title_en: Requests Long Links and TIME_WAIT
 hangzhou_speaker_thautwarm:
     name: thautwarm
     name_en: thautwarm
@@ -680,6 +768,8 @@ hangzhou_speaker_thautwarm:
         />8. https://github.com/thautwarm/MLStyle.jl<br />9. https://github.com/thautwarm/LLAst
     city_hangzhou: 1
     topic_title: Python 语法扩展框架 Moshmosh 和其上 CPython 兼容的 JIT 实现
+    topic_title_en: Python Syntax Extension Framework Moshmosh And CPython-compatible
+        JIT Implementation On It
 hangzhou_speaker_feng_li:
     name: 李枫
     name_en: Feng Li
@@ -701,6 +791,7 @@ hangzhou_speaker_feng_li:
         conferences and made technology sharing many times.'
     city_hangzhou: 1
     topic_title: 用于 Linux 内核调试的 Python
+    topic_title_en: Python for Linux Kernel Debugging
 shenzhen_speaker_giampaolo_rodola:
     name: Giampaolo Rodola
     name_en: Giampaolo Rodola
@@ -710,13 +801,13 @@ shenzhen_speaker_giampaolo_rodola:
     short_intro_en: Python Core - Developer
     intro: 我叫 Giampaolo Rodola，来自意大利，从 2010 年开始我加入了 Python 核心开发者的行列，同时我也是 psutil 和
         python FTP server libs 的作者和维护者：<br />https://github.com/giampaolo/psutil<br
-        />https://github.com/giampaolo/pyftpdlib <br />你可以在下列网页了解更多关于我的信息：<br />http://grodola.blogspot.com/p/about.html?m=1
+        />https://github.com/giampaolo/pyftpdlib<br />你可以在下列网页了解更多关于我的信息：<br />http://grodola.blogspot.com/p/about.html?m=1
     intro_en: My name is Giampaolo Rodola, from Italy. I am a python core-dev since
-        2010 and the author and maintainer of psutil and python FTP server libs:<br
-        />https://github.com/giampaolo/psutil<br />https://github.com/giampaolo/pyftpdlib<br
-        />You can read more about me at:<br />http://grodola.blogspot.com/p/about.html?m=1
+        2010 and the author and maintainer of psutil and python FTP server libs:https://github.com/giampaolo/psutilhttps://github.com/giampaolo/pyftpdlibYou
+        can read more about me at:http://grodola.blogspot.com/p/about.html?m=1
     city_shenzhen: 1
     topic_title: 加速 Python 中的文件传输和拷贝
+    topic_title_en: Speed up File Transfers and File Copies in Python
 shenzhen_speaker_zheng_liu:
     name: 刘征
     name_en: Zheng Liu
@@ -735,6 +826,7 @@ shenzhen_speaker_zheng_liu:
         monitoring and AIOps.
     city_shenzhen: 1
     topic_title: Google SRE 体系核心基础解读
+    topic_title_en: Interpretation Of the Core Foundation Of the Google SRE System
 shenzhen_speaker_zagfai:
     name: 邝泽徽
     name_en: Zagfai
@@ -751,6 +843,7 @@ shenzhen_speaker_zagfai:
         and automation enthusiast.
     city_shenzhen: 1
     topic_title: 从 Python 开始钱赚钱
+    topic_title_en: Start Making Money with Money by Using Python
 shenzhen_speaker_chao_xie:
     name: 解超
     name_en: Chao Xie
@@ -763,6 +856,7 @@ shenzhen_speaker_chao_xie:
         collection in Gekko Lab.
     city_shenzhen: 1
     topic_title: 一行代码加速科学计算
+    topic_title_en: Boost the Scientific Computing with One Line of Code
 shenzhen_speaker_xi_ming:
     name: 明希
     name_en: Xi Ming
@@ -776,6 +870,7 @@ shenzhen_speaker_xi_ming:
         maintenance of Pipenv.
     city_shenzhen: 1
     topic_title: Pipenv 和 Python 包管理
+    topic_title_en: Pipenv and Package Management in Python
 shenzhen_speaker_yi_huang:
     name: 黄毅
     name_en: Yi Huang
@@ -788,6 +883,7 @@ shenzhen_speaker_yi_huang:
         Researcher, Trading System Optimizer.
     city_shenzhen: 1
     topic_title: Python 前端开发
+    topic_title_en: Frontend Development with Python
 shenzhen_speaker_jianhui_lu:
     name: 卢建晖
     name_en: Jianhui Lu
@@ -799,6 +895,7 @@ shenzhen_speaker_jianhui_lu:
     intro_en: ''
     city_shenzhen: 1
     topic_title: 云中起舞—— Python 的人工智能开发在微软云中的应用
+    topic_title_en: Dance In the Cloud - Application of Python AI In Microsoft Cloud
 shenzhen_speaker_feng_zhao:
     name: 赵丰
     name_en: Feng Zhao
@@ -810,6 +907,7 @@ shenzhen_speaker_feng_zhao:
     intro_en: Engaged in research in machine learning related fields
     city_shenzhen: 1
     topic_title: Python C 拓展在各平台的打包与发布
+    topic_title_en: Pack and Release Python C Extensions In Various Plateforms
 shenzhen_speaker_weikang_peng:
     name: 彭未康
     name_en: Weikang Peng
@@ -821,6 +919,7 @@ shenzhen_speaker_weikang_peng:
     intro_en: New person with one year experience, back-end engineer in a small program.
     city_shenzhen: 1
     topic_title: 为 Python Function 自动生成 Web UI
+    topic_title_en: Automatically Generate Web UI For Python Function
 chengdu_speaker_tengjingmeina:
     name: 藤井美娜
     name_en: 藤井美娜
@@ -834,6 +933,8 @@ chengdu_speaker_tengjingmeina:
         and Chinese and Japanese natural language processing.
     city_chengdu: 1
     topic_title: Python 的 NLP 实战分享-如何实现合同风险预测模型
+    topic_title_en: The NLP Practical Sharing In Python - How to Implement Contract
+        Risk Prediction Model
 chengdu_speaker_zhihang_liu:
     name: 刘知杭
     name_en: Zhihang Liu
@@ -847,6 +948,7 @@ chengdu_speaker_zhihang_liu:
         direction is PLT(Programming Language Theory).
     city_chengdu: 1
     topic_title: 静态类型的 Python
+    topic_title_en: The Static Typed Python
 chengdu_speaker_thautwarm:
     name: thautwarm
     name_en: thautwarm
@@ -885,6 +987,8 @@ chengdu_speaker_thautwarm:
         />8. https://github.com/thautwarm/MLStyle.jl<br />9. https://github.com/thautwarm/LLAst
     city_chengdu: 1
     topic_title: Python 语法扩展框架 Moshmosh 和其上 CPython 兼容的 JIT 实现
+    topic_title_en: Python Syntax Extension Framework Moshmosh And CPython-compatible
+        JIT Implementation On It
 chengdu_speaker_grey_li:
     name: 李辉
     name_en: Grey Li
@@ -898,6 +1002,7 @@ chengdu_speaker_grey_li:
         find more information on his website greyli.com.
     city_chengdu: 1
     topic_title: 基于 Flask 的 REST API 开发指南
+    topic_title_en: Building REST API with Flask
 chengdu_speaker_qiang_wu:
     name: 吴强
     name_en: Qiang Wu
@@ -909,6 +1014,7 @@ chengdu_speaker_qiang_wu:
     intro_en: ''
     city_chengdu: 1
     topic_title: 一次关于 sqlalchemy session 的项目排错经验分享
+    topic_title_en: A Sharing of A Debugging Experience on SQLAlchemy Session
 chengdu_speaker_qian_yan:
     name: 鄢倩
     name_en: Qian Yan
@@ -927,3 +1033,4 @@ chengdu_speaker_qian_yan:
         programming enthusiasts.
     city_chengdu: 1
     topic_title: Python 在区块链领域中的地位
+    topic_title_en: Python's Position in Block Chains
