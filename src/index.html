@@ -85,24 +85,9 @@
     {% endfor %}
 </section>
 
-<section id="contacts">
-    <div class="contacts-wrapper">
-        <div id="wrap" class="my-map">
-            <div id="mapContainer"></div>
-        </div>
-        <div class="container contacts-on-map-container">
-            <div class="contacts-on-map">
-                <h3>{{ message.conference_location_title }}</h3>
-                <ul class="list">
-                    <li><i class="fa fa-map-marker"></i>{{ message.conference_location }}</li>
-                    <!-- <li><i class="fa fa-envelope"></i>info@ventcamp.com</li> -->
-                    <li><i class="fa fa-phone"></i>185 1609 4658</li>
-                    <li><i class="fa fa-clock-o"></i>{{ message.conference_time }}</li>
-                </ul>
-            </div>
-        </div>
+<section id="map">
+    <div class="map-wrapper text-center">
+        <img src="{{ message.map_img }}">
     </div>
 </section>
-
-
 {% endblock %}
