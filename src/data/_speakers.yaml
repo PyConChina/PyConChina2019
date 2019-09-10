@@ -671,10 +671,10 @@ beijing_speaker_ruoran_pang:
     name_en: Ruoran Pang
     avatar: ./asset/images/people/pangruoran.jpeg
     avatar_en: ../asset/images/people/pangruoran.jpeg
-    short_intro: 爱奇艺  DBA
+    short_intro: 爱奇艺影业  DBA
     short_intro_en: DBA in iQIYI
     intro: 从事 DBA 工作7年，经历了oracle10g-12c，percona5.1-5.7，redis2.8-5.0.4，mongodb2.4-4.0.9等多版本
-        db 的维护工作，也经历过网易传媒使用的基础云平台 rds、ncr 的维护工作，目前，在爱奇艺影业，负责电影项目相关的 redis 及 mongodb
+        db 的维护工作，也经历过网易杭州研究院使用的基础云平台 rds、ncr 的维护工作，目前，在爱奇艺影业，负责电影项目相关的 redis 及 mongodb
         维护及运维工具的开发。
     intro_en: 7 years of DBA experience, has experienced oracle10g-12c，percona5.1-5.7，redis2.8-5.0.4，mongodb2.4-4.0.9
         and many other versions of DB maintenance work and has also experienced the
