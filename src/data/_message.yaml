@@ -82,3 +82,9 @@ conference_time_en: "Sept. 21, 2019 8:30 ~ Sept. 22, 2019 17:00"
 
 agenda_title: 日程
 agenda_title_en: Agenda
+
+map_title: 大会地点
+map_title_en: Location
+map_img: ./asset/img/city-map.jpg
+map_img_en: ../asset/img/city-map.jpg
+
