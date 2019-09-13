@@ -13,26 +13,26 @@ shanghai_speaker_luciano_ramalho:
     city_shanghai: 1
     topic_title: Python 的永恒之美
     topic_title_en: The Timeless Beauty of Python
-shanghai_speaker_rong_lu:
-    name: 陆榕
-    name_en: Rong Lu
-    avatar: ./asset/images/people/lurong.png
-    avatar_en: ../asset/images/people/lurong.png
-    short_intro: 微软 Visual Studio Code Python 首席项目经理
-    short_intro_en: Principal Program Manager of Microsoft VS Code for Python
-    intro: 致力于 Visual Studio Code 和 Azure 中的 Python 数据科学工具开发和管理工作。在她获得有计算机科学硕士学位之后，她在
-        Visual Studio 团队从事开发，产品经理等工作已经10多年了。此前，她负责 Visual Studio 中的 C++ 开发部分，以及为游戏和移动开发开发
-        Visual Studio 工具。
-    intro_en: Committed to the development and management of Python data science tools
-        in Visual Studio Code and Azure. After getting her master's degree in computer
-        science, she has been working in the Visual Studio team for R&D, product manager,
-        etc. for more than 10 years. Previously, she was responsible for the C++ development
-        of Visual Studio and developing Visual Studio tools for game and mobile development.
+shanghai_speaker_dave_glover:
+    name: Dave Glover
+    name_en: Dave Glover
+    avatar: ./asset/images/people/dave_glover.png
+    avatar_en: ../asset/images/people/dave_glover.png
+    short_intro: Microsoft Developer Relations
+    short_intro_en: Microsoft Developer Relations
+    intro: 我已经记不清从什么时候开始沉迷于软件开发，我写 C# 与 Python 代码，使用 Windows 和 Linux 系统，同时也会涉足硬件领域。我曾在英国和澳大利亚的微软分部工作，跟客户，合作伙伴和开发者社区都打过交道。多年来，我涉猎过许多技术领域，从
+        Windows 和移动端，web 开发，IoT，通讯到云计算都有涉及。我生性对一切好奇，喜欢与开发者社区一起学习和交流。
+    intro_en: I am a passionate software developer for as long as I can remember,
+        I dream and code in C# and Python, hang out on Windows and Linux, and dabble
+        in maker hardware. I have worked for Microsoft in the UK and Australia across
+        customers, partners and the developer community. Over the years I have covered
+        a broad range of technologies, from Windows and mobile, Web dev, IoT, communications,
+        and cloud-centric computing. I am curious by nature, love to learn and connect
+        with the developer community.
     city_shanghai: 1
-    topic_title: Python 在 Azure Notebook 产品发展中的核心地位以及通过 Visual Studio Code 的最佳 Azure
-        实践
-    topic_title_en: Python's key position in the development of Azure Notebook products
-        and the best Azure practices through Visual Studio Code
+    topic_title: 构建 Python 物联网（IoT）图像分类解决方案并与 Azure 无服务器功能集成
+    topic_title_en: Build a Python Internet of Things (IoT) Image Classification Solution
+        and Integrate with Azure Serverless Functions
 shanghai_speaker_pahud_hsieh:
     name: 谢洪恩
     name_en: Pahud Hsieh
@@ -82,6 +82,18 @@ shanghai_speaker_armin_ronacher:
     city_shanghai: 1
     topic_title: 调试是一种新的发布：慢语言的意外优势
     topic_title_en: 'Debug is the New Release: The Unexpected Benefits of Slow Languages'
+shanghai_speaker_laike9m:
+    name: laike9m
+    name_en: laike9m
+    avatar: ./asset/images/people/laike9m.png
+    avatar_en: ../asset/images/people/laike9m.png
+    short_intro: Google 软件工程师
+    short_intro_en: Google Software Engineer
+    intro: Google 软件工程师，从 2012 年开始使用 Python。《捕蛇者说》播客创始人。
+    intro_en: Working for Google since 2016, using Python since 2012.
+    city_shanghai: 1
+    topic_title: Python 调试新思路
+    topic_title_en: New Ideas on Python Debug
 shanghai_speaker_elizaveta_shashkova:
     name: Elizaveta Shashkova
     name_en: Elizaveta Shashkova
@@ -165,18 +177,6 @@ shanghai_speaker_thautwarm:
     topic_title: Python 语法扩展框架 Moshmosh 和其上 CPython 兼容的 JIT 实现
     topic_title_en: Python Syntax Extension Framework Moshmosh And CPython-compatible
         JIT Implementation On It
-shanghai_speaker_laike9m:
-    name: laike9m
-    name_en: laike9m
-    avatar: ./asset/images/people/laike9m.png
-    avatar_en: ../asset/images/people/laike9m.png
-    short_intro: Google 软件工程师
-    short_intro_en: Google Software Engineer
-    intro: Google 软件工程师，从 2012 年开始使用 Python。《捕蛇者说》播客创始人。
-    intro_en: Working for Google since 2016, using Python since 2012.
-    city_shanghai: 1
-    topic_title: Python 调试新思路
-    topic_title_en: New Ideas on Python Debug
 shanghai_speaker_hsiaoming_yang:
     name: Hsiaoming Yang
     name_en: Hsiaoming Yang
@@ -323,26 +323,6 @@ shanghai_speaker_xin_liu_a:
     topic_title: Python 机器学习性能优化——以 BERT 服务为例，从1到1000
     topic_title_en: 'Python Machine Learning Performance Optimization: Take BERT Service
         as an Example, from 1 to 1000'
-shanghai_speaker_dave_glover:
-    name: Dave Glover
-    name_en: Dave Glover
-    avatar: ./asset/images/people/dave_glover.png
-    avatar_en: ../asset/images/people/dave_glover.png
-    short_intro: Microsoft Developer Relations
-    short_intro_en: Microsoft Developer Relations
-    intro: 我已经记不清从什么时候开始沉迷于软件开发，我写 C# 与 Python 代码，使用 Windows 和 Linux 系统，同时也会涉足硬件领域。我曾在英国和澳大利亚的微软分部工作，跟客户，合作伙伴和开发者社区都打过交道。多年来，我涉猎过许多技术领域，从
-        Windows 和移动端，web 开发，IoT，通讯到云计算都有涉及。我生性对一切好奇，喜欢与开发者社区一起学习和交流。
-    intro_en: I am a passionate software developer for as long as I can remember,
-        I dream and code in C# and Python, hang out on Windows and Linux, and dabble
-        in maker hardware. I have worked for Microsoft in the UK and Australia across
-        customers, partners and the developer community. Over the years I have covered
-        a broad range of technologies, from Windows and mobile, Web dev, IoT, communications,
-        and cloud-centric computing. I am curious by nature, love to learn and connect
-        with the developer community.
-    city_shanghai: 1
-    topic_title: 构建 Python 物联网（IoT）图像分类解决方案并与 Azure 无服务器功能集成
-    topic_title_en: Build a Python Internet of Things (IoT) Image Classification Solution
-        and Integrate with Azure Serverless Functions
 shanghai_speaker_alex_zhao:
     name: Alex Zhao
     name_en: Alex Zhao

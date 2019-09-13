@@ -25,14 +25,14 @@ shanghai:
         place_name_short: m
         url: place_shanghai_auditorium_m
         speechs:
-        -   time: 08:30～09:00
+        -   time: 08:30～08:40
             speaker: ''
             topic: 签到/主持人开场致辞
-            topic_en: Check In
+            topic_en: Check In and Opening
             intro: ''
             intro_en: ''
             slides: ''
-        -   time: 09:00～09:45
+        -   time: 08:40～09:20
             speaker: shanghai_speaker_luciano_ramalho
             topic: Python 的永恒之美
             topic_en: The Timeless Beauty of Python
@@ -42,23 +42,24 @@ shanghai:
                 been coding in Python since 1998. Python is a masterpiece of design.
                 This talk is about the parts of Python that I find are the most beautiful.
             slides: '#'
-        -   time: 09:45～10:30
-            speaker: shanghai_speaker_rong_lu
-            topic: Python 在 Azure Notebook 产品发展中的核心地位以及通过 Visual Studio Code 的最佳 Azure
-                实践
-            topic_en: Python's key position in the development of Azure Notebook products
-                and the best Azure practices through Visual Studio Code
-            intro: 如何通过 Visual Studio Code 远程进入 Azure 控制 TensorFlow 完成基于 Python 代码的真实深度学习模型开发，训练和部署场景；并在
-                Azure Notebook 友好展示/记录整个过程和可视化图表；为Python开发者带来在微软的开发工具 Visual Studio
-                Code 和云平台 Azure 上的极致开发体验。
-            intro_en: 'Live demo: How to remotely access Azure Control TensorFlow
-                via Visual Studio Code  and complete Python code-based real deep learning
-                model development, training and deployment scenarios, Show/Record
-                the entire process and visualization diagrams friendly in Azure Notebook,
-                bring Python developers the ultimate development experience on Microsoft''s
-                development tools Visual Studio Code and the cloud platform Azure.'
+        -   time: 09:20～10:00
+            speaker: shanghai_speaker_dave_glover
+            topic: 构建 Python 物联网（IoT）图像分类解决方案并与 Azure 无服务器功能集成
+            topic_en: Build a Python Internet of Things (IoT) Image Classification
+                Solution and Integrate with Azure Serverless Functions
+            intro: 这将会是一次十分有趣的演讲，首先，你将学到如何使用 Python 构建一个图片分类与 TTS 相结合的实用工具，这可以应用于超市收银台，用来帮助视障人士。接下来，我将讲述如何将图像分类工具与
+                Python Azure 相结合，并连接到一个实时 web 仪表板上。<br />通过这次演讲你将会学到如何用 Python 和免费的
+                Azure 服务来构建一个 IoT 图片分类系统，并用它来帮助你身边的人们。
+            intro_en: This is a fun session and you will learn how to create a Python
+                Image Classification and Text to Speech solution for vision impaired
+                people scanning fruit and vegetables at a shop checkout. Next, you
+                will learn how to integrate the image classification solution with
+                Python Azure Functions and connect to a real-time web dashboard.<br
+                /> <br />From this session, you will learn how to build a beautiful
+                Python based Internet of Things Image Classification solution using
+                free of charge services from Azure and impress your friends and colleagues.
             slides: '#'
-        -   time: 10:30～11:15
+        -   time: 10:00～10:40
             speaker: shanghai_speaker_pahud_hsieh
             topic: 从模块化到全球分发，Python 在Serverless 领域你不能错过的最新功能
             topic_en: From Modularization to Global Distribution, Python's Latest
@@ -84,12 +85,30 @@ shanghai:
                 application, become a contemporary serverless master who can fully
                 use Python to achieve one-step development, testing and global deployment.
             slides: '#'
-        -   time: 11:15～12:00
+        -   time: 10:40～11:20
             speaker: shanghai_speaker_armin_ronacher
             topic: 调试是一种新的发布：慢语言的意外优势
             topic_en: 'Debug is the New Release: The Unexpected Benefits of Slow Languages'
             intro: ''
             intro_en: ''
+            slides: '#'
+        -   time: 11:20～12:00
+            speaker: shanghai_speaker_laike9m
+            topic: Python 调试新思路
+            topic_en: New Ideas on Python Debug
+            intro: 首先将回顾已有的工具，列举常用的 Python 程序调试手段。传统的手段有一些不足之处，而最近的一些库给了我们启发，其实 Python
+                调试可以更加智能化。而所说的智能化调试，指的是用户设定目标变量，由调试工具自动根据程序执行流程溯源目标变量的变化过程，从而省去了用
+                pdb, PyCharm 等工具手动单步执行的麻烦。基于这个思路，我会提出一种新的调试思路和工具（也是我最近几个月在做的项目）。
+            intro_en: Firstly review the existing tools and list the common Python
+                program debug methods. The Traditional debug methods have many shortcomings,
+                and some new libraries have inspired us recently. In fact, Python
+                debug can be more intelligent. Intelligent debug refers to the user
+                setting the target variable, and the debug tool automatically tracing
+                the change process of the target variable according to the program
+                execution process. Thereby we can eliminate the trouble of manually
+                stepping through the tools such as pdb and PyCharm. Based on this
+                idea, I will propose a new debug method and tool (also the project
+                I have been working on recently).
             slides: '#'
         -   time: 12:00～13:00
             speaker: ''
@@ -163,24 +182,6 @@ shanghai:
                 based on some significant projects (such as llvm, llvmlite); we also
                 introduce how to extend semantics under the current Python syntax.
             slides: ''
-        -   time: 16:00～16:40
-            speaker: shanghai_speaker_laike9m
-            topic: Python 调试新思路
-            topic_en: New Ideas on Python Debug
-            intro: 首先将回顾已有的工具，列举常用的 Python 程序调试手段。传统的手段有一些不足之处，而最近的一些库给了我们启发，其实 Python
-                调试可以更加智能化。而所说的智能化调试，指的是用户设定目标变量，由调试工具自动根据程序执行流程溯源目标变量的变化过程，从而省去了用
-                pdb, PyCharm 等工具手动单步执行的麻烦。基于这个思路，我会提出一种新的调试思路和工具（也是我最近几个月在做的项目）。
-            intro_en: Firstly review the existing tools and list the common Python
-                program debug methods. The Traditional debug methods have many shortcomings,
-                and some new libraries have inspired us recently. In fact, Python
-                debug can be more intelligent. Intelligent debug refers to the user
-                setting the target variable, and the debug tool automatically tracing
-                the change process of the target variable according to the program
-                execution process. Thereby we can eliminate the trouble of manually
-                stepping through the tools such as pdb and PyCharm. Based on this
-                idea, I will propose a new debug method and tool (also the project
-                I have been working on recently).
-            slides: '#'
     -   place_name_en: Venue B
         place_name: Web专场（会场B）
         place_name_short: b
@@ -390,23 +391,6 @@ shanghai:
         place_name_short: d
         url: place_shanghai_auditorium_d
         speechs:
-        -   time: 13:00～13:40
-            speaker: shanghai_speaker_dave_glover
-            topic: 构建 Python 物联网（IoT）图像分类解决方案并与 Azure 无服务器功能集成
-            topic_en: Build a Python Internet of Things (IoT) Image Classification
-                Solution and Integrate with Azure Serverless Functions
-            intro: 这将会是一次十分有趣的演讲，首先，你将学到如何使用 Python 构建一个图片分类与 TTS 相结合的实用工具，这可以应用于超市收银台，用来帮助视障人士。接下来，我将讲述如何将图像分类工具与
-                Python Azure 相结合，并连接到一个实时 web 仪表板上。<br />通过这次演讲你将会学到如何用 Python 和免费的
-                Azure 服务来构建一个 IoT 图片分类系统，并用它来帮助你身边的人们。
-            intro_en: This is a fun session and you will learn how to create a Python
-                Image Classification and Text to Speech solution for vision impaired
-                people scanning fruit and vegetables at a shop checkout. Next, you
-                will learn how to integrate the image classification solution with
-                Python Azure Functions and connect to a real-time web dashboard.<br
-                /> <br />From this session, you will learn how to build a beautiful
-                Python based Internet of Things Image Classification solution using
-                free of charge services from Azure and impress your friends and colleagues.
-            slides: '#'
         -   time: 13:40～14:20
             speaker: shanghai_speaker_alex_zhao
             topic: Azure 机器学习
@@ -639,6 +623,15 @@ shanghai:
         -   time: '16:40 ~ 17:20
 
                 闪电演讲'
+            speaker: shanghai_speaker_noah_chen
+            topic: Connect to the World of Python's Community
+            topic_en: Connect to the World of Pyrhon's Community
+            intro: ''
+            intro_en: ''
+            slides: ''
+        -   time: '16:40 ~ 17:20
+
+                闪电演讲'
             speaker: shanghai_speaker_grey_li
             topic: Python 虚拟环境和依赖管理工具大乱斗
             topic_en: Fighting Among Python Virtual Environment and Dependency Management
@@ -659,15 +652,6 @@ shanghai:
                 What is more, it can even let you not to write setup.py. Is this the
                 end of the story? Of course not, PEP 582, which still in draft stage,
                 is on the sidelines, trying to end all this chaos...'
-            slides: ''
-        -   time: '16:40 ~ 17:20
-
-                闪电演讲'
-            speaker: shanghai_speaker_noah_chen
-            topic: Connect to the World of Python's Community
-            topic_en: Connect to the World of Pyrhon's Community
-            intro: ''
-            intro_en: ''
             slides: ''
         -   time: '16:40 ~ 17:20
 
@@ -769,8 +753,8 @@ shanghai:
         place_name_short: t
         url: place_shanghai_auditorium_t
         speechs:
-        -   time: ''
-            speaker: "Luciano\n  Ramalho"
+        -   time: 9:00 ~ 12:00
+            speaker: shanghai_speaker_luciano_ramalho
             topic: Python 对象：Python 中惯用的 OOP 模式
             topic_en: 'Pythonic Objects: idiomatic OOP in Python (presented at PyCon
                 US 2019)'
@@ -793,8 +777,8 @@ shanghai:
                 concepts — even if most of their experience with OOP has been with
                 other languages such as Java, C#, C++, PHP, or Ruby.
             slides: '#'
-        -   time: ''
-            speaker: "Luciano\n  Ramalho"
+        -   time: 14:00 ~ 17:00
+            speaker: shanghai_speaker_luciano_ramalho
             topic: 转盘：Python 中的现代并发概念
             topic_en: 'Plate Spinning: Modern Concurrency in Python'
             intro: 主题说明<br />过去几年里，Python 增加了很多新的编码并发计算方式，比如在 3.3 版本中新加入的concurrent.futures
@@ -816,7 +800,7 @@ shanghai:
                 some practical experience with the language. Experience with threads
                 in Python or other languages is helpful, but not required.
             slides: '#'
-        -   time: ''
+        -   time: 9:00 ~ 12:00
             speaker: shanghai_speaker_grey_li
             topic: Python Web 开发第一课
             topic_en: 'Python Web Development: Lesson One'
@@ -863,7 +847,7 @@ shanghai:
                 syntax and basic command line knowledge<br />・ A laptop with Python
                 and web browser installed
             slides: '#'
-        -   time: ''
+        -   time: 9:00 ~ 12:00
             speaker: shanghai_speaker_laiqiang_ding
             topic: Python 数据分析与可视化
             topic_en: Python Big Data Analysis And Visualization
@@ -888,7 +872,7 @@ shanghai:
                 to have a basic programming foundation (not necessarily Python), and
                 understand the general concept of data analysis.
             slides: '#'
-        -   time: ''
+        -   time: 14:00 ~ 17:00
             speaker: shanghai_speaker_laiqiang_ding
             topic: 使用 Python 与 ElasticSearch 做海量数据爬取与分析可视化
             topic_en: Use Python and Elastic Search to Visualize Massive Data Crawling
@@ -916,7 +900,7 @@ shanghai:
                 need to have a basic Python programming foundation and understand
                 the general concepts of data analysis.
             slides: '#'
-        -   time: ''
+        -   time: 14:00 ~ 17:00
             speaker: shanghai_speaker_hsiaoming_yang
             topic: 从零开始打造一个 Python 开源项目
             topic_en: Creat A Python Open Source Project From Scratch
@@ -962,7 +946,7 @@ shanghai:
                 scratch, and this tutorial is suitable for Python beginners and people
                 who interested in e-Books.<br />Level：Beginner'
             slides: '#'
-        -   time: ''
+        -   time: 14:00 ~ 17:00
             speaker: shanghai_speaker_dave_glover
             topic: Python 调试：专业小贴士和不那么明显的技巧
             topic_en: 'Python Debugging: Pro Tips and Not-So-Obvious Tricks'
@@ -1013,26 +997,19 @@ beijing:
         speechs:
         -   time: 08:30～09:00
             speaker: ''
-            topic: 签到
-            topic_en: Check In
+            topic: 签到/开场致辞
+            topic_en: Check In/Opening Remarks
             intro: ''
             intro_en: ''
             slides: ''
-        -   time: 09:00～09:20
-            speaker: 主持人
-            topic: 开场致辞
-            topic_en: Opening Remarks
-            intro: ''
-            intro_en: ''
-            slides: ''
-        -   time: 09:20～10:20
+        -   time: 09:00～09:40
             speaker: 雨痕
             topic: 主题待定
             topic_en: To be determined
             intro: ''
             intro_en: ''
             slides: ''
-        -   time: 10:20 ~ 11:00
+        -   time: 09:40 ~ 10:20
             speaker: beijing_speaker_heng_cui
             topic: 基于 PyQt + QScintilla 的 IDE 对 RobotFramework 的 DSL 进行编程
             topic_en: Programming the DSL of RobotFramework Based On the IDE Of PyQt
@@ -1052,7 +1029,7 @@ beijing:
                 write syntax highlighting, auto-completion, error prompts etc. based
                 on QScintilla, and you can customize the IDE for the DSL field.
             slides: ''
-        -   time: 11:00 ~ 11:40
+        -   time: 10:20 ~ 11:00
             speaker: beijing_speaker_jintao_zhang
             topic: 云原生时代下 Python 开发的新体验
             topic_en: A new experience of Python development in the Cloud Native
@@ -1070,7 +1047,7 @@ beijing:
                 with serverless in the Cloud Native, as well as exploration and practice
                 in this process.
             slides: ''
-        -   time: 11:40 ~ 12:00
+        -   time: 11:00 ~ 11:40
             speaker: beijing_speaker_yi_wang
             topic: 用 Python 实现文本信息的结构化信息提取
             topic_en: Using Python to Achieve Structured Information Extraction of
@@ -1082,7 +1059,7 @@ beijing:
                 using Python, and introduce some technical practices and engineering
                 experience basing on a case of structured data extraction.
             slides: ''
-        -   time: 12:00 ~ 12:40
+        -   time: 11:40 ~ 12:20
             speaker: beijing_speaker_lianghong_fei
             topic: 在30分钟内迁移 Python Web 应用到无服务器
             topic_en: Migrating Your Python Web App To Serverless In 30 Minutes
@@ -1095,7 +1072,7 @@ beijing:
                 of serverless and how it will change the way you think of scalability,
                 availability, security, infrastructure management, and cost optimization.
             slides: '#'
-        -   time: 12:40 ~ 13:30
+        -   time: 12:20 ~ 13:30
             speaker: ''
             topic: 午餐
             topic_en: Lunch
