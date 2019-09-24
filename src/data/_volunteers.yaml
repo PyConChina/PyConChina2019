@@ -371,8 +371,8 @@ organizers:
     role_organizers: 1
     avatar: ./asset/images/people/dama.png
     avatar_en: ../asset/images/people/dama.png
-    intro: uSEE.tech CTO
-    intro_en: uSEE.tech CTO
+    intro: 蟒营（101.camp） 首席布道官
+    intro_en: 101.camp - Chief Evangelist Officer
     blog: http://zoomquiet.io
 -   name: 李辉
     name_en: Grey Li
