@@ -197,12 +197,12 @@ shanghai_speaker_grey_li:
     short_intro: Flask 维护者
     short_intro_en: Maintainer of Flask
     intro: 独立 Web 开发者，Pallets 团队成员，HelloFlask.com 管理员，《Flask Web 开发实战》作者。更多信息可以在他的个人主页（greyli.com）看到。
-    intro_en: Grey Li is a freelance web developer, memeber of Pallets team, creator
-        of HelloFlask.com, author of "Python Web Development with Flask". You can
-        find more information on his website greyli.com.
+    intro_en: Grey Li is a web developer, memeber of Pallets team, creator of HelloFlask.com,
+        author of "Python Web Development with Flask". You can find more information
+        on his website greyli.com.
     city_shanghai: 1
-    topic_title: 基于 Flask 的 REST API 开发指南
-    topic_title_en: Building REST API with Flask
+    topic_title: 基于 Flask 的 Web API 开发指南
+    topic_title_en: Building Web API with Flask
 shanghai_speaker_qiyu_li:
     name: 李齐雨
     name_en: Qiyu Li
@@ -541,9 +541,9 @@ shanghai_speaker_zhaoqiang_chen:
     name_en: Zhaoqiang Chen
     avatar: ./asset/images/people/chenzhaoqiang.png
     avatar_en: ../asset/images/people/chenzhaoqiang.png
-    short_intro: 中科院上海药物所高级研究院 高级研究员
+    short_intro: 中科院上海药物所 高级研究员
     short_intro_en: Shanghai Institute of Advanced Drugs, Chinese Academy of Sciences
-        Senior researcher
+        Senior Researcher
     intro: 开发药物研发相关软件 D3Pockets; 利用 sphinx 制作网站：http://pymol.chenzhaoqiang.com/
     intro_en: 'Self introductin: He developes D3Pockets which is a software related
         to medicine reserch; Using sphinx making website http://pymol.chenzhaoqiang.com/'
@@ -977,12 +977,12 @@ chengdu_speaker_grey_li:
     short_intro: Flask 维护者
     short_intro_en: Maintainer of Flask
     intro: 独立 Web 开发者，Pallets 团队成员，HelloFlask.com 管理员，《Flask Web 开发实战》作者。更多信息可以在他的个人主页（greyli.com）看到。
-    intro_en: Grey Li is a freelance web developer, memeber of Pallets team, creator
-        of HelloFlask.com, author of "Python Web Development with Flask". You can
-        find more information on his website greyli.com.
+    intro_en: Grey Li is a web developer, memeber of Pallets team, creator of HelloFlask.com,
+        author of "Python Web Development with Flask". You can find more information
+        on his website greyli.com.
     city_chengdu: 1
-    topic_title: 基于 Flask 的 REST API 开发指南
-    topic_title_en: Building REST API with Flask
+    topic_title: 基于 Flask 的 Web API 开发指南
+    topic_title_en: Building Web API with Flask
 chengdu_speaker_qiang_wu:
     name: 吴强
     name_en: Qiang Wu

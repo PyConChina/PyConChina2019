@@ -196,22 +196,22 @@ shanghai:
             slides: ''
         -   time: 13:40～14:20
             speaker: shanghai_speaker_grey_li
-            topic: 基于 Flask 的 REST API 开发指南
-            topic_en: Building REST API with Flask
-            intro: 作为一个微框架，轻量灵活的 Flask 很适合用来开发 REST API 服务。相对于 Django REST Framework
+            topic: 基于 Flask 的 Web API 开发指南
+            topic_en: Building Web API with Flask
+            intro: 作为一个微框架，轻量灵活的 Flask 很适合用来开发 Web API 服务。相对于 Django REST Framework
                 和 APIStar，Flask 有什么优势和缺点？为了减少工作量，我们通常会使用一些工具来辅助编写，面对 Flask-RESTful、Flask-RESTPlus、Flask-API、Webargs、Marshmallow
-                等扩展和工具库，我们应该如何选择？虽然我们经常使用 REST API 这个名称，但是大部分的 API 都不够 RESTful，那么什么样的
-                API 才能算是 REST API？在这个议题中，我们将对这几个问题逐一进行探讨，并了解如何使用 Flask 编写出功能完善的 REST
-                API 服务。
+                等扩展和工具库，我们应该如何选择？虽然我们经常使用 REST API 这个名称，但是大部分的 Web API 都不够 RESTful，那么什么样的
+                Web API 才能算是 REST API？在这个议题中，我们将对这几个问题逐一进行探讨，并了解如何使用 Flask 编写出功能完善的
+                Web API 服务。
             intro_en: As a micro framework, Flask is very suitable for developing
-                REST API. What is the merits and drawback of Flask comparing to Django
+                Web API. What is the merits and drawback of Flask comparing to Django
                 REST Framework and APIStar? In order to simplify our work, we will
                 use some tools to help us. What should we choose between several tools
                 and extension like Flask-RESTful、Flask-RESTPlus、Flask-API、Webargs、Marshmallow?
-                Although we usually use REST API to name our API, most of them are
-                not "RESTful" enough. Therefore, which kind of API is the truly REST
-                API? In this topic speech, we will discuss these questions and introduce
-                how to write a fully functional REST API using Flask.
+                Although we usually use REST API to name our Web API, most of them
+                are not "RESTful" enough. Therefore, which kind of Web API is the
+                truly REST API? In this topic speech, we will discuss these questions
+                and introduce how to write a fully functional Web API using Flask.
             slides: '#'
         -   time: 14:20～15:00
             speaker: shanghai_speaker_qiyu_li
@@ -391,6 +391,22 @@ shanghai:
         place_name_short: d
         url: place_shanghai_auditorium_d
         speechs:
+        -   time: 13:00～13:40
+            speaker: 韩骏
+            topic: Python 在 Azure Notebook 产品发展中的核心地位以及通过 Visual Studio Code 的最佳 Azure
+                实践
+            topic_en: Python's key position in the development of Azure Notebook products
+                and the best Azure practices through Visual Studio Code
+            intro: 现场演示：如何通过 Visual Studio Code 远程进入 Azure 控制 TensorFlow 完成基于 Python
+                代码的真实深度学习模型开发，训练和部署场景；并在 Azure Notebook 友好展示/记录整个过程和可视化图表；为 Python
+                开发者带来在微软的开发工具 Visual Studio Code 和云平台 Azure 上的极致开发体验。
+            intro_en: 'Live demo: How to remotely access Azure Control TensorFlow
+                via Visual Studio Code and complete Python code-based real deep learning
+                model development, training and deployment scenarios, Show/Record
+                the entire process and visualization diagrams friendly in Azure Notebook,
+                bring Python developers the ultimate development experience on Microsoft''s
+                development tools Visual Studio Code and the cloud platform Azure.'
+            slides: ''
         -   time: 13:40～14:20
             speaker: shanghai_speaker_alex_zhao
             topic: Azure 机器学习
@@ -632,30 +648,6 @@ shanghai:
         -   time: '16:40 ~ 17:20
 
                 闪电演讲'
-            speaker: shanghai_speaker_grey_li
-            topic: Python 虚拟环境和依赖管理工具大乱斗
-            topic_en: Fighting Among Python Virtual Environment and Dependency Management
-                Tools
-            intro: 大多数人都会在 Python 虚拟环境和依赖管理的路上经历重重困难。一开始，你使用 pip + virtualenv + requirements.txt
-                的工具组合，或者再加上 virtualenvwrapper；接着，更高级的新东西出现了。Pipenv 号称新一代 Python 项目环境和依赖管理工具，打算替代上面的复杂组合，但是发展并不顺利；接着，竞争者出现了，其中实力最强的
-                Poetry 除了可以替代 Pipenv 来管理依赖之外，甚至还可以让你不用写 setup.py。故事就这样结束了吗？当然没有，尚在草案阶段的
-                PEP 582 在一边虎视眈眈，试图终结这一切混乱……
-            intro_en: 'Fighting Among Python Virtual Environment and Dependency Management
-                Tools<br />Introduction: Most of us will face multiple difficulties
-                in Python virtual environment and dependency. At first, you may use
-                virtualenv + requirements.txt and probably with virtualenvwrapper;
-                Then, more new things appear. Pipenv claims itself as a new generation
-                of Python project environment and dependency management tools. It
-                wants to replace those things mentioned above, but it seems that it
-                doesn''t do well. After that, more competitors come out. Poetry is
-                the best one between them, it is able to manage dependency as Pipenv.
-                What is more, it can even let you not to write setup.py. Is this the
-                end of the story? Of course not, PEP 582, which still in draft stage,
-                is on the sidelines, trying to end all this chaos...'
-            slides: ''
-        -   time: '16:40 ~ 17:20
-
-                闪电演讲'
             speaker: shanghai_speaker_xiao_tan
             topic: 500 行 Python 写一个渲染器
             topic_en: Make A Renderer Within 500 Lines Python Codes
@@ -747,6 +739,30 @@ shanghai:
                 enum,class/struct/union, function, namespace, typedef/using, #define(only
                 partially recognizable constants), vareables.<br />Project Address:
                 https://github.com/nanoric/c2py'
+            slides: ''
+        -   time: '16:40 ~ 17:20
+
+                闪电演讲'
+            speaker: shanghai_speaker_grey_li
+            topic: Python 虚拟环境和依赖管理工具大乱斗
+            topic_en: Fighting Among Python Virtual Environment and Dependency Management
+                Tools
+            intro: 大多数人都会在 Python 虚拟环境和依赖管理的路上经历重重困难。一开始，你使用 pip + virtualenv + requirements.txt
+                的工具组合，或者再加上 virtualenvwrapper；接着，更高级的新东西出现了。Pipenv 号称新一代 Python 项目环境和依赖管理工具，打算替代上面的复杂组合，但是发展并不顺利；接着，竞争者出现了，其中实力最强的
+                Poetry 除了可以替代 Pipenv 来管理依赖之外，甚至还可以让你不用写 setup.py。故事就这样结束了吗？当然没有，尚在草案阶段的
+                PEP 582 在一边虎视眈眈，试图终结这一切混乱……
+            intro_en: 'Fighting Among Python Virtual Environment and Dependency Management
+                Tools<br />Introduction: Most of us will face multiple difficulties
+                in Python virtual environment and dependency. At first, you may use
+                virtualenv + requirements.txt and probably with virtualenvwrapper;
+                Then, more new things appear. Pipenv claims itself as a new generation
+                of Python project environment and dependency management tools. It
+                wants to replace those things mentioned above, but it seems that it
+                doesn''t do well. After that, more competitors come out. Poetry is
+                the best one between them, it is able to manage dependency as Pipenv.
+                What is more, it can even let you not to write setup.py. Is this the
+                end of the story? Of course not, PEP 582, which still in draft stage,
+                is on the sidelines, trying to end all this chaos...'
             slides: ''
     -   place_name_en: Tutorial
         place_name: Tutorial
@@ -1685,22 +1701,22 @@ chengdu:
             slides: ''
         -   time: 14:10～14:50
             speaker: chengdu_speaker_grey_li
-            topic: 基于 Flask 的 REST API 开发指南
-            topic_en: Building REST API with Flask
-            intro: 作为一个微框架，轻量灵活的 Flask 很适合用来开发 REST API 服务。相对于 Django REST Framework
+            topic: 基于 Flask 的 Web API 开发指南
+            topic_en: Building Web API with Flask
+            intro: 作为一个微框架，轻量灵活的 Flask 很适合用来开发 Web API 服务。相对于 Django REST Framework
                 和 APIStar，Flask 有什么优势和缺点？为了减少工作量，我们通常会使用一些工具来辅助编写，面对 Flask-RESTful、Flask-RESTPlus、Flask-API、Webargs、Marshmallow
-                等扩展和工具库，我们应该如何选择？虽然我们经常使用 REST API 这个名称，但是大部分的 API 都不够 RESTful，那么什么样的
-                API 才能算是 REST API？在这个议题中，我们将对这几个问题逐一进行探讨，并了解如何使用 Flask 编写出功能完善的 REST
-                API 服务。
+                等扩展和工具库，我们应该如何选择？虽然我们经常使用 REST API 这个名称，但是大部分的 Web API 都不够 RESTful，那么什么样的
+                Web API 才能算是 REST API？在这个议题中，我们将对这几个问题逐一进行探讨，并了解如何使用 Flask 编写出功能完善的
+                Web API 服务。
             intro_en: As a micro framework, Flask is very suitable for developing
-                REST API. What is the merits and drawback of Flask comparing to Django
+                Web API. What is the merits and drawback of Flask comparing to Django
                 REST Framework and APIStar? In order to simplify our work, we will
                 use some tools to help us. What should we choose between several tools
                 and extension like Flask-RESTful、Flask-RESTPlus、Flask-API、Webargs、Marshmallow?
-                Although we usually use REST API to name our API, most of them are
-                not "RESTful" enough. Therefore, which kind of API is the truly REST
-                API? In this topic speech, we will discuss these questions and introduce
-                how to write a fully functional REST API using Flask.
+                Although we usually use REST API to name our Web API, most of them
+                are not "RESTful" enough. Therefore, which kind of Web API is the
+                truly REST API? In this topic speech, we will discuss these questions
+                and introduce how to write a fully functional Web API using Flask.
             slides: ''
         -   time: 14:50～15:30
             speaker: 李者璈
