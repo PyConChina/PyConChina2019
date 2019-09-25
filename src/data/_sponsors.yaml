@@ -65,7 +65,15 @@ organizer:
         a new group called PyChina in 2014 to advertise and develop Python. PyChina
         will encourage online and offline activities from all over China, especially
         PyCon.
+
 diamond:
+-   logo: ./asset/images/sponsors/psf.png
+    logo_en: ../asset/images/sponsors/psf.png
+    link: https://www.python.org/psf/
+    name: Python 软件基金会
+    name_en: Python Software Foundation
+    intro: Python 软件基金会（Python Software Foundation）是一个拥有 Python 语言知识产权的 501(c)(3) 非盈利组织。
+    intro_en: The Python Software Foundation (PSF) is a 501(c)(3) non-profit corporation that holds the intellectual property rights behind the Python programming language. 
 -   logo: ./asset/images/sponsors/azure.png
     logo_en: ../asset/images/sponsors/azure.png
     link: https://azure.microsoft.com/zh-cn/
