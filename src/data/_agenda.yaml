@@ -32,6 +32,8 @@ shanghai:
             intro: ''
             intro_en: ''
             slides: ''
+            video: ''
+            video_en: ''
         -   time: 08:40～09:20
             speaker: shanghai_speaker_luciano_ramalho
             topic: Python 的永恒之美
@@ -42,6 +44,8 @@ shanghai:
                 been coding in Python since 1998. Python is a masterpiece of design.
                 This talk is about the parts of Python that I find are the most beautiful.
             slides: '#'
+            video: ''
+            video_en: ''
         -   time: 09:20～10:00
             speaker: shanghai_speaker_dave_glover
             topic: 构建 Python 物联网（IoT）图像分类解决方案并与 Azure 无服务器功能集成
@@ -58,7 +62,10 @@ shanghai:
                 /> <br />From this session, you will learn how to build a beautiful
                 Python based Internet of Things Image Classification solution using
                 free of charge services from Azure and impress your friends and colleagues.
-            slides: '#'
+            slides: https://pycondownload.blob.core.chinacloudapi.cn/goods/2019/slides/主会场-2.
+                PyCon Shanghai IoT Edge, Azure Functions and Jupyter Debugging.pdf
+            video: ''
+            video_en: ''
         -   time: 10:00～10:40
             speaker: shanghai_speaker_pahud_hsieh
             topic: 从模块化到全球分发，Python 在Serverless 领域你不能错过的最新功能
@@ -84,14 +91,20 @@ shanghai:
                 local testing and roundly using Python to develop and write AWS Lambda
                 application, become a contemporary serverless master who can fully
                 use Python to achieve one-step development, testing and global deployment.
-            slides: '#'
+            slides: https://pycondownload.blob.core.chinacloudapi.cn/goods/2019/slides/主会场-3.
+                PyCon2019-Shanghai-Pahud-Keynote.pdf
+            video: ''
+            video_en: ''
         -   time: 10:40～11:20
             speaker: shanghai_speaker_armin_ronacher
             topic: 调试是一种新的发布：慢语言的意外优势
             topic_en: 'Debug is the New Release: The Unexpected Benefits of Slow Languages'
             intro: ''
             intro_en: ''
-            slides: '#'
+            slides: https://pycondownload.blob.core.chinacloudapi.cn/goods/2019/slides/主会场-4.
+                DebugRelease.pdf
+            video: ''
+            video_en: ''
         -   time: 11:20～12:00
             speaker: shanghai_speaker_laike9m
             topic: Python 调试新思路
@@ -109,7 +122,10 @@ shanghai:
                 stepping through the tools such as pdb and PyCharm. Based on this
                 idea, I will propose a new debug method and tool (also the project
                 I have been working on recently).
-            slides: '#'
+            slides: https://pycondownload.blob.core.chinacloudapi.cn/goods/2019/slides/主会场-5.
+                Python 调试新思路.html
+            video: ''
+            video_en: ''
         -   time: 12:00～13:00
             speaker: ''
             topic: 午餐
@@ -117,6 +133,8 @@ shanghai:
             intro: ''
             intro_en: ''
             slides: ''
+            video: ''
+            video_en: ''
         actived: active
     -   place_name_en: Venue A
         place_name: 语言特性（会场A）
@@ -137,6 +155,8 @@ shanghai:
                 that we’ll learn useful techniques for daily use on the example of
                 visual debugger in the PyCharm IDE.
             slides: '#'
+            video: ''
+            video_en: ''
         -   time: 13:40～14:20
             speaker: shanghai_speaker_jiayuan_zhang
             topic: GIL 的过去和未来
@@ -150,14 +170,20 @@ shanghai:
                 principle analysis, how to avoid GIL in application layer and the
                 future about GIL, will the PEP 554 Multiple Interpreters in the Stdlib
                 solve problem of GIL?
-            slides: '#'
+            slides: https://pycondownload.blob.core.chinacloudapi.cn/goods/2019/slides/分会场A-【2】GIL
+                的过去和未来 - 张佳圆.txt
+            video: ''
+            video_en: ''
         -   time: 14:20～15:00
             speaker: shanghai_speaker_giampaolo_rodola
             topic: 使用 Python 加速文件传输和文件复制
             topic_en: Speed Up File Transfers And File Copies In Python
             intro: ''
             intro_en: ''
-            slides: ''
+            slides: https://pycondownload.blob.core.chinacloudapi.cn/goods/2019/slides/分会场A-【3】使用
+                Python 加速文件传输和文件复制 - Giampaolo Rodola.pdf
+            video: ''
+            video_en: ''
         -   time: 15:00～15:20
             speaker: ''
             topic: 茶歇
@@ -165,6 +191,8 @@ shanghai:
             intro: ''
             intro_en: ''
             slides: '#'
+            video: ''
+            video_en: ''
         -   time: 15:20～16:00
             speaker: shanghai_speaker_thautwarm
             topic: Python 语法扩展框架 Moshmosh 和其上 CPython 兼容的 JIT 实现
@@ -182,6 +210,8 @@ shanghai:
                 based on some significant projects (such as llvm, llvmlite); we also
                 introduce how to extend semantics under the current Python syntax.
             slides: ''
+            video: ''
+            video_en: ''
     -   place_name_en: Venue B
         place_name: Web专场（会场B）
         place_name_short: b
@@ -193,7 +223,10 @@ shanghai:
             topic_en: The dangerous Flask
             intro: 关于 Flask 安全性的演讲 (itsdangerous, JWT, JWS)
             intro_en: A talk about security in Flask (itsdangerous, JWT, JWS)
-            slides: ''
+            slides: https://pycondownload.blob.core.chinacloudapi.cn/goods/2019/slides/分会场B-【1】The
+                Dangerous Flask - Hsiaoming Yang .pdf
+            video: ''
+            video_en: ''
         -   time: 13:40～14:20
             speaker: shanghai_speaker_grey_li
             topic: 基于 Flask 的 Web API 开发指南
@@ -213,6 +246,8 @@ shanghai:
                 truly REST API? In this topic speech, we will discuss these questions
                 and introduce how to write a fully functional Web API using Flask.
             slides: '#'
+            video: ''
+            video_en: ''
         -   time: 14:20～15:00
             speaker: shanghai_speaker_qiyu_li
             topic: Django 中的 GraphQL
@@ -227,7 +262,10 @@ shanghai:
                 of lines of codes, nearly all of the ports are GraphQL now. This speech
                 will introduce you how LeetCode use GraphQL to relieve development
                 work and how we solve problems about using GraphQL.
-            slides: '#'
+            slides: https://pycondownload.blob.core.chinacloudapi.cn/goods/2019/slides/分会场B-【3】Django
+                中的 GraphQL - 李齐雨.txt
+            video: ''
+            video_en: ''
         -   time: 15:00-15:20
             speaker: ''
             topic: 茶歇
@@ -235,6 +273,8 @@ shanghai:
             intro: ''
             intro_en: ''
             slides: ''
+            video: ''
+            video_en: ''
         -   time: 15:20～16:00
             speaker: shanghai_speaker_xintao_lai
             topic: Django Migrations 的工作原理
@@ -254,7 +294,10 @@ shanghai:
                 />・ Practicles of implement Django migrations<br />・ Other ideas about
                 migrations, how to do database structure versioning, DDL rollback
                 if you make a migrations platform
-            slides: '#'
+            slides: https://pycondownload.blob.core.chinacloudapi.cn/goods/2019/slides/分会场B-【4】Django
+                ORM 原理 - 赖信涛.txt
+            video: ''
+            video_en: ''
         -   time: 16:00～16:40
             speaker: shanghai_speaker_rujia_zhang
             topic: 从 thriftpy 中学习 rpc 协议
@@ -275,7 +318,10 @@ shanghai:
                 the necessary composition of an RPC protocol, and how Python projects
                 support multiple communication protocols and transport protocols through
                 a reasonably layered architecture.
-            slides: '#'
+            slides: https://pycondownload.blob.core.chinacloudapi.cn/goods/2019/slides/分会场B-【5】从
+                Thriftpy 中学习 RPC 协议 - 张汝家.pdf
+            video: ''
+            video_en: ''
     -   place_name_en: Venue C
         place_name: 人工智能/大数据（会场C）
         place_name_short: c
@@ -298,7 +344,10 @@ shanghai:
                 the performance of Mars? What lessons can people who are concerned
                 about system design get from the development of Mars? In this speech,
                 you will get the answers.
-            slides: '#'
+            slides: https://pycondownload.blob.core.chinacloudapi.cn/goods/2019/slides/分会场C-【1】Mars：numpy
+                与 pandas 的并行和分布式加速器 - 秦续业.pdf
+            video: ''
+            video_en: ''
         -   time: 13:40～14:20
             speaker: shanghai_speaker_xiaojie_zhang
             topic: 使用 Python 训练和部署低精度模型
@@ -316,7 +365,10 @@ shanghai:
                 into a format that TensorRT can use and run, then finally complete
                 the deployment of the models. I hope it will be helpful to your work
                 of training and deploying deep learning model.
-            slides: '#'
+            slides: https://pycondownload.blob.core.chinacloudapi.cn/goods/2019/slides/分会场C-【2】使用Python训练和部署低精度模型
+                - 张校捷.pdf
+            video: ''
+            video_en: ''
         -   time: 14:20～15:00
             speaker: shanghai_speaker_tengjingmeina
             topic: Python 的 NLP 实战分享-如何实现合同风险预测模型
@@ -345,6 +397,8 @@ shanghai:
                 I hope you can gain some points and try to use Python NLP in your
                 field.
             slides: '#'
+            video: ''
+            video_en: ''
         -   time: 15:00～15:20
             speaker: ''
             topic: 茶歇
@@ -352,6 +406,8 @@ shanghai:
             intro: ''
             intro_en: ''
             slides: '#'
+            video: ''
+            video_en: ''
         -   time: 15:20～16:00
             speaker: shanghai_speaker_shun_wang
             topic: Python 的深度学习实践
@@ -365,7 +421,9 @@ shanghai:
                 practical cases, from mnist('hello word' in deep learning) to CIFAR10,
                 and from ImageNet to BERT/xlnet. I will share the best practice along
                 with the common problems.
-            slides: '#'
+            slides: https://pycondownload.blob.core.chinacloudapi.cn/goods/2019/slides/%E5%88%86%E4%BC%9A%E5%9C%BAC-%E3%80%905%E3%80%91_%20Python%20%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%AE%9E%E8%B7%B5.pdf
+            video: ''
+            video_en: ''
         -   time: 16:00～16:40
             speaker: shanghai_speaker_xin_liu_a
             topic: Python 机器学习性能优化——以 BERT 服务为例，从1到1000
@@ -385,7 +443,9 @@ shanghai:
                 best practice of Shannon Technology in the development of Python deep
                 learning service, and taking the BERT-based service as an example,
                 show you how to improve QRS from 1 to 1000.
-            slides: '#'
+            slides: https://pycondownload.blob.core.chinacloudapi.cn/goods/2019/slides/分会场C-【4】Python机器学习性能优化—PyCon2019.pdf
+            video: ''
+            video_en: ''
     -   place_name_en: Venue D
         place_name: 微软专场（会场D）
         place_name_short: d
@@ -406,7 +466,11 @@ shanghai:
                 the entire process and visualization diagrams friendly in Azure Notebook,
                 bring Python developers the ultimate development experience on Microsoft''s
                 development tools Visual Studio Code and the cloud platform Azure.'
-            slides: ''
+            slides: https://pycondownload.blob.core.chinacloudapi.cn/goods/2019/slides/分会场D-【1】Python
+                在 Azure Notebook 产品发展中的核心地位 - 以及通过 Visual Studio Code 的最佳 Azure 实践
+                - 韩骏.zip
+            video: ''
+            video_en: ''
         -   time: 13:40～14:20
             speaker: shanghai_speaker_alex_zhao
             topic: Azure 机器学习
@@ -424,6 +488,8 @@ shanghai:
                 and deployment mode. It can be easily deployed on Azure, on premises
                 and IoT edge by using the latest container technologies and framworks.'
             slides: '#'
+            video: ''
+            video_en: ''
         -   time: 14:20～15:00
             speaker: shanghai_speaker_dawei_wang
             topic: 基于 Azure 的 Python 机器学习
@@ -435,7 +501,10 @@ shanghai:
                 machine learning programming. Azure provides SDK and services to data
                 science practitioners, for rapidly preparing data, training and deploying
                 machine learning models to increase productivity and reduce costs.
-            slides: '#'
+            slides: https://pycondownload.blob.core.chinacloudapi.cn/goods/2019/slides/分会场D-【3】基于Azure的Python机器学习
+                - 王大伟.zip
+            video: ''
+            video_en: ''
         -   time: 15:00～15:20
             speaker: ''
             topic: 茶歇
@@ -443,6 +512,8 @@ shanghai:
             intro: ''
             intro_en: ''
             slides: '#'
+            video: ''
+            video_en: ''
         -   time: 15:20～16:00
             speaker: shanghai_speaker_jian_zhao
             topic: Python on Azure Function
@@ -453,7 +524,10 @@ shanghai:
                 Python ecology in Azure. As the same time, I will also use examples
                 to show you how to use Azure Function + Python to solve the problems
                 that customers may meet.
-            slides: '#'
+            slides: https://pycondownload.blob.core.chinacloudapi.cn/goods/2019/slides/分会场D-【4】Python
+                on Azure Function - 赵健.pdf
+            video: ''
+            video_en: ''
         -   time: 16:00～16:40
             speaker: ''
             topic: 主题待定
@@ -461,6 +535,8 @@ shanghai:
             intro: ''
             intro_en: ''
             slides: '#'
+            video: ''
+            video_en: ''
     -   place_name_en: Venue E
         place_name: 基础架构（会场E）
         place_name_short: e
@@ -481,7 +557,10 @@ shanghai:
                 an open-source program of your project and introduce how Python works
                 in it. This speech will include open-source program Kafka、ELK、K8S、Prometheus、Grafana、Graphite、Ansible、Airflow、Flink、TensorFlow、OpenTelemetry
                 and etc.
-            slides: ''
+            slides: https://pycondownload.blob.core.chinacloudapi.cn/goods/2019/slides/分会场E-【1】丁来强
+                - 开源AIOps数据中台搭建与Python的作用.pdf
+            video: ''
+            video_en: ''
         -   time: 13:40～14:20
             speaker: shanghai_speaker_zheng_liu
             topic: 分层次构建应用系统的可观测性
@@ -499,7 +578,9 @@ shanghai:
                 learning to reduce the difficulty and cost of manual system troubleshooting
                 analysis. This presentation will also showcase the ways and effects
                 of observability through the Elastic Stack technology stack.
-            slides: ''
+            slides: https://pycondownload.blob.core.chinacloudapi.cn/goods/2019/slides/分会场E-【2】刘征%20-%20elastic-破解云原生应用的可观测性.pdf
+            video: ''
+            video_en: ''
         -   time: 14:20～15:00
             speaker: shanghai_speaker_yu_zhang
             topic: 从零开始快速构建 DevOps 系统 - 一个小型 to B 团队的 DevOps 系统诞生之路
@@ -509,7 +590,10 @@ shanghai:
             intro_en: Over the past year, I built a minimalist DevOps system based
                 on Python and other open source softwares at a start-up to B company.
                 I will share some thoughts and practices emerged in this process.
-            slides: ''
+            slides: https://pycondownload.blob.core.chinacloudapi.cn/goods/2019/slides/分会场E-【3】张裕
+                - 从零开始快速构建DevOps系统.pdf
+            video: ''
+            video_en: ''
         -   time: 15:00～15:20
             speaker: ''
             topic: 茶歇
@@ -517,6 +601,8 @@ shanghai:
             intro: ''
             intro_en: ''
             slides: ''
+            video: ''
+            video_en: ''
         -   time: 15:20～16:00
             speaker: shanghai_speaker_yang_liu
             topic: 基于 Python 构建高稳定可扩展的自动化测试集群——网易游戏自动化测试实践分享
@@ -540,6 +626,8 @@ shanghai:
                 from cloud platforms that support global real machine testing to enterprise-level
                 automation solutions.
             slides: '#'
+            video: ''
+            video_en: ''
         -   time: 16:00～16:40
             speaker: shanghai_speaker_xin_liu_b
             topic: Python 在量化投资领域的应用
@@ -557,6 +645,8 @@ shanghai:
                 futures, opitons, ETF and other financial products suitable for quantitative
                 trading.
             slides: '#'
+            video: ''
+            video_en: ''
     -   place_name_en: Venue F
         place_name: 创新领域（会场F）
         place_name_short: f
@@ -589,6 +679,8 @@ shanghai:
                 development, performance results, etc., and will also introduce the
                 road map for subsequent development of the project.
             slides: ''
+            video: ''
+            video_en: ''
         -   time: 13:40～14:20
             speaker: 陈志勇
             topic: FPGA 阻力 Python 加速计算
@@ -596,6 +688,8 @@ shanghai:
             intro: ''
             intro_en: ''
             slides: ''
+            video: ''
+            video_en: ''
         -   time: 14:20~14:30
             speaker: ''
             topic: 准备
@@ -603,6 +697,8 @@ shanghai:
             intro: ''
             intro_en: ''
             slides: ''
+            video: ''
+            video_en: ''
         -   time: 14:30 ~ 17:20
             speaker: 'AWS: Workshop'
             topic: 在 AWS 部署与发布你面向全球的 Python Serverless 应用
@@ -631,6 +727,8 @@ shanghai:
                 CDK to quickly deploy your Amazon EKS (Elastic Kubernetes Service)
                 application<br />10. QA
             slides: ''
+            video: ''
+            video_en: ''
     -   place_name_en: Venue B
         place_name: 闪电演讲（会场B）
         place_name_short: bf
@@ -644,7 +742,9 @@ shanghai:
             topic_en: Connect to the World of Pyrhon's Community
             intro: ''
             intro_en: ''
-            slides: ''
+            slides: https://pycondownload.blob.core.chinacloudapi.cn/goods/2019/slides/1-Noah-Chen-连接世界的Python社区.pdf
+            video: ''
+            video_en: ''
         -   time: '16:40 ~ 17:20
 
                 闪电演讲'
@@ -657,7 +757,9 @@ shanghai:
                 code to implement algorithm is also a lovely diversion. In this speech,
                 I'll share some funny things in the process of using Python to implement
                 a simple software renderer.
-            slides: '#'
+            slides: https://pycondownload.blob.core.chinacloudapi.cn/goods/2019/slides/2-谭啸-500行Python写一个渲染器.zip
+            video: ''
+            video_en: ''
         -   time: '16:40 ~ 17:20
 
                 闪电演讲'
@@ -673,7 +775,9 @@ shanghai:
                 a human-machine dialogue system with reasoning ability is realized.
                 In order to use natural language, a grammar parsing module is also
                 built. The system can pass the testing of simple dialogue task.
-            slides: '#'
+            slides: https://pycondownload.blob.core.chinacloudapi.cn/goods/2019/slides/3-宋从威-基于OwlReady2的人机交互.pdf
+            video: ''
+            video_en: ''
         -   time: '16:40 ~ 17:20
 
                 闪电演讲'
@@ -690,7 +794,9 @@ shanghai:
                 and Byte Code<br />* The detailed steps of Python core function PyEval_EvalFrameEx
                 executing the Byte Code of one function<br />* What changed by the
                 Revolution of Byte Code, and the main benefits we got from it.
-            slides: '#'
+            slides: https://pycondownload.blob.core.chinacloudapi.cn/goods/2019/slides/4-赵俊德-Byte-Code的革命.pdf
+            video: ''
+            video_en: ''
         -   time: '16:40 ~ 17:20
 
                 闪电演讲'
@@ -713,7 +819,9 @@ shanghai:
                 It also supports customize grammar. In my point of view, markdown
                 is a piece of paper and sphinx is a book. If you want to record many
                 things, why not try sphinx?
-            slides: ''
+            slides: https://pycondownload.blob.core.chinacloudapi.cn/goods/2019/slides/5-陈照强-使用Sphinx编写Web文档.pdf
+            video: ''
+            video_en: ''
         -   time: '16:40 ~ 17:20
 
                 闪电演讲'
@@ -739,7 +847,9 @@ shanghai:
                 enum,class/struct/union, function, namespace, typedef/using, #define(only
                 partially recognizable constants), vareables.<br />Project Address:
                 https://github.com/nanoric/c2py'
-            slides: ''
+            slides: https://pycondownload.blob.core.chinacloudapi.cn/goods/2019/slides/8-韦泽华-一键将C和Cpp代码转换为Python能调用的代码.pdf
+            video: ''
+            video_en: ''
         -   time: '16:40 ~ 17:20
 
                 闪电演讲'
@@ -763,7 +873,9 @@ shanghai:
                 What is more, it can even let you not to write setup.py. Is this the
                 end of the story? Of course not, PEP 582, which still in draft stage,
                 is on the sidelines, trying to end all this chaos...'
-            slides: ''
+            slides: https://pycondownload.blob.core.chinacloudapi.cn/goods/2019/slides/7-李辉-Python虚拟环境和依赖管理工具大乱斗.zip
+            video: ''
+            video_en: ''
     -   place_name_en: Tutorial
         place_name: Tutorial
         place_name_short: t
@@ -793,6 +905,8 @@ shanghai:
                 concepts — even if most of their experience with OOP has been with
                 other languages such as Java, C#, C++, PHP, or Ruby.
             slides: '#'
+            video: ''
+            video_en: ''
         -   time: 14:00 ~ 17:00
             speaker: shanghai_speaker_luciano_ramalho
             topic: 转盘：Python 中的现代并发概念
@@ -816,6 +930,8 @@ shanghai:
                 some practical experience with the language. Experience with threads
                 in Python or other languages is helpful, but not required.
             slides: '#'
+            video: ''
+            video_en: ''
         -   time: 9:00 ~ 12:00
             speaker: shanghai_speaker_grey_li
             topic: Python Web 开发第一课
@@ -863,6 +979,8 @@ shanghai:
                 syntax and basic command line knowledge<br />・ A laptop with Python
                 and web browser installed
             slides: '#'
+            video: ''
+            video_en: ''
         -   time: 9:00 ~ 12:00
             speaker: shanghai_speaker_laiqiang_ding
             topic: Python 数据分析与可视化
@@ -888,6 +1006,8 @@ shanghai:
                 to have a basic programming foundation (not necessarily Python), and
                 understand the general concept of data analysis.
             slides: '#'
+            video: ''
+            video_en: ''
         -   time: 14:00 ~ 17:00
             speaker: shanghai_speaker_laiqiang_ding
             topic: 使用 Python 与 ElasticSearch 做海量数据爬取与分析可视化
@@ -916,6 +1036,8 @@ shanghai:
                 need to have a basic Python programming foundation and understand
                 the general concepts of data analysis.
             slides: '#'
+            video: ''
+            video_en: ''
         -   time: 14:00 ~ 17:00
             speaker: shanghai_speaker_hsiaoming_yang
             topic: 从零开始打造一个 Python 开源项目
@@ -962,6 +1084,8 @@ shanghai:
                 scratch, and this tutorial is suitable for Python beginners and people
                 who interested in e-Books.<br />Level：Beginner'
             slides: '#'
+            video: ''
+            video_en: ''
         -   time: 14:00 ~ 17:00
             speaker: shanghai_speaker_dave_glover
             topic: Python 调试：专业小贴士和不那么明显的技巧
@@ -990,6 +1114,8 @@ shanghai:
                 Open Source.<br />Tutorial Content<br />PyCon Debugging Tutorial:
                 https://github.com/gloveboxes/PyCon-Hands-on-Lab'
             slides: '#'
+            video: ''
+            video_en: ''
     actived: active
 beijing:
     city: beijing
@@ -1018,6 +1144,8 @@ beijing:
             intro: ''
             intro_en: ''
             slides: ''
+            video: ''
+            video_en: ''
         -   time: 09:00～09:40
             speaker: 雨痕
             topic: 主题待定
@@ -1025,6 +1153,8 @@ beijing:
             intro: ''
             intro_en: ''
             slides: ''
+            video: ''
+            video_en: ''
         -   time: 09:40 ~ 10:20
             speaker: beijing_speaker_heng_cui
             topic: 基于 PyQt + QScintilla 的 IDE 对 RobotFramework 的 DSL 进行编程
@@ -1045,6 +1175,8 @@ beijing:
                 write syntax highlighting, auto-completion, error prompts etc. based
                 on QScintilla, and you can customize the IDE for the DSL field.
             slides: ''
+            video: ''
+            video_en: ''
         -   time: 10:20 ~ 11:00
             speaker: beijing_speaker_jintao_zhang
             topic: 云原生时代下 Python 开发的新体验
@@ -1063,6 +1195,8 @@ beijing:
                 with serverless in the Cloud Native, as well as exploration and practice
                 in this process.
             slides: ''
+            video: ''
+            video_en: ''
         -   time: 11:00 ~ 11:40
             speaker: beijing_speaker_yi_wang
             topic: 用 Python 实现文本信息的结构化信息提取
@@ -1075,6 +1209,8 @@ beijing:
                 using Python, and introduce some technical practices and engineering
                 experience basing on a case of structured data extraction.
             slides: ''
+            video: ''
+            video_en: ''
         -   time: 11:40 ~ 12:20
             speaker: beijing_speaker_lianghong_fei
             topic: 在30分钟内迁移 Python Web 应用到无服务器
@@ -1088,6 +1224,8 @@ beijing:
                 of serverless and how it will change the way you think of scalability,
                 availability, security, infrastructure management, and cost optimization.
             slides: '#'
+            video: ''
+            video_en: ''
         -   time: 12:20 ~ 13:30
             speaker: ''
             topic: 午餐
@@ -1095,6 +1233,8 @@ beijing:
             intro: ''
             intro_en: ''
             slides: '#'
+            video: ''
+            video_en: ''
         -   time: 13:30～14:10
             speaker: "Hideyuki\n  Ogawa"
             topic: 用 Dash 实现交互式数据可视化
@@ -1110,6 +1250,8 @@ beijing:
                 analysis.<br />・ Can accelerate business development.<br />I will
                 give a presentation with Dash application.
             slides: '#'
+            video: ''
+            video_en: ''
         -   time: 14:10～14:50
             speaker: beijing_speaker_xiaoqing_zhang
             topic: Python 的智能问答之路
@@ -1122,6 +1264,8 @@ beijing:
                 solutions<br />・ Expectations: the language itself supports more collaborations,
                 high concurrency, muti-core, etc.'
             slides: '#'
+            video: ''
+            video_en: ''
         -   time: 14:50～15:10
             speaker: 王宇韬
             topic: Python 在金融领域的商业应用及创新
@@ -1129,6 +1273,8 @@ beijing:
             intro: ''
             intro_en: ''
             slides: '#'
+            video: ''
+            video_en: ''
         -   time: 15:10～15:50
             speaker: ''
             topic: 茶歇
@@ -1136,6 +1282,8 @@ beijing:
             intro: ''
             intro_en: ''
             slides: '#'
+            video: ''
+            video_en: ''
         -   time: 15:50～16:30
             speaker: ''
             topic: 赞助主题
@@ -1143,6 +1291,8 @@ beijing:
             intro: ''
             intro_en: ''
             slides: '#'
+            video: ''
+            video_en: ''
         -   time: '16:30～17:00
 
                 闪电演讲'
@@ -1161,6 +1311,8 @@ beijing:
                 of Redis cluster, what conveniences will Python bring to our daily
                 work?'
             slides: '#'
+            video: ''
+            video_en: ''
         -   time: '16:30～17:00
 
                 闪电演讲'
@@ -1188,6 +1340,8 @@ beijing:
                 defined central degrees, then we can better understand the nature
                 of the graph algorithm.
             slides: ''
+            video: ''
+            video_en: ''
         -   time: '16:30～17:00
 
                 闪电演讲'
@@ -1206,6 +1360,8 @@ beijing:
                 to make more programmers know visual effects technology and join visual
                 effects industry to let the big screen show more wonderful pictures.
             slides: ''
+            video: ''
+            video_en: ''
         -   time: '16:30～17:00
 
                 闪电演讲'
@@ -1238,6 +1394,8 @@ beijing:
                 was solved. (This is just what happened, and I am not sure if there
                 will be new problems in the next few months)
             slides: ''
+            video: ''
+            video_en: ''
         actived: active
 hangzhou:
     city: hangzhou
@@ -1265,6 +1423,8 @@ hangzhou:
             intro: ''
             intro_en: ''
             slides: ''
+            video: ''
+            video_en: ''
         -   time: 09:30～09:40
             speaker: hangzhou_speaker_thautwarm
             topic: Python 语法扩展框架 Moshmosh 和其上 CPython 兼容的 JIT 实现
@@ -1282,6 +1442,8 @@ hangzhou:
                 based on some significant projects (such as llvm, llvmlite); we also
                 introduce how to extend semantics under the current Python syntax.
             slides: '#'
+            video: ''
+            video_en: ''
         -   time: 09:40～10:20
             speaker: hangzhou_speaker_feng_li
             topic: 用于 Linux 内核调试的 Python
@@ -1305,6 +1467,8 @@ hangzhou:
                 />https://github.com/ARM-software/lisa<br />https://github.com/osandov/drgn<br
                 />https://www.raspberrypi.org/products/raspberry-pi-4-model-b/
             slides: '#'
+            video: ''
+            video_en: ''
         -   time: 10:20～11:00
             speaker: ''
             topic: 主题待定
@@ -1312,6 +1476,8 @@ hangzhou:
             intro: ''
             intro_en: ''
             slides: ''
+            video: ''
+            video_en: ''
         -   time: 11:00～11:40
             speaker: ''
             topic: 主题待定
@@ -1319,6 +1485,8 @@ hangzhou:
             intro: ''
             intro_en: ''
             slides: ''
+            video: ''
+            video_en: ''
         -   time: 11:40～12:20
             speaker: ''
             topic: 主题待定
@@ -1326,6 +1494,8 @@ hangzhou:
             intro: ''
             intro_en: ''
             slides: ''
+            video: ''
+            video_en: ''
         -   time: 12:20～13:30
             speaker: ''
             topic: 午间休息
@@ -1333,6 +1503,8 @@ hangzhou:
             intro: ''
             intro_en: ''
             slides: ''
+            video: ''
+            video_en: ''
         -   time: 13:30～14:10
             speaker: ''
             topic: 主题待定
@@ -1340,6 +1512,8 @@ hangzhou:
             intro: ''
             intro_en: ''
             slides: ''
+            video: ''
+            video_en: ''
         -   time: 14:10～14:50
             speaker: ''
             topic: 主题待定
@@ -1347,6 +1521,8 @@ hangzhou:
             intro: ''
             intro_en: ''
             slides: ''
+            video: ''
+            video_en: ''
         -   time: 14:50～15:30
             speaker: ''
             topic: 主题待定
@@ -1354,6 +1530,8 @@ hangzhou:
             intro: ''
             intro_en: ''
             slides: ''
+            video: ''
+            video_en: ''
         -   time: 15:30～15:45
             speaker: ''
             topic: 茶歇
@@ -1361,6 +1539,8 @@ hangzhou:
             intro: ''
             intro_en: ''
             slides: ''
+            video: ''
+            video_en: ''
         -   time: 15:45～16:25
             speaker: ''
             topic: 主题待定
@@ -1368,6 +1548,8 @@ hangzhou:
             intro: ''
             intro_en: ''
             slides: ''
+            video: ''
+            video_en: ''
         -   time: '16:25～17:05
 
                 闪电演讲'
@@ -1377,6 +1559,8 @@ hangzhou:
             intro: ''
             intro_en: ''
             slides: ''
+            video: ''
+            video_en: ''
         actived: active
 shenzhen:
     city: shenzhen
@@ -1405,6 +1589,8 @@ shenzhen:
             intro: ''
             intro_en: ''
             slides: '#'
+            video: ''
+            video_en: ''
         -   time: 09:00～09:40
             speaker: shenzhen_speaker_giampaolo_rodola
             topic: 加速 Python 中的文件传输和拷贝
@@ -1412,6 +1598,8 @@ shenzhen:
             intro: ''
             intro_en: ''
             slides: '#'
+            video: ''
+            video_en: ''
         -   time: 09:40～10:20
             speaker: shenzhen_speaker_zheng_liu
             topic: Google SRE 体系核心基础解读
@@ -1427,6 +1615,8 @@ shenzhen:
                 them to practical tricks that you can use in your group, including
                 a process specified by the SLO for a typical application system.
             slides: '#'
+            video: ''
+            video_en: ''
         -   time: 10:20～11:00
             speaker: shenzhen_speaker_zagfai
             topic: 从 Python 开始钱赚钱
@@ -1447,6 +1637,8 @@ shenzhen:
                 quantitative trading, and derives the point of view that programming
                 is fun from making money with programs.'
             slides: '#'
+            video: ''
+            video_en: ''
         -   time: 11:00～11:40
             speaker: shenzhen_speaker_chao_xie
             topic: 一行代码加速科学计算
@@ -1460,6 +1652,8 @@ shenzhen:
                 the scientific computing?<br />・ The limitation and community''s ambition
                 of modin.'
             slides: '#'
+            video: ''
+            video_en: ''
         -   time: 11:40～12:20
             speaker: shenzhen_speaker_xi_ming
             topic: Pipenv 和 Python 包管理
@@ -1475,6 +1669,8 @@ shenzhen:
                 For extension, we will talk about the tools beside Pipenv and what
                 problem do they solve in Python package management.
             slides: '#'
+            video: ''
+            video_en: ''
         -   time: 12:20～13:30
             speaker: 午餐
             topic: 主题待定
@@ -1482,6 +1678,8 @@ shenzhen:
             intro: ''
             intro_en: ''
             slides: ''
+            video: ''
+            video_en: ''
         -   time: 13:30～14:10
             speaker: shenzhen_speaker_yi_huang
             topic: Python 前端开发
@@ -1494,6 +1692,8 @@ shenzhen:
                 used to develop games and applications. This speech will also talk
                 about related ecology in frontend field.
             slides: '#'
+            video: ''
+            video_en: ''
         -   time: 14:10～14:50
             speaker: shenzhen_speaker_jianhui_lu
             topic: 云中起舞—— Python 的人工智能开发在微软云中的应用
@@ -1529,6 +1729,8 @@ shenzhen:
                 Using Azure Machine Learning Service to rapidly publish a Serverless
                 applicaiton<br />D. Demonstration'
             slides: '#'
+            video: ''
+            video_en: ''
         -   time: 14:50～15:30
             speaker: 赞助主题
             topic: 主题待定
@@ -1536,6 +1738,8 @@ shenzhen:
             intro: ''
             intro_en: ''
             slides: '#'
+            video: ''
+            video_en: ''
         -   time: 15:30～15:45
             speaker: ''
             topic: 茶歇
@@ -1543,6 +1747,8 @@ shenzhen:
             intro: ''
             intro_en: ''
             slides: '#'
+            video: ''
+            video_en: ''
         -   time: 15:45～16:25
             speaker: ''
             topic: 主题待定
@@ -1550,6 +1756,8 @@ shenzhen:
             intro: ''
             intro_en: ''
             slides: '#'
+            video: ''
+            video_en: ''
         -   time: '16:25～17:05
 
                 闪电演讲'
@@ -1565,6 +1773,8 @@ shenzhen:
                 for Linux operating system, how to solve the dependency on windows,
                 how to release the package to pypi.org with the help of CI.
             slides: '#'
+            video: ''
+            video_en: ''
         -   time: '16:25～17:05
 
                 闪电演讲'
@@ -1587,6 +1797,8 @@ shenzhen:
                 Python, which greatly reduces the difficulty of use and facilitates
                 centralized management.
             slides: ''
+            video: ''
+            video_en: ''
         actived: active
 chengdu:
     city: chengdu
@@ -1615,6 +1827,8 @@ chengdu:
             intro: ''
             intro_en: ''
             slides: ''
+            video: ''
+            video_en: ''
         -   time: 09:00～09:40
             speaker: 红姐
             topic: 主题待定
@@ -1622,6 +1836,8 @@ chengdu:
             intro: ''
             intro_en: ''
             slides: ''
+            video: ''
+            video_en: ''
         -   time: 09:40～10:20
             speaker: chengdu_speaker_tengjingmeina
             topic: Python 的 NLP 实战分享-如何实现合同风险预测模型
@@ -1650,6 +1866,8 @@ chengdu:
                 I hope you can gain some points and try to use Python NLP in your
                 field.
             slides: ''
+            video: ''
+            video_en: ''
         -   time: 10:20～11:00
             speaker: ''
             topic: 主题待定
@@ -1657,6 +1875,8 @@ chengdu:
             intro: ''
             intro_en: ''
             slides: '#'
+            video: ''
+            video_en: ''
         -   time: 11:00～11:40
             speaker: chengdu_speaker_zhihang_liu
             topic: 静态类型的 Python
@@ -1668,6 +1888,8 @@ chengdu:
                 static  language and equivalent dynamic language, and will promote
                 the progressive type system and universal type derivation.
             slides: '#'
+            video: ''
+            video_en: ''
         -   time: 11:40～12:20
             speaker: chengdu_speaker_thautwarm
             topic: Python 语法扩展框架 Moshmosh 和其上 CPython 兼容的 JIT 实现
@@ -1685,6 +1907,8 @@ chengdu:
                 based on some significant projects (such as llvm, llvmlite); we also
                 introduce how to extend semantics under the current Python syntax.
             slides: '#'
+            video: ''
+            video_en: ''
         -   time: 12:20～13:30
             speaker: ''
             topic: 午间休息
@@ -1692,6 +1916,8 @@ chengdu:
             intro: ''
             intro_en: ''
             slides: '#'
+            video: ''
+            video_en: ''
         -   time: 13:30～14:10
             speaker: ''
             topic: 茶歇
@@ -1699,6 +1925,8 @@ chengdu:
             intro: ''
             intro_en: ''
             slides: ''
+            video: ''
+            video_en: ''
         -   time: 14:10～14:50
             speaker: chengdu_speaker_grey_li
             topic: 基于 Flask 的 Web API 开发指南
@@ -1718,6 +1946,8 @@ chengdu:
                 truly REST API? In this topic speech, we will discuss these questions
                 and introduce how to write a fully functional Web API using Flask.
             slides: ''
+            video: ''
+            video_en: ''
         -   time: 14:50～15:30
             speaker: 李者璈
             topic: 主题待定
@@ -1725,6 +1955,8 @@ chengdu:
             intro: ''
             intro_en: ''
             slides: ''
+            video: ''
+            video_en: ''
         -   time: 15:30～15:45
             speaker: ''
             topic: 茶歇
@@ -1732,6 +1964,8 @@ chengdu:
             intro: ''
             intro_en: ''
             slides: ''
+            video: ''
+            video_en: ''
         -   time: 15:45～16:25
             speaker: ''
             topic: 用 Micro Python 触摸物理世界
@@ -1739,6 +1973,8 @@ chengdu:
             intro: ''
             intro_en: ''
             slides: ''
+            video: ''
+            video_en: ''
         -   time: '16:25～17:05
 
                 闪电演讲'
@@ -1755,6 +1991,8 @@ chengdu:
                 of SQLAlchemy. Finally, I found that every time I save data, I get
                 a new session, which is the problem after testing.
             slides: ''
+            video: ''
+            video_en: ''
         -   time: '16:25～17:05
 
                 闪电演讲'
@@ -1773,6 +2011,8 @@ chengdu:
                 can Python emit light and heat in Block Chains? I hope you can reflect
                 on this issue together with my speech.
             slides: ''
+            video: ''
+            video_en: ''
         actived: active
 nanning:
     city: nanning
