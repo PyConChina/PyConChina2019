@@ -43,7 +43,8 @@ shanghai:
             intro_en: I love to study the design of programming languages, and I’ve
                 been coding in Python since 1998. Python is a masterpiece of design.
                 This talk is about the parts of Python that I find are the most beautiful.
-            slides: '#'
+            slides: https://pycondownload.blob.core.chinacloudapi.cn/goods/2019/slides/主会场-1.
+                Beautiful_Python.pdf
             video: ''
             video_en: ''
         -   time: 09:20～10:00
@@ -644,7 +645,8 @@ shanghai:
                 management and other aspects of quantitative investment, involing
                 futures, opitons, ETF and other financial products suitable for quantitative
                 trading.
-            slides: '#'
+            slides: https://pycondownload.blob.core.chinacloudapi.cn/goods/2019/slides/分会场E-【5】刘欣
+                - Python在量化投资领域的应用.pdf
             video: ''
             video_en: ''
     -   place_name_en: Venue F
@@ -678,7 +680,8 @@ shanghai:
                 the impact of Python language on FPGA devices during programming application
                 development, performance results, etc., and will also introduce the
                 road map for subsequent development of the project.
-            slides: ''
+            slides: https://pycondownload.blob.core.chinacloudapi.cn/goods/2019/slides/分会场F-【1】当
+                Python 遇上 FPGA – PYNQ 开源项目的实践与体会-陆佳华.pdf
             video: ''
             video_en: ''
         -   time: 13:40～14:20
@@ -687,7 +690,8 @@ shanghai:
             topic_en: To be determined
             intro: ''
             intro_en: ''
-            slides: ''
+            slides: https://pycondownload.blob.core.chinacloudapi.cn/goods/2019/slides/分会场F-【2】FPGA
+                助力 Python 加速计算-陈志勇博士.pdf
             video: ''
             video_en: ''
         -   time: 14:20~14:30
@@ -726,7 +730,8 @@ shanghai:
                 your serverless container application using AWS CDK<br />9. Use AWS
                 CDK to quickly deploy your Amazon EKS (Elastic Kubernetes Service)
                 application<br />10. QA
-            slides: ''
+            slides: https://pycondownload.blob.core.chinacloudapi.cn/goods/2019/slides/分会场F-【3】在
+                AWS 部署与发布你面向全球的 Python Serverless 应用-谢洪恩.pdf
             video: ''
             video_en: ''
     -   place_name_en: Venue B
@@ -819,7 +824,7 @@ shanghai:
                 It also supports customize grammar. In my point of view, markdown
                 is a piece of paper and sphinx is a book. If you want to record many
                 things, why not try sphinx?
-            slides: https://pycondownload.blob.core.chinacloudapi.cn/goods/2019/slides/5-陈照强-使用Sphinx编写Web文档.pdf
+            slides: ''
             video: ''
             video_en: ''
         -   time: '16:40 ~ 17:20
