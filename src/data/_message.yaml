@@ -19,7 +19,7 @@ booking_now:
     location_en:
   - name: "杭州"
     name_en: "Hangzhou"
-    url: "#"
+    url: "https://www.bagevent.com/event/5887011"
     location: 
     location_en:
   - name: "深圳"
@@ -34,7 +34,7 @@ booking_now:
     location_en:
   - name: "南宁"
     name_en: "Nanning"
-    url: "#"
+    url: "https://www.bagevent.com/event/6020930"
     location: 
     location_en:
 
