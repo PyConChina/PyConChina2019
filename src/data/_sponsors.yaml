@@ -65,15 +65,17 @@ organizer:
         a new group called PyChina in 2014 to advertise and develop Python. PyChina
         will encourage online and offline activities from all over China, especially
         PyCon.
-
 diamond:
 -   logo: ./asset/images/sponsors/psf.png
     logo_en: ../asset/images/sponsors/psf.png
     link: https://www.python.org/psf/
     name: Python 软件基金会
     name_en: Python Software Foundation
-    intro: Python 软件基金会（Python Software Foundation）是一个拥有 Python 语言知识产权的 501(c)(3) 非盈利组织。
-    intro_en: The Python Software Foundation (PSF) is a 501(c)(3) non-profit corporation that holds the intellectual property rights behind the Python programming language. 
+    intro: Python 软件基金会（Python Software Foundation）是一个拥有 Python 语言知识产权的 501(c)(3)
+        非盈利组织。
+    intro_en: The Python Software Foundation (PSF) is a 501(c)(3) non-profit corporation
+        that holds the intellectual property rights behind the Python programming
+        language.
 -   logo: ./asset/images/sponsors/azure.png
     logo_en: ../asset/images/sponsors/azure.png
     link: https://azure.microsoft.com/zh-cn/
@@ -143,6 +145,26 @@ silver:
         to more than 130 futures companies and millions of end users across the country.
         Tianqin Quantification Software under Xinyi Technology provides complete Python
         Quantization Program Framework and data, transaction supoort free of charge.
+-   logo: ./asset/images/sponsors/crypto.png
+    logo_en: ../asset/images/sponsors/crypto.png
+    link: https://www.lagou.com/jobs/6406061.html
+    name: Crypto.com
+    name_en: Crypto.com
+    intro: 'Crypto.com 成立于2016年，其愿景是希望能加速全球经济对加密货币的转型。主要产品包括：以加密货币购买、出售和支付的最佳平台 -
+        Crypto.com 电子钱包及预付卡应用程式；没有年费的金属卡 - MCO Visa 预付卡；以及能让用户在任何地方免费支付各种加密货币的区块链技术
+        - Crypto.com Chain。
+
+        Crypto.com 的总部设于香港，並拥有120多人的强大团队。'
+    intro_en: 'Crypto.com is a pioneering payments and Blockchain platform with a
+        mission to accelerate the world’s transition to Blockchain payment. We challenge
+        banks and empower our customers with greater financial freedom through our
+        consumer financial services.
+
+        Our key products, the Crypto.com App, MCO Visa Card, and Crypto.com Chain,
+        echoes our vision to put Digital Currency in Every Wallet.
+
+        Founded in 2016, Crypto.com is headquartered in Hong Kong with a 200+ strong
+        team.'
 bronze: []
 support: []
 assist: []

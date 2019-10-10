@@ -685,7 +685,7 @@ shanghai:
             video: ''
             video_en: ''
         -   time: 13:40～14:20
-            speaker: 陈志勇
+            speaker: shanghai_speaker_zhiyong_chen
             topic: FPGA 阻力 Python 加速计算
             topic_en: To be determined
             intro: ''
@@ -1142,7 +1142,7 @@ beijing:
         place_name_short: m
         url: place_beijing_auditorium_m
         speechs:
-        -   time: 08:30～09:00
+        -   time: 09:00～09:30
             speaker: ''
             topic: 签到/开场致辞
             topic_en: Check In/Opening Remarks
@@ -1151,16 +1151,7 @@ beijing:
             slides: ''
             video: ''
             video_en: ''
-        -   time: 09:00～09:40
-            speaker: 雨痕
-            topic: 主题待定
-            topic_en: To be determined
-            intro: ''
-            intro_en: ''
-            slides: ''
-            video: ''
-            video_en: ''
-        -   time: 09:40 ~ 10:20
+        -   time: 09:30～10:10
             speaker: beijing_speaker_heng_cui
             topic: 基于 PyQt + QScintilla 的 IDE 对 RobotFramework 的 DSL 进行编程
             topic_en: Programming the DSL of RobotFramework Based On the IDE Of PyQt
@@ -1182,23 +1173,22 @@ beijing:
             slides: ''
             video: ''
             video_en: ''
-        -   time: 10:20 ~ 11:00
-            speaker: beijing_speaker_jintao_zhang
-            topic: 云原生时代下 Python 开发的新体验
-            topic_en: A new experience of Python development in the Cloud Native
-            intro: Kubernetes 已经成为容器编排领域的事实标准，各公司及团队都在开始使用或逐步探索如何将其用于生产环境中。而多数情况下
-                我们希望能通过 Kubernetes 提高团队整体的研发效率以及提高服务部署及扩缩容的效率，serverless 并不是一个很新的概念，但在云原生时代下，我们有了更多可能性和更多玩法，希望能与大家分享云原生时代下
-                Python 开发结合 serverless 的体验，以及在此过程中的探索和实践。
-            intro_en: Kubernetes has become the de facto standard in the field of
-                container orchestration, and companies and teams are beginning to
-                use or gradually explore how to use them in production environments.
-                In most cases, we hope to improve the overall R&D efficiency of the
-                team and improve the efficiency of service deployment and expansion
-                and expansion through Kubernetes. Serverless is not a very new concept,
-                but in the cloud era, we have more possibilities and More gameplay,
-                I hope to share with you the experience of Python development combined
-                with serverless in the Cloud Native, as well as exploration and practice
-                in this process.
+        -   time: 10:10～10:50
+            speaker: 王宇韬
+            topic: Python 在金融领域的商业应用及创新
+            topic_en: The Business Application and Innovation of Python in Financial
+                Field
+            intro: 信息时代，数据为王。在金融领域，每天打交道的便是海量的数据，例如新闻舆情数据、股价数据、宏观经济数据，个人信用数据等，如何从这些数据中挖掘出所需要的信息，并进行相应的分析便是很多金融从业者非常关心的内容。例如我们可以根据网络新闻数据可以搭建舆情监控系统实现企业风险预警，通过股价数据可以进行相关量化金融分析寻找合适的交易机会，通过个人信用数据可以进行大数据风控进行金融反欺诈等。
+            intro_en: ''
+            slides: ''
+            video: ''
+            video_en: ''
+        -   time: 10:50 ~ 11:00
+            speaker: ''
+            topic: 休息
+            topic_en: Break
+            intro: ''
+            intro_en: ''
             slides: ''
             video: ''
             video_en: ''
@@ -1233,15 +1223,15 @@ beijing:
             video_en: ''
         -   time: 12:20 ~ 13:30
             speaker: ''
-            topic: 午餐
-            topic_en: Lunch
+            topic: 午间休息
+            topic_en: Lunch Break
             intro: ''
             intro_en: ''
             slides: '#'
             video: ''
             video_en: ''
         -   time: 13:30～14:10
-            speaker: "Hideyuki\n  Ogawa"
+            speaker: beijing_speaker_hideyuki_ogawa
             topic: 用 Dash 实现交互式数据可视化
             topic_en: Interactive Data Visualization With Dash
             intro: 我将介绍如何使用 Python 的数据分析 web 框架 Dash 有效的实现数据的挖掘、监测及共享。特别是数据共享。<br
@@ -1272,49 +1262,56 @@ beijing:
             video: ''
             video_en: ''
         -   time: 14:50～15:10
-            speaker: 王宇韬
-            topic: Python 在金融领域的商业应用及创新
-            topic_en: To be determined
+            speaker: ''
+            topic: 茶歇
+            topic_en: Break
             intro: ''
             intro_en: ''
-            slides: '#'
+            slides: ''
             video: ''
             video_en: ''
         -   time: 15:10～15:50
-            speaker: ''
-            topic: 茶歇
-            topic_en: Tea Break
-            intro: ''
-            intro_en: ''
+            speaker: beijing_speaker_xiangyu_he
+            topic: 理解 Python 中的 AST
+            topic_en: Understanding Python’s AST
+            intro: Python 中的 AST（Abstract Syntax Tree）是把文本形式源代码转化成具有抽象语法结构的树状表达式。灵活运用
+                AST 可以在编译成 bytecode 前对源代码二次修改，以达到某些特殊的功能。也可以根据修改后的 AST 对代码进行转义或者二次生成任何具有语法的文本。
+            intro_en: Python 中的 AST（Abstract Syntax Tree）是把文本形式源代码转化成具有抽象语法结构的树状表达式。灵活运用
+                AST 可以在编译成 bytecode 前对源代码二次修改，以达到某些特殊的功能。也可以根据修改后的 AST 对代码进行转义或者二次生成任何具有语法的文本。
             slides: '#'
             video: ''
             video_en: ''
         -   time: 15:50～16:30
-            speaker: ''
-            topic: 赞助主题
-            topic_en: 赞助主题
-            intro: ''
-            intro_en: ''
+            speaker: 陈志勇博士
+            topic: FPGA 助力 Python 加速计算
+            topic_en: Accelerate Computing in Python Assisted by FPGA
+            intro: 本演讲内容将介绍 FPGA 并行计算和加速计算的理念，同时基于 Xilinx ARM SOC 器件的 Python 编程框架
+                PYNQ (Python Productivity for Zynq)，详细讲述基于安富利公司Ultra96 开发板的 PYNQ 开发环境和开发工具链以及基于
+                PYNQ 框架的参考设计和相关的演示，包括计算机视觉和人工智能的应用。最后介绍安富利公司计划配合 Python 社区进行的一系列技术交流活动，旨在推动
+                Python 编程在嵌入式平台的广泛应用，促进在计算机视觉、人工智能和边缘计算等领域的产品落地。
+            intro_en: This lecture will introduce the idea of parallel computing and
+                accelerating computing based on FPGA. At the same time, base on Python
+                programming framework PYNQ (Python Productivity for Zynq) of Xilinx
+                ARM SOC, I will tell you in detail the PYNQ development environment
+                and development tool chain based on Ultra96 development board of Avnet,
+                as well as the reference design and related demonstration based on
+                PYNQ framework, including the application of computer vision and artificial
+                intelligence. Finally, I will introduce a series of technology exchange
+                activities planned by Avnet in cooperation with Python community,
+                aiming at promoting the wide application of Python programming in
+                embedded platforms, and promoting the landing of products in the fields
+                of computer vision, artificial intelligence and edge computing.
             slides: '#'
             video: ''
             video_en: ''
         -   time: '16:30～17:00
 
                 闪电演讲'
-            speaker: beijing_speaker_ruoran_pang
-            topic: Python 与 Redis 的一二事
-            topic_en: One or Two Things Between Python and Redis
-            intro: Redis 几乎是现在进行服务开发中必不可少的“银弹”，虽然大家使用场景不同，但是可能都会面临同样的问题：生产环境会封禁 keys
-                等容易造成服务阻塞的命令。但是在使用 scan 命令替代的过程中，人工去进行链式访问效率太低，如何利用 Python 将此效率提高？
-                现在随着 Redis cluster 的普及，Python 又会给我们的日常工作带来哪些便利呢？
-            intro_en: 'Redis is now an indispensable "silver bullet" in service development.
-                Although people use it in different scenarios, they may face the same
-                problem: the production environment will block several commands like
-                ''keys'' that may cause service blockage. But in the process of using
-                ''scan'' command instead, manual chain access is too inefficient.
-                How to use Python to inprove this efficiency? And with the popularity
-                of Redis cluster, what conveniences will Python bring to our daily
-                work?'
+            speaker: beijing_speaker_yiyun
+            topic: 类型检查拯救粗心开发者
+            topic_en: Type Checking Saves Careless Developers
+            intro: 君可知，一点点类型注解，可省去多少恼人的 bug
+            intro_en: ''
             slides: '#'
             video: ''
             video_en: ''
@@ -1367,40 +1364,6 @@ beijing:
             slides: ''
             video: ''
             video_en: ''
-        -   time: '16:30～17:00
-
-                闪电演讲'
-            speaker: beijing_speaker_yulong_liu
-            topic: Requests 长链接与 TIME_WAIT
-            topic_en: Requests Long Links and TIME_WAIT
-            intro: 去年服务拆分时，为了给内部服务间 http 调用加上默认的重试次数，把 requests.get 改成了 request.Session().get，中间加了
-                HTTPAdapter 但是忘记了关闭 tcp 链接，初期请求量小没啥问题，后来并发一高就会出现建立链接失败的问题，而且报错还都是重试次数耗尽，一开始有同学改了
-                timeout，但这也不是 timeout 的问题啊，这链接都没建立成功…这个问题困扰了我们好久。后来我想起之前听过百度的一个分享，里面有讲类似的问题，于是去翻了一圈视频，仔细了解了这类情况，又去重读了
-                requests 的文档和部分代码，最后终于确定是客户端设置了 keep-alive 但并没有复用，于是服务端总是被迫主动关闭链接，同时会等待两个
-                MSL，高并发时会造成 tcp 链接被大量占用，甚至占满。最后加了一句 with 保证关闭链接解决问题。（这是刚刚发生的事，不确定接下去几个月会不会暴露出新的问题）
-            intro_en: Last year, when doing service splitting, in order to add the
-                default number of retries to the http call between internal services,
-                I changed the requests.get into request.Session().get, and added the
-                HTTPAdapter in the middle, but forgot to close the tcp link. Initially,
-                the amount of requests was small and everything was OK. But later,
-                when the concurrency was high, there will be a failure to establish
-                a link, and the errors were all that the number of retries had been
-                exhausted. At the beginning, some students changed the timeout, but
-                that was not a problem with timeout, and even the link had not been
-                established successfully... This problem had plagued us for a long
-                time. Later, I thought of a share of Baidu I had heard before, and
-                there was a similar question. So I went through the videos and carefully
-                understood the situation. Then I went to re-read the documentation
-                of requests and part of the code. Finally, it was confirmed that keep-alive
-                was set but not reused, so the server was always forced to close the
-                link actively, and would wait for two MSLs. High concurrency may cause
-                the tcp links to be heavily occupied or even full. Finally, we added
-                a 'with' to ensure that the links were closed, and then, the problem
-                was solved. (This is just what happened, and I am not sure if there
-                will be new problems in the next few months)
-            slides: ''
-            video: ''
-            video_en: ''
         actived: active
 hangzhou:
     city: hangzhou
@@ -1421,35 +1384,77 @@ hangzhou:
         place_name_short: m
         url: place_hangzhou_auditorium_m
         speechs:
-        -   time: 08:30～09:30
+        -   time: 08:30～09:45
             speaker: ''
-            topic: 签到
-            topic_en: Check In
+            topic: 签到/开场致辞
+            topic_en: Check In and Opening
             intro: ''
             intro_en: ''
             slides: ''
             video: ''
             video_en: ''
-        -   time: 09:30～09:40
-            speaker: hangzhou_speaker_thautwarm
-            topic: Python 语法扩展框架 Moshmosh 和其上 CPython 兼容的 JIT 实现
-            topic_en: Python Syntax Extension Framework Moshmosh And CPython-compatible
-                JIT Implementation On It
-            intro: 模式匹配，大家想了很多年了。JIT，大家也想了很多年了。现在的模式匹配库，却远远不及其他语言内置的语言构造; 现在的 JIT，却过于领域特定，局限于数值计算或者和脱离于
-                CPython 解释器。我们利用编译知识，基于一些意义重大的项目(如llvm, llvmlite), 实现了优化不同和 use case
-                程度的 JIT 实现; 同时也介绍了如何在现行 Python 语法下扩展语义。
-            intro_en: Pattern matching, we have been thinking for many years. JIT,
-                we also have been thinking for many years. The current pattern matching
-                library is far less than the language constructs built in other languages;
-                the current JIT is too domain-specific, and limited to numerical calculations
-                or out of the CPython interpreter. We use compilation knowledge to
-                implement JIT implementations that optimize different and use case
-                based on some significant projects (such as llvm, llvmlite); we also
-                introduce how to extend semantics under the current Python syntax.
+        -   time: 09:45 ~ 10:30
+            speaker: hangzhou_speaker_liangju_deng
+            topic: 编写更安全的 Python 代码
+            topic_en: "\uFEFFWrite Safer Code"
+            intro: 站在开发者的角度，在工作中大家最关注的是业务功能是否实现，业务逻辑是否正确，高级别的一些同学的会关注可扩展性等架构层面的问题。然而，大家都有共同特点：在完成工作（编写代码）时，几乎都是正向思维，会假定用户是按产品设计的流程操作的。<br
+                />例如写用户余额减扣的代码，也只会写 if user.balance >= product.price, 紧接着一句 user.balance
+                -= product.price。实际上这样的语句存在很大的安全隐患。<br />应用开发者们一般很少去思考自己所编写的代码可能存在的瑕疵和安全漏洞，就算其中有部分同学具有较强的安全意识，对如何编写安全的代码也只是停留在：内存访问别越界，别用
+                eval 函数，入参要做非法字符校验。<br />本演讲主题将分享给大家的是，在利用 Python 编写程序的过程中，有哪些不经意的“正常写法”可能存在安全隐患以及改进做法，使代码变得更安全，并介绍两个用于
+                Python 代码审查的工具。
+            intro_en: 站在开发者的角度，在工作中大家最关注的是业务功能是否实现，业务逻辑是否正确，高级别的一些同学的会关注可扩展性等架构层面的问题。然而，大家都有共同特点：在完成工作（编写代码）时，几乎都是正向思维，会假定用户是按产品设计的流程操作的。<br
+                />例如写用户余额减扣的代码，也只会写 if user.balance >= product.price, 紧接着一句 user.balance
+                -= product.price。实际上这样的语句存在很大的安全隐患。<br />应用开发者们一般很少去思考自己所编写的代码可能存在的瑕疵和安全漏洞，就算其中有部分同学具有较强的安全意识，对如何编写安全的代码也只是停留在：内存访问别越界，别用
+                eval 函数，入参要做非法字符校验。<br />本演讲主题将分享给大家的是，在利用 Python 编写程序的过程中，有哪些不经意的“正常写法”可能存在安全隐患以及改进做法，使代码变得更安全，并介绍两个用于
+                Python 代码审查的工具。
             slides: '#'
             video: ''
             video_en: ''
-        -   time: 09:40～10:20
+        -   time: 10:30 ~ 11:15
+            speaker: hangzhou_speaker_zhixiang_xu
+            topic: Home Bot
+            topic_en: Home Bot
+            intro: 通过 Python 和 Telegram 搭建一个家用机器人，并介绍一些相关的功能和生态环境。
+            intro_en: 通过 Python 和 Telegram 搭建一个家用机器人，并介绍一些相关的功能和生态环境。
+            slides: '#'
+            video: ''
+            video_en: ''
+        -   time: 11:15 ~ 12:00
+            speaker: hangzhou_speaker_yixian_du
+            topic: Python3 的新特性和改进
+            topic_en: New features and improvements of Python 3
+            intro: 随着 Python2.x 的停止维护时间（2020年1月1日）越来越近，各大流行 Python 包（Flask,Django,Ipython）也终止了
+                Python2 版本的支持。遗留项目切换到 Python3 的计划也要提上日程。本次主题演讲主要介绍 Python3 各个版本的新特性，改进，背后的原因，和从
+                Python2 代码迁移过来时需要注意的点。
+            intro_en: 随着 Python2.x 的停止维护时间（2020年1月1日）越来越近，各大流行 Python 包（Flask,Django,Ipython）也终止了
+                Python2 版本的支持。遗留项目切换到 Python3 的计划也要提上日程。本次主题演讲主要介绍 Python3 各个版本的新特性，改进，背后的原因，和从
+                Python2 代码迁移过来时需要注意的点。
+            slides: ''
+            video: ''
+            video_en: ''
+        -   time: 12:00 ~ 13:30
+            speaker: ''
+            topic: 午间休息
+            topic_en: Lunch Break
+            intro: ''
+            intro_en: ''
+            slides: ''
+            video: ''
+            video_en: ''
+        -   time: 13:30 ~ 14:15
+            speaker: hangzhou_speaker_kaisheng_he
+            topic: 人人都爱 DataFrame：Pandas 到 Mars 的进阶之路
+            topic_en: 'Everyone loves DataFrame: Pandas'' Way to Mars'
+            intro: Pandas 作为最受数据科学家欢迎的分析库，提供了超多的接口来进行数据处理和分析。然而，在很多具体任务过程中，会遇到性能不尽如人意，但又不知如何优化的情况。本次演讲会介绍
+                Pandas 的常见优化策略，以及 Pandas 背后的实现原理。最后在常见优化手段都不起作用时，可以使用 Mars DataFrame
+                来并行和分布式加速计算。
+            intro_en: Pandas 作为最受数据科学家欢迎的分析库，提供了超多的接口来进行数据处理和分析。然而，在很多具体任务过程中，会遇到性能不尽如人意，但又不知如何优化的情况。本次演讲会介绍
+                Pandas 的常见优化策略，以及 Pandas 背后的实现原理。最后在常见优化手段都不起作用时，可以使用 Mars DataFrame
+                来并行和分布式加速计算。
+            slides: ''
+            video: ''
+            video_en: ''
+        -   time: 14:15 ~ 15:00
             speaker: hangzhou_speaker_feng_li
             topic: 用于 Linux 内核调试的 Python
             topic_en: Python for Linux Kernel Debugging
@@ -1460,109 +1465,125 @@ hangzhou:
                 />https://en.wikipedia.org/wiki/Berkeley_Packet_Filter<br />https://github.com/iovisor/bcc<br
                 />https://github.com/ARM-software/lisa<br />https://github.com/osandov/drgn<br
                 />https://www.raspberrypi.org/products/raspberry-pi-4-model-b/
-            intro_en: 1) Python frontend parsing of BCC (BPF Compiler Collection,
-                a toolkit for <br />creating efficient kernel tracing and manipulation
-                programs)<br />2) Deep analysis of Project LISA (Linux Integrated
-                System Analysis, a toolkit that <br />supports interactive analysis
-                and automated testing of Linux kernel) <br />3) Introduction of the
-                scriptable kernel debugger library drgn <br />4) Practicing BCC and
-                drgn on Open Hardware Platforms (Raspberry Pi 4, etc), <br />and trying
-                to extend LISA with new design<br />Reference technical links:<br
-                />https://en.wikipedia.org/wiki/Berkeley_Packet_Filter<br />https://github.com/iovisor/bcc<br
-                />https://github.com/ARM-software/lisa<br />https://github.com/osandov/drgn<br
-                />https://www.raspberrypi.org/products/raspberry-pi-4-model-b/
-            slides: '#'
+            intro_en: 1) BCC(BPF Compiler Collection, 利用扩展的伯克利包过滤器 eBPF 来高效地跟踪内 <br
+                />核和操作应用程序的工具箱)的 Python 前端解析<br />2) 深入分析 LISA（Linux Integrated System
+                Analysis, 基于 Python 的 Linux 内核交互<br />式分析和自动化测试利器）项目<br />3) 脚本化内核调试器
+                drgn 简介<br />4) 在开源 ARM 平台（如树莓派4等）上实践 BCC 和 drgn，以及 LISA 项目的扩展设计<br
+                />议题涉及的主要技术链接：<br />https://en.wikipedia.org/wiki/Berkeley_Packet_Filter<br
+                />https://github.com/iovisor/bcc<br />https://github.com/ARM-software/lisa<br
+                />https://github.com/osandov/drgn<br />https://www.raspberrypi.org/products/raspberry-pi-4-model-b/
+            slides: ''
             video: ''
             video_en: ''
-        -   time: 10:20～11:00
-            speaker: ''
+        -   time: 15:00 ~ 15:45
+            speaker: hangzhou_speaker_xinyi_li
             topic: 主题待定
-            topic_en: To be determined
-            intro: ''
-            intro_en: ''
+            topic_en: 主题待定
+            intro: 主题待定
+            intro_en: 主题待定
             slides: ''
             video: ''
             video_en: ''
-        -   time: 11:00～11:40
-            speaker: ''
-            topic: 主题待定
-            topic_en: To be determined
-            intro: ''
-            intro_en: ''
-            slides: ''
-            video: ''
-            video_en: ''
-        -   time: 11:40～12:20
-            speaker: ''
-            topic: 主题待定
-            topic_en: To be determined
-            intro: ''
-            intro_en: ''
-            slides: ''
-            video: ''
-            video_en: ''
-        -   time: 12:20～13:30
-            speaker: ''
-            topic: 午间休息
-            topic_en: To be determined
-            intro: ''
-            intro_en: ''
-            slides: ''
-            video: ''
-            video_en: ''
-        -   time: 13:30～14:10
-            speaker: ''
-            topic: 主题待定
-            topic_en: To be determined
-            intro: ''
-            intro_en: ''
-            slides: ''
-            video: ''
-            video_en: ''
-        -   time: 14:10～14:50
-            speaker: ''
-            topic: 主题待定
-            topic_en: To be determined
-            intro: ''
-            intro_en: ''
-            slides: ''
-            video: ''
-            video_en: ''
-        -   time: 14:50～15:30
-            speaker: ''
-            topic: 主题待定
-            topic_en: To be determined
-            intro: ''
-            intro_en: ''
-            slides: ''
-            video: ''
-            video_en: ''
-        -   time: 15:30～15:45
+        -   time: 15:45 ~ 16:00
             speaker: ''
             topic: 茶歇
-            topic_en: Tea Break
+            topic_en: Break
             intro: ''
             intro_en: ''
             slides: ''
             video: ''
             video_en: ''
-        -   time: 15:45～16:25
-            speaker: ''
-            topic: 主题待定
-            topic_en: To be determined
-            intro: ''
-            intro_en: ''
+        -   time: 16:00 ~ 16:10 闪电演讲
+            speaker: hangzhou_speaker_yixian_du
+            topic: 使用 VS Code 开发 Python 项目的最佳实践
+            topic_en: Best Practices for Developing Python Projects Using VS Code
+            intro: 从个人经历出发，介绍本人在使用 VS Code 进行 Python 项目开发的经验教训以及总结出来的一些最佳实践。内容包括：<br
+                />1. Python 开发环境的配置（Windows, Mac OS, Linux, Container）；<br />2. 介绍说明使用
+                VS Code 进行 Python 开发的常用插件和必要配置，包括 Python，Visual Studio IntelliCode，GitLens，Git
+                Graph，gitignore Generator，Live Share，Settings Sync，Project Manager
+                等个人经常使用的 VS Code 插件；<br />3. 创建一个示例Flask项目并实现一个短链生成器，并结合之前介绍的插件充分展示VS
+                Code开发Python项目的编码，调试，测试阶段的实践。
+            intro_en: 从个人经历出发，介绍本人在使用 VS Code 进行 Python 项目开发的经验教训以及总结出来的一些最佳实践。内容包括：<br
+                />1. Python 开发环境的配置（Windows, Mac OS, Linux, Container）；<br />2. 介绍说明使用
+                VS Code 进行 Python 开发的常用插件和必要配置，包括 Python，Visual Studio IntelliCode，GitLens，Git
+                Graph，gitignore Generator，Live Share，Settings Sync，Project Manager
+                等个人经常使用的 VS Code 插件；<br />3. 创建一个示例Flask项目并实现一个短链生成器，并结合之前介绍的插件充分展示VS
+                Code开发Python项目的编码，调试，测试阶段的实践。
             slides: ''
             video: ''
             video_en: ''
-        -   time: '16:25～17:05
-
-                闪电演讲'
-            speaker: ''
-            topic: 主题待定
-            topic_en: To be determined
-            intro: ''
-            intro_en: ''
+        -   time: 16:10 ~ 16:20 闪电演讲
+            speaker: hangzhou_speaker_xintao_lai
+            topic: 如何维护自己的 Side Project
+            topic_en: How to Maintain Your Side Project
+            intro: Side Project 可以让你实践自己的想法，拓展自己的技术广度，检验自己的能力。在 Side Project 中你必须独立解决问题，这里面有很多挑战，但是乐趣更多！做自己的
+                Side Project，不用担心老板，同事，可以按照自己的想法做事。这个演讲分享做 Side Project 的一些经验，包括如何找到自己的
+                Side Project，如何知道可行不可行，如何维护它们等等。
+            intro_en: Side Project 可以让你实践自己的想法，拓展自己的技术广度，检验自己的能力。在 Side Project 中你必须独立解决问题，这里面有很多挑战，但是乐趣更多！做自己的
+                Side Project，不用担心老板，同事，可以按照自己的想法做事。这个演讲分享做 Side Project 的一些经验，包括如何找到自己的
+                Side Project，如何知道可行不可行，如何维护它们等等。
+            slides: ''
+            video: ''
+            video_en: ''
+        -   time: 16:20 ~ 16:30 闪电演讲
+            speaker: hangzhou_speaker_hongke_zhang
+            topic: PySpark 在大数据/机器学习方面的应用
+            topic_en: Application of PySpark in Large Data/Machine Learning
+            intro: 什么是 PySpark？<br />为什么选择 PySpark？<br />使用 PySpark 进行大数据处理？<br />使用
+                PySpark 进行机器学习？<br />本快速演讲主题将分享给大家的是，在利用 PySpark 在大数据处理和机器学习方向的应用，并介绍使用过程中的一些经验总结，优点以及不足的地方。
+            intro_en: 什么是 PySpark？<br />为什么选择 PySpark？<br />使用 PySpark 进行大数据处理？<br
+                />使用 PySpark 进行机器学习？<br />本快速演讲主题将分享给大家的是，在利用 PySpark 在大数据处理和机器学习方向的应用，并介绍使用过程中的一些经验总结，优点以及不足的地方。
+            slides: ''
+            video: ''
+            video_en: ''
+        -   time: 16:30 ~ 16:40 闪电演讲
+            speaker: hangzhou_speaker_zhenying_xu
+            topic: Python 深度学习技术在医学领域的应用与前景
+            topic_en: Application and Prospect of Python Deep Learning Technology
+                in Medical Field
+            intro: 结合当前主流深度学习框架流行趋势及实际业务情况说明选择 Keras 作为部门深度学习主要框架的原因。随后进行 Keras 的简单介绍，介绍如何使用
+                Keras 模块进行序贯式及函数式编程来搭建神经网络的过程及实施过程。最后结合公司研发的产品介绍人工智能技术在医学及公共卫生领域的一些应用方向，前景与挑战。
+            intro_en: 结合当前主流深度学习框架流行趋势及实际业务情况说明选择 Keras 作为部门深度学习主要框架的原因。随后进行 Keras
+                的简单介绍，介绍如何使用 Keras 模块进行序贯式及函数式编程来搭建神经网络的过程及实施过程。最后结合公司研发的产品介绍人工智能技术在医学及公共卫生领域的一些应用方向，前景与挑战。
+            slides: ''
+            video: ''
+            video_en: ''
+        -   time: 16:40 ~ 16:50 闪电演讲
+            speaker: hangzhou_speaker_binxin_wang
+            topic: Asyncio 在云服务自动化测试中的应用
+            topic_en: Application of Asyncio in Cloud Service Automation Testing
+            intro: 随着 DevOps 理念的普及，云服务的开发人员也是测试人员，在快速迭代的过程中保证测试质量和效率变得尤为重要。那么如何设计出一个通用、好用、高效与可靠的云服务测试框架？如何利用好
+                asyncio 的异步特性？希望通过本次分享，能为大家带来启发。
+            intro_en: 随着 DevOps 理念的普及，云服务的开发人员也是测试人员，在快速迭代的过程中保证测试质量和效率变得尤为重要。那么如何设计出一个通用、好用、高效与可靠的云服务测试框架？如何利用好
+                asyncio 的异步特性？希望通过本次分享，能为大家带来启发。
+            slides: ''
+            video: ''
+            video_en: ''
+        -   time: 16:50 ~ 17:00 闪电演讲
+            speaker: hangzhou_speaker_fusheng_xu
+            topic: 智能问答系统的落地和启发
+            topic_en: Landing and Enlightenment of Intelligent Question Answering
+                System
+            intro: 对于特定领域的智能问答系统，通过对整个过程的数据处理，对抗样本的干扰，多个模型的融合等，基于 Tensorflow 框架，es
+                检索数据库等工具，建立了有精准答案和推荐的智能问答系统，当然，也有考虑过一些基于 wide&deep 的推荐思路，最后很好地对单一领域的问答给出较好的结果和客户的满意度。
+            intro_en: 对于特定领域的智能问答系统，通过对整个过程的数据处理，对抗样本的干扰，多个模型的融合等，基于 Tensorflow 框架，es
+                检索数据库等工具，建立了有精准答案和推荐的智能问答系统，当然，也有考虑过一些基于 wide&deep 的推荐思路，最后很好地对单一领域的问答给出较好的结果和客户的满意度。
+            slides: ''
+            video: ''
+            video_en: ''
+        -   time: 17:00 ~ 17:10 闪电演讲
+            speaker: 宋从威
+            topic: 基于 OwlReady2 的人机交互
+            topic_en: Human-Machine Interaction Based On OwlReady2
+            intro: OWL 是用于本体论知识管理的描述语言，而 OwlReady2 是它的 Python 接口，OwlReady2 封装了推理引擎
+                HermiT 和 Pellet, 可以进行基于描述逻辑 (DLs) 的推理。利用 Python 的动态编程功能，实现具有推理能力的人机对话系统。为使用自然语言，还建立了一个文法解析模块。系统可以通过简单对话任务的测试。
+            intro_en: OWL is a description language for the management of ontological
+                knowledge, and OwlReady2 is its Python interface, that encapsulates
+                the reasoning engine HermiT and Pellet, and can make reasoning based
+                on description logics (DLs). Using Python's dynamic programming function,
+                a human-machine dialogue system with reasoning ability is realized.
+                In order to use natural language, a grammar parsing module is also
+                built. The system can pass the testing of simple dialogue task.
             slides: ''
             video: ''
             video_en: ''
@@ -1622,7 +1643,16 @@ shenzhen:
             slides: '#'
             video: ''
             video_en: ''
-        -   time: 10:20～11:00
+        -   time: 10:20～10:40
+            speaker: ''
+            topic: 茶歇
+            topic_en: Break
+            intro: ''
+            intro_en: ''
+            slides: ''
+            video: ''
+            video_en: ''
+        -   time: 10:40～11:20
             speaker: shenzhen_speaker_zagfai
             topic: 从 Python 开始钱赚钱
             topic_en: Start Making Money with Money by Using Python
@@ -1644,7 +1674,7 @@ shenzhen:
             slides: '#'
             video: ''
             video_en: ''
-        -   time: 11:00～11:40
+        -   time: 11:20～12:00
             speaker: shenzhen_speaker_chao_xie
             topic: 一行代码加速科学计算
             topic_en: Boost the Scientific Computing with One Line of Code
@@ -1659,27 +1689,10 @@ shenzhen:
             slides: '#'
             video: ''
             video_en: ''
-        -   time: 11:40～12:20
-            speaker: shenzhen_speaker_xi_ming
-            topic: Pipenv 和 Python 包管理
-            topic_en: Pipenv and Package Management in Python
-            intro: 在 Python 的世界中，依赖管理从来不是件容易的事。用 pip + requirements.txt 是否已经足够？我们为什么需要一个专门的工具来管理包和依赖？
-                本演讲尝试从基本机制说起，厘清 pip, virtualenv, pipenv 各自的目标。讲述依赖管理中的痛点和解决办法。并进一步说说
-                Pipenv 之外的其他工具们，各自解决了 Python 包管理中的什么问题。
-            intro_en: Dependency management is never an easy stuff in Python. Is it
-                enough to only use pip + requirements.txt? Why we need a special tool
-                to manage package and dependencies? This speech will start from basic
-                principle, talk about the aim of pip, virtualenv, pipenv, and will
-                also describe the pain points and solutions in dependency management.
-                For extension, we will talk about the tools beside Pipenv and what
-                problem do they solve in Python package management.
-            slides: '#'
-            video: ''
-            video_en: ''
         -   time: 12:20～13:30
-            speaker: 午餐
-            topic: 主题待定
-            topic_en: To be determined
+            speaker: ''
+            topic: 午餐
+            topic_en: Lunch Break
             intro: ''
             intro_en: ''
             slides: ''
@@ -1733,39 +1746,59 @@ shenzhen:
                 Python model under Azure Machine Learning Serivce<br />3.  Example:
                 Using Azure Machine Learning Service to rapidly publish a Serverless
                 applicaiton<br />D. Demonstration'
-            slides: '#'
+            slides: ''
             video: ''
             video_en: ''
-        -   time: 14:50～15:30
-            speaker: 赞助主题
-            topic: 主题待定
-            topic_en: To be determined
-            intro: ''
-            intro_en: ''
-            slides: '#'
-            video: ''
-            video_en: ''
-        -   time: 15:30～15:45
+        -   time: 14:50～15:10
             speaker: ''
             topic: 茶歇
-            topic_en: Tea Break
+            topic_en: Break
             intro: ''
             intro_en: ''
             slides: '#'
             video: ''
             video_en: ''
-        -   time: 15:45～16:25
-            speaker: ''
-            topic: 主题待定
-            topic_en: To be determined
-            intro: ''
-            intro_en: ''
+        -   time: 15:10～15:50
+            speaker: shenzhen_speaker_zhiyong_chen
+            topic: FPGA 助力 Python 加速计算
+            topic_en: Accelerate Computing in Python Assisted by FPGA
+            intro: 本演讲内容将介绍 FPGA 并行计算和加速计算的理念，同时基于 Xilinx ARM SOC 器件的 Python 编程框架
+                PYNQ (Python Productivity for Zynq)，详细讲述基于安富利公司Ultra96 开发板的 PYNQ 开发环境和开发工具链以及基于
+                PYNQ 框架的参考设计和相关的演示，包括计算机视觉和人工智能的应用。最后介绍安富利公司计划配合 Python 社区进行的一系列技术交流活动，旨在推动
+                Python 编程在嵌入式平台的广泛应用，促进在计算机视觉、人工智能和边缘计算等领域的产品落地。
+            intro_en: This lecture will introduce the idea of parallel computing and
+                accelerating computing based on FPGA. At the same time, base on Python
+                programming framework PYNQ (Python Productivity for Zynq) of Xilinx
+                ARM SOC, I will tell you in detail the PYNQ development environment
+                and development tool chain based on Ultra96 development board of Avnet,
+                as well as the reference design and related demonstration based on
+                PYNQ framework, including the application of computer vision and artificial
+                intelligence. Finally, I will introduce a series of technology exchange
+                activities planned by Avnet in cooperation with Python community,
+                aiming at promoting the wide application of Python programming in
+                embedded platforms, and promoting the landing of products in the fields
+                of computer vision, artificial intelligence and edge computing.
             slides: '#'
             video: ''
             video_en: ''
-        -   time: '16:25～17:05
-
-                闪电演讲'
+        -   time: 15:50～16:30
+            speaker: shenzhen_speaker_xi_ming
+            topic: Pipenv 和 Python 包管理
+            topic_en: Pipenv and Package Management in Python
+            intro: 在 Python 的世界中，依赖管理从来不是件容易的事。用 pip + requirements.txt 是否已经足够？我们为什么需要一个专门的工具来管理包和依赖？
+                本演讲尝试从基本机制说起，厘清 pip, virtualenv, pipenv 各自的目标。讲述依赖管理中的痛点和解决办法。并进一步说说
+                Pipenv 之外的其他工具们，各自解决了 Python 包管理中的什么问题。
+            intro_en: Dependency management is never an easy stuff in Python. Is it
+                enough to only use pip + requirements.txt? Why we need a special tool
+                to manage package and dependencies? This speech will start from basic
+                principle, talk about the aim of pip, virtualenv, pipenv, and will
+                also describe the pain points and solutions in dependency management.
+                For extension, we will talk about the tools beside Pipenv and what
+                problem do they solve in Python package management.
+            slides: '#'
+            video: ''
+            video_en: ''
+        -   time: 16:30～17:00 闪电演讲
             speaker: shenzhen_speaker_feng_zhao
             topic: Python C 拓展在各平台的打包与发布
             topic_en: Pack and Release Python C Extensions In Various Plateforms
@@ -1780,9 +1813,7 @@ shenzhen:
             slides: '#'
             video: ''
             video_en: ''
-        -   time: '16:25～17:05
-
-                闪电演讲'
+        -   time: 16:30～17:00 闪电演讲
             speaker: shenzhen_speaker_weikang_peng
             topic: 为 Python Function 自动生成 Web UI
             topic_en: Automatically Generate Web UI For Python Function
@@ -1825,25 +1856,16 @@ chengdu:
         place_name_short: m
         url: place_chengdu_auditorium_m
         speechs:
-        -   time: 08:30～09:00
+        -   time: 08:30～09:20
             speaker: ''
-            topic: 签到
+            topic: 签到/开场致辞
             topic_en: Check In
             intro: ''
             intro_en: ''
             slides: ''
             video: ''
             video_en: ''
-        -   time: 09:00～09:40
-            speaker: 红姐
-            topic: 主题待定
-            topic_en: To be determined
-            intro: ''
-            intro_en: ''
-            slides: ''
-            video: ''
-            video_en: ''
-        -   time: 09:40～10:20
+        -   time: 09:20～10:00
             speaker: chengdu_speaker_tengjingmeina
             topic: Python 的 NLP 实战分享-如何实现合同风险预测模型
             topic_en: The NLP Practical Sharing In Python - How to Implement Contract
@@ -1873,29 +1895,20 @@ chengdu:
             slides: ''
             video: ''
             video_en: ''
-        -   time: 10:20～11:00
-            speaker: ''
-            topic: 主题待定
-            topic_en: To be determined
-            intro: ''
-            intro_en: ''
-            slides: '#'
+        -   time: 10:00 ～10:40
+            speaker: chengdu_speaker_xiaofeng_zhang
+            topic: Python 与 云-AWS 的 Python 原生应用浅析
+            topic_en: Primary Application Analysis of Python and Cloud-AWS
+            intro: Python 自诞生以来一直有“胶水语言”的美誉，如今互联网开发进入了云时代，Python 同样是云的“胶水”。这次分享了领先的云平台
+                AWS 的 Python 应用，充分展示 Python 语言优雅简洁的魅力。通过结合云平台的 Python，几行代码实现云端应用程序，几行代码管理海量基础设施，几行代码连接
+                IoT 平台，几行代码调用高级人工智能，甚至，你想象过吗，几行代码实现一个卫星地面接收站。
+            intro_en: Python 自诞生以来一直有“胶水语言”的美誉，如今互联网开发进入了云时代，Python 同样是云的“胶水”。这次分享了领先的云平台
+                AWS 的 Python 应用，充分展示 Python 语言优雅简洁的魅力。通过结合云平台的 Python，几行代码实现云端应用程序，几行代码管理海量基础设施，几行代码连接
+                IoT 平台，几行代码调用高级人工智能，甚至，你想象过吗，几行代码实现一个卫星地面接收站。
+            slides: ''
             video: ''
             video_en: ''
-        -   time: 11:00～11:40
-            speaker: chengdu_speaker_zhihang_liu
-            topic: 静态类型的 Python
-            topic_en: The Static Typed Python
-            intro: 不同于从实践的角度来安利静态类型标注，本次演讲将从类型论的角度讲述 Python 类型化的必要性，静态类型语言相较于等价动态语言的区别的本质是什么，以及安利渐进式类型系统与科普全局类型推导。
-            intro_en: Unlike promote static type annotation from a practical point
-                of view, this talk will discuss the necessity of Python typing from
-                a typological point of view, the essence of the difference between
-                static  language and equivalent dynamic language, and will promote
-                the progressive type system and universal type derivation.
-            slides: '#'
-            video: ''
-            video_en: ''
-        -   time: 11:40～12:20
+        -   time: 10:40 ~  11:20
             speaker: chengdu_speaker_thautwarm
             topic: Python 语法扩展框架 Moshmosh 和其上 CPython 兼容的 JIT 实现
             topic_en: Python Syntax Extension Framework Moshmosh And CPython-compatible
@@ -1914,25 +1927,54 @@ chengdu:
             slides: '#'
             video: ''
             video_en: ''
-        -   time: 12:20～13:30
-            speaker: ''
-            topic: 午间休息
-            topic_en: To be determined
-            intro: ''
-            intro_en: ''
-            slides: '#'
+        -   time: 11:20～12:00
+            speaker: chengdu_speaker_jonathan_lindstrom
+            topic: Soft Skills For Software Developers
+            topic_en: Soft Skills For Software Developers
+            intro: 'Great code is just one part of a great career in information technology.
+                Over the last three decades I’ve been privileged to work on a wide
+                variety of teams and have benefited from the wisdom of great colleagues,
+                friends and mentors along the way. To encourage you in your own careers,
+                I’ll share some lessons I’ve learned about the other challenges we
+                face as developers: What’s the right answer to “How long will it take”?
+                Should I build a solution, download open-source or buy one? What does
+                my boss want from me? What do my teammates need? How do I get along
+                with other departments?'
+            intro_en: 'Great code is just one part of a great career in information
+                technology. Over the last three decades I’ve been privileged to work
+                on a wide variety of teams and have benefited from the wisdom of great
+                colleagues, friends and mentors along the way. To encourage you in
+                your own careers, I’ll share some lessons I’ve learned about the other
+                challenges we face as developers: What’s the right answer to “How
+                long will it take”? Should I build a solution, download open-source
+                or buy one? What does my boss want from me? What do my teammates need?
+                How do I get along with other departments?'
+            slides: ''
             video: ''
             video_en: ''
-        -   time: 13:30～14:10
+        -   time: 12:00～13:00
             speaker: ''
-            topic: 茶歇
-            topic_en: Tea Break
+            topic: 午休
+            topic_en: Lunch Break
             intro: ''
             intro_en: ''
             slides: ''
             video: ''
             video_en: ''
-        -   time: 14:10～14:50
+        -   time: 13:00～13:40
+            speaker: chengdu_speaker_zhihang_liu
+            topic: 静态类型的 Python
+            topic_en: The Static Typed Python
+            intro: 不同于从实践的角度来安利静态类型标注，本次演讲将从类型论的角度讲述 Python 类型化的必要性，静态类型语言相较于等价动态语言的区别的本质是什么，以及安利渐进式类型系统与科普全局类型推导。
+            intro_en: Unlike promote static type annotation from a practical point
+                of view, this talk will discuss the necessity of Python typing from
+                a typological point of view, the essence of the difference between
+                static  language and equivalent dynamic language, and will promote
+                the progressive type system and universal type derivation.
+            slides: '#'
+            video: ''
+            video_en: ''
+        -   time: 13:40～14:20
             speaker: chengdu_speaker_grey_li
             topic: 基于 Flask 的 Web API 开发指南
             topic_en: Building Web API with Flask
@@ -1950,39 +1992,73 @@ chengdu:
                 are not "RESTful" enough. Therefore, which kind of Web API is the
                 truly REST API? In this topic speech, we will discuss these questions
                 and introduce how to write a fully functional Web API using Flask.
-            slides: ''
+            slides: '#'
             video: ''
             video_en: ''
-        -   time: 14:50～15:30
-            speaker: 李者璈
-            topic: 主题待定
-            topic_en: To be determined
-            intro: ''
-            intro_en: ''
-            slides: ''
+        -   time: 14:20 ~  15:00
+            speaker: chengdu_speaker_soda
+            topic: 用 MicroPython 触摸物理世界
+            topic_en: Touching Physical World Using MicroPython
+            intro: 1. 介绍 MicroPython 的使用场景及生态环境。<br />2. 分享自己学习 MicroPython 的经历<br
+                />3. 展示一个心电图实践项目,通过实践使用心电传感器读取自己的心跳，并使用 oled 展示。(将开发板带到现场)。<br />4.
+                展示一个实践的项目（使用 micropython 读取温湿度并上传到服务器），现场展示网址。<br />5. MicroPython
+                的学习资源分享。
+            intro_en: 1. To introduce the ecosystem and the using scenarios of MicroPython.<br
+                />2. To share personal experience of studying MicroPython<br />3.
+                Display a project about electrocardiogram that detect heart pulse
+                and show it on oled ( Bring the development board to the meeting )<br
+                />4. Show a project about getting temperature and humidity and upload
+                it to server using micropython, will show the website.<br />5. MicroPython
+                studying resources sharing
+            slides: '#'
             video: ''
             video_en: ''
-        -   time: 15:30～15:45
+        -   time: 15:00 ~  15:20
             speaker: ''
             topic: 茶歇
-            topic_en: Tea Break
+            topic_en: Break
             intro: ''
             intro_en: ''
             slides: ''
             video: ''
             video_en: ''
-        -   time: 15:45～16:25
-            speaker: ''
-            topic: 用 Micro Python 触摸物理世界
-            topic_en: To be determined
-            intro: ''
-            intro_en: ''
+        -   time: 15:20 ~  16:00
+            speaker: chengdu_speaker_xiang_an
+            topic: Python 助力物联网项目开发
+            topic_en: Speed up IoT Implementation with Python
+            intro: 物联网项目通常包含单片机、嵌入式 Linux、服务端等多个模块，涉及多种编程语言及技术栈。传统的开发模式以及多种技术栈的壁垒降低了物联网项目开发效率。<br
+                />本议题通过一个实战项目展示物联网从设备到云端开发的全貌，主要采用 Python 一种语言实现单片机终端、嵌入式 Linux 网关、服务端程序的全栈开发。得益于
+                Python 简洁的语法以及丰富的第三方库，开发者可快速构建出物联网产品。
+            intro_en: A typical IoT system consists of several models, such as MCU,
+                embed Linux, server, etc. It usually involves lots of programming
+                languages and technical fields. The traditional developing method
+                and the isolation of plenty of technical fields decreased the efficiency
+                of IoT projects implementation.<br />This topic will introduce a hands-on
+                IoT project to show the technical details from the device layer to
+                the cloud layer. The hands-on IoT project consists of the MCU end
+                device, embed Linux gateway and server software, almost all the components
+                are developed by only one programming language which is Python. With
+                the help of simplicity and abundant libraries of Python, it’s easy
+                for engineers to construct IoT products quickly and smoothly.
             slides: ''
             video: ''
             video_en: ''
-        -   time: '16:25～17:05
-
-                闪电演讲'
+        -   time: 16:00 ~  16:40
+            speaker: chengdu_speaker_albert_king
+            topic: When Knowledge Graph Meet Python
+            topic_en: When Knowledge Graph meet Python
+            intro: 知识图谱（KG）是 AI 应用不可或缺的基础资源，近年来受到了各行各业的广泛关注，无论是研究院所、企业、还是开发者个人，都对这项技术有着极大的认知与使用需求。而
+                Python 作为一门简洁、高效、功能强大的编程语言，对于构建大规模 KG 有着领先的优势。<br />基于上述，本次分享将围绕以下三个方面进行展开：<br
+                />一是介绍数据驱动的 KG 构建方法；<br />二是介绍在 Python 生态中已开发的、面向图数据管理与分析的工具包；<br
+                />三是以上述一、二中所提到的方法与工具为基础，面向知网学术数据与多媒体新闻文本数据，构建两套完整的知识图谱系统，并详细阐述其中重要的设计思路、算法模型、质量验证标准、可视化展现，以及系统部署。
+            intro_en: 知识图谱（KG）是 AI 应用不可或缺的基础资源，近年来受到了各行各业的广泛关注，无论是研究院所、企业、还是开发者个人，都对这项技术有着极大的认知与使用需求。而
+                Python 作为一门简洁、高效、功能强大的编程语言，对于构建大规模 KG 有着领先的优势。<br />基于上述，本次分享将围绕以下三个方面进行展开：<br
+                />一是介绍数据驱动的 KG 构建方法；<br />二是介绍在 Python 生态中已开发的、面向图数据管理与分析的工具包；<br
+                />三是以上述一、二中所提到的方法与工具为基础，面向知网学术数据与多媒体新闻文本数据，构建两套完整的知识图谱系统，并详细阐述其中重要的设计思路、算法模型、质量验证标准、可视化展现，以及系统部署。
+            slides: ''
+            video: ''
+            video_en: ''
+        -   time: 16:40 ~  17:10 闪电演讲
             speaker: chengdu_speaker_qiang_wu
             topic: 一次关于 sqlalchemy session 的项目排错经验分享
             topic_en: A Sharing of A Debugging Experience on SQLAlchemy Session
@@ -1998,9 +2074,7 @@ chengdu:
             slides: ''
             video: ''
             video_en: ''
-        -   time: '16:25～17:05
-
-                闪电演讲'
+        -   time: 16:40 ~  17:10 闪电演讲
             speaker: chengdu_speaker_qian_yan
             topic: Python 在区块链领域中的地位
             topic_en: Python's Position in Block Chains
@@ -2015,6 +2089,41 @@ chengdu:
                 with some minority languages like Rust. So what's the problem? How
                 can Python emit light and heat in Block Chains? I hope you can reflect
                 on this issue together with my speech.
+            slides: ''
+            video: ''
+            video_en: ''
+        -   time: 16:40 ~  17:10 闪电演讲
+            speaker: chengdu_speaker_zehua_wei
+            topic: 一键将 C/C++ 代码转换为 Python 能调用的代码
+            topic_en: Convert C/C++ Code Into Code That Python Can Call With One Click
+            intro: '随着 Python 的应用领域额越来越广泛，越来越多的领域开发者倾向于使用 Python 开发新的代码。<br />不少领域早期用的不是
+                Python，而是其他语言。用 Python 的话，重写所有代码是一件头疼的事情。但是如果只需要一个命令，就能让 Python 使用旧语言的代码呢？<br
+                />这个小项目（c2py）提供了一种针对 C/C++ 语言的解决方案：在大部分情况下只需要一两个命令，就可以生成可供 Python
+                直接调用的 pyd（或者能直接生成 pyd 的源码）。并且会自动生成所有生成的 Python 对象的类型信息（pyi 文件）。<br
+                />目前能自动封装的 C++ 对象包括：enum, class/struct/union, function, namespace,
+                typedef/using, #define(仅部分可识别的常量), variables.<br />项目地址：https://github.com/nanoric/c2py'
+            intro_en: 'With the application of Python more and more widely, more and
+                more developers tend to use Python to develop new code.<br />In many
+                areas, developers used other languages rather than Python in the early
+                days. In Python, overwriting all the code is a big headache. But what
+                if you only need one command to make Python use old language code?<br
+                />This subject(c2py) provides a solution for C/C++: in most cases,
+                only one or two commands are needed to generate pyd that Python can
+                call directly(or source code for pyd). And it can also automatically
+                generate the type information(pyi file) of all generated Python objects.<br
+                />Currently, C++ objects that can automatically encapsulated include
+                enum,class/struct/union, function, namespace, typedef/using, #define(only
+                partially recognizable constants), vareables.<br />Project Address:
+                https://github.com/nanoric/c2py'
+            slides: ''
+            video: ''
+            video_en: ''
+        -   time: 17:10 ~  17:20
+            speaker: ''
+            topic: 结束
+            topic_en: The End
+            intro: ''
+            intro_en: ''
             slides: ''
             video: ''
             video_en: ''
@@ -2037,5 +2146,135 @@ nanning:
         place_name: 主会场
         place_name_short: m
         url: place_nanning_auditorium_m
-        speechs: []
+        speechs:
+        -   time: 13:00-13:30
+            speaker: ''
+            topic: 签到
+            topic_en: Check In
+            intro: ''
+            intro_en: ''
+            slides: ''
+            video: ''
+            video_en: ''
+        -   time: 13:30～14:00
+            speaker: nanning_speaker_yuan_jiang
+            topic: 使用 Pytorch 和 Yolo 进行人流量分析
+            topic_en: Using Pytorch and Yolo to Analyse Human Flow
+            intro: 随着硬件的不断升级和数据的暴增,使得深度神经网络的训练成为可能。从最早的卷积神经网络 LeNet，后到 AlexNet 的出现，让人们意识到了神经网络的强大，Deep
+                Learning 便开始了爆炸式增长,各种模型层出不穷，性能也愈加强大，也逐渐应用到实践当中。本次演讲将使用 Pytorch 框架和
+                Yolo 模型对视频进行分析，实现人流量的统计分析，希望能给大家带来一点启示。
+            intro_en: 随着硬件的不断升级和数据的暴增,使得深度神经网络的训练成为可能。从最早的卷积神经网络 LeNet，后到 AlexNet
+                的出现，让人们意识到了神经网络的强大，Deep Learning 便开始了爆炸式增长,各种模型层出不穷，性能也愈加强大，也逐渐应用到实践当中。本次演讲将使用
+                Pytorch 框架和 Yolo 模型对视频进行分析，实现人流量的统计分析，希望能给大家带来一点启示。
+            slides: ''
+            video: ''
+            video_en: ''
+        -   time: 14:10～14:40
+            speaker: nanning_speaker_yingzhang_huang
+            topic: MicroPython 在硬件开发中的应用
+            topic_en: Application of MicroPython in Hardware Development
+            intro: 介绍 MicroPython 的发展史、在硬件开发中的应用；MicroPython的开发环境，主流编辑器和 Mu 开发环境，开发环境的使用；MicroPython
+                涉及的相关开发板，STM32、ESP8266 等，不同开发板之间的硬件差异，开发板上的基本硬件功能使用，通用 IO口、彩灯控制、传感器使用；物联网硬件和云平台的互联互通、数据存储、数据分析；如何实现
+                Python 语言的全栈开发; MicroPython 和 Python 开发的异同，如何避免开发误区。
+            intro_en: 介绍 MicroPython 的发展史、在硬件开发中的应用；MicroPython的开发环境，主流编辑器和 Mu 开发环境，开发环境的使用；MicroPython
+                涉及的相关开发板，STM32、ESP8266 等，不同开发板之间的硬件差异，开发板上的基本硬件功能使用，通用 IO口、彩灯控制、传感器使用；物联网硬件和云平台的互联互通、数据存储、数据分析；如何实现
+                Python 语言的全栈开发; MicroPython 和 Python 开发的异同，如何避免开发误区。
+            slides: ''
+            video: ''
+            video_en: ''
+        -   time: 14:50～15:20
+            speaker: nanning_speaker_xiao_luo
+            topic: 基于 Python 构建 DevOps 体系
+            topic_en: Builds DevOps System based on Python
+            intro: 这几年一直在从事运维开发相关的工作，议题包括从最基础的实体机自建机房，涉及到资产管理，发布系统，监控系统，都是基于 Flask
+                来进行后端开发，主要围绕基于开源软件的二次开发、快速构建自动化运维体系，从基础设施出发到 DevOps 体系构建，到如今在 Kubernetes
+                环境下如何快速实现 CI/CD。
+            intro_en: In the past few years, I have been engaged in work related to
+                operation and maintenance development. The topic starts from the most
+                basic self-build machine room of physical machine, involving asset
+                management, release system, and monitoring system. All of these build
+                on Flask for backend development, of which main tasks are secondary
+                development based on open-source software and to construct automatic
+                Ops system fast. The topic ranges from infrastructure to how to construct
+                the DevOps system, and how to quickly implement CI/CD in Kubernetes
+                environment now.
+            slides: ''
+            video: ''
+            video_en: ''
+        -   time: 15:30～15:40
+            speaker: ''
+            topic: 茶歇
+            topic_en: Break
+            intro: ''
+            intro_en: ''
+            slides: ''
+            video: ''
+            video_en: ''
+        -   time: 15:40～16:10
+            speaker: nanning_speaker_zoomquiet
+            topic: 高龄程序猿应该如何自救?
+            topic_en: How Should Senior Programmers Save Themselves?
+            intro: '根据亲身经历回顾/分享中国大陆环境中程序猿的成长模式, 以及可能的另外途径;<br />论及:<br />0: 究竟什么是
+                Pythonic<br />1: 为什么中国企业反感35+程序猿?<br />2: 技术社区和程序猿应该的关系是什么?<br />3:
+                个人职业发展的被重启或隐重启'
+            intro_en: '根据亲身经历回顾/分享中国大陆环境中程序猿的成长模式, 以及可能的另外途径;<br />论及:<br />0: 究竟什么是
+                Pythonic<br />1: 为什么中国企业反感35+程序猿?<br />2: 技术社区和程序猿应该的关系是什么?<br />3:
+                个人职业发展的被重启或隐重启'
+            slides: ''
+            video: ''
+            video_en: ''
+        -   time: 16:20～16:50
+            speaker: nanning_speaker_jizhi_shi
+            topic: Python 在企业自主研发大型管理系统中的实践
+            topic_en: Python's Practice in Enterprise Independent Research and Development
+                of Large-scale Management System
+            intro: 松宇集团近年来着力推进信息化建设，在初期，选择了以 SAP 为核心的企业套装管理软件，随着深入使用，发现并没有完全满足松宇信息化的建设战略，遂决定采用自主研发的方式实现信息化平台的改造升级。在新的架构中，采用了以
+                FastAPI 框架为核心的后台技术体系。我会介绍一下项目的规划思路、整体架构、初步成果，以及为何选择 Python 和 FastAPI
+                作为核心技术栈。
+            intro_en: 松宇集团近年来着力推进信息化建设，在初期，选择了以 SAP 为核心的企业套装管理软件，随着深入使用，发现并没有完全满足松宇信息化的建设战略，遂决定采用自主研发的方式实现信息化平台的改造升级。在新的架构中，采用了以
+                FastAPI 框架为核心的后台技术体系。我会介绍一下项目的规划思路、整体架构、初步成果，以及为何选择 Python 和 FastAPI
+                作为核心技术栈。
+            slides: ''
+            video: ''
+            video_en: ''
+        -   time: 17:00～17:15 闪电演讲
+            speaker: nanning_speaker_wei_shen
+            topic: Python 技术交流
+            topic_en: Python Technology Exchange
+            intro: 这是一个开放式主题。会通过一些 PYTHON 的应用场景，展开一系列可讨论的主题，大家就自己感兴趣的内容，进行讨论。
+            intro_en: 这是一个开放式主题。会通过一些 PYTHON 的应用场景，展开一系列可讨论的主题，大家就自己感兴趣的内容，进行讨论。
+            slides: ''
+            video: ''
+            video_en: ''
+        -   time: 17:15～17:30 闪电演讲
+            speaker: nanning_speaker_zhang_wei
+            topic: Django 项目的自动化构建项目管理
+            topic_en: Automated Build Project Management for Django Projects
+            intro: 随着互联网技术更新迭代，提升效率也是企业增强市场竞争力的核心，而自动化是有效提升效率、提高生产力的有效方式。<br />自动化工具允许自动化简单且重复的任务，这些工具会通过以正确的、特定的顺序执行任务并运行每个任务来计算如何达到目标。本次演讲将分享如何使用自动化工具快速实现
+                Django 构建，希望能给大家持续构建的工作带来一些帮助。
+            intro_en: With the continuous development of Internet technology, improving
+                efficiency has become the core means for enterprises to enhance market
+                competitiveness, and automation is an effective way to improve efficiency
+                and productivity.<br />Automated tools could automate simple and repetitive
+                tasks. These tools compute how to achieve the goals by performing
+                tasks in the correct, specific order and running each task. This presentation
+                will share how to quickly implement Django builds using automated
+                tools. I hope it could bring some help to everybody in area of continuous
+                build.
+            slides: ''
+            video: ''
+            video_en: ''
+        -   time: 17:30～17:45 闪电演讲
+            speaker: nanning_speaker_kc
+            topic: 基于 Python 的 Odoo 的信息化平台框架
+            topic_en: Information Platform Framework of Odoo Based on Python
+            intro: Odoo 的发展史以及全球社区开放的应用模块介绍；<br />基于 Python 的 Odoo 架构技术优势（物联网接入、模块扩展、报表扩展、数据库扩展）；<br
+                />基于 Python 的 Odoo 架构应用优势（国内外电商平台接口、物流接口、社交平台接口等）；<br />基于 Python
+                的平台信息化建设（行业案例）。
+            intro_en: Odoo 的发展史以及全球社区开放的应用模块介绍；<br />基于 Python 的 Odoo 架构技术优势（物联网接入、模块扩展、报表扩展、数据库扩展）；<br
+                />基于 Python 的 Odoo 架构应用优势（国内外电商平台接口、物流接口、社交平台接口等）；<br />基于 Python
+                的平台信息化建设（行业案例）。
+            slides: ''
+            video: ''
+            video_en: ''
         actived: active
