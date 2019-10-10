@@ -218,8 +218,8 @@ shanghai_speaker_qiyu_li:
 shanghai_speaker_xintao_lai:
     name: 赖信涛
     name_en: Xintao Lai
-    avatar: ./asset/images/people/default.jpg
-    avatar_en: ../asset/images/people/default.jpg
+    avatar: ./asset/images/people/laixintao.png
+    avatar_en: ../asset/images/people/laixintao.png
     short_intro: 蚂蚁金服开发工程师
     short_intro_en: Ant Financial - Developmental Engineer
     intro: 《捕蛇者说》联合主创，蚂蚁金服开发工程师
@@ -475,8 +475,8 @@ shanghai_speaker_jiahua_lu:
 shanghai_speaker_zhiyong_chen:
     name: 陈志勇
     name_en: Zhiyong Chen
-    avatar: ./asset/images/people/default.jpg
-    avatar_en: ../asset/images/people/default.jpg
+    avatar: ./asset/images/people/chenzhiyong.png
+    avatar_en: ../asset/images/people/chenzhiyong.png
     short_intro: 安富利高级技术市场经理
     short_intro_en: Avnet - Senior Tech Marketing Manager
     intro: 安富利高级技术市场经理，负责 Xilinx 产品线在中国区的市场推广和生态伙伴工作，专注在人工智能、机器视觉和工业自动化领域的解决方案。陈先生有超过10年的
@@ -665,8 +665,8 @@ beijing_speaker_xiaoqing_zhang:
 beijing_speaker_xiangyu_he:
     name: 何翔宇
     name_en: Xiangyu He
-    avatar: ./asset/images/people/default.jpg
-    avatar_en: ../asset/images/people/default.jpg
+    avatar: ./asset/images/people/hexiangyu.png
+    avatar_en: ../asset/images/people/hexiangyu.png
     short_intro: 字节跳动效率工程后端工程师
     short_intro_en: ByteDance - Efficiency Engineering Backend Engineer
     intro: ''
@@ -677,8 +677,8 @@ beijing_speaker_xiangyu_he:
 beijing_speaker_yiyun:
     name: 依云
     name_en: Yiyun
-    avatar: ./asset/images/people/default.jpg
-    avatar_en: ../asset/images/people/default.jpg
+    avatar: ./asset/images/people/yiyun.png
+    avatar_en: ../asset/images/people/yiyun.png
     short_intro: Python 开发者
     short_intro_en: Python Developer
     intro: ''
@@ -723,8 +723,8 @@ beijing_speaker_lizhuo_guo:
 hangzhou_speaker_liangju_deng:
     name: 邓良驹
     name_en: Liangju Deng
-    avatar: ./asset/images/people/default.jpg
-    avatar_en: ../asset/images/people/default.jpg
+    avatar: ./asset/images/people/dengliangju.png
+    avatar_en: ../asset/images/people/dengliangju.png
     short_intro: 秘塔科技
     short_intro_en: MetaSOTA
     intro: ''
@@ -735,8 +735,8 @@ hangzhou_speaker_liangju_deng:
 hangzhou_speaker_zhixiang_xu:
     name: 许智翔
     name_en: Zhixiang Xu
-    avatar: ./asset/images/people/default.jpg
-    avatar_en: ../asset/images/people/default.jpg
+    avatar: ./asset/images/people/xuzhixiang.png
+    avatar_en: ../asset/images/people/xuzhixiang.png
     short_intro: Autonomic
     short_intro_en: Autonomic
     intro: Python/Golang/C 程序员，有10年以上项目经验。曾任齐治技术总监，七牛安全经理，饿了么SRE工程师。擅长Debian，Python，网络通讯程序。China
@@ -748,8 +748,8 @@ hangzhou_speaker_zhixiang_xu:
 hangzhou_speaker_yixian_du:
     name: 杜逸先
     name_en: Yixian Du
-    avatar: ./asset/images/people/default.jpg
-    avatar_en: ../asset/images/people/default.jpg
+    avatar: ./asset/images/people/duyixian.png
+    avatar_en: ../asset/images/people/duyixian.png
     short_intro: 杭州美登科技高级工程师
     short_intro_en: Meideng Technology - Senior Engineer
     intro: 杭州美登科技高级工程师，毕业于浙江大学软件工程专业，主要从事 Python 后端开发
@@ -760,8 +760,8 @@ hangzhou_speaker_yixian_du:
 hangzhou_speaker_kaisheng_he:
     name: 何开圣
     name_en: Kaisheng He
-    avatar: ./asset/images/people/default.jpg
-    avatar_en: ../asset/images/people/default.jpg
+    avatar: ./asset/images/people/hekaisheng.png
+    avatar_en: ../asset/images/people/hekaisheng.png
     short_intro: 阿里巴巴研发工程师
     short_intro_en: Alibaba - R&D Engineer
     intro: 阿里巴巴研发工程师，南京大学毕业，Mars 项目核心开发者
@@ -794,8 +794,8 @@ hangzhou_speaker_feng_li:
 hangzhou_speaker_xinyi_li:
     name: 李欣宜
     name_en: Xinyi Li
-    avatar: ./asset/images/people/default.jpg
-    avatar_en: ../asset/images/people/default.jpg
+    avatar: ./asset/images/people/lixinyi.png
+    avatar_en: ../asset/images/people/lixinyi.png
     short_intro: 观远数据算法设计师
     short_intro_en: GuanData - Algorithmist
     intro: ''
@@ -806,8 +806,8 @@ hangzhou_speaker_xinyi_li:
 hangzhou_speaker_xintao_lai:
     name: 赖信涛
     name_en: Xintao Lai
-    avatar: ./asset/images/people/default.jpg
-    avatar_en: ../asset/images/people/default.jpg
+    avatar: ./asset/images/people/laixintao.png
+    avatar_en: ../asset/images/people/laixintao.png
     short_intro: 蚂蚁金服开发工程师
     short_intro_en: Ant Financial - Developmental Engineer
     intro: 《捕蛇者说》联合主创，蚂蚁金服开发工程师
@@ -818,8 +818,8 @@ hangzhou_speaker_xintao_lai:
 hangzhou_speaker_hongke_zhang:
     name: 张宏柯
     name_en: Hongke Zhang
-    avatar: ./asset/images/people/default.jpg
-    avatar_en: ../asset/images/people/default.jpg
+    avatar: ./asset/images/people/zhanghongke.png
+    avatar_en: ../asset/images/people/zhanghongke.png
     short_intro: 点我达资深开发工程师
     short_intro_en: Dianwoda - Senior Developmental Engineer
     intro: 点我达资深开发工程师，主要从事大数据开发，cv 算法研究和应用。
@@ -830,8 +830,8 @@ hangzhou_speaker_hongke_zhang:
 hangzhou_speaker_zhenying_xu:
     name: 许振影
     name_en: Zhenying Xu
-    avatar: ./asset/images/people/default.jpg
-    avatar_en: ../asset/images/people/default.jpg
+    avatar: ./asset/images/people/xuzhenying.png
+    avatar_en: ../asset/images/people/xuzhenying.png
     short_intro: 创业慧康科技股份有限公司
     short_intro_en: Entrepreneurship
     intro: 创业慧康科技股份有限公司，人工智能产品部研发经理。主要参与公司人工智能相关产品的研发与落地。
@@ -843,8 +843,8 @@ hangzhou_speaker_zhenying_xu:
 hangzhou_speaker_binxin_wang:
     name: 王斌鑫
     name_en: Binxin Wang
-    avatar: ./asset/images/people/default.jpg
-    avatar_en: ../asset/images/people/default.jpg
+    avatar: ./asset/images/people/wangbinxin.png
+    avatar_en: ../asset/images/people/wangbinxin.png
     short_intro: 阿里云 高级开发工程师
     short_intro_en: aliyun - Senior Developmental Engineer
     intro: 阿里云 高级开发工程师，《Python 最佳实践指南》译者
@@ -855,8 +855,8 @@ hangzhou_speaker_binxin_wang:
 hangzhou_speaker_fusheng_xu:
     name: 徐富盛
     name_en: Fusheng Xu
-    avatar: ./asset/images/people/default.jpg
-    avatar_en: ../asset/images/people/default.jpg
+    avatar: ./asset/images/people/xufusheng.png
+    avatar_en: ../asset/images/people/xufusheng.png
     short_intro: 税友集团算法工程师
     short_intro_en: SERVYOU GROUP - Algorithmic Engineer
     intro: 税友集团算法工程师，主要从事 NLP 的相关工作。
@@ -957,8 +957,8 @@ shenzhen_speaker_jianhui_lu:
 shenzhen_speaker_zhiyong_chen:
     name: 陈志勇
     name_en: Zhiyong Chen
-    avatar: ./asset/images/people/default.jpg
-    avatar_en: ../asset/images/people/default.jpg
+    avatar: ./asset/images/people/chenzhiyong.png
+    avatar_en: ../asset/images/people/chenzhiyong.png
     short_intro: 安富利高级技术市场经理
     short_intro_en: Avnet - Senior Tech Marketing Manager
     intro: 安富利高级技术市场经理，负责 Xilinx 产品线在中国区的市场推广和生态伙伴工作，专注在人工智能、机器视觉和工业自动化领域的解决方案。陈先生有超过10年的
@@ -1001,8 +1001,8 @@ shenzhen_speaker_feng_zhao:
 shenzhen_speaker_weikang_peng:
     name: 彭未康
     name_en: Weikang Peng
-    avatar: ./asset/images/people/default.jpg
-    avatar_en: ../asset/images/people/default.jpg
+    avatar: ./asset/images/people/pengweikang.png
+    avatar_en: ../asset/images/people/pengweikang.png
     short_intro: 广州爱范儿科技后端工程师
     short_intro_en: Guangzhou Ai Faner Technology, Back-end Engineer
     intro: 一年工作经验的萌新，在一家小程序后端云打杂的 Python 后端工程师。
@@ -1028,8 +1028,8 @@ chengdu_speaker_tengjingmeina:
 chengdu_speaker_xiaofeng_zhang:
     name: 张孝峰
     name_en: Xiaofeng Zhang
-    avatar: ./asset/images/people/default.jpg
-    avatar_en: ../asset/images/people/default.jpg
+    avatar: ./asset/images/people/zhangxiaofeng.png
+    avatar_en: ../asset/images/people/zhangxiaofeng.png
     short_intro: 亚马逊 AWS 资深解决架构师
     short_intro_en: AWS Senior Solution Architect
     intro: 张孝峰先生现任 AWS 资深解决方案架构师，有着近20年技术研发经验，曾参与研发千万用户电子邮件系统，全球规模网络游戏等项目开发与架构设计。喜欢各种新技术，喜欢研究技术细节。在传统企业以及互联网行业，视频直播等有非常丰富的经验。
@@ -1080,8 +1080,8 @@ chengdu_speaker_thautwarm:
 chengdu_speaker_jonathan_lindstrom:
     name: Jonathan Lindstrom
     name_en: Jonathan Lindstrom
-    avatar: ./asset/images/people/default.jpg
-    avatar_en: ../asset/images/people/default.jpg
+    avatar: ./asset/images/people/JonathanLindstrom.png
+    avatar_en: ../asset/images/people/JonathanLindstrom.png
     short_intro: Frontier Tech Team LLC
     short_intro_en: Frontier Tech Team LLC
     intro: Over the last 30 years I’ve worked as manager, web developer, system administrator
@@ -1134,8 +1134,8 @@ chengdu_speaker_grey_li:
 chengdu_speaker_soda:
     name: 谢彬彬
     name_en: soda
-    avatar: ./asset/images/people/default.jpg
-    avatar_en: ../asset/images/people/default.jpg
+    avatar: ./asset/images/people/soda.png
+    avatar_en: ../asset/images/people/soda.png
     short_intro: 谜途科技/mitu  独立开发者。树莓派、nodemcu玩家。
     short_intro_en: Individual Developer of Mitu, User of Rasberry Pi and nodemcu
     intro: ''
@@ -1146,8 +1146,8 @@ chengdu_speaker_soda:
 chengdu_speaker_xiang_an:
     name: 安翔
     name_en: Xiang An
-    avatar: ./asset/images/people/default.jpg
-    avatar_en: ../asset/images/people/default.jpg
+    avatar: ./asset/images/people/anxiang.png
+    avatar_en: ../asset/images/people/anxiang.png
     short_intro: 戴尔 EMC 存储软件工程师
     short_intro_en: Dell EMC Storage Software Engineer
     intro: 《物联网Python开发实战》作者，《Serverless架构应用开发：Python实现》译者。使用Python 多年，曾主导开发了多个智能家居以及物联网系统，擅长使用
@@ -1159,8 +1159,8 @@ chengdu_speaker_xiang_an:
 chengdu_speaker_albert_king:
     name: 盛泳潘
     name_en: Albert King
-    avatar: ./asset/images/people/default.jpg
-    avatar_en: ../asset/images/people/default.jpg
+    avatar: ./asset/images/people/AlbertKing.png
+    avatar_en: ../asset/images/people/AlbertKing.png
     short_intro: 新南威尔士大学与电子科技大学联合培养博士
     short_intro_en: Co-cultivate PhD of New South Wales University and Electronic
         Science and Technology University
@@ -1218,8 +1218,8 @@ chengdu_speaker_zehua_wei:
 nanning_speaker_yuan_jiang:
     name: 姜原
     name_en: Yuan Jiang
-    avatar: ./asset/images/people/default.jpg
-    avatar_en: ../asset/images/people/default.jpg
+    avatar: ./asset/images/people/jiangyuan.png
+    avatar_en: ../asset/images/people/jiangyuan.png
     short_intro: 优趣天下研发工程师
     short_intro_en: Quseit - R&D Engineer
     intro: 我是优趣天下的 Python 开发工程师姜原，主要从事 Python 后端开发，目前在负责一个跨境电商物流系统的开发工作。
@@ -1230,8 +1230,8 @@ nanning_speaker_yuan_jiang:
 nanning_speaker_yingzhang_huang:
     name: 黄盈樟
     name_en: Yingzhang Huang
-    avatar: ./asset/images/people/default.jpg
-    avatar_en: ../asset/images/people/default.jpg
+    avatar: ./asset/images/people/huangyingzhang.png
+    avatar_en: ../asset/images/people/huangyingzhang.png
     short_intro: 硬件极客、个人开发者
     short_intro_en: Hardware Geek, Personal Developer
     intro: 多年开源软硬件开发和机器人授课经验，3DRobotics 无人机技术工程师，日立电子嵌入式开发工程师，近年在大学里担当产教融合企业方讲师，负责物联网硬件编程课程，教授语言为
@@ -1243,8 +1243,8 @@ nanning_speaker_yingzhang_huang:
 nanning_speaker_xiao_luo:
     name: 小罗
     name_en: Xiao Luo
-    avatar: ./asset/images/people/default.jpg
-    avatar_en: ../asset/images/people/default.jpg
+    avatar: ./asset/images/people/xiaoluo.png
+    avatar_en: ../asset/images/people/xiaoluo.png
     short_intro: 北方激光研究院广西分公司云计算基础设施负责人
     short_intro_en: Guangxi Branch Company of North Laser Research Institute Co.,
         Ltd.<br />Head of Cloud Computing Infrastructure
@@ -1256,8 +1256,8 @@ nanning_speaker_xiao_luo:
 nanning_speaker_zoomquiet:
     name: Zoom.Quiet
     name_en: Zoom.Quiet
-    avatar: ./asset/images/people/default.jpg
-    avatar_en: ../asset/images/people/default.jpg
+    avatar: ./asset/images/people/dama.png
+    avatar_en: ../asset/images/people/dama.png
     short_intro: 蟒营（101.camp） 首席布道官
     short_intro_en: 101.camp - Chief Evangelist Officer
     intro: Python 中文社区创始成员 / 管理员；大家熟知的社区“大妈”，因主持 OSTC 2015 “程序媛专场”，坐实这一称号，得到广大程序猿认可；OBP
@@ -1270,8 +1270,8 @@ nanning_speaker_zoomquiet:
 nanning_speaker_jizhi_shi:
     name: 石继志
     name_en: Jizhi Shi
-    avatar: ./asset/images/people/default.jpg
-    avatar_en: ../asset/images/people/default.jpg
+    avatar: ./asset/images/people/shijizhi.png
+    avatar_en: ../asset/images/people/shijizhi.png
     short_intro: 广西松宇企业投资集团信息总监
     short_intro_en: Information Director of Guangxi Songyu Enterprise Investment Group
     intro: 多年从事汽车、工程机械行业的信息化工作，主导开发、实施了多个大型的企业信息化项目。对企业信息化规划、架构、实施、运维有丰富的经验。
@@ -1283,8 +1283,8 @@ nanning_speaker_jizhi_shi:
 nanning_speaker_wei_shen:
     name: 沈崴
     name_en: Wei Shen
-    avatar: ./asset/images/people/default.jpg
-    avatar_en: ../asset/images/people/default.jpg
+    avatar: ./asset/images/people/shenwei.png
+    avatar_en: ../asset/images/people/shenwei.png
     short_intro: 湖州迅普信息技术有限公司执行董事
     short_intro_en: Executive Director of Huzhou Xunpu Information Technology Co.,
         Ltd.
@@ -1298,8 +1298,8 @@ nanning_speaker_wei_shen:
 nanning_speaker_zhang_wei:
     name: 韦章
     name_en: Zhang Wei
-    avatar: ./asset/images/people/default.jpg
-    avatar_en: ../asset/images/people/default.jpg
+    avatar: ./asset/images/people/weizhang.png
+    avatar_en: ../asset/images/people/weizhang.png
     short_intro: 优趣天下项目经理
     short_intro_en: Project Manager, Quseit
     intro: ''
@@ -1310,8 +1310,8 @@ nanning_speaker_zhang_wei:
 nanning_speaker_kc:
     name: KC
     name_en: KC
-    avatar: ./asset/images/people/default.jpg
-    avatar_en: ../asset/images/people/default.jpg
+    avatar: ./asset/images/people/kc.png
+    avatar_en: ../asset/images/people/kc.png
     short_intro: 广西欧度科技有限公司联合创始人
     short_intro_en: Co-founder of Guangxi Oudu Science and Technology Co., Ltd.
     intro: 曾从事于某企业 SAP 项目顾问，于香港、上海、深圳等咨询公司从事企业咨询顾问；<br />受邀曾参与“某北斗综合位置服务平台” 的建设工作；现在主要从事
