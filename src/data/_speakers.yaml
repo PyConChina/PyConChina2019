@@ -126,8 +126,8 @@ shanghai_speaker_giampaolo_rodola:
     name_en: Giampaolo Rodola
     avatar: ./asset/images/people/giampaolorodola.jpeg
     avatar_en: ../asset/images/people/giampaolorodola.jpeg
-    short_intro: Python 核心开发者
-    short_intro_en: Python Core - Developer
+    short_intro: Python 核心开发者, psutil 作者
+    short_intro_en: Python Core - Developer, psutil - author
     intro: 我叫 Giampaolo Rodola，来自意大利，从 2010 年开始我加入了 Python 核心开发者的行列，同时我也是 psutil 和
         python FTP server libs 的作者和维护者：<br />https://github.com/giampaolo/psutil<br
         />https://github.com/giampaolo/pyftpdlib<br />你可以在下列网页了解更多关于我的信息：<br />http://grodola.blogspot.com/p/about.html?m=1
@@ -869,8 +869,8 @@ shenzhen_speaker_giampaolo_rodola:
     name_en: Giampaolo Rodola
     avatar: ./asset/images/people/giampaolorodola.jpeg
     avatar_en: ../asset/images/people/giampaolorodola.jpeg
-    short_intro: Python 核心开发者
-    short_intro_en: Python Core - Developer
+    short_intro: Python 核心开发者, psutil 作者
+    short_intro_en: Python Core - Developer, psutil - author
     intro: 我叫 Giampaolo Rodola，来自意大利，从 2010 年开始我加入了 Python 核心开发者的行列，同时我也是 psutil 和
         python FTP server libs 的作者和维护者：<br />https://github.com/giampaolo/psutil<br
         />https://github.com/giampaolo/pyftpdlib<br />你可以在下列网页了解更多关于我的信息：<br />http://grodola.blogspot.com/p/about.html?m=1
@@ -940,8 +940,8 @@ shenzhen_speaker_yi_huang:
     intro_en: Pythoner, C++ user, Haskell enthusiast, Game Engine Developer, Blockchain
         Researcher, Trading System Optimizer.
     city_shenzhen: 1
-    topic_title: Python 前端开发
-    topic_title_en: Frontend Development with Python
+    topic_title: 数字货币交易系统架构和Python实现
+    topic_title_en: Crypto exchange trading system architecture implemented in Python
 shenzhen_speaker_jianhui_lu:
     name: 卢建晖
     name_en: Jianhui Lu
@@ -1010,6 +1010,19 @@ shenzhen_speaker_weikang_peng:
     city_shenzhen: 1
     topic_title: 为 Python Function 自动生成 Web UI
     topic_title_en: Automatically Generate Web UI For Python Function
+shenzhen_speaker_shaofei_dai:
+    name: 代少飞
+    name_en: Shaofei Dai
+    avatar: ./asset/images/people/daishaofei.png
+    avatar_en: ../asset/images/people/daishaofei.png
+    short_intro: 优弈科技资深开发工程师
+    short_intro_en: YouYi Technology, Senior Developer
+    intro: 多年python开发经验，整过银行监控系统(zenoss)，企业集团erp系统(odoo)等，现从事区块链相关开发，数字货币交易系统，量化，钱包等衍生品。
+    intro_en: Many years of Python's experience, monitoring system of bank with zenoss，erp system of Enterprise group with odoo, <br />
+            Now dive into crypto about cryptocurrency trading system, quant, wallet and derivatives.
+    city_shenzhen: 1
+    topic_title: 数字货币交易系统Python实践
+    topic_title_en: Writing Cryptocurrency trading system with Python
 chengdu_speaker_tengjingmeina:
     name: 藤井美娜
     name_en: 藤井美娜

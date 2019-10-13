@@ -1700,15 +1700,11 @@ shenzhen:
             video_en: ''
         -   time: 13:30～14:10
             speaker: shenzhen_speaker_yi_huang
-            topic: Python 前端开发
-            topic_en: Frontend Development with Python
-            intro: 介绍开源 Python 移动前端开发框架。框架基于 OpenGLES，可以运行在iOS/Android/Desktop，核心
-                C++ 编写，提供 Python binding。能够开发游戏，也能开发 App。同时也会介绍 Python 在移动前端领域相关的生态。
-            intro_en: Introduce an open source Python mobile frontend development
-                framework. This framework is base on OpenGLES and can run on iOS/Android/Desktop.
-                It's core is written in C++, and provides Python binding. It can be
-                used to develop games and applications. This speech will also talk
-                about related ecology in frontend field.
+            topic: 数字货币交易系统架构和Python实现
+            topic_en: Crypto exchange trading system architecture implemented in python
+            intro: 详细介绍分布式数字货币交易系统整体架构及设计思路，使用python代码描述，介绍钱包系统原理和实现。
+            intro_en: 'Introduction to distributed crypto exchange architecture implementation, with python implementation.<br />
+             Introduction to implementation of crypto wallet.'
             slides: '#'
             video: ''
             video_en: ''
@@ -1832,6 +1828,16 @@ shenzhen:
                 be used directly by clicking on the input parameters without knowing
                 Python, which greatly reduces the difficulty of use and facilitates
                 centralized management.
+            slides: ''
+            video: ''
+            video_en: ''
+        -   time: 16:30～17:00 闪电演讲
+            speaker: shenzhen_speaker_shaofei_dai
+            topic: 数字货币交易系统Python实践
+            topic_en: Writing Cryptocurrency trading system with Python
+            intro: 编写数字货币交易系统是一件很有意思的事情，不同的人有不同的处理方案，该选用Python的哪些框架，有哪些注意事项，很荣幸和大家一起讨论。
+            intro_en: Writing cryptocurrency trading system is a interesting thing, Different people have different solutions, <br />
+                how to choose framework of Python?  What is the tips？Glad to discussing about it.
             slides: ''
             video: ''
             video_en: ''
