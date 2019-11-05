@@ -1023,6 +1023,18 @@ shenzhen_speaker_shaofei_dai:
     city_shenzhen: 1
     topic_title: 数字货币交易系统Python实践
     topic_title_en: Writing Cryptocurrency trading system with Python
+chengdu_speaker_lizheao:
+    name: 李者璈
+    name_en: Manjusaka
+    avatar: ./asset/images/people/lizheao.png
+    avatar_en: ../asset/images/people/lizheao.png
+    short_intro: 饿了么 - 资深开发工程师
+    short_intro_en: Eleme, Senior Developer
+    intro: 
+    intro_en: 
+    city_chengdu: 1
+    topic_title: Python 3 之路
+    topic_title_en: The Way of Python 3
 chengdu_speaker_tengjingmeina:
     name: 藤井美娜
     name_en: 藤井美娜
@@ -1197,37 +1209,6 @@ chengdu_speaker_qiang_wu:
     city_chengdu: 1
     topic_title: 一次关于 sqlalchemy session 的项目排错经验分享
     topic_title_en: A Sharing of A Debugging Experience on SQLAlchemy Session
-chengdu_speaker_qian_yan:
-    name: 鄢倩
-    name_en: Qian Yan
-    avatar: ./asset/images/people/yanqian.png
-    avatar_en: ../asset/images/people/yanqian.png
-    short_intro: ThoughtWorks 高级技术顾问
-    short_intro_en: Senior Technical Adviser in ThoughtWorks
-    intro: 《Java 线程与并发编程实践》和《七周七语言 卷二》译者，《架构整洁之道》技术审校者。作为活跃在技术一线的技术顾问为多家通信、金融企业提供基于敏捷精益原则的转型服务，在大型云服务系统中指导和实施过
-        DDD、持续集成和持续交付等实践。函数式编程爱好者。
-    intro_en: Translator of "Java Concurrent Programming Practice" and "Seven Weeks
-        Seven Languages(Volume 2)", technical proofreader of "Clean and Tidy Way".
-        As a technical consultant active in the front line of technology, provides
-        transformation services based on agile and lean principle for many communication
-        and financial enterprises, and has guided and implemented DDD, continuous
-        integration and continuous delivery in large cloud service systems. Functional
-        programming enthusiasts.
-    city_chengdu: 1
-    topic_title: Python 在区块链领域中的地位
-    topic_title_en: Python's Position in Block Chains
-chengdu_speaker_zehua_wei:
-    name: 韦泽华
-    name_en: Zehua Wei
-    avatar: ./asset/images/people/weizehua.jpeg
-    avatar_en: ../asset/images/people/weizehua.jpeg
-    short_intro: 上海韦纳科技有限公司
-    short_intro_en: Shanghai Weiner Technology Co., Ltd.
-    intro: VNPY 交易软件目前的开发者之一。
-    intro_en: One of the current Developers of VNPY Trading Software.
-    city_chengdu: 1
-    topic_title: 一键将 C/C++ 代码转换为 Python 能调用的代码
-    topic_title_en: Convert C/C++ Code Into Code That Python Can Call With One Click
 nanning_speaker_yuan_jiang:
     name: 姜原
     name_en: Yuan Jiang
