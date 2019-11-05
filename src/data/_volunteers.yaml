@@ -488,8 +488,8 @@ organizers:
     role_organizers: 1
     avatar: ./asset/images/people/daishaofei.png
     avatar_en: ../asset/images/people/daishaofei.png
-    intro: 小橙奔跑 - 高级开发工程师
-    intro_en: BPB - Senior Developer
+    intro: 优弈科技 - 资深开发工程师
+    intro_en: YouYi Technology - Senior Developer
     blog: ''
 -   name: 何翔宇
     name_en: Xiangyu He
